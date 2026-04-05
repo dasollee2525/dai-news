@@ -87,7 +87,7 @@ def backfill():
         articles = entry["articles"]
 
         print(f"\n  [{date_str}] {len(articles)}개 기사 저장 중...")
-        save_daily(date_str, articles)
+        save_daily(articles, date_str)
         publish(date_str)
         print(f"  [{date_str}] 완료 ✅")
 

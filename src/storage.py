@@ -7,6 +7,7 @@ data/archive/index.json 에 날짜별 인덱스 유지
 import json
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
+from typing import Optional
 
 KST = timezone(timedelta(hours=9))
 BASE_DIR = Path(__file__).parent.parent
@@ -59,7 +60,7 @@ def _update_index(date_str: str, count: int):
         json.dump(index, f, ensure_ascii=False, indent=2)
 
 
-def load_daily(date_str: str) -> dict | None:
+def load_daily(date_str: str) -> Optional[dict]:
     """날짜 문자열로 저장된 뉴스 로드"""
     path = DAILY_DIR / f"{date_str}.json"
     if not path.exists():
