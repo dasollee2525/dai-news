@@ -66,18 +66,22 @@
   ],
   "filters": {
     "include_keywords": [
-      "AI", "인공지능", "artificial intelligence", "machine learning", "머신러닝",
-      "LLM", "GPT", "Claude", "Gemini", "ChatGPT",
-      "데이터 분석", "data analysis", "data analyst", "analytics",
-      "자동화", "automation", "productivity", "생산성",
-      "Copilot", "코파일럿", "노코드", "no-code", "low-code",
-      "Python", "SQL", "pandas", "dashboard", "대시보드",
-      "generative AI", "생성형 AI", "RAG", "agent", "에이전트"
+      "AI 활용", "AI 도구", "AI tool", "AI-powered", "AI assistant",
+      "ChatGPT", "GPT-4", "Claude", "Gemini", "Copilot", "코파일럿",
+      "LLM", "대형 언어 모델", "생성형 AI", "generative AI",
+      "데이터 분석", "data analysis", "data analyst", "분석가",
+      "AI로 분석", "AI 분석", "analytics AI", "AI analytics",
+      "RAG", "AI agent", "AI 에이전트", "자동화 분석",
+      "SQL + AI", "Python + AI", "AI 자동화", "workflow automation",
+      "분석 자동화", "인사이트", "dashboard AI", "BI AI"
     ],
     "exclude_keywords": [
       "주식", "코인", "암호화폐", "stock", "crypto", "bitcoin",
       "정치", "선거", "스포츠", "연예", "celebrity",
-      "부동산", "real estate"
+      "부동산", "real estate",
+      "Docker", "Kubernetes", "MLOps", "infrastructure",
+      "loss function", "backpropagation", "neural architecture",
+      "투자", "funding", "인수", "acquisition"
     ]
   }
 }

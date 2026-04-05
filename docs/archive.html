@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAI 길드 뉴스 아카이브</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    /* ── 헤더 ── */
+    header {
+      background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
+      border-bottom: 1px solid #1e293b;
+      padding: 28px 24px;
+      text-align: center;
+    }
+    header .logo { font-size: 13px; color: #6366f1; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px; }
+    header h1 { font-size: 26px; font-weight: 700; color: #f8fafc; }
+    header .meta { font-size: 13px; color: #64748b; margin-top: 6px; }
+    header nav { margin-top: 16px; }
+    header nav a {
+      display: inline-block;
+      margin: 0 8px;
+      font-size: 13px;
+      color: #94a3b8;
+      text-decoration: none;
+      padding: 4px 12px;
+      border: 1px solid #1e293b;
+      border-radius: 20px;
+      transition: all 0.2s;
+    }
+    header nav a:hover { color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }
+
+    /* ── 본문 ── */
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 36px 20px 60px;
+    }
+
+    /* ── 카드 ── */
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 24px;
+      margin-bottom: 20px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .card:hover { border-color: #6366f1; transform: translateY(-2px); }
+
+    .card-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+    .card-number {
+      flex-shrink: 0;
+      width: 28px; height: 28px;
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      font-size: 12px;
+      font-weight: 700;
+      color: #6366f1;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: #f1f5f9;
+      line-height: 1.4;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      color: #fff;
+    }
+
+    .summary {
+      font-size: 14px;
+      color: #94a3b8;
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding-top: 14px;
+      border-top: 1px solid #334155;
+    }
+    .source-info { font-size: 12px; color: #64748b; }
+    .source-info span { color: #475569; margin: 0 6px; }
+
+    .read-btn {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      color: #6366f1;
+      text-decoration: none;
+      padding: 6px 16px;
+      border: 1px solid #6366f1;
+      border-radius: 8px;
+      transition: all 0.2s;
+    }
+    .read-btn:hover { background: #6366f1; color: #fff; }
+
+    /* ── 아카이브 테이블 ── */
+    .archive-table { width: 100%; border-collapse: collapse; }
+    .archive-table th, .archive-table td {
+      padding: 12px 16px;
+      text-align: left;
+      border-bottom: 1px solid #1e293b;
+      font-size: 14px;
+    }
+    .archive-table th { color: #64748b; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .archive-table td a { color: #6366f1; text-decoration: none; }
+    .archive-table td a:hover { text-decoration: underline; }
+
+    /* ── 푸터 ── */
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #334155;
+      padding: 24px;
+      border-top: 1px solid #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">DAI Guild</div>
+    <h1>데이터 분석 AI 길드 뉴스</h1>
+    <div class="meta">데이터 분석가를 위한 AI 실무 뉴스 큐레이션</div>
+    <nav>
+      <a href="index.html">최신 뉴스</a>
+      <a href="archive.html">아카이브</a>
+    </nav>
+  </header>
+  <main>
+    
+    <div style="margin-bottom:28px;">
+      <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📂 전체 아카이브</h2>
+    </div>
+    <div style="background:#1e293b;border:1px solid #334155;border-radius:14px;overflow:hidden;">
+      <table class="archive-table">
+        <thead><tr><th>날짜</th><th>기사 수</th></tr></thead>
+        <tbody><tr><td><a href="2026-04-05.html">2026-04-05</a></td><td>5개</td></tr>
+</tbody>
+      </table>
+    </div>
+  </main>
+  <footer>자동 수집 · OpenAI 큐레이션 · DAI Guild</footer>
+</body>
+</html>

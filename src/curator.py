@@ -10,24 +10,41 @@ from openai import OpenAI
 
 SYSTEM_PROMPT = """당신은 데이터 분석 AI 길드를 위한 뉴스 큐레이터입니다.
 
-길드 소개:
-- 데이터 분석가들이 모여 AI를 실무에 활용하는 방법을 연구하는 길드
-- 구성원: 데이터 분석가, BI 개발자, 비즈니스 애널리스트 등
-- 관심사: AI 도구 실무 활용, 데이터 분석 생산성 향상, LLM 응용 사례
+# 길드 소개
+- 데이터 분석가들이 AI를 실무에 활용하는 방법을 연구하는 모임
+- 구성원: 데이터 분석가, BI 개발자, 비즈니스 애널리스트
+- 핵심 관심사: "AI + 데이터 분석의 결합", "분석가의 AI 실무 활용"
 
-평가 기준 (1~5점):
-5점: 데이터 분석가의 AI 실무 활용에 직접적으로 도움 (도구 소개, 실사례, 튜토리얼)
-4점: AI/데이터 분석 트렌드로 길드 활동에 참고할만한 내용
-3점: 관련은 있지만 실무 적용이 간접적인 내용
-2점: 약하게 관련된 일반 AI 뉴스
-1점: 길드와 관련 없음
+# 선정 원칙 (매우 중요)
+아래 기준에 **모두** 해당하지 않으면 낮은 점수를 주세요.
+선정 대상:
+  - 데이터 분석 업무에 AI/LLM을 접목한 실사례 또는 튜토리얼
+  - AI 도구(ChatGPT, Copilot, Claude 등)를 분석 업무에 활용하는 방법
+  - 분석가를 위한 AI 기반 생산성 도구 소개
+  - SQL/Python 분석 워크플로우에 AI를 통합하는 내용
+  - 비즈니스 인사이트 도출에 AI를 활용하는 사례
+  - 분석가가 알아야 할 LLM 응용 트렌드 (RAG, AI Agent 등)
 
-카테고리:
-- AI도구활용: ChatGPT, Copilot 등 AI 도구의 실무 사용법
-- 데이터분석: 분석 기법, 방법론, 인사이트 도출
-- LLM응용: LLM을 활용한 데이터 분석 자동화, RAG 등
-- 생산성: 업무 자동화, 워크플로우 개선
-- AI트렌드: 분석가가 알아야 할 AI 업계 동향"""
+탈락 대상 (다음 내용은 무조건 1~2점):
+  - AI 모델 자체의 구조/훈련/벤치마크 소개 (분석가가 직접 활용 불가)
+  - 딥러닝, 손실함수, 신경망 등 ML 이론 위주
+  - Docker, 인프라, MLOps, 백엔드 개발자 대상 내용
+  - AI 기업 뉴스, 투자, 정책, 사회적 이슈 (실무와 무관)
+  - 일반적인 프로그래밍 튜토리얼 (AI 미포함)
+
+# 점수 기준
+5점: 데이터 분석가가 오늘 당장 업무에 적용 가능한 AI 활용법
+4점: 분석가에게 유용한 AI 트렌드 또는 도구 (간접 활용 가능)
+3점: 관련은 있으나 실무 적용이 어려운 내용
+2점: AI 관련이나 분석가와 연관성 낮음
+1점: 탈락 (선정 기준 미충족)
+
+# 카테고리
+- AI도구활용: ChatGPT, Copilot 등 AI 도구의 분석 실무 활용법
+- 데이터분석+AI: 데이터 분석 워크플로우에 AI를 결합한 사례
+- LLM응용: 분석 자동화, RAG, AI Agent 응용
+- 생산성: AI 기반 분석 업무 자동화, 워크플로우 개선
+- AI트렌드: 분석가가 반드시 알아야 할 AI 업계 동향"""
 
 
 def score_and_summarize(articles: list[dict], client: OpenAI) -> list[dict]:
@@ -65,13 +82,16 @@ def _process_batch(batch: list[dict], client: OpenAI) -> list[dict]:
 
 {articles_text}
 
+선정 원칙을 엄격하게 적용하세요. "데이터 분석 + AI 결합"이 핵심이며,
+AI 이론, 인프라, 기업 뉴스는 낮은 점수를 주세요.
+
 각 기사에 대해 아래 JSON 형식으로 응답하세요. 반드시 유효한 JSON 배열만 반환하세요:
 [
   {{
     "index": 0,
     "score": 4,
     "category": "AI도구활용",
-    "summary_ko": "한국어 요약 2~3문장. 데이터 분석가 관점에서 왜 중요한지 포함.",
+    "summary_ko": "데이터 분석가 관점에서 2~3문장 요약. 실무에 어떻게 활용할 수 있는지 포함.",
     "reason": "선정/탈락 이유 한 줄"
   }}
 ]"""
@@ -94,13 +114,11 @@ def _process_batch(batch: list[dict], client: OpenAI) -> list[dict]:
                 raw = raw[4:]
 
         parsed = json.loads(raw)
-        # GPT가 {"articles": [...]} 형태로 감쌀 수 있으므로 배열 추출
         if isinstance(parsed, list):
             scored = parsed
         else:
             scored = next(v for v in parsed.values() if isinstance(v, list))
 
-        # 원본 기사에 점수/요약 병합
         enriched = []
         for item in scored:
             idx = item["index"]
