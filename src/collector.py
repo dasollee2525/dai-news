@@ -49,8 +49,15 @@ def _parse_entry(entry, source: dict, include_kws: list, exclude_kws: list) -> O
         return None
 
     combined = f"{title} {summary}"
-    if not _passes_keyword_filter(combined, include_kws, exclude_kws):
-        return None
+
+    # 영어 소스는 exclude 키워드만 걸러내고 LLM에게 판단 위임
+    # (한국어 키워드 include 필터가 영어 기사를 과도하게 차단하는 문제 방지)
+    if source.get("lang") == "en":
+        if any(kw.lower() in combined.lower() for kw in exclude_kws):
+            return None
+    else:
+        if not _passes_keyword_filter(combined, include_kws, exclude_kws):
+            return None
 
     pub_time = None
     for time_field in ("published_parsed", "updated_parsed"):
