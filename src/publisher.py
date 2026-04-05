@@ -1,11 +1,7 @@
 """
 GitHub Pages 퍼블리셔
 JSON 데이터 → HTML로 변환하여 docs/ 에 저장
-
-생성 파일:
-  docs/index.html          : 항상 최신 뉴스 (GitHub Pages 메인)
-  docs/YYYY-MM-DD.html     : 날짜별 아카이브 페이지
-  docs/archive.html        : 전체 날짜 목록
+- 좌측 사이드바: 카테고리 필터 + 날짜 정렬
 """
 
 import json
@@ -19,25 +15,24 @@ DAILY_DIR = BASE_DIR / "data" / "daily"
 ARCHIVE_INDEX = BASE_DIR / "data" / "archive" / "index.json"
 
 CATEGORY_COLOR = {
-    "AI도구활용": "#6366f1",
-    "데이터분석": "#0ea5e9",
-    "LLM응용":   "#8b5cf6",
-    "생산성":    "#10b981",
-    "AI트렌드":  "#f59e0b",
-    "기타":      "#6b7280",
+    "AI도구활용":   "#6366f1",
+    "데이터분석+AI": "#0ea5e9",
+    "LLM응용":     "#8b5cf6",
+    "생산성":      "#10b981",
+    "AI트렌드":    "#f59e0b",
+    "기타":        "#6b7280",
 }
-
 CATEGORY_EMOJI = {
-    "AI도구활용": "🛠️",
-    "데이터분석": "📊",
-    "LLM응용":   "🤖",
-    "생산성":    "⚡",
-    "AI트렌드":  "📡",
-    "기타":      "📌",
+    "AI도구활용":   "🛠️",
+    "데이터분석+AI": "📊",
+    "LLM응용":     "🤖",
+    "생산성":      "⚡",
+    "AI트렌드":    "📡",
+    "기타":        "📌",
 }
 
 
-def _base_html(title: str, body: str) -> str:
+def _base_html(title: str, sidebar: str, body: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -46,142 +41,141 @@ def _base_html(title: str, body: str) -> str:
   <title>{title}</title>
   <style>
     *, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
-
     body {{
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      min-height: 100vh;
-      line-height: 1.6;
+      background: #0f172a; color: #e2e8f0; min-height: 100vh; line-height: 1.6;
     }}
 
     /* ── 헤더 ── */
     header {{
       background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);
       border-bottom: 1px solid #1e293b;
-      padding: 28px 24px;
-      text-align: center;
+      padding: 24px 28px; text-align: center;
     }}
-    header .logo {{ font-size: 13px; color: #6366f1; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 8px; }}
-    header h1 {{ font-size: 26px; font-weight: 700; color: #f8fafc; }}
-    header .meta {{ font-size: 13px; color: #64748b; margin-top: 6px; }}
-    header nav {{ margin-top: 16px; }}
+    header .logo {{ font-size: 12px; color: #6366f1; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 6px; }}
+    header h1 {{ font-size: 24px; font-weight: 700; color: #f8fafc; }}
+    header .meta {{ font-size: 13px; color: #64748b; margin-top: 4px; }}
+    header nav {{ margin-top: 14px; }}
     header nav a {{
-      display: inline-block;
-      margin: 0 8px;
-      font-size: 13px;
-      color: #94a3b8;
-      text-decoration: none;
-      padding: 4px 12px;
-      border: 1px solid #1e293b;
-      border-radius: 20px;
-      transition: all 0.2s;
+      display: inline-block; margin: 0 6px; font-size: 13px; color: #94a3b8;
+      text-decoration: none; padding: 4px 14px; border: 1px solid #1e293b;
+      border-radius: 20px; transition: all 0.2s;
     }}
     header nav a:hover {{ color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }}
 
-    /* ── 본문 ── */
-    main {{
-      max-width: 760px;
+    /* ── 레이아웃 ── */
+    .layout {{
+      display: flex;
+      max-width: 1100px;
       margin: 0 auto;
-      padding: 36px 20px 60px;
+      padding: 32px 20px 60px;
+      gap: 28px;
+      align-items: flex-start;
     }}
 
-    /* ── 카드 ── */
-    .card {{
+    /* ── 사이드바 ── */
+    .sidebar {{
+      width: 220px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 24px;
+    }}
+    .sidebar-section {{
       background: #1e293b;
       border: 1px solid #334155;
       border-radius: 14px;
-      padding: 24px;
-      margin-bottom: 20px;
-      transition: border-color 0.2s, transform 0.2s;
-    }}
-    .card:hover {{ border-color: #6366f1; transform: translateY(-2px); }}
-
-    .card-header {{
-      display: flex;
-      align-items: flex-start;
-      gap: 12px;
-      margin-bottom: 14px;
-    }}
-    .card-number {{
-      flex-shrink: 0;
-      width: 28px; height: 28px;
-      background: #0f172a;
-      border: 1px solid #334155;
-      border-radius: 8px;
-      font-size: 12px;
-      font-weight: 700;
-      color: #6366f1;
-      display: flex; align-items: center; justify-content: center;
-    }}
-    .card-title {{
-      font-size: 16px;
-      font-weight: 700;
-      color: #f1f5f9;
-      line-height: 1.4;
-    }}
-
-    .badge {{
-      display: inline-block;
-      font-size: 11px;
-      font-weight: 600;
-      padding: 3px 10px;
-      border-radius: 20px;
-      margin-bottom: 12px;
-      color: #fff;
-    }}
-
-    .summary {{
-      font-size: 14px;
-      color: #94a3b8;
-      line-height: 1.75;
+      padding: 18px;
       margin-bottom: 16px;
     }}
-
-    .card-footer {{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 8px;
-      padding-top: 14px;
-      border-top: 1px solid #334155;
+    .sidebar-title {{
+      font-size: 11px; font-weight: 600; color: #64748b;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      margin-bottom: 14px;
     }}
-    .source-info {{ font-size: 12px; color: #64748b; }}
-    .source-info span {{ color: #475569; margin: 0 6px; }}
+    .filter-btn {{
+      display: flex; align-items: center; gap: 8px;
+      width: 100%; padding: 8px 10px; margin-bottom: 4px;
+      background: transparent; border: 1px solid transparent;
+      border-radius: 8px; color: #94a3b8; font-size: 13px;
+      cursor: pointer; text-align: left; transition: all 0.15s;
+    }}
+    .filter-btn:hover {{ background: #0f172a; border-color: #334155; color: #e2e8f0; }}
+    .filter-btn.active {{ background: #0f172a; border-color: #6366f1; color: #e2e8f0; }}
+    .filter-btn .dot {{
+      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
+    }}
+    .filter-btn .count {{
+      margin-left: auto; font-size: 11px; color: #475569;
+      background: #0f172a; padding: 1px 7px; border-radius: 10px;
+    }}
+    .sort-btn {{
+      display: flex; align-items: center; gap: 6px;
+      width: 100%; padding: 8px 10px; margin-bottom: 4px;
+      background: transparent; border: 1px solid transparent;
+      border-radius: 8px; color: #94a3b8; font-size: 13px;
+      cursor: pointer; text-align: left; transition: all 0.15s;
+    }}
+    .sort-btn:hover {{ background: #0f172a; border-color: #334155; color: #e2e8f0; }}
+    .sort-btn.active {{ background: #0f172a; border-color: #6366f1; color: #e2e8f0; }}
 
+    /* ── 메인 콘텐츠 ── */
+    main {{ flex: 1; min-width: 0; }}
+
+    /* ── 카드 ── */
+    .card {{
+      background: #1e293b; border: 1px solid #334155; border-radius: 14px;
+      padding: 24px; margin-bottom: 20px; transition: border-color 0.2s, transform 0.2s;
+    }}
+    .card:hover {{ border-color: #6366f1; transform: translateY(-2px); }}
+    .card[data-hidden="true"] {{ display: none; }}
+    .card-header {{ display: flex; align-items: flex-start; gap: 12px; margin-bottom: 14px; }}
+    .card-number {{
+      flex-shrink: 0; width: 28px; height: 28px; background: #0f172a;
+      border: 1px solid #334155; border-radius: 8px; font-size: 12px;
+      font-weight: 700; color: #6366f1; display: flex; align-items: center; justify-content: center;
+    }}
+    .card-title {{ font-size: 16px; font-weight: 700; color: #f1f5f9; line-height: 1.4; }}
+    .badge {{
+      display: inline-block; font-size: 11px; font-weight: 600;
+      padding: 3px 10px; border-radius: 20px; margin-bottom: 12px; color: #fff;
+    }}
+    .meta-row {{ display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }}
+    .meta-chip {{
+      font-size: 11px; color: #64748b; background: #0f172a;
+      border: 1px solid #1e293b; padding: 3px 10px; border-radius: 20px;
+    }}
+    .meta-chip strong {{ color: #94a3b8; }}
+    .summary {{ font-size: 14px; color: #94a3b8; line-height: 1.75; margin-bottom: 16px; }}
+    .card-footer {{
+      display: flex; align-items: center; justify-content: flex-end;
+      padding-top: 14px; border-top: 1px solid #334155;
+    }}
     .read-btn {{
-      display: inline-block;
-      font-size: 12px;
-      font-weight: 600;
-      color: #6366f1;
-      text-decoration: none;
-      padding: 6px 16px;
-      border: 1px solid #6366f1;
-      border-radius: 8px;
-      transition: all 0.2s;
+      display: inline-block; font-size: 12px; font-weight: 600; color: #6366f1;
+      text-decoration: none; padding: 6px 16px; border: 1px solid #6366f1;
+      border-radius: 8px; transition: all 0.2s;
     }}
     .read-btn:hover {{ background: #6366f1; color: #fff; }}
 
-    /* ── 아카이브 테이블 ── */
+    /* ── 빈 결과 ── */
+    .empty-state {{ text-align: center; padding: 60px 20px; color: #475569; }}
+    .empty-state .icon {{ font-size: 48px; margin-bottom: 16px; }}
+
+    /* ── 아카이브 ── */
     .archive-table {{ width: 100%; border-collapse: collapse; }}
     .archive-table th, .archive-table td {{
-      padding: 12px 16px;
-      text-align: left;
-      border-bottom: 1px solid #1e293b;
-      font-size: 14px;
+      padding: 12px 16px; text-align: left;
+      border-bottom: 1px solid #1e293b; font-size: 14px;
     }}
     .archive-table th {{ color: #64748b; font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.05em; }}
     .archive-table td a {{ color: #6366f1; text-decoration: none; }}
     .archive-table td a:hover {{ text-decoration: underline; }}
 
-    /* ── 푸터 ── */
-    footer {{
-      text-align: center;
-      font-size: 12px;
-      color: #334155;
-      padding: 24px;
-      border-top: 1px solid #1e293b;
+    footer {{ text-align: center; font-size: 12px; color: #334155; padding: 24px; border-top: 1px solid #1e293b; }}
+
+    @media (max-width: 680px) {{
+      .layout {{ flex-direction: column; }}
+      .sidebar {{ width: 100%; position: static; }}
     }}
   </style>
 </head>
@@ -195,12 +189,67 @@ def _base_html(title: str, body: str) -> str:
       <a href="archive.html">아카이브</a>
     </nav>
   </header>
-  <main>
-    {body}
-  </main>
+
+  <div class="layout">
+    <aside class="sidebar">{sidebar}</aside>
+    <main id="card-list">{body}</main>
+  </div>
+
   <footer>자동 수집 · OpenAI 큐레이션 · DAI Guild</footer>
+
+  <script>
+    // ── 필터 & 정렬 로직 ──
+    let activeCategory = 'all';
+    let activeSort = 'score-desc';  // 기본: 관련도 높은 순
+
+    function applyFilter() {{
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => {{
+        const cat = card.dataset.category;
+        const hidden = activeCategory !== 'all' && cat !== activeCategory;
+        card.setAttribute('data-hidden', hidden ? 'true' : 'false');
+      }});
+    }}
+
+    function applySort() {{
+      const list = document.getElementById('card-list');
+      const cards = Array.from(list.querySelectorAll('.card'));
+      cards.sort((a, b) => {{
+        if (activeSort === 'score-desc') return Number(b.dataset.score) - Number(a.dataset.score);
+        if (activeSort === 'score-asc')  return Number(a.dataset.score) - Number(b.dataset.score);
+        if (activeSort === 'date-desc')  return b.dataset.date.localeCompare(a.dataset.date);
+        if (activeSort === 'date-asc')   return a.dataset.date.localeCompare(b.dataset.date);
+        return 0;
+      }});
+      cards.forEach(c => list.appendChild(c));
+    }}
+
+    function setCategory(cat, el) {{
+      activeCategory = cat;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      el.classList.add('active');
+      applyFilter();
+    }}
+
+    function setSort(sort, el) {{
+      activeSort = sort;
+      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      el.classList.add('active');
+      applySort();
+    }}
+  </script>
 </body>
 </html>"""
+
+
+def _format_pub_date(published_at: str) -> str:
+    if not published_at:
+        return ""
+    try:
+        dt = datetime.fromisoformat(published_at).astimezone(KST)
+        return dt.strftime("%Y.%m.%d %H:%M KST")
+    except Exception:
+        return published_at[:10]
 
 
 def _card_html(article: dict, index: int) -> str:
@@ -208,45 +257,82 @@ def _card_html(article: dict, index: int) -> str:
     color     = CATEGORY_COLOR.get(category, "#6b7280")
     emoji     = CATEGORY_EMOJI.get(category, "📌")
     region    = "🇰🇷" if article.get("region") == "domestic" else "🌐"
-    score     = article.get("score", "-")
+    score     = article.get("score", 0)
     title     = article["title"].replace("<", "&lt;").replace(">", "&gt;")
     summary   = article.get("summary_ko", "").replace("<", "&lt;").replace(">", "&gt;")
     source    = article.get("source", "")
-    pub       = article.get("published_at", "")[:10] if article.get("published_at") else ""
+    pub_str   = _format_pub_date(article.get("published_at", ""))
+    pub_raw   = article.get("published_at", "")[:19]  # 정렬용
 
     return f"""
-    <div class="card">
+    <div class="card" data-category="{category}" data-score="{score}" data-date="{pub_raw}">
       <div class="card-header">
         <div class="card-number">{index}</div>
         <div class="card-title">{title}</div>
       </div>
-      <div>
-        <span class="badge" style="background:{color}">{emoji} {category}</span>
+      <span class="badge" style="background:{color}">{emoji} {category}</span>
+      <div class="meta-row">
+        <span class="meta-chip">{region} <strong>{source}</strong></span>
+        {"<span class='meta-chip'>🗓 <strong>" + pub_str + "</strong></span>" if pub_str else ""}
+        <span class="meta-chip">관련도 <strong>{score}점</strong></span>
       </div>
       <p class="summary">{summary}</p>
       <div class="card-footer">
-        <div class="source-info">{region} {source}<span>·</span>{pub}<span>·</span>관련도 {score}점</div>
         <a class="read-btn" href="{article['link']}" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>"""
 
 
-def _daily_body(data: dict) -> str:
+def _sidebar_html(articles: list[dict]) -> str:
+    from collections import Counter
+    cat_counts = Counter(a.get("category", "기타") for a in articles)
+
+    filter_items = '<button class="filter-btn active" onclick="setCategory(\'all\', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">' + str(len(articles)) + '</span></button>\n'
+    for cat, color in CATEGORY_COLOR.items():
+        if cat_counts.get(cat, 0) > 0:
+            filter_items += f'<button class="filter-btn" onclick="setCategory(\'{cat}\', this)"><span class="dot" style="background:{color}"></span>{cat} <span class="count">{cat_counts[cat]}</span></button>\n'
+
+    return f"""
+    <div class="sidebar-section">
+      <div class="sidebar-title">카테고리</div>
+      {filter_items}
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-title">정렬</div>
+      <button class="sort-btn active" onclick="setSort('score-desc', this)">🏆 관련도 높은 순</button>
+      <button class="sort-btn" onclick="setSort('score-asc', this)">📉 관련도 낮은 순</button>
+      <button class="sort-btn" onclick="setSort('date-desc', this)">🕐 최신순</button>
+      <button class="sort-btn" onclick="setSort('date-asc', this)">🕰 오래된 순</button>
+    </div>"""
+
+
+def _daily_body(data: dict) -> tuple[str, str]:
+    """(sidebar_html, body_html) 반환"""
     date_str = data["date"]
-    articles = data["articles"]
+    articles = data.get("articles", [])
     try:
         dt = datetime.fromisoformat(date_str)
         date_ko = dt.strftime("%Y년 %m월 %d일")
     except Exception:
         date_ko = date_str
 
-    cards = "\n".join(_card_html(a, i+1) for i, a in enumerate(articles))
-    return f"""
-    <div style="margin-bottom:28px;">
+    header = f"""
+    <div style="margin-bottom:24px;">
       <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📰 {date_ko} 뉴스</h2>
       <p style="font-size:13px;color:#64748b;margin-top:4px;">총 {len(articles)}개 선별</p>
-    </div>
-    {cards}"""
+    </div>"""
+
+    if not articles:
+        body = header + """
+    <div class="empty-state">
+      <div class="icon">🔍</div>
+      <p>오늘은 기준에 맞는 뉴스를 찾지 못했습니다.<br>내일 다시 확인해주세요.</p>
+    </div>"""
+        sidebar = _sidebar_html([])
+        return sidebar, body
+
+    cards = "\n".join(_card_html(a, i + 1) for i, a in enumerate(articles))
+    return _sidebar_html(articles), header + cards
 
 
 def publish(date_str: str = None):
@@ -269,14 +355,12 @@ def publish(date_str: str = None):
     except Exception:
         date_ko = date_str
 
-    body    = _daily_body(data)
-    page    = _base_html(f"DAI 길드 뉴스 — {date_ko}", body)
+    sidebar, body = _daily_body(data)
+    page = _base_html(f"DAI 길드 뉴스 — {date_ko}", sidebar, body)
 
-    # index.html (최신)
     (DOCS_DIR / "index.html").write_text(page, encoding="utf-8")
     print(f"  생성: docs/index.html")
 
-    # YYYY-MM-DD.html (아카이브)
     (DOCS_DIR / f"{date_str}.html").write_text(page, encoding="utf-8")
     print(f"  생성: docs/{date_str}.html")
 
@@ -291,9 +375,11 @@ def _update_archive_page():
         index = json.load(f)
 
     entries = index.get("entries", [])
-    rows = ""
-    for e in entries:
-        rows += f'<tr><td><a href="{e["date"]}.html">{e["date"]}</a></td><td>{e.get("count","-")}개</td></tr>\n'
+    rows = "".join(
+        f'<tr><td><a href="{e["date"]}.html">{e["date"]}</a></td>'
+        f'<td>{e.get("count", 0)}개</td></tr>\n'
+        for e in entries
+    )
 
     body = f"""
     <div style="margin-bottom:28px;">
@@ -306,7 +392,14 @@ def _update_archive_page():
       </table>
     </div>"""
 
+    sidebar = """
+    <div class="sidebar-section">
+      <div class="sidebar-title">정렬</div>
+      <button class="sort-btn active" onclick="setSort('date-desc', this)">🕐 최신순</button>
+      <button class="sort-btn" onclick="setSort('date-asc', this)">🕰 오래된 순</button>
+    </div>"""
+
     (DOCS_DIR / "archive.html").write_text(
-        _base_html("DAI 길드 뉴스 아카이브", body), encoding="utf-8"
+        _base_html("DAI 길드 뉴스 아카이브", sidebar, body), encoding="utf-8"
     )
     print(f"  생성: docs/archive.html")
