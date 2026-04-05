@@ -27,54 +27,62 @@ KST = timezone(timedelta(hours=9))
 # ──────────────────────────────────────────────
 BACKFILL_DATA = [
     {
-        "date": "2026-04-04",
+        "date": "2026-04-03",
         "articles": [
             {
-                "title": "How to Use ChatGPT for Exploratory Data Analysis",
-                "link": "https://towardsdatascience.com/how-to-use-chatgpt-for-eda",
-                "summary_ko": "ChatGPT를 활용해 데이터 탐색(EDA)을 자동화하는 방법을 소개합니다. pandas 데이터프레임을 ChatGPT에 설명하고 분석 방향을 제안받는 실용적인 워크플로우를 다룹니다.",
-                "summary_raw": "A practical guide to using ChatGPT for exploratory data analysis.",
+                "title": "What Happens Now That AI is the First Analyst On Your Team?",
+                "link": "https://towardsdatascience.com/what-happens-now-that-ai-is-the-first-analyst-on-your-team/",
+                "summary_ko": "AI가 팀의 첫 번째 분석가 역할을 맡게 되면 기존 데이터 분석가의 역할은 어떻게 달라질까요? AI 자동화 시대에 분석가가 어떻게 적응하고 더 높은 가치를 만들어야 하는지를 실무 관점에서 논합니다.",
+                "summary_raw": "AI is the first analyst on your team. What happens now?",
                 "source": "Towards Data Science",
                 "lang": "en",
                 "region": "international",
                 "score": 5,
-                "category": "AI도구활용",
-                "published_at": "2026-04-04T10:00:00+09:00",
-                "reason": "데이터 분석가가 바로 쓸 수 있는 ChatGPT EDA 실전 가이드"
-            },
-            {
-                "title": "Building a RAG Pipeline for Business Intelligence",
-                "link": "https://towardsdatascience.com/rag-for-bi",
-                "summary_ko": "RAG(검색 증강 생성) 파이프라인을 BI 환경에 적용하는 방법을 소개합니다. 내부 데이터베이스에 자연어 질의를 가능하게 하는 실용적인 아키텍처를 다룹니다.",
-                "summary_raw": "Learn how to build a RAG pipeline for business intelligence use cases.",
-                "source": "Towards Data Science",
-                "lang": "en",
-                "region": "international",
-                "score": 5,
-                "category": "LLM응용",
-                "published_at": "2026-04-04T09:00:00+09:00",
-                "reason": "분석가 대상 RAG 실무 적용 사례"
-            },
-            {
-                "title": "AI 기반 데이터 분석 자동화 트렌드 2026",
-                "link": "https://www.aitimes.com/news/ai-data-automation-2026",
-                "summary_ko": "2026년 데이터 분석 자동화의 핵심 트렌드를 정리합니다. LLM 기반 코드 생성, 자동 리포팅, AI 대시보드가 분석 업무를 어떻게 바꾸는지 살펴봅니다.",
-                "summary_raw": "AI 기반 데이터 분석 자동화의 최신 트렌드를 소개합니다.",
-                "source": "AI타임스",
-                "lang": "ko",
-                "region": "domestic",
-                "score": 4,
                 "category": "AI트렌드",
-                "published_at": "2026-04-04T08:00:00+09:00",
-                "reason": "분석가 필수 AI 자동화 트렌드 정리"
+                "published_at": "2026-04-01T09:00:00+09:00",
+                "reason": "데이터 분석가 커리어와 AI의 관계를 정면으로 다룬 필독 아티클"
+            },
+            {
+                "title": "Turning 127 Million Data Points Into an Industry Report",
+                "link": "https://towardsdatascience.com/turning-127-million-data-points-into-an-industry-report/",
+                "summary_ko": "1억 2700만 개의 데이터 포인트를 데이터 랭글링, 세그멘테이션, 스토리텔링 기법으로 산업 보고서로 변환한 실무 경험을 공유합니다. 대용량 데이터를 인사이트로 바꾸는 전 과정을 다룹니다.",
+                "summary_raw": "Turning 127 million data points into an industry report.",
+                "source": "Towards Data Science",
+                "lang": "en",
+                "region": "international",
+                "score": 5,
+                "category": "데이터분석+AI",
+                "published_at": "2026-03-31T09:00:00+09:00",
+                "reason": "대규모 데이터 분석 → 리포트 변환 실전 사례"
+            },
+            {
+                "title": "Zero Budget, Full Stack: Building with Only Free LLMs",
+                "link": "https://www.kdnuggets.com/zero-budget-full-stack-building-with-only-free-llms",
+                "summary_ko": "무료 LLM만으로 AI 기반 서비스를 풀스택으로 구축하는 방법을 전체 코드와 함께 안내합니다. 비용 없이 LLM을 업무에 활용하고 싶은 분석가에게 실용적인 가이드입니다.",
+                "summary_raw": "Building a full-stack AI app using only free LLMs.",
+                "source": "KDnuggets",
+                "lang": "en",
+                "region": "international",
+                "score": 4,
+                "category": "AI도구활용",
+                "published_at": "2026-03-31T08:00:00+09:00",
+                "reason": "무료 LLM 실무 활용 가이드"
+            },
+            {
+                "title": "LLMOps in 2026: The 10 Tools Every Team Must Have",
+                "link": "https://www.kdnuggets.com/llmops-in-2026-the-10-tools-every-team-must-have",
+                "summary_ko": "2026년 LLM 기반 AI 시스템 운영에 필수적인 LLMOps 툴 10가지를 정리합니다. 분석 팀에서 LLM을 안정적으로 운영하고 싶다면 참고할 만한 도구 목록입니다.",
+                "summary_raw": "The 10 LLMOps tools every team must have in 2026.",
+                "source": "KDnuggets",
+                "lang": "en",
+                "region": "international",
+                "score": 4,
+                "category": "AI도구활용",
+                "published_at": "2026-04-02T08:00:00+09:00",
+                "reason": "LLM 운영 도구 실무 정리"
             }
         ]
     },
-    # 날짜를 추가하려면 위 형식으로 계속 추가하세요:
-    # {
-    #     "date": "2026-04-03",
-    #     "articles": [ ... ]
-    # },
 ]
 # ──────────────────────────────────────────────
 
