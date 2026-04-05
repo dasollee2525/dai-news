@@ -199,21 +199,12 @@
 
   <script>
     let activeCategory = 'all';
-    let activeDate = 'all';
     let activeSort = 'score-desc';
 
     // ── 카테고리 필터 ──
     function setCategory(cat, el) {
       activeCategory = cat;
       document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-      el.classList.add('active');
-      applyFilters();
-    }
-
-    // ── 날짜 필터 ──
-    function setDate(date, el) {
-      activeDate = date;
-      document.querySelectorAll('.date-filter-btn').forEach(b => b.classList.remove('active'));
       el.classList.add('active');
       applyFilters();
     }
@@ -227,13 +218,6 @@
     }
 
     function applyFilters() {
-      // 날짜 섹션 표시/숨김
-      document.querySelectorAll('.date-section').forEach(sec => {
-        const dateMatch = activeDate === 'all' || sec.dataset.date === activeDate;
-        sec.setAttribute('data-date-hidden', dateMatch ? 'false' : 'true');
-      });
-
-      // 카드 표시/숨김
       document.querySelectorAll('.card').forEach(card => {
         const catMatch = activeCategory === 'all' || card.dataset.category === activeCategory;
         card.setAttribute('data-hidden', catMatch ? 'false' : 'true');

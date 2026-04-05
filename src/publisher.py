@@ -1,8 +1,11 @@
 """
 GitHub Pages 퍼블리셔
-- index.html: 모든 날짜 한 페이지, 최신 날짜 펼침 / 과거 날짜 토글
-- 사이드바: 날짜 필터 + 카테고리 필터 + 정렬
+- index.html: 최근 7일치 한 페이지, 최신 날짜 펼침 / 과거 날짜 토글
+- 사이드바: 카테고리 필터 + 정렬
+- 더 오래된 날짜는 아카이브 페이지에서 확인
 """
+
+RECENT_DAYS = 7  # 홈에 표시할 최근 일수
 
 import json
 from pathlib import Path
@@ -220,21 +223,12 @@ def _base_html(title: str, sidebar: str, body: str) -> str:
 
   <script>
     let activeCategory = 'all';
-    let activeDate = 'all';
     let activeSort = 'score-desc';
 
     // ── 카테고리 필터 ──
     function setCategory(cat, el) {{
       activeCategory = cat;
       document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
-      el.classList.add('active');
-      applyFilters();
-    }}
-
-    // ── 날짜 필터 ──
-    function setDate(date, el) {{
-      activeDate = date;
-      document.querySelectorAll('.date-filter-btn').forEach(b => b.classList.remove('active'));
       el.classList.add('active');
       applyFilters();
     }}
@@ -248,13 +242,6 @@ def _base_html(title: str, sidebar: str, body: str) -> str:
     }}
 
     function applyFilters() {{
-      // 날짜 섹션 표시/숨김
-      document.querySelectorAll('.date-section').forEach(sec => {{
-        const dateMatch = activeDate === 'all' || sec.dataset.date === activeDate;
-        sec.setAttribute('data-date-hidden', dateMatch ? 'false' : 'true');
-      }});
-
-      // 카드 표시/숨김
       document.querySelectorAll('.card').forEach(card => {{
         const catMatch = activeCategory === 'all' || card.dataset.category === activeCategory;
         card.setAttribute('data-hidden', catMatch ? 'false' : 'true');
@@ -314,9 +301,9 @@ def _get_sorted_dates() -> list:
 
 
 def _load_all_articles(dates: list) -> list:
-    """모든 날짜의 기사를 [{date, articles}] 형태로 반환"""
+    """최근 RECENT_DAYS일치 기사를 [{date, articles}] 형태로 반환"""
     result = []
-    for d in dates:
+    for d in dates[:RECENT_DAYS]:
         path = DAILY_DIR / f"{d}.json"
         if path.exists():
             with open(path, "r", encoding="utf-8") as f:
@@ -359,17 +346,7 @@ def _card_html(article: dict, index: int) -> str:
 
 # ── 사이드바 ─────────────────────────────────────────────────────
 def _sidebar_html(all_data: list) -> str:
-    today = datetime.now(KST).strftime("%Y-%m-%d")
-
-    # 날짜 필터 버튼
-    date_items = '<button class="filter-btn date-filter-btn active" onclick="setDate(\'all\', this)"><span class="dot" style="background:#6366f1"></span>전체 날짜</button>\n'
-    for entry in all_data:
-        d = entry["date"]
-        cnt = len(entry["articles"])
-        label = f"오늘 ({d})" if d == today else d
-        date_items += f'<button class="filter-btn date-filter-btn" onclick="setDate(\'{d}\', this)"><span class="dot" style="background:#334155"></span>{label} <span class="count">{cnt}</span></button>\n'
-
-    # 카테고리 카운트 (전체)
+    # 카테고리 카운트 (최근 RECENT_DAYS일 기준)
     all_articles = [a for entry in all_data for a in entry["articles"]]
     cat_counts = Counter(a.get("category", "기타") for a in all_articles)
     total = len(all_articles)
@@ -381,10 +358,6 @@ def _sidebar_html(all_data: list) -> str:
 
     return f"""
     <div class="sidebar-section">
-      <div class="sidebar-title">날짜</div>
-      {date_items}
-    </div>
-    <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
       {cat_items}
     </div>
@@ -394,6 +367,10 @@ def _sidebar_html(all_data: list) -> str:
       <button class="sort-btn" onclick="setSort('score-asc', this)">📉 관련도 낮은 순</button>
       <button class="sort-btn" onclick="setSort('date-desc', this)">🕐 최신순</button>
       <button class="sort-btn" onclick="setSort('date-asc', this)">🕰 오래된 순</button>
+    </div>
+    <div class="sidebar-section">
+      <div class="sidebar-title">더보기</div>
+      <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div>"""
 
 
