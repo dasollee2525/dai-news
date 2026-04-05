@@ -183,53 +183,88 @@
     </div>
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;"><span style="width:8px;height:8px;border-radius:50%;background:#0ea5e9;flex-shrink:0;display:inline-block;"></span>데이터분석+AI<span style="margin-left:auto;color:#475569;">2</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;flex-shrink:0;display:inline-block;"></span>AI트렌드<span style="margin-left:auto;color:#475569;">1</span></div>
+      <div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('데이터분석plusAI')"><span style="width:8px;height:8px;border-radius:50%;background:#0ea5e9;flex-shrink:0;display:inline-block;"></span>📊 데이터분석+AI<span style="margin-left:auto;color:#475569;">2</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('AI트렌드')"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;flex-shrink:0;display:inline-block;"></span>📡 AI트렌드<span style="margin-left:auto;color:#475569;">1</span></div>
     </div>
     <div class="sidebar-section">
-      <a href="index.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.color='#e2e8f0'" onmouseout="this.style.color='#94a3b8'">← 홈으로</a>
+      <a href="index.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;" onmouseover="this.style.color='#e2e8f0'" onmouseout="this.style.color='#94a3b8'">← 홈으로</a>
     </div></aside>
     <main>
     <div style="margin-bottom:28px;">
       <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📂 전체 아카이브</h2>
       <p style="font-size:13px;color:#64748b;margin-top:4px;">총 2일 · 3개 기사</p>
     </div>
-
-    <h3 style="font-size:14px;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px;">카테고리별 분포</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-bottom:36px;">
-      
-            <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px 20px;display:flex;align-items:center;gap:12px;">
-              <span style="font-size:22px;">📊</span>
-              <div style="flex:1;">
-                <div style="font-size:13px;font-weight:600;color:#f1f5f9;">데이터분석+AI</div>
-                <div style="font-size:12px;color:#64748b;margin-top:2px;">2개 · 전체의 67%</div>
-                <div style="height:4px;background:#0f172a;border-radius:2px;margin-top:8px;overflow:hidden;">
-                  <div style="height:100%;width:67%;background:#0ea5e9;border-radius:2px;"></div>
-                </div>
+    
+        <div style="margin-bottom:16px;">
+          <button onclick="toggleCat('데이터분석plusAI')"
+            style="display:flex;align-items:center;gap:10px;width:100%;background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;cursor:pointer;text-align:left;transition:border-color 0.2s;"
+            onmouseover="this.style.borderColor='#0ea5e9'" onmouseout="this.style.borderColor='#334155'">
+            <span style="font-size:20px;">📊</span>
+            <span style="font-size:16px;font-weight:700;color:#f1f5f9;">데이터분석+AI</span>
+            <span style="font-size:12px;color:#0ea5e9;background:#0ea5e922;border:1px solid #0ea5e944;padding:2px 10px;border-radius:20px;">2개</span>
+            <span id="icon-데이터분석plusAI" style="margin-left:auto;color:#475569;font-size:13px;transition:transform 0.2s;">▼</span>
+          </button>
+          <div id="cat-데이터분석plusAI"
+            style="display:none;background:#1e293b;border:1px solid #334155;border-top:none;border-radius:0 0 14px 14px;padding:0 20px 8px;">
+            
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-03</span>
+                <span style="font-size:11px;color:#64748b;">🌐 Towards Data Science</span>
+                <span style='font-size:11px;color:#475569;'>· 2026.03.31 10:35 KST</span>
               </div>
-              <span style="font-size:20px;font-weight:700;color:#0ea5e9;">2</span>
+              <a href="https://towardsdatascience.com/turning-127-million-data-points-into-an-industry-report/" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">Turning 127 Million Data Points Into an Industry Report</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">1억 2700만 개의 데이터 포인트를 데이터 랭글링, 세그멘테이션, 스토리텔링 기법으로 산업 보고서로 변환한 실무 경험을 공유합니다. 대용량 데이터를 인사이트로 바꾸는 전 과정을 다룹니다.</p>
             </div>
-            <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px 20px;display:flex;align-items:center;gap:12px;">
-              <span style="font-size:22px;">📡</span>
-              <div style="flex:1;">
-                <div style="font-size:13px;font-weight:600;color:#f1f5f9;">AI트렌드</div>
-                <div style="font-size:12px;color:#64748b;margin-top:2px;">1개 · 전체의 33%</div>
-                <div style="height:4px;background:#0f172a;border-radius:2px;margin-top:8px;overflow:hidden;">
-                  <div style="height:100%;width:33%;background:#f59e0b;border-radius:2px;"></div>
-                </div>
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-03</span>
+                <span style="font-size:11px;color:#64748b;">🌐 Towards Data Science</span>
+                <span style='font-size:11px;color:#475569;'>· 2026.03.30 15:06 KST</span>
               </div>
-              <span style="font-size:20px;font-weight:700;color:#f59e0b;">1</span>
+              <a href="https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">How to Lie with Statistics with your Robot Best Friend</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">AI를 활용해 p-hacking 등 통계 분석의 대표적 함정을 탐구합니다. Python + AI로 통계적 편향을 발견하고 데이터를 올바르게 해석하는 방법을 다루며, 분석가가 AI 도구를 비판적으로 사용하는 데 도움이 됩니다.</p>
             </div>
-    </div>
+          </div>
+        </div>
+        <div style="margin-bottom:16px;">
+          <button onclick="toggleCat('AI트렌드')"
+            style="display:flex;align-items:center;gap:10px;width:100%;background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;cursor:pointer;text-align:left;transition:border-color 0.2s;"
+            onmouseover="this.style.borderColor='#f59e0b'" onmouseout="this.style.borderColor='#334155'">
+            <span style="font-size:20px;">📡</span>
+            <span style="font-size:16px;font-weight:700;color:#f1f5f9;">AI트렌드</span>
+            <span style="font-size:12px;color:#f59e0b;background:#f59e0b22;border:1px solid #f59e0b44;padding:2px 10px;border-radius:20px;">1개</span>
+            <span id="icon-AI트렌드" style="margin-left:auto;color:#475569;font-size:13px;transition:transform 0.2s;">▼</span>
+          </button>
+          <div id="cat-AI트렌드"
+            style="display:none;background:#1e293b;border:1px solid #334155;border-top:none;border-radius:0 0 14px 14px;padding:0 20px 8px;">
+            
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-03</span>
+                <span style="font-size:11px;color:#64748b;">🌐 Towards Data Science</span>
+                <span style='font-size:11px;color:#475569;'>· 2026.04.01 10:36 KST</span>
+              </div>
+              <a href="https://towardsdatascience.com/what-happens-now-that-ai-is-the-first-analyst-on-your-team/" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">What Happens Now That AI is the First Analyst On Your Team?</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">AI가 팀의 첫 번째 분석가 역할을 맡게 되면 기존 데이터 분석가의 역할은 어떻게 달라질까요? AI 자동화 시대에 분석가가 어떻게 적응하고 더 높은 가치를 만들어야 하는지를 실무 관점에서 논합니다.</p>
+            </div>
+          </div>
+        </div>
 
-    <h3 style="font-size:14px;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px;">날짜별 기록</h3>
-    <div style="background:#1e293b;border:1px solid #334155;border-radius:14px;overflow:hidden;">
-      <table class="archive-table">
-        <thead><tr><th>날짜</th><th style="text-align:center;">기사 수</th><th>카테고리</th></tr></thead>
-        <tbody><tr><td style="white-space:nowrap;color:#94a3b8;font-weight:600;">2026-04-05</td><td style="white-space:nowrap;text-align:center;">0개</td><td><span style="color:#475569;font-size:12px;">—</span></td></tr>
-<tr><td style="white-space:nowrap;color:#94a3b8;font-weight:600;">2026-04-03</td><td style="white-space:nowrap;text-align:center;">5개</td><td><span style="display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;background:#0ea5e922;color:#0ea5e9;border:1px solid #0ea5e944;margin:2px 2px;">📊 데이터분석+AI 2</span><span style="display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;background:#f59e0b22;color:#f59e0b;border:1px solid #f59e0b44;margin:2px 2px;">📡 AI트렌드 1</span></td></tr>
-</tbody>
-      </table>
-    </div></main>
+    <script>
+      function toggleCat(id) {
+        const el = document.getElementById('cat-' + id);
+        const icon = document.getElementById('icon-' + id);
+        const isOpen = el.style.display !== 'none';
+        el.style.display = isOpen ? 'none' : 'block';
+        icon.style.transform = isOpen ? '' : 'rotate(180deg)';
+      }
+    </script></main>
   </div>
 
   <footer>자동 수집 · OpenAI 큐레이션 · DAI Guild</footer>

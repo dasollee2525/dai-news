@@ -446,86 +446,108 @@ def _update_archive_page():
 
     entries = index.get("entries", [])
 
-    # 전체 기사 로드 (카테고리 통계용)
+    # 전체 기사 로드
     all_articles = []
     for e in entries:
         path = DAILY_DIR / f"{e['date']}.json"
         if path.exists():
             with open(path, "r", encoding="utf-8") as f:
                 data = json.load(f)
-            all_articles.extend(data.get("articles", []))
+            for a in data.get("articles", []):
+                a["_date"] = e["date"]   # 날짜 태그 붙이기
+                all_articles.append(a)
 
-    # 카테고리별 통계
-    cat_counts = Counter(a.get("category", "기타") for a in all_articles)
     total = len(all_articles)
+    cat_counts = Counter(a.get("category", "기타") for a in all_articles)
 
-    # 날짜별 카테고리 분포 계산
-    date_cat_map = {}
-    for e in entries:
-        path = DAILY_DIR / f"{e['date']}.json"
-        if path.exists():
-            with open(path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-            cats = Counter(a.get("category", "기타") for a in data.get("articles", []))
-            date_cat_map[e["date"]] = cats
+    # 카테고리별 기사 묶기
+    cat_articles: dict = {cat: [] for cat in CATEGORY_COLOR}
+    cat_articles["기타"] = []
+    for a in all_articles:
+        cat = a.get("category", "기타")
+        if cat not in cat_articles:
+            cat_articles[cat] = []
+        cat_articles[cat].append(a)
 
-    # 날짜 테이블 행
-    def _cat_badges(date_str):
-        cats = date_cat_map.get(date_str, {})
-        if not cats:
-            return '<span style="color:#475569;font-size:12px;">—</span>'
-        badges = ""
-        for cat, color in CATEGORY_COLOR.items():
-            if cats.get(cat, 0) > 0:
-                emoji = CATEGORY_EMOJI.get(cat, "")
-                badges += f'<span style="display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:12px;background:{color}22;color:{color};border:1px solid {color}44;margin:2px 2px;">{emoji} {cat} {cats[cat]}</span>'
-        return badges
-
-    rows = "".join(
-        f'<tr><td style="white-space:nowrap;color:#94a3b8;font-weight:600;">{e["date"]}</td>'
-        f'<td style="white-space:nowrap;text-align:center;">{e.get("count", 0)}개</td>'
-        f'<td>{_cat_badges(e["date"])}</td></tr>\n'
-        for e in entries
-    )
-
-    # 카테고리 요약 카드
-    cat_summary = ""
+    # 카테고리 섹션 (클릭하면 기사 리스트 토글)
+    cat_sections = ""
     for cat, color in CATEGORY_COLOR.items():
-        cnt = cat_counts.get(cat, 0)
-        if cnt > 0:
-            emoji = CATEGORY_EMOJI.get(cat, "")
-            pct = round(cnt / total * 100) if total else 0
-            cat_summary += f"""
-            <div style="background:#1e293b;border:1px solid #334155;border-radius:12px;padding:16px 20px;display:flex;align-items:center;gap:12px;">
-              <span style="font-size:22px;">{emoji}</span>
-              <div style="flex:1;">
-                <div style="font-size:13px;font-weight:600;color:#f1f5f9;">{cat}</div>
-                <div style="font-size:12px;color:#64748b;margin-top:2px;">{cnt}개 · 전체의 {pct}%</div>
-                <div style="height:4px;background:#0f172a;border-radius:2px;margin-top:8px;overflow:hidden;">
-                  <div style="height:100%;width:{pct}%;background:{color};border-radius:2px;"></div>
-                </div>
+        articles = cat_articles.get(cat, [])
+        if not articles:
+            continue
+        emoji = CATEGORY_EMOJI.get(cat, "📌")
+        cnt = len(articles)
+
+        # 기사 행 목록
+        article_rows = ""
+        for a in articles:
+            title = a["title"].replace("<", "&lt;").replace(">", "&gt;")
+            pub = _format_pub_date(a.get("published_at", ""))
+            region = "🇰🇷" if a.get("region") == "domestic" else "🌐"
+            source = a.get("source", "")
+            date_tag = a.get("_date", "")
+            summary = a.get("summary_ko", "").replace("<", "&lt;").replace(">", "&gt;")
+            article_rows += f"""
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">{date_tag}</span>
+                <span style="font-size:11px;color:#64748b;">{region} {source}</span>
+                {"<span style='font-size:11px;color:#475569;'>· " + pub + "</span>" if pub else ""}
               </div>
-              <span style="font-size:20px;font-weight:700;color:{color};">{cnt}</span>
+              <a href="{a['link']}" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">{title}</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">{summary}</p>
             </div>"""
+
+        cat_id = cat.replace("+", "plus")
+        cat_sections += f"""
+        <div style="margin-bottom:16px;">
+          <button onclick="toggleCat('{cat_id}')"
+            style="display:flex;align-items:center;gap:10px;width:100%;background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;cursor:pointer;text-align:left;transition:border-color 0.2s;"
+            onmouseover="this.style.borderColor='{color}'" onmouseout="this.style.borderColor='#334155'">
+            <span style="font-size:20px;">{emoji}</span>
+            <span style="font-size:16px;font-weight:700;color:#f1f5f9;">{cat}</span>
+            <span style="font-size:12px;color:{color};background:{color}22;border:1px solid {color}44;padding:2px 10px;border-radius:20px;">{cnt}개</span>
+            <span id="icon-{cat_id}" style="margin-left:auto;color:#475569;font-size:13px;transition:transform 0.2s;">▼</span>
+          </button>
+          <div id="cat-{cat_id}"
+            style="display:none;background:#1e293b;border:1px solid #334155;border-top:none;border-radius:0 0 14px 14px;padding:0 20px 8px;">
+            {article_rows}
+          </div>
+        </div>"""
 
     body = f"""
     <div style="margin-bottom:28px;">
       <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📂 전체 아카이브</h2>
       <p style="font-size:13px;color:#64748b;margin-top:4px;">총 {len(entries)}일 · {total}개 기사</p>
     </div>
+    {cat_sections}
 
-    <h3 style="font-size:14px;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px;">카테고리별 분포</h3>
-    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px;margin-bottom:36px;">
-      {cat_summary}
-    </div>
+    <script>
+      function toggleCat(id) {{
+        const el = document.getElementById('cat-' + id);
+        const icon = document.getElementById('icon-' + id);
+        const isOpen = el.style.display !== 'none';
+        el.style.display = isOpen ? 'none' : 'block';
+        icon.style.transform = isOpen ? '' : 'rotate(180deg)';
+      }}
+    </script>"""
 
-    <h3 style="font-size:14px;font-weight:600;color:#64748b;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:14px;">날짜별 기록</h3>
-    <div style="background:#1e293b;border:1px solid #334155;border-radius:14px;overflow:hidden;">
-      <table class="archive-table">
-        <thead><tr><th>날짜</th><th style="text-align:center;">기사 수</th><th>카테고리</th></tr></thead>
-        <tbody>{rows}</tbody>
-      </table>
-    </div>"""
+    cat_nav_items = ""
+    for cat in CATEGORY_COLOR:
+        if cat_counts.get(cat, 0) == 0:
+            continue
+        cat_id = cat.replace("+", "plus")
+        color = CATEGORY_COLOR[cat]
+        emoji = CATEGORY_EMOJI.get(cat, "")
+        cnt = cat_counts.get(cat, 0)
+        cat_nav_items += (
+            f'<div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat(\'{cat_id}\')">'
+            f'<span style="width:8px;height:8px;border-radius:50%;background:{color};flex-shrink:0;display:inline-block;"></span>'
+            f'{emoji} {cat}'
+            f'<span style="margin-left:auto;color:#475569;">{cnt}</span></div>'
+        )
 
     sidebar = f"""
     <div class="sidebar-section">
@@ -535,10 +557,10 @@ def _update_archive_page():
     </div>
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      {''.join(f'<div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;"><span style="width:8px;height:8px;border-radius:50%;background:{CATEGORY_COLOR[cat]};flex-shrink:0;display:inline-block;"></span>{cat}<span style="margin-left:auto;color:#475569;">{cat_counts.get(cat,0)}</span></div>' for cat in CATEGORY_COLOR if cat_counts.get(cat,0)>0)}
+      {cat_nav_items}
     </div>
     <div class="sidebar-section">
-      <a href="index.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.color='#e2e8f0'" onmouseout="this.style.color='#94a3b8'">← 홈으로</a>
+      <a href="index.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;" onmouseover="this.style.color='#e2e8f0'" onmouseout="this.style.color='#94a3b8'">← 홈으로</a>
     </div>"""
 
     (DOCS_DIR / "archive.html").write_text(
