@@ -1,12 +1,13 @@
 """
 GitHub Pages 퍼블리셔
-JSON 데이터 → HTML로 변환하여 docs/ 에 저장
-- 좌측 사이드바: 카테고리 필터 + 날짜 정렬
+- index.html: 모든 날짜 한 페이지, 최신 날짜 펼침 / 과거 날짜 토글
+- 사이드바: 날짜 필터 + 카테고리 필터 + 정렬
 """
 
 import json
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
+from collections import Counter
 
 KST = timezone(timedelta(hours=9))
 BASE_DIR = Path(__file__).parent.parent
@@ -15,24 +16,25 @@ DAILY_DIR = BASE_DIR / "data" / "daily"
 ARCHIVE_INDEX = BASE_DIR / "data" / "archive" / "index.json"
 
 CATEGORY_COLOR = {
-    "AI도구활용":   "#6366f1",
+    "AI도구활용":    "#6366f1",
     "데이터분석+AI": "#0ea5e9",
-    "LLM응용":     "#8b5cf6",
-    "생산성":      "#10b981",
-    "AI트렌드":    "#f59e0b",
-    "기타":        "#6b7280",
+    "LLM응용":      "#8b5cf6",
+    "생산성":       "#10b981",
+    "AI트렌드":     "#f59e0b",
+    "기타":         "#6b7280",
 }
 CATEGORY_EMOJI = {
-    "AI도구활용":   "🛠️",
+    "AI도구활용":    "🛠️",
     "데이터분석+AI": "📊",
-    "LLM응용":     "🤖",
-    "생산성":      "⚡",
-    "AI트렌드":    "📡",
-    "기타":        "📌",
+    "LLM응용":      "🤖",
+    "생산성":       "⚡",
+    "AI트렌드":     "📡",
+    "기타":         "📌",
 }
 
 
-def _base_html(title: str, sidebar: str, body: str, date_nav: str = "") -> str:
+# ── 공통 HTML 껍데기 ──────────────────────────────────────────────
+def _base_html(title: str, sidebar: str, body: str) -> str:
     return f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -63,68 +65,41 @@ def _base_html(title: str, sidebar: str, body: str, date_nav: str = "") -> str:
     }}
     header nav a:hover {{ color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }}
 
-    /* ── 날짜 네비게이션 ── */
-    .date-nav {{
-      display: flex; align-items: center; justify-content: center;
-      gap: 12px; margin-top: 16px;
-    }}
-    .date-nav a, .date-nav span {{
-      font-size: 13px; color: #94a3b8; text-decoration: none;
-      padding: 5px 14px; border: 1px solid #1e293b;
-      border-radius: 20px; transition: all 0.2s;
-    }}
-    .date-nav a:hover {{ color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }}
-    .date-nav .current {{ color: #f1f5f9; border-color: #6366f1; background: rgba(99,102,241,0.15); font-weight: 600; }}
-    .date-nav .disabled {{ color: #334155; border-color: #1e293b; cursor: default; pointer-events: none; }}
-
     /* ── 레이아웃 ── */
     .layout {{
-      display: flex;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 32px 20px 60px;
-      gap: 28px;
-      align-items: flex-start;
+      display: flex; max-width: 1140px; margin: 0 auto;
+      padding: 32px 20px 80px; gap: 28px; align-items: flex-start;
     }}
 
     /* ── 사이드바 ── */
     .sidebar {{
-      width: 220px;
-      flex-shrink: 0;
-      position: sticky;
-      top: 24px;
+      width: 220px; flex-shrink: 0; position: sticky; top: 24px;
     }}
     .sidebar-section {{
-      background: #1e293b;
-      border: 1px solid #334155;
-      border-radius: 14px;
-      padding: 18px;
-      margin-bottom: 16px;
+      background: #1e293b; border: 1px solid #334155;
+      border-radius: 14px; padding: 18px; margin-bottom: 16px;
     }}
     .sidebar-title {{
       font-size: 11px; font-weight: 600; color: #64748b;
-      text-transform: uppercase; letter-spacing: 0.08em;
-      margin-bottom: 14px;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px;
     }}
     .filter-btn {{
       display: flex; align-items: center; gap: 8px;
-      width: 100%; padding: 8px 10px; margin-bottom: 4px;
+      width: 100%; padding: 7px 10px; margin-bottom: 3px;
       background: transparent; border: 1px solid transparent;
       border-radius: 8px; color: #94a3b8; font-size: 13px;
       cursor: pointer; text-align: left; transition: all 0.15s;
     }}
     .filter-btn:hover {{ background: #0f172a; border-color: #334155; color: #e2e8f0; }}
     .filter-btn.active {{ background: #0f172a; border-color: #6366f1; color: #e2e8f0; }}
-    .filter-btn .dot {{
-      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
-    }}
+    .filter-btn .dot {{ width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }}
     .filter-btn .count {{
       margin-left: auto; font-size: 11px; color: #475569;
       background: #0f172a; padding: 1px 7px; border-radius: 10px;
     }}
     .sort-btn {{
       display: flex; align-items: center; gap: 6px;
-      width: 100%; padding: 8px 10px; margin-bottom: 4px;
+      width: 100%; padding: 7px 10px; margin-bottom: 3px;
       background: transparent; border: 1px solid transparent;
       border-radius: 8px; color: #94a3b8; font-size: 13px;
       cursor: pointer; text-align: left; transition: all 0.15s;
@@ -132,13 +107,45 @@ def _base_html(title: str, sidebar: str, body: str, date_nav: str = "") -> str:
     .sort-btn:hover {{ background: #0f172a; border-color: #334155; color: #e2e8f0; }}
     .sort-btn.active {{ background: #0f172a; border-color: #6366f1; color: #e2e8f0; }}
 
-    /* ── 메인 콘텐츠 ── */
+    /* ── 메인 ── */
     main {{ flex: 1; min-width: 0; }}
+
+    /* ── 날짜 섹션 (토글 컨테이너) ── */
+    .date-section {{ margin-bottom: 28px; }}
+    .date-section[data-date-hidden="true"] {{ display: none; }}
+
+    .date-toggle {{
+      display: flex; align-items: center; gap: 10px;
+      width: 100%; background: transparent; border: none;
+      cursor: pointer; padding: 0; margin-bottom: 16px; text-align: left;
+    }}
+    .date-toggle .date-label {{
+      font-size: 17px; font-weight: 700; color: #f1f5f9;
+    }}
+    .date-toggle .date-chip {{
+      font-size: 11px; color: #64748b; background: #1e293b;
+      border: 1px solid #334155; padding: 2px 10px; border-radius: 20px;
+    }}
+    .date-toggle .date-chip.today {{
+      color: #6366f1; border-color: #6366f1; background: rgba(99,102,241,0.1);
+    }}
+    .date-toggle .toggle-icon {{
+      margin-left: auto; font-size: 13px; color: #475569;
+      transition: transform 0.2s;
+    }}
+    .date-toggle.collapsed .toggle-icon {{ transform: rotate(-90deg); }}
+
+    .date-divider {{
+      height: 1px; background: #1e293b; margin-bottom: 16px;
+    }}
+
+    .date-cards {{ }}
+    .date-cards.collapsed {{ display: none; }}
 
     /* ── 카드 ── */
     .card {{
       background: #1e293b; border: 1px solid #334155; border-radius: 14px;
-      padding: 24px; margin-bottom: 20px; transition: border-color 0.2s, transform 0.2s;
+      padding: 24px; margin-bottom: 16px; transition: border-color 0.2s, transform 0.15s;
     }}
     .card:hover {{ border-color: #6366f1; transform: translateY(-2px); }}
     .card[data-hidden="true"] {{ display: none; }}
@@ -172,8 +179,8 @@ def _base_html(title: str, sidebar: str, body: str, date_nav: str = "") -> str:
     .read-btn:hover {{ background: #6366f1; color: #fff; }}
 
     /* ── 빈 결과 ── */
-    .empty-state {{ text-align: center; padding: 60px 20px; color: #475569; }}
-    .empty-state .icon {{ font-size: 48px; margin-bottom: 16px; }}
+    .empty-state {{ text-align: center; padding: 40px 20px; color: #475569; }}
+    .empty-state .icon {{ font-size: 40px; margin-bottom: 12px; }}
 
     /* ── 아카이브 ── */
     .archive-table {{ width: 100%; border-collapse: collapse; }}
@@ -187,7 +194,7 @@ def _base_html(title: str, sidebar: str, body: str, date_nav: str = "") -> str:
 
     footer {{ text-align: center; font-size: 12px; color: #334155; padding: 24px; border-top: 1px solid #1e293b; }}
 
-    @media (max-width: 680px) {{
+    @media (max-width: 700px) {{
       .layout {{ flex-direction: column; }}
       .sidebar {{ width: 100%; position: static; }}
     }}
@@ -199,64 +206,95 @@ def _base_html(title: str, sidebar: str, body: str, date_nav: str = "") -> str:
     <h1>데이터 분석 AI 길드 뉴스</h1>
     <div class="meta">데이터 분석가를 위한 AI 실무 뉴스 큐레이션</div>
     <nav>
-      <a href="index.html">최신 뉴스</a>
+      <a href="index.html">홈</a>
       <a href="archive.html">아카이브</a>
     </nav>
-    {date_nav}
   </header>
 
   <div class="layout">
     <aside class="sidebar">{sidebar}</aside>
-    <main id="card-list">{body}</main>
+    <main>{body}</main>
   </div>
 
   <footer>자동 수집 · OpenAI 큐레이션 · DAI Guild</footer>
 
   <script>
-    // ── 필터 & 정렬 로직 ──
     let activeCategory = 'all';
-    let activeSort = 'score-desc';  // 기본: 관련도 높은 순
+    let activeDate = 'all';
+    let activeSort = 'score-desc';
 
-    function applyFilter() {{
-      const cards = document.querySelectorAll('.card');
-      cards.forEach(card => {{
-        const cat = card.dataset.category;
-        const hidden = activeCategory !== 'all' && cat !== activeCategory;
-        card.setAttribute('data-hidden', hidden ? 'true' : 'false');
-      }});
-    }}
-
-    function applySort() {{
-      const list = document.getElementById('card-list');
-      const cards = Array.from(list.querySelectorAll('.card'));
-      cards.sort((a, b) => {{
-        if (activeSort === 'score-desc') return Number(b.dataset.score) - Number(a.dataset.score);
-        if (activeSort === 'score-asc')  return Number(a.dataset.score) - Number(b.dataset.score);
-        if (activeSort === 'date-desc')  return b.dataset.date.localeCompare(a.dataset.date);
-        if (activeSort === 'date-asc')   return a.dataset.date.localeCompare(b.dataset.date);
-        return 0;
-      }});
-      cards.forEach(c => list.appendChild(c));
-    }}
-
+    // ── 카테고리 필터 ──
     function setCategory(cat, el) {{
       activeCategory = cat;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
       el.classList.add('active');
-      applyFilter();
+      applyFilters();
     }}
 
+    // ── 날짜 필터 ──
+    function setDate(date, el) {{
+      activeDate = date;
+      document.querySelectorAll('.date-filter-btn').forEach(b => b.classList.remove('active'));
+      el.classList.add('active');
+      applyFilters();
+    }}
+
+    // ── 정렬 ──
     function setSort(sort, el) {{
       activeSort = sort;
       document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
       el.classList.add('active');
       applySort();
     }}
+
+    function applyFilters() {{
+      // 날짜 섹션 표시/숨김
+      document.querySelectorAll('.date-section').forEach(sec => {{
+        const dateMatch = activeDate === 'all' || sec.dataset.date === activeDate;
+        sec.setAttribute('data-date-hidden', dateMatch ? 'false' : 'true');
+      }});
+
+      // 카드 표시/숨김
+      document.querySelectorAll('.card').forEach(card => {{
+        const catMatch = activeCategory === 'all' || card.dataset.category === activeCategory;
+        card.setAttribute('data-hidden', catMatch ? 'false' : 'true');
+      }});
+    }}
+
+    function applySort() {{
+      document.querySelectorAll('.date-cards').forEach(container => {{
+        const cards = Array.from(container.querySelectorAll('.card'));
+        cards.sort((a, b) => {{
+          if (activeSort === 'score-desc') return Number(b.dataset.score) - Number(a.dataset.score);
+          if (activeSort === 'score-asc')  return Number(a.dataset.score) - Number(b.dataset.score);
+          if (activeSort === 'date-desc')  return b.dataset.date.localeCompare(a.dataset.date);
+          if (activeSort === 'date-asc')   return a.dataset.date.localeCompare(b.dataset.date);
+          return 0;
+        }});
+        cards.forEach(c => container.appendChild(c));
+      }});
+    }}
+
+    // ── 날짜 토글 ──
+    function toggleDate(dateStr) {{
+      const btn = document.querySelector(`.date-toggle[data-date="${{dateStr}}"]`);
+      const cards = document.getElementById('cards-' + dateStr);
+      if (!btn || !cards) return;
+      const isCollapsed = cards.classList.contains('collapsed');
+      if (isCollapsed) {{
+        cards.classList.remove('collapsed');
+        btn.classList.remove('collapsed');
+      }} else {{
+        cards.classList.add('collapsed');
+        btn.classList.add('collapsed');
+      }}
+    }}
   </script>
 </body>
 </html>"""
 
 
+# ── 유틸 ──────────────────────────────────────────────────────────
 def _format_pub_date(published_at: str) -> str:
     if not published_at:
         return ""
@@ -267,17 +305,38 @@ def _format_pub_date(published_at: str) -> str:
         return published_at[:10]
 
 
+def _get_sorted_dates() -> list:
+    if not ARCHIVE_INDEX.exists():
+        return []
+    with open(ARCHIVE_INDEX, "r", encoding="utf-8") as f:
+        index = json.load(f)
+    return sorted([e["date"] for e in index.get("entries", [])], reverse=True)
+
+
+def _load_all_articles(dates: list) -> list:
+    """모든 날짜의 기사를 [{date, articles}] 형태로 반환"""
+    result = []
+    for d in dates:
+        path = DAILY_DIR / f"{d}.json"
+        if path.exists():
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            result.append({"date": d, "articles": data.get("articles", [])})
+    return result
+
+
+# ── 카드 HTML ────────────────────────────────────────────────────
 def _card_html(article: dict, index: int) -> str:
-    category  = article.get("category", "기타")
-    color     = CATEGORY_COLOR.get(category, "#6b7280")
-    emoji     = CATEGORY_EMOJI.get(category, "📌")
-    region    = "🇰🇷" if article.get("region") == "domestic" else "🌐"
-    score     = article.get("score", 0)
-    title     = article["title"].replace("<", "&lt;").replace(">", "&gt;")
-    summary   = article.get("summary_ko", "").replace("<", "&lt;").replace(">", "&gt;")
-    source    = article.get("source", "")
-    pub_str   = _format_pub_date(article.get("published_at", ""))
-    pub_raw   = article.get("published_at", "")[:19]  # 정렬용
+    category = article.get("category", "기타")
+    color    = CATEGORY_COLOR.get(category, "#6b7280")
+    emoji    = CATEGORY_EMOJI.get(category, "📌")
+    region   = "🇰🇷" if article.get("region") == "domestic" else "🌐"
+    score    = article.get("score", 0)
+    title    = article["title"].replace("<", "&lt;").replace(">", "&gt;")
+    summary  = article.get("summary_ko", "").replace("<", "&lt;").replace(">", "&gt;")
+    source   = article.get("source", "")
+    pub_str  = _format_pub_date(article.get("published_at", ""))
+    pub_raw  = article.get("published_at", "")[:19]
 
     return f"""
     <div class="card" data-category="{category}" data-score="{score}" data-date="{pub_raw}">
@@ -298,19 +357,36 @@ def _card_html(article: dict, index: int) -> str:
     </div>"""
 
 
-def _sidebar_html(articles: list[dict]) -> str:
-    from collections import Counter
-    cat_counts = Counter(a.get("category", "기타") for a in articles)
+# ── 사이드바 ─────────────────────────────────────────────────────
+def _sidebar_html(all_data: list) -> str:
+    today = datetime.now(KST).strftime("%Y-%m-%d")
 
-    filter_items = '<button class="filter-btn active" onclick="setCategory(\'all\', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">' + str(len(articles)) + '</span></button>\n'
+    # 날짜 필터 버튼
+    date_items = '<button class="filter-btn date-filter-btn active" onclick="setDate(\'all\', this)"><span class="dot" style="background:#6366f1"></span>전체 날짜</button>\n'
+    for entry in all_data:
+        d = entry["date"]
+        cnt = len(entry["articles"])
+        label = f"오늘 ({d})" if d == today else d
+        date_items += f'<button class="filter-btn date-filter-btn" onclick="setDate(\'{d}\', this)"><span class="dot" style="background:#334155"></span>{label} <span class="count">{cnt}</span></button>\n'
+
+    # 카테고리 카운트 (전체)
+    all_articles = [a for entry in all_data for a in entry["articles"]]
+    cat_counts = Counter(a.get("category", "기타") for a in all_articles)
+    total = len(all_articles)
+
+    cat_items = f'<button class="filter-btn cat-btn active" onclick="setCategory(\'all\', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">{total}</span></button>\n'
     for cat, color in CATEGORY_COLOR.items():
         if cat_counts.get(cat, 0) > 0:
-            filter_items += f'<button class="filter-btn" onclick="setCategory(\'{cat}\', this)"><span class="dot" style="background:{color}"></span>{cat} <span class="count">{cat_counts[cat]}</span></button>\n'
+            cat_items += f'<button class="filter-btn cat-btn" onclick="setCategory(\'{cat}\', this)"><span class="dot" style="background:{color}"></span>{cat} <span class="count">{cat_counts[cat]}</span></button>\n'
 
     return f"""
     <div class="sidebar-section">
+      <div class="sidebar-title">날짜</div>
+      {date_items}
+    </div>
+    <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      {filter_items}
+      {cat_items}
     </div>
     <div class="sidebar-section">
       <div class="sidebar-title">정렬</div>
@@ -321,94 +397,65 @@ def _sidebar_html(articles: list[dict]) -> str:
     </div>"""
 
 
-def _daily_body(data: dict) -> tuple[str, str]:
-    """(sidebar_html, body_html) 반환"""
-    date_str = data["date"]
-    articles = data.get("articles", [])
-    try:
-        dt = datetime.fromisoformat(date_str)
-        date_ko = dt.strftime("%Y년 %m월 %d일")
-    except Exception:
-        date_ko = date_str
+# ── 메인 본문 (날짜별 토글 섹션) ────────────────────────────────
+def _main_body(all_data: list) -> str:
+    today = datetime.now(KST).strftime("%Y-%m-%d")
+    sections = []
 
-    header = f"""
-    <div style="margin-bottom:24px;">
-      <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📰 {date_ko} 뉴스</h2>
-      <p style="font-size:13px;color:#64748b;margin-top:4px;">총 {len(articles)}개 선별</p>
-    </div>"""
+    for entry in all_data:
+        date_str = entry["date"]
+        articles = entry["articles"]
+        is_today = date_str == today
 
-    if not articles:
-        body = header + """
-    <div class="empty-state">
-      <div class="icon">🔍</div>
-      <p>오늘은 기준에 맞는 뉴스를 찾지 못했습니다.<br>내일 다시 확인해주세요.</p>
-    </div>"""
-        sidebar = _sidebar_html([])
-        return sidebar, body
+        try:
+            dt = datetime.fromisoformat(date_str)
+            date_ko = dt.strftime("%Y년 %m월 %d일")
+        except Exception:
+            date_ko = date_str
 
-    cards = "\n".join(_card_html(a, i + 1) for i, a in enumerate(articles))
-    return _sidebar_html(articles), header + cards
+        chip = '<span class="date-chip today">오늘</span>' if is_today else f'<span class="date-chip">{len(articles)}개 선별</span>'
+        toggle_class = "" if is_today else " collapsed"
+        cards_class = "date-cards" if is_today else "date-cards collapsed"
 
+        if not articles:
+            cards_html = """
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>"""
+        else:
+            cards_html = "\n".join(_card_html(a, i + 1) for i, a in enumerate(articles))
 
-def _get_sorted_dates() -> list:
-    """archive/index.json에서 날짜 목록을 정렬해서 반환"""
-    if not ARCHIVE_INDEX.exists():
-        return []
-    with open(ARCHIVE_INDEX, "r", encoding="utf-8") as f:
-        index = json.load(f)
-    return sorted([e["date"] for e in index.get("entries", [])], reverse=True)
+        sections.append(f"""
+    <div class="date-section" data-date="{date_str}">
+      <button class="date-toggle{toggle_class}" data-date="{date_str}" onclick="toggleDate('{date_str}')">
+        <span class="date-label">📅 {date_ko}</span>
+        {chip}
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="{cards_class}" id="cards-{date_str}">
+        {cards_html}
+      </div>
+    </div>""")
 
-
-def _date_nav_html(date_str: str, all_dates: list) -> str:
-    """이전/현재/다음 날짜 네비게이션 HTML"""
-    if not all_dates:
-        return ""
-    # all_dates는 최신순 정렬 → index 0이 가장 최신
-    try:
-        idx = all_dates.index(date_str)
-    except ValueError:
-        return ""
-
-    prev_date = all_dates[idx + 1] if idx + 1 < len(all_dates) else None  # 이전(오래된)
-    next_date = all_dates[idx - 1] if idx - 1 >= 0 else None              # 다음(최신)
-
-    prev_html = f'<a href="{prev_date}.html">← {prev_date}</a>' if prev_date else '<span class="disabled">← 이전</span>'
-    next_html = f'<a href="{next_date}.html">{next_date} →</a>' if next_date else '<span class="disabled">다음 →</span>'
-    current_html = f'<span class="current">📅 {date_str}</span>'
-
-    return f'<div class="date-nav">{prev_html}{current_html}{next_html}</div>'
+    return "\n".join(sections)
 
 
+# ── 진입점 ───────────────────────────────────────────────────────
 def publish(date_str: str = None):
-    if date_str is None:
-        date_str = datetime.now(KST).strftime("%Y-%m-%d")
-
-    daily_path = DAILY_DIR / f"{date_str}.json"
-    if not daily_path.exists():
-        print(f"  [경고] {daily_path} 파일이 없습니다. publish 건너뜀.")
-        return
-
-    with open(daily_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
+    """모든 날짜 데이터를 읽어 index.html 하나로 통합 생성"""
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
-    try:
-        dt = datetime.fromisoformat(date_str)
-        date_ko = dt.strftime("%Y년 %m월 %d일")
-    except Exception:
-        date_ko = date_str
-
     all_dates = _get_sorted_dates()
-    date_nav = _date_nav_html(date_str, all_dates)
-    sidebar, body = _daily_body(data)
-    page = _base_html(f"DAI 길드 뉴스 — {date_ko}", sidebar, body, date_nav)
+    all_data = _load_all_articles(all_dates)
+
+    sidebar = _sidebar_html(all_data)
+    body = _main_body(all_data)
+    page = _base_html("DAI 길드 뉴스 — 데이터 분석 AI", sidebar, body)
 
     (DOCS_DIR / "index.html").write_text(page, encoding="utf-8")
-    print(f"  생성: docs/index.html")
-
-    (DOCS_DIR / f"{date_str}.html").write_text(page, encoding="utf-8")
-    print(f"  생성: docs/{date_str}.html")
+    print(f"  생성: docs/index.html ({len(all_dates)}개 날짜)")
 
     _update_archive_page()
 
@@ -422,8 +469,7 @@ def _update_archive_page():
 
     entries = index.get("entries", [])
     rows = "".join(
-        f'<tr><td><a href="{e["date"]}.html">{e["date"]}</a></td>'
-        f'<td>{e.get("count", 0)}개</td></tr>\n'
+        f'<tr><td>{e["date"]}</td><td>{e.get("count", 0)}개</td></tr>\n'
         for e in entries
     )
 

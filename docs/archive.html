@@ -28,68 +28,41 @@
     }
     header nav a:hover { color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }
 
-    /* ── 날짜 네비게이션 ── */
-    .date-nav {
-      display: flex; align-items: center; justify-content: center;
-      gap: 12px; margin-top: 16px;
-    }
-    .date-nav a, .date-nav span {
-      font-size: 13px; color: #94a3b8; text-decoration: none;
-      padding: 5px 14px; border: 1px solid #1e293b;
-      border-radius: 20px; transition: all 0.2s;
-    }
-    .date-nav a:hover { color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }
-    .date-nav .current { color: #f1f5f9; border-color: #6366f1; background: rgba(99,102,241,0.15); font-weight: 600; }
-    .date-nav .disabled { color: #334155; border-color: #1e293b; cursor: default; pointer-events: none; }
-
     /* ── 레이아웃 ── */
     .layout {
-      display: flex;
-      max-width: 1100px;
-      margin: 0 auto;
-      padding: 32px 20px 60px;
-      gap: 28px;
-      align-items: flex-start;
+      display: flex; max-width: 1140px; margin: 0 auto;
+      padding: 32px 20px 80px; gap: 28px; align-items: flex-start;
     }
 
     /* ── 사이드바 ── */
     .sidebar {
-      width: 220px;
-      flex-shrink: 0;
-      position: sticky;
-      top: 24px;
+      width: 220px; flex-shrink: 0; position: sticky; top: 24px;
     }
     .sidebar-section {
-      background: #1e293b;
-      border: 1px solid #334155;
-      border-radius: 14px;
-      padding: 18px;
-      margin-bottom: 16px;
+      background: #1e293b; border: 1px solid #334155;
+      border-radius: 14px; padding: 18px; margin-bottom: 16px;
     }
     .sidebar-title {
       font-size: 11px; font-weight: 600; color: #64748b;
-      text-transform: uppercase; letter-spacing: 0.08em;
-      margin-bottom: 14px;
+      text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 12px;
     }
     .filter-btn {
       display: flex; align-items: center; gap: 8px;
-      width: 100%; padding: 8px 10px; margin-bottom: 4px;
+      width: 100%; padding: 7px 10px; margin-bottom: 3px;
       background: transparent; border: 1px solid transparent;
       border-radius: 8px; color: #94a3b8; font-size: 13px;
       cursor: pointer; text-align: left; transition: all 0.15s;
     }
     .filter-btn:hover { background: #0f172a; border-color: #334155; color: #e2e8f0; }
     .filter-btn.active { background: #0f172a; border-color: #6366f1; color: #e2e8f0; }
-    .filter-btn .dot {
-      width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0;
-    }
+    .filter-btn .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
     .filter-btn .count {
       margin-left: auto; font-size: 11px; color: #475569;
       background: #0f172a; padding: 1px 7px; border-radius: 10px;
     }
     .sort-btn {
       display: flex; align-items: center; gap: 6px;
-      width: 100%; padding: 8px 10px; margin-bottom: 4px;
+      width: 100%; padding: 7px 10px; margin-bottom: 3px;
       background: transparent; border: 1px solid transparent;
       border-radius: 8px; color: #94a3b8; font-size: 13px;
       cursor: pointer; text-align: left; transition: all 0.15s;
@@ -97,13 +70,45 @@
     .sort-btn:hover { background: #0f172a; border-color: #334155; color: #e2e8f0; }
     .sort-btn.active { background: #0f172a; border-color: #6366f1; color: #e2e8f0; }
 
-    /* ── 메인 콘텐츠 ── */
+    /* ── 메인 ── */
     main { flex: 1; min-width: 0; }
+
+    /* ── 날짜 섹션 (토글 컨테이너) ── */
+    .date-section { margin-bottom: 28px; }
+    .date-section[data-date-hidden="true"] { display: none; }
+
+    .date-toggle {
+      display: flex; align-items: center; gap: 10px;
+      width: 100%; background: transparent; border: none;
+      cursor: pointer; padding: 0; margin-bottom: 16px; text-align: left;
+    }
+    .date-toggle .date-label {
+      font-size: 17px; font-weight: 700; color: #f1f5f9;
+    }
+    .date-toggle .date-chip {
+      font-size: 11px; color: #64748b; background: #1e293b;
+      border: 1px solid #334155; padding: 2px 10px; border-radius: 20px;
+    }
+    .date-toggle .date-chip.today {
+      color: #6366f1; border-color: #6366f1; background: rgba(99,102,241,0.1);
+    }
+    .date-toggle .toggle-icon {
+      margin-left: auto; font-size: 13px; color: #475569;
+      transition: transform 0.2s;
+    }
+    .date-toggle.collapsed .toggle-icon { transform: rotate(-90deg); }
+
+    .date-divider {
+      height: 1px; background: #1e293b; margin-bottom: 16px;
+    }
+
+    .date-cards { }
+    .date-cards.collapsed { display: none; }
 
     /* ── 카드 ── */
     .card {
       background: #1e293b; border: 1px solid #334155; border-radius: 14px;
-      padding: 24px; margin-bottom: 20px; transition: border-color 0.2s, transform 0.2s;
+      padding: 24px; margin-bottom: 16px; transition: border-color 0.2s, transform 0.15s;
     }
     .card:hover { border-color: #6366f1; transform: translateY(-2px); }
     .card[data-hidden="true"] { display: none; }
@@ -137,8 +142,8 @@
     .read-btn:hover { background: #6366f1; color: #fff; }
 
     /* ── 빈 결과 ── */
-    .empty-state { text-align: center; padding: 60px 20px; color: #475569; }
-    .empty-state .icon { font-size: 48px; margin-bottom: 16px; }
+    .empty-state { text-align: center; padding: 40px 20px; color: #475569; }
+    .empty-state .icon { font-size: 40px; margin-bottom: 12px; }
 
     /* ── 아카이브 ── */
     .archive-table { width: 100%; border-collapse: collapse; }
@@ -152,7 +157,7 @@
 
     footer { text-align: center; font-size: 12px; color: #334155; padding: 24px; border-top: 1px solid #1e293b; }
 
-    @media (max-width: 680px) {
+    @media (max-width: 700px) {
       .layout { flex-direction: column; }
       .sidebar { width: 100%; position: static; }
     }
@@ -164,10 +169,9 @@
     <h1>데이터 분석 AI 길드 뉴스</h1>
     <div class="meta">데이터 분석가를 위한 AI 실무 뉴스 큐레이션</div>
     <nav>
-      <a href="index.html">최신 뉴스</a>
+      <a href="index.html">홈</a>
       <a href="archive.html">아카이브</a>
     </nav>
-    
   </header>
 
   <div class="layout">
@@ -177,15 +181,15 @@
       <button class="sort-btn active" onclick="setSort('date-desc', this)">🕐 최신순</button>
       <button class="sort-btn" onclick="setSort('date-asc', this)">🕰 오래된 순</button>
     </div></aside>
-    <main id="card-list">
+    <main>
     <div style="margin-bottom:28px;">
       <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📂 전체 아카이브</h2>
     </div>
     <div style="background:#1e293b;border:1px solid #334155;border-radius:14px;overflow:hidden;">
       <table class="archive-table">
         <thead><tr><th>날짜</th><th>기사 수</th></tr></thead>
-        <tbody><tr><td><a href="2026-04-05.html">2026-04-05</a></td><td>0개</td></tr>
-<tr><td><a href="2026-04-03.html">2026-04-03</a></td><td>5개</td></tr>
+        <tbody><tr><td>2026-04-05</td><td>0개</td></tr>
+<tr><td>2026-04-03</td><td>5개</td></tr>
 </tbody>
       </table>
     </div></main>
@@ -194,44 +198,75 @@
   <footer>자동 수집 · OpenAI 큐레이션 · DAI Guild</footer>
 
   <script>
-    // ── 필터 & 정렬 로직 ──
     let activeCategory = 'all';
-    let activeSort = 'score-desc';  // 기본: 관련도 높은 순
+    let activeDate = 'all';
+    let activeSort = 'score-desc';
 
-    function applyFilter() {
-      const cards = document.querySelectorAll('.card');
-      cards.forEach(card => {
-        const cat = card.dataset.category;
-        const hidden = activeCategory !== 'all' && cat !== activeCategory;
-        card.setAttribute('data-hidden', hidden ? 'true' : 'false');
-      });
-    }
-
-    function applySort() {
-      const list = document.getElementById('card-list');
-      const cards = Array.from(list.querySelectorAll('.card'));
-      cards.sort((a, b) => {
-        if (activeSort === 'score-desc') return Number(b.dataset.score) - Number(a.dataset.score);
-        if (activeSort === 'score-asc')  return Number(a.dataset.score) - Number(b.dataset.score);
-        if (activeSort === 'date-desc')  return b.dataset.date.localeCompare(a.dataset.date);
-        if (activeSort === 'date-asc')   return a.dataset.date.localeCompare(b.dataset.date);
-        return 0;
-      });
-      cards.forEach(c => list.appendChild(c));
-    }
-
+    // ── 카테고리 필터 ──
     function setCategory(cat, el) {
       activeCategory = cat;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
       el.classList.add('active');
-      applyFilter();
+      applyFilters();
     }
 
+    // ── 날짜 필터 ──
+    function setDate(date, el) {
+      activeDate = date;
+      document.querySelectorAll('.date-filter-btn').forEach(b => b.classList.remove('active'));
+      el.classList.add('active');
+      applyFilters();
+    }
+
+    // ── 정렬 ──
     function setSort(sort, el) {
       activeSort = sort;
       document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
       el.classList.add('active');
       applySort();
+    }
+
+    function applyFilters() {
+      // 날짜 섹션 표시/숨김
+      document.querySelectorAll('.date-section').forEach(sec => {
+        const dateMatch = activeDate === 'all' || sec.dataset.date === activeDate;
+        sec.setAttribute('data-date-hidden', dateMatch ? 'false' : 'true');
+      });
+
+      // 카드 표시/숨김
+      document.querySelectorAll('.card').forEach(card => {
+        const catMatch = activeCategory === 'all' || card.dataset.category === activeCategory;
+        card.setAttribute('data-hidden', catMatch ? 'false' : 'true');
+      });
+    }
+
+    function applySort() {
+      document.querySelectorAll('.date-cards').forEach(container => {
+        const cards = Array.from(container.querySelectorAll('.card'));
+        cards.sort((a, b) => {
+          if (activeSort === 'score-desc') return Number(b.dataset.score) - Number(a.dataset.score);
+          if (activeSort === 'score-asc')  return Number(a.dataset.score) - Number(b.dataset.score);
+          if (activeSort === 'date-desc')  return b.dataset.date.localeCompare(a.dataset.date);
+          if (activeSort === 'date-asc')   return a.dataset.date.localeCompare(b.dataset.date);
+          return 0;
+        });
+        cards.forEach(c => container.appendChild(c));
+      });
+    }
+
+    // ── 날짜 토글 ──
+    function toggleDate(dateStr) {
+      const btn = document.querySelector(`.date-toggle[data-date="${dateStr}"]`);
+      const cards = document.getElementById('cards-' + dateStr);
+      if (!btn || !cards) return;
+      const isCollapsed = cards.classList.contains('collapsed');
+      if (isCollapsed) {
+        cards.classList.remove('collapsed');
+        btn.classList.remove('collapsed');
+      } else {
+        cards.classList.add('collapsed');
+        btn.classList.add('collapsed');
+      }
     }
   </script>
 </body>
