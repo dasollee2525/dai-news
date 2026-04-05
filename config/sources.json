@@ -1,0 +1,83 @@
+{
+  "sources": [
+    {
+      "name": "블로터",
+      "url": "https://www.bloter.net/feed",
+      "lang": "ko",
+      "region": "domestic",
+      "active": true
+    },
+    {
+      "name": "AI타임스",
+      "url": "https://www.aitimes.com/rss/allArticle.xml",
+      "lang": "ko",
+      "region": "domestic",
+      "active": true
+    },
+    {
+      "name": "동아사이언스",
+      "url": "https://www.dongascience.com/rss/news.xml",
+      "lang": "ko",
+      "region": "domestic",
+      "active": true
+    },
+    {
+      "name": "Towards Data Science",
+      "url": "https://towardsdatascience.com/feed",
+      "lang": "en",
+      "region": "international",
+      "active": true
+    },
+    {
+      "name": "HuggingFace Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "lang": "en",
+      "region": "international",
+      "active": true
+    },
+    {
+      "name": "The Batch (DeepLearning.AI)",
+      "url": "https://www.deeplearning.ai/the-batch/feed/",
+      "lang": "en",
+      "region": "international",
+      "active": true
+    },
+    {
+      "name": "MIT Technology Review - AI",
+      "url": "https://www.technologyreview.com/feed/",
+      "lang": "en",
+      "region": "international",
+      "active": true
+    },
+    {
+      "name": "Analytics Vidhya",
+      "url": "https://www.analyticsvidhya.com/feed/",
+      "lang": "en",
+      "region": "international",
+      "active": true
+    },
+    {
+      "name": "KDnuggets",
+      "url": "https://www.kdnuggets.com/feed",
+      "lang": "en",
+      "region": "international",
+      "active": true
+    }
+  ],
+  "filters": {
+    "include_keywords": [
+      "AI", "인공지능", "artificial intelligence", "machine learning", "머신러닝",
+      "LLM", "GPT", "Claude", "Gemini", "ChatGPT",
+      "데이터 분석", "data analysis", "data analyst", "analytics",
+      "자동화", "automation", "productivity", "생산성",
+      "Copilot", "코파일럿", "노코드", "no-code", "low-code",
+      "Python", "SQL", "pandas", "dashboard", "대시보드",
+      "generative AI", "생성형 AI", "RAG", "agent", "에이전트"
+    ],
+    "exclude_keywords": [
+      "주식", "코인", "암호화폐", "stock", "crypto", "bitcoin",
+      "정치", "선거", "스포츠", "연예", "celebrity",
+      "부동산", "real estate"
+    ]
+  }
+}
