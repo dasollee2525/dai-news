@@ -195,14 +195,30 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-04-05">
-      <button class="date-toggle" data-date="2026-04-05" onclick="toggleDate('2026-04-05')">
-        <span class="date-label">📅 2026년 04월 05일</span>
+    <div class="date-section" data-date="2026-04-06">
+      <button class="date-toggle" data-date="2026-04-06" onclick="toggleDate('2026-04-06')">
+        <span class="date-label">📅 2026년 04월 06일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-04-05">
+      <div class="date-cards" id="cards-2026-04-06">
+        
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-04-05">
+      <button class="date-toggle collapsed" data-date="2026-04-05" onclick="toggleDate('2026-04-05')">
+        <span class="date-label">📅 2026년 04월 05일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-04-05">
         
             <div class="empty-state">
               <div class="icon">🔍</div>
