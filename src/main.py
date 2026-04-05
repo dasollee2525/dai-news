@@ -7,7 +7,7 @@ import os
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
-import anthropic
+from openai import OpenAI
 
 # .env 로드 (로컬 실행 시)
 load_dotenv(Path(__file__).parent.parent / ".env")
@@ -22,12 +22,12 @@ from publisher import publish
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        print("[오류] ANTHROPIC_API_KEY 환경변수가 설정되지 않았습니다.")
+        print("[오류] OPENAI_API_KEY 환경변수가 설정되지 않았습니다.")
         sys.exit(1)
 
-    client = anthropic.Anthropic(api_key=api_key)
+    client = OpenAI(api_key=api_key)
 
     print("=" * 50)
     print("DAI 길드 뉴스 수집 시작")
@@ -41,8 +41,8 @@ def main():
         print("수집된 뉴스가 없습니다. 종료합니다.")
         sys.exit(0)
 
-    # 2단계: Claude API 스코어링
-    print(f"\n[2/4] Claude API로 {len(candidates)}개 기사 큐레이션 중...")
+    # 2단계: OpenAI API 스코어링
+    print(f"\n[2/4] OpenAI API로 {len(candidates)}개 기사 큐레이션 중...")
     scored = score_and_summarize(candidates, client)
 
     # 3단계: 최종 선별
