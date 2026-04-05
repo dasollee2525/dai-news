@@ -1,7 +1,7 @@
 {
   "date": "2026-04-03",
   "generated_at": "2026-04-05T22:54:02.755026+09:00",
-  "count": 4,
+  "count": 3,
   "articles": [
     {
       "title": "What Happens Now That AI is the First Analyst On Your Team?",
@@ -13,7 +13,7 @@
       "region": "international",
       "score": 5,
       "category": "AI트렌드",
-      "published_at": "2026-04-01T09:00:00+09:00",
+      "published_at": "2026-04-01T10:36:00+09:00",
       "reason": "데이터 분석가 커리어와 AI의 관계를 정면으로 다룬 필독 아티클"
     },
     {
@@ -26,34 +26,21 @@
       "region": "international",
       "score": 5,
       "category": "데이터분석+AI",
-      "published_at": "2026-03-31T09:00:00+09:00",
+      "published_at": "2026-03-31T10:35:00+09:00",
       "reason": "대규모 데이터 분석 → 리포트 변환 실전 사례"
     },
     {
-      "title": "Zero Budget, Full Stack: Building with Only Free LLMs",
-      "link": "https://www.kdnuggets.com/zero-budget-full-stack-building-with-only-free-llms",
-      "summary_ko": "무료 LLM만으로 AI 기반 서비스를 풀스택으로 구축하는 방법을 전체 코드와 함께 안내합니다. 비용 없이 LLM을 업무에 활용하고 싶은 분석가에게 실용적인 가이드입니다.",
-      "summary_raw": "Building a full-stack AI app using only free LLMs.",
-      "source": "KDnuggets",
+      "title": "How to Lie with Statistics with your Robot Best Friend",
+      "link": "https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/",
+      "summary_ko": "AI를 활용해 p-hacking 등 통계 분석의 대표적 함정을 탐구합니다. Python + AI로 통계적 편향을 발견하고 데이터를 올바르게 해석하는 방법을 다루며, 분석가가 AI 도구를 비판적으로 사용하는 데 도움이 됩니다.",
+      "summary_raw": "Using AI to explore statistical traps and p-hacking in data analysis.",
+      "source": "Towards Data Science",
       "lang": "en",
       "region": "international",
       "score": 4,
-      "category": "AI도구활용",
-      "published_at": "2026-03-31T08:00:00+09:00",
-      "reason": "무료 LLM 실무 활용 가이드"
-    },
-    {
-      "title": "LLMOps in 2026: The 10 Tools Every Team Must Have",
-      "link": "https://www.kdnuggets.com/llmops-in-2026-the-10-tools-every-team-must-have",
-      "summary_ko": "2026년 LLM 기반 AI 시스템 운영에 필수적인 LLMOps 툴 10가지를 정리합니다. 분석 팀에서 LLM을 안정적으로 운영하고 싶다면 참고할 만한 도구 목록입니다.",
-      "summary_raw": "The 10 LLMOps tools every team must have in 2026.",
-      "source": "KDnuggets",
-      "lang": "en",
-      "region": "international",
-      "score": 4,
-      "category": "AI도구활용",
-      "published_at": "2026-04-02T08:00:00+09:00",
-      "reason": "LLM 운영 도구 실무 정리"
+      "category": "데이터분석+AI",
+      "published_at": "2026-03-30T15:06:21+09:00",
+      "reason": "Python + AI로 통계 분석 함정 탐구, 분석가 필수 소양"
     }
   ]
 }

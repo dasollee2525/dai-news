@@ -28,6 +28,20 @@
     }
     header nav a:hover { color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }
 
+    /* ── 날짜 네비게이션 ── */
+    .date-nav {
+      display: flex; align-items: center; justify-content: center;
+      gap: 12px; margin-top: 16px;
+    }
+    .date-nav a, .date-nav span {
+      font-size: 13px; color: #94a3b8; text-decoration: none;
+      padding: 5px 14px; border: 1px solid #1e293b;
+      border-radius: 20px; transition: all 0.2s;
+    }
+    .date-nav a:hover { color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }
+    .date-nav .current { color: #f1f5f9; border-color: #6366f1; background: rgba(99,102,241,0.15); font-weight: 600; }
+    .date-nav .disabled { color: #334155; border-color: #1e293b; cursor: default; pointer-events: none; }
+
     /* ── 레이아웃 ── */
     .layout {
       display: flex;
@@ -153,6 +167,7 @@
       <a href="index.html">최신 뉴스</a>
       <a href="archive.html">아카이브</a>
     </nav>
+    
   </header>
 
   <div class="layout">
@@ -170,8 +185,7 @@
       <table class="archive-table">
         <thead><tr><th>날짜</th><th>기사 수</th></tr></thead>
         <tbody><tr><td><a href="2026-04-05.html">2026-04-05</a></td><td>0개</td></tr>
-<tr><td><a href="2026-04-04.html">2026-04-04</a></td><td>3개</td></tr>
-<tr><td><a href="2026-04-03.html">2026-04-03</a></td><td>4개</td></tr>
+<tr><td><a href="2026-04-03.html">2026-04-03</a></td><td>5개</td></tr>
 </tbody>
       </table>
     </div></main>

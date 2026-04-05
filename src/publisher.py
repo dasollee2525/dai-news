@@ -32,7 +32,7 @@ CATEGORY_EMOJI = {
 }
 
 
-def _base_html(title: str, sidebar: str, body: str) -> str:
+def _base_html(title: str, sidebar: str, body: str, date_nav: str = "") -> str:
     return f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -62,6 +62,20 @@ def _base_html(title: str, sidebar: str, body: str) -> str:
       border-radius: 20px; transition: all 0.2s;
     }}
     header nav a:hover {{ color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }}
+
+    /* ── 날짜 네비게이션 ── */
+    .date-nav {{
+      display: flex; align-items: center; justify-content: center;
+      gap: 12px; margin-top: 16px;
+    }}
+    .date-nav a, .date-nav span {{
+      font-size: 13px; color: #94a3b8; text-decoration: none;
+      padding: 5px 14px; border: 1px solid #1e293b;
+      border-radius: 20px; transition: all 0.2s;
+    }}
+    .date-nav a:hover {{ color: #e2e8f0; border-color: #6366f1; background: rgba(99,102,241,0.1); }}
+    .date-nav .current {{ color: #f1f5f9; border-color: #6366f1; background: rgba(99,102,241,0.15); font-weight: 600; }}
+    .date-nav .disabled {{ color: #334155; border-color: #1e293b; cursor: default; pointer-events: none; }}
 
     /* ── 레이아웃 ── */
     .layout {{
@@ -188,6 +202,7 @@ def _base_html(title: str, sidebar: str, body: str) -> str:
       <a href="index.html">최신 뉴스</a>
       <a href="archive.html">아카이브</a>
     </nav>
+    {date_nav}
   </header>
 
   <div class="layout">
@@ -335,6 +350,35 @@ def _daily_body(data: dict) -> tuple[str, str]:
     return _sidebar_html(articles), header + cards
 
 
+def _get_sorted_dates() -> list:
+    """archive/index.json에서 날짜 목록을 정렬해서 반환"""
+    if not ARCHIVE_INDEX.exists():
+        return []
+    with open(ARCHIVE_INDEX, "r", encoding="utf-8") as f:
+        index = json.load(f)
+    return sorted([e["date"] for e in index.get("entries", [])], reverse=True)
+
+
+def _date_nav_html(date_str: str, all_dates: list) -> str:
+    """이전/현재/다음 날짜 네비게이션 HTML"""
+    if not all_dates:
+        return ""
+    # all_dates는 최신순 정렬 → index 0이 가장 최신
+    try:
+        idx = all_dates.index(date_str)
+    except ValueError:
+        return ""
+
+    prev_date = all_dates[idx + 1] if idx + 1 < len(all_dates) else None  # 이전(오래된)
+    next_date = all_dates[idx - 1] if idx - 1 >= 0 else None              # 다음(최신)
+
+    prev_html = f'<a href="{prev_date}.html">← {prev_date}</a>' if prev_date else '<span class="disabled">← 이전</span>'
+    next_html = f'<a href="{next_date}.html">{next_date} →</a>' if next_date else '<span class="disabled">다음 →</span>'
+    current_html = f'<span class="current">📅 {date_str}</span>'
+
+    return f'<div class="date-nav">{prev_html}{current_html}{next_html}</div>'
+
+
 def publish(date_str: str = None):
     if date_str is None:
         date_str = datetime.now(KST).strftime("%Y-%m-%d")
@@ -355,8 +399,10 @@ def publish(date_str: str = None):
     except Exception:
         date_ko = date_str
 
+    all_dates = _get_sorted_dates()
+    date_nav = _date_nav_html(date_str, all_dates)
     sidebar, body = _daily_body(data)
-    page = _base_html(f"DAI 길드 뉴스 — {date_ko}", sidebar, body)
+    page = _base_html(f"DAI 길드 뉴스 — {date_ko}", sidebar, body, date_nav)
 
     (DOCS_DIR / "index.html").write_text(page, encoding="utf-8")
     print(f"  생성: docs/index.html")
