@@ -178,9 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">3</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">6</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">2</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -195,14 +196,76 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-04-07">
-      <button class="date-toggle" data-date="2026-04-07" onclick="toggleDate('2026-04-07')">
-        <span class="date-label">📅 2026년 04월 07일</span>
+    <div class="date-section" data-date="2026-04-08">
+      <button class="date-toggle" data-date="2026-04-08" onclick="toggleDate('2026-04-08')">
+        <span class="date-label">📅 2026년 04월 08일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-04-07">
+      <div class="date-cards" id="cards-2026-04-08">
+        
+    <div class="card" data-category="생산성" data-score="5" data-date="2026-04-08T00:00:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.08 00:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">4,700개 PDF 문서 추출 시스템을 만드는데 사용된 GPT-4 Vision의 활용 사례로, 분석가가 적용할 수 있는 방법이 설명되어 있음.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI트렌드" data-score="4" data-date="2026-04-08T01:30:00">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Democratizing Marketing Mix Models (MMM) with Open Source and Gen AI</div>
+      </div>
+      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.08 01:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">오픈소스 Bayesian MMM과 GenAI를 결합한 마케팅 분석 통찰력 도출 시스템 설계.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/democratizing-marketing-mix-models-mmm-with-open-source-and-gen-ai/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-04-07T23:00:00">
+      <div class="card-header">
+        <div class="card-number">3</div>
+        <div class="card-title">Enabling agent-first process redesign</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>MIT Technology Review - AI</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.07 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">AI 에이전트가 데이터와 상호작용하며 프로세스를 최적화 하는 방법을 설명하여 분석 워크플로우 혁신을 제시.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-04-07">
+      <button class="date-toggle collapsed" data-date="2026-04-07" onclick="toggleDate('2026-04-07')">
+        <span class="date-label">📅 2026년 04월 07일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-04-07">
         
             <div class="empty-state">
               <div class="icon">🔍</div>

@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T07:39:34.627375+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs",
+      "link": "https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/",
+      "summary_raw": "<p>How a hybrid PyMuPDF + GPT-4 Vision pipeline replaced £8,000 in manual engineering effort, and why the latest models weren’t the answer</p>\n<p>The post <a href=\"https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/\">From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-08T00:00:00+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "4,700개 PDF 문서 추출 시스템을 만드는데 사용된 GPT-4 Vision의 활용 사례로, 분석가가 적용할 수 있는 방법이 설명되어 있음.",
+      "reason": "구체적 사례를 통해 분석가들이 실무에 즉시 적용할 수 있는 도움을 주는 기사."
+    },
+    {
+      "title": "Democratizing Marketing Mix Models (MMM) with Open Source and Gen AI",
+      "link": "https://towardsdatascience.com/democratizing-marketing-mix-models-mmm-with-open-source-and-gen-ai/",
+      "summary_raw": "<p>A practical system design combining open-source Bayesian MMM and GenAI for transparent, vendor independent marketing analytics insights.</p>\n<p>The post <a href=\"https://towardsdatascience.com/democratizing-marketing-mix-models-mmm-with-open-source-and-gen-ai/\">Democratizing Marketing Mix Models (MMM) with Open Source and Gen AI</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-08T01:30:00+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "오픈소스 Bayesian MMM과 GenAI를 결합한 마케팅 분석 통찰력 도출 시스템 설계.",
+      "reason": "분석 업무에 실제로 사용할 수 있는 접근법을 제시하고 있어 유용함."
+    },
+    {
+      "title": "Enabling agent-first process redesign",
+      "link": "https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/",
+      "summary_raw": "Unlike static, rules-based systems, AI agents can learn, adapt, and optimize processes dynamically. As they interact with data, systems, people, and other agents in real time, AI agents can execute entire workflows autonomously. But unlocking their potential requires redesigning processes around agents rather than bolting them onto fragmented legacy workflows using traditional optimization methods. Companies&#8230;",
+      "source": "MIT Technology Review - AI",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-07T23:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "AI 에이전트가 데이터와 상호작용하며 프로세스를 최적화 하는 방법을 설명하여 분석 워크플로우 혁신을 제시.",
+      "reason": "AI와 데이터 분석의 활용 가능성을 탐구한 유용한 내용."
+    }
+  ]
+}
