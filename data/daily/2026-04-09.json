@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-09",
+  "generated_at": "2026-04-09T07:40:17.003481+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs",
+      "link": "https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/",
+      "summary_raw": "<p>How a hybrid PyMuPDF + GPT-4 Vision pipeline replaced £8,000 in manual engineering effort, and why the latest models weren’t the answer</p>\n<p>The post <a href=\"https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/\">From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-08T00:00:00+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "GPT-4 Vision과 PyMuPDF를 활용하여 대량의 PDF 문서에서 정보를 추출하는 과정을 설명하며, 그로 인해 수동 작업 시간을 크게 단축할 수 있음을 보여줍니다. 데이터 분석가는 이를 문서 처리 자동화에 활용할 수 있습니다.",
+      "reason": "문서 추출 시스템을 설계하여 분석가의 업무 생산성을 높일 수 있는 실용적인 사례."
+    },
+    {
+      "title": "7 Steps to Mastering Retrieval-Augmented Generation",
+      "link": "https://www.kdnuggets.com/7-steps-to-mastering-retrieval-augmented-generation",
+      "summary_raw": "As language model applications evolved, they increasingly became one with so-called RAG architectures: learn 7 key steps deemed essential to mastering their successful development.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-07T23:00:59+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "Retrieval-Augmented Generation(RAG)을 마스터하기 위한 7단계를 제시하고 있어 분석 자동화와 관련된 실용적인 정보 제공.",
+      "reason": "RAG를 데이터 분석에 활용할 수 있는 가능성을 제시."
+    }
+  ]
+}

@@ -178,12 +178,12 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">전체 통계</div>
-      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📅 5일 수집</div>
-      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📰 총 6개 기사</div>
+      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📅 6일 수집</div>
+      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📰 총 8개 기사</div>
     </div>
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('데이터분석plusAI')"><span style="width:8px;height:8px;border-radius:50%;background:#0ea5e9;flex-shrink:0;display:inline-block;"></span>📊 데이터분석+AI<span style="margin-left:auto;color:#475569;">3</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('생산성')"><span style="width:8px;height:8px;border-radius:50%;background:#10b981;flex-shrink:0;display:inline-block;"></span>⚡ 생산성<span style="margin-left:auto;color:#475569;">1</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('AI트렌드')"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;flex-shrink:0;display:inline-block;"></span>📡 AI트렌드<span style="margin-left:auto;color:#475569;">2</span></div>
+      <div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('데이터분석plusAI')"><span style="width:8px;height:8px;border-radius:50%;background:#0ea5e9;flex-shrink:0;display:inline-block;"></span>📊 데이터분석+AI<span style="margin-left:auto;color:#475569;">3</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('LLM응용')"><span style="width:8px;height:8px;border-radius:50%;background:#8b5cf6;flex-shrink:0;display:inline-block;"></span>🤖 LLM응용<span style="margin-left:auto;color:#475569;">1</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('생산성')"><span style="width:8px;height:8px;border-radius:50%;background:#10b981;flex-shrink:0;display:inline-block;"></span>⚡ 생산성<span style="margin-left:auto;color:#475569;">2</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('AI트렌드')"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;flex-shrink:0;display:inline-block;"></span>📡 AI트렌드<span style="margin-left:auto;color:#475569;">2</span></div>
     </div>
     <div class="sidebar-section">
       <a href="index.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;" onmouseover="this.style.color='#e2e8f0'" onmouseout="this.style.color='#94a3b8'">← 홈으로</a>
@@ -191,7 +191,7 @@
     <main>
     <div style="margin-bottom:28px;">
       <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📂 전체 아카이브</h2>
-      <p style="font-size:13px;color:#64748b;margin-top:4px;">총 5일 · 6개 기사</p>
+      <p style="font-size:13px;color:#64748b;margin-top:4px;">총 6일 · 8개 기사</p>
     </div>
     
         <div style="margin-bottom:16px;">
@@ -242,17 +242,53 @@
           </div>
         </div>
         <div style="margin-bottom:16px;">
+          <button onclick="toggleCat('LLM응용')"
+            style="display:flex;align-items:center;gap:10px;width:100%;background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;cursor:pointer;text-align:left;transition:border-color 0.2s;"
+            onmouseover="this.style.borderColor='#8b5cf6'" onmouseout="this.style.borderColor='#334155'">
+            <span style="font-size:20px;">🤖</span>
+            <span style="font-size:16px;font-weight:700;color:#f1f5f9;">LLM응용</span>
+            <span style="font-size:12px;color:#8b5cf6;background:#8b5cf622;border:1px solid #8b5cf644;padding:2px 10px;border-radius:20px;">1개</span>
+            <span id="icon-LLM응용" style="margin-left:auto;color:#475569;font-size:13px;transition:transform 0.2s;">▼</span>
+          </button>
+          <div id="cat-LLM응용"
+            style="display:none;background:#1e293b;border:1px solid #334155;border-top:none;border-radius:0 0 14px 14px;padding:0 20px 8px;">
+            
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-09</span>
+                <span style="font-size:11px;color:#64748b;">🌐 KDnuggets</span>
+                <span style='font-size:11px;color:#475569;'>· 2026.04.07 23:00 KST</span>
+              </div>
+              <a href="https://www.kdnuggets.com/7-steps-to-mastering-retrieval-augmented-generation" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">7 Steps to Mastering Retrieval-Augmented Generation</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">Retrieval-Augmented Generation(RAG)을 마스터하기 위한 7단계를 제시하고 있어 분석 자동화와 관련된 실용적인 정보 제공.</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-bottom:16px;">
           <button onclick="toggleCat('생산성')"
             style="display:flex;align-items:center;gap:10px;width:100%;background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;cursor:pointer;text-align:left;transition:border-color 0.2s;"
             onmouseover="this.style.borderColor='#10b981'" onmouseout="this.style.borderColor='#334155'">
             <span style="font-size:20px;">⚡</span>
             <span style="font-size:16px;font-weight:700;color:#f1f5f9;">생산성</span>
-            <span style="font-size:12px;color:#10b981;background:#10b98122;border:1px solid #10b98144;padding:2px 10px;border-radius:20px;">1개</span>
+            <span style="font-size:12px;color:#10b981;background:#10b98122;border:1px solid #10b98144;padding:2px 10px;border-radius:20px;">2개</span>
             <span id="icon-생산성" style="margin-left:auto;color:#475569;font-size:13px;transition:transform 0.2s;">▼</span>
           </button>
           <div id="cat-생산성"
             style="display:none;background:#1e293b;border:1px solid #334155;border-top:none;border-radius:0 0 14px 14px;padding:0 20px 8px;">
             
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-09</span>
+                <span style="font-size:11px;color:#64748b;">🌐 Towards Data Science</span>
+                <span style='font-size:11px;color:#475569;'>· 2026.04.08 00:00 KST</span>
+              </div>
+              <a href="https://towardsdatascience.com/from-4-weeks-to-45-minutes-designing-a-document-extraction-system-for-4700-pdfs/" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">From 4 Weeks to 45 Minutes: Designing a Document Extraction System for 4,700+ PDFs</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">GPT-4 Vision과 PyMuPDF를 활용하여 대량의 PDF 문서에서 정보를 추출하는 과정을 설명하며, 그로 인해 수동 작업 시간을 크게 단축할 수 있음을 보여줍니다. 데이터 분석가는 이를 문서 처리 자동화에 활용할 수 있습니다.</p>
+            </div>
             <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
               <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
                 <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-08</span>
