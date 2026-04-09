@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T07:41:34.956705+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Grounding Your LLM: A Practical Guide to RAG for Enterprise Knowledge Bases",
+      "link": "https://towardsdatascience.com/grounding-your-llm-a-practical-guide-to-rag-for-enterprise-knowledge-bases/",
+      "summary_raw": "<p>A clear mental model and a practical foundation you can build on</p>\n<p>The post <a href=\"https://towardsdatascience.com/grounding-your-llm-a-practical-guide-to-rag-for-enterprise-knowledge-bases/\">Grounding Your LLM: A Practical Guide to RAG for Enterprise Knowledge Bases</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-08T21:00:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "RAG(기반) 모델을 기업 지식 기반에 통합하는 방법론을 제시하며, 데이터 분석에서 실질적으로 활용 가능함.",
+      "reason": "데이터 분석가가 즉시 적용할 수 있는 AI 활용 방법 제시"
+    }
+  ]
+}
