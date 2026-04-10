@@ -178,11 +178,12 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">3</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">8</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -197,14 +198,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-04-10">
-      <button class="date-toggle" data-date="2026-04-10" onclick="toggleDate('2026-04-10')">
-        <span class="date-label">📅 2026년 04월 10일</span>
+    <div class="date-section" data-date="2026-04-11">
+      <button class="date-toggle" data-date="2026-04-11" onclick="toggleDate('2026-04-11')">
+        <span class="date-label">📅 2026년 04월 11일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-04-10">
+      <div class="date-cards" id="cards-2026-04-11">
+        
+    <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-04-10T23:00:06">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Advanced NotebookLM Tips & Tricks for Power Users</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.10 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">NotebookLM의 새로운 기능을 통해 데이터 분석가가 실무의 워크플로우를 개선하고 생산성을 높일 수 있는 방법을 제시하고 있음.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-04-09T23:15:00">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">베스핀글로벌, 기업 AX 최적화 플랫폼 ‘헬프나우 AI 파운드리’ 출시</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.09 23:15 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">헬프나우 AI 파운드는 기업 AI 최적화를 지원하는 통합 플랫폼으로, 데이터 분석가들이 AI를 활용한 데이터 관리 및 검색 품질을 높일 수 있게 돕는다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=209021" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-04-10">
+      <button class="date-toggle collapsed" data-date="2026-04-10" onclick="toggleDate('2026-04-10')">
+        <span class="date-label">📅 2026년 04월 10일</span>
+        <span class="date-chip">1개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-04-10">
         
     <div class="card" data-category="LLM응용" data-score="5" data-date="2026-04-08T21:00:00">
       <div class="card-header">
@@ -377,68 +423,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-04-03">
-      <button class="date-toggle collapsed" data-date="2026-04-03" onclick="toggleDate('2026-04-03')">
-        <span class="date-label">📅 2026년 04월 03일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-04-03">
-        
-    <div class="card" data-category="AI트렌드" data-score="5" data-date="2026-04-01T10:36:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">What Happens Now That AI is the First Analyst On Your Team?</div>
-      </div>
-      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.04.01 10:36 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">AI가 팀의 첫 번째 분석가 역할을 맡게 되면 기존 데이터 분석가의 역할은 어떻게 달라질까요? AI 자동화 시대에 분석가가 어떻게 적응하고 더 높은 가치를 만들어야 하는지를 실무 관점에서 논합니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/what-happens-now-that-ai-is-the-first-analyst-on-your-team/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-03-31T10:35:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">Turning 127 Million Data Points Into an Industry Report</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.03.31 10:35 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">1억 2700만 개의 데이터 포인트를 데이터 랭글링, 세그멘테이션, 스토리텔링 기법으로 산업 보고서로 변환한 실무 경험을 공유합니다. 대용량 데이터를 인사이트로 바꾸는 전 과정을 다룹니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/turning-127-million-data-points-into-an-industry-report/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-03-30T15:06:21">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">How to Lie with Statistics with your Robot Best Friend</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.03.30 15:06 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">AI를 활용해 p-hacking 등 통계 분석의 대표적 함정을 탐구합니다. Python + AI로 통계적 편향을 발견하고 데이터를 올바르게 해석하는 방법을 다루며, 분석가가 AI 도구를 비판적으로 사용하는 데 도움이 됩니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/how-to-lie-with-statistics-with-your-robot-best-friend/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>

@@ -178,12 +178,12 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">전체 통계</div>
-      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📅 7일 수집</div>
-      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📰 총 9개 기사</div>
+      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📅 8일 수집</div>
+      <div style="font-size:13px;color:#94a3b8;padding:4px 0;">📰 총 11개 기사</div>
     </div>
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('데이터분석plusAI')"><span style="width:8px;height:8px;border-radius:50%;background:#0ea5e9;flex-shrink:0;display:inline-block;"></span>📊 데이터분석+AI<span style="margin-left:auto;color:#475569;">3</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('LLM응용')"><span style="width:8px;height:8px;border-radius:50%;background:#8b5cf6;flex-shrink:0;display:inline-block;"></span>🤖 LLM응용<span style="margin-left:auto;color:#475569;">2</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('생산성')"><span style="width:8px;height:8px;border-radius:50%;background:#10b981;flex-shrink:0;display:inline-block;"></span>⚡ 생산성<span style="margin-left:auto;color:#475569;">2</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('AI트렌드')"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;flex-shrink:0;display:inline-block;"></span>📡 AI트렌드<span style="margin-left:auto;color:#475569;">2</span></div>
+      <div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('AI도구활용')"><span style="width:8px;height:8px;border-radius:50%;background:#6366f1;flex-shrink:0;display:inline-block;"></span>🛠️ AI도구활용<span style="margin-left:auto;color:#475569;">1</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('데이터분석plusAI')"><span style="width:8px;height:8px;border-radius:50%;background:#0ea5e9;flex-shrink:0;display:inline-block;"></span>📊 데이터분석+AI<span style="margin-left:auto;color:#475569;">4</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('LLM응용')"><span style="width:8px;height:8px;border-radius:50%;background:#8b5cf6;flex-shrink:0;display:inline-block;"></span>🤖 LLM응용<span style="margin-left:auto;color:#475569;">2</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('생산성')"><span style="width:8px;height:8px;border-radius:50%;background:#10b981;flex-shrink:0;display:inline-block;"></span>⚡ 생산성<span style="margin-left:auto;color:#475569;">2</span></div><div style="display:flex;align-items:center;gap:8px;padding:6px 0;font-size:13px;color:#94a3b8;cursor:pointer;" onclick="toggleCat('AI트렌드')"><span style="width:8px;height:8px;border-radius:50%;background:#f59e0b;flex-shrink:0;display:inline-block;"></span>📡 AI트렌드<span style="margin-left:auto;color:#475569;">2</span></div>
     </div>
     <div class="sidebar-section">
       <a href="index.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;" onmouseover="this.style.color='#e2e8f0'" onmouseout="this.style.color='#94a3b8'">← 홈으로</a>
@@ -191,21 +191,57 @@
     <main>
     <div style="margin-bottom:28px;">
       <h2 style="font-size:20px;font-weight:700;color:#f1f5f9;">📂 전체 아카이브</h2>
-      <p style="font-size:13px;color:#64748b;margin-top:4px;">총 7일 · 9개 기사</p>
+      <p style="font-size:13px;color:#64748b;margin-top:4px;">총 8일 · 11개 기사</p>
     </div>
     
+        <div style="margin-bottom:16px;">
+          <button onclick="toggleCat('AI도구활용')"
+            style="display:flex;align-items:center;gap:10px;width:100%;background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;cursor:pointer;text-align:left;transition:border-color 0.2s;"
+            onmouseover="this.style.borderColor='#6366f1'" onmouseout="this.style.borderColor='#334155'">
+            <span style="font-size:20px;">🛠️</span>
+            <span style="font-size:16px;font-weight:700;color:#f1f5f9;">AI도구활용</span>
+            <span style="font-size:12px;color:#6366f1;background:#6366f122;border:1px solid #6366f144;padding:2px 10px;border-radius:20px;">1개</span>
+            <span id="icon-AI도구활용" style="margin-left:auto;color:#475569;font-size:13px;transition:transform 0.2s;">▼</span>
+          </button>
+          <div id="cat-AI도구활용"
+            style="display:none;background:#1e293b;border:1px solid #334155;border-top:none;border-radius:0 0 14px 14px;padding:0 20px 8px;">
+            
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-11</span>
+                <span style="font-size:11px;color:#64748b;">🌐 KDnuggets</span>
+                <span style='font-size:11px;color:#475569;'>· 2026.04.10 23:00 KST</span>
+              </div>
+              <a href="https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">Advanced NotebookLM Tips & Tricks for Power Users</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">NotebookLM의 새로운 기능을 통해 데이터 분석가가 실무의 워크플로우를 개선하고 생산성을 높일 수 있는 방법을 제시하고 있음.</p>
+            </div>
+          </div>
+        </div>
         <div style="margin-bottom:16px;">
           <button onclick="toggleCat('데이터분석plusAI')"
             style="display:flex;align-items:center;gap:10px;width:100%;background:#1e293b;border:1px solid #334155;border-radius:14px;padding:18px 20px;cursor:pointer;text-align:left;transition:border-color 0.2s;"
             onmouseover="this.style.borderColor='#0ea5e9'" onmouseout="this.style.borderColor='#334155'">
             <span style="font-size:20px;">📊</span>
             <span style="font-size:16px;font-weight:700;color:#f1f5f9;">데이터분석+AI</span>
-            <span style="font-size:12px;color:#0ea5e9;background:#0ea5e922;border:1px solid #0ea5e944;padding:2px 10px;border-radius:20px;">3개</span>
+            <span style="font-size:12px;color:#0ea5e9;background:#0ea5e922;border:1px solid #0ea5e944;padding:2px 10px;border-radius:20px;">4개</span>
             <span id="icon-데이터분석plusAI" style="margin-left:auto;color:#475569;font-size:13px;transition:transform 0.2s;">▼</span>
           </button>
           <div id="cat-데이터분석plusAI"
             style="display:none;background:#1e293b;border:1px solid #334155;border-top:none;border-radius:0 0 14px 14px;padding:0 20px 8px;">
             
+            <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
+              <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
+                <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-11</span>
+                <span style="font-size:11px;color:#64748b;">🇰🇷 AI타임스</span>
+                <span style='font-size:11px;color:#475569;'>· 2026.04.09 23:15 KST</span>
+              </div>
+              <a href="https://www.aitimes.com/news/articleView.html?idxno=209021" target="_blank" rel="noopener"
+                 style="font-size:15px;font-weight:600;color:#f1f5f9;text-decoration:none;line-height:1.4;display:block;margin-bottom:6px;"
+                 onmouseover="this.style.color='#6366f1'" onmouseout="this.style.color='#f1f5f9'">베스핀글로벌, 기업 AX 최적화 플랫폼 ‘헬프나우 AI 파운드리’ 출시</a>
+              <p style="font-size:13px;color:#64748b;line-height:1.6;">헬프나우 AI 파운드는 기업 AI 최적화를 지원하는 통합 플랫폼으로, 데이터 분석가들이 AI를 활용한 데이터 관리 및 검색 품질을 높일 수 있게 돕는다.</p>
+            </div>
             <div style="padding:16px 0;border-bottom:1px solid #1e293b;">
               <div style="display:flex;align-items:center;gap:8px;margin-bottom:6px;">
                 <span style="font-size:11px;color:#475569;background:#0f172a;padding:2px 8px;border-radius:10px;">2026-04-08</span>
