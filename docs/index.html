@@ -178,11 +178,11 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">8</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">1</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
 
     </div>
@@ -198,14 +198,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-04-11">
-      <button class="date-toggle" data-date="2026-04-11" onclick="toggleDate('2026-04-11')">
-        <span class="date-label">📅 2026년 04월 11일</span>
+    <div class="date-section" data-date="2026-04-12">
+      <button class="date-toggle" data-date="2026-04-12" onclick="toggleDate('2026-04-12')">
+        <span class="date-label">📅 2026년 04월 12일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-04-11">
+      <div class="date-cards" id="cards-2026-04-12">
+        
+    <div class="card" data-category="생산성" data-score="5" data-date="2026-04-10T23:00:06">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Advanced NotebookLM Tips & Tricks for Power Users</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.10 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">NotebookLM의 새로운 기능을 활용하여 데이터 분석가는 업무 생산성을 향상시킬 수 있다. 고급 사용자가 일상적인 워크플로우에 적용할 수 있는 실용적인 팁을 제공한다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-04-11T17:16:57">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Understanding BERTopic: From Raw Text to Interpretable Topics</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.11 17:16 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">BERTopic 모델은 데이터 분석가가 대량의 문서에서 주제를 추출할 때 활용할 수 있다. 텍스트 데이터의 숨은 테마를 찾아내는 데 유용한 도구로, 실무에서 적용 가능하다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/04/bertopic-guide/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-04-11">
+      <button class="date-toggle collapsed" data-date="2026-04-11" onclick="toggleDate('2026-04-11')">
+        <span class="date-label">📅 2026년 04월 11일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-04-11">
         
     <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-04-10T23:00:06">
       <div class="card-header">
@@ -402,22 +447,6 @@
       </button>
       <div class="date-divider"></div>
       <div class="date-cards collapsed" id="cards-2026-04-06">
-        
-            <div class="empty-state">
-              <div class="icon">🔍</div>
-              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
-            </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-04-05">
-      <button class="date-toggle collapsed" data-date="2026-04-05" onclick="toggleDate('2026-04-05')">
-        <span class="date-label">📅 2026년 04월 05일</span>
-        <span class="date-chip">0개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-04-05">
         
             <div class="empty-state">
               <div class="icon">🔍</div>

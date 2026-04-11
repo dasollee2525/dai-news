@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-04-12T07:33:53.587431+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Advanced NotebookLM Tips & Tricks for Power Users",
+      "link": "https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users",
+      "summary_raw": "Let's break down five newly introduced, high-impact features, and discuss how advanced practitioners can incorporate them into their daily workflows to maximize productivity.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-10T23:00:06+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "NotebookLM의 새로운 기능을 활용하여 데이터 분석가는 업무 생산성을 향상시킬 수 있다. 고급 사용자가 일상적인 워크플로우에 적용할 수 있는 실용적인 팁을 제공한다.",
+      "reason": "실무에 바로 적용 가능한 팁을 제공하여 분석가에게 유용하다"
+    },
+    {
+      "title": "Understanding BERTopic: From Raw Text to Interpretable Topics",
+      "link": "https://www.analyticsvidhya.com/blog/2026/04/bertopic-guide/",
+      "summary_raw": "<p>Topic modeling uncovers hidden themes in large document collections. Traditional methods like Latent Dirichlet Allocation rely on word frequency and treat text as bags of words, often missing deeper context and meaning. BERTopic takes a different route, combining transformer embeddings, clustering, and c-TF-IDF to capture semantic relationships between documents. It produces more meaningful, context-aware topics [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/04/b",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-11T17:16:57+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "BERTopic 모델은 데이터 분석가가 대량의 문서에서 주제를 추출할 때 활용할 수 있다. 텍스트 데이터의 숨은 테마를 찾아내는 데 유용한 도구로, 실무에서 적용 가능하다.",
+      "reason": "주제 모델링 툴인 BERTopic 활용 방안으로 분석가에게 유용하다"
+    }
+  ]
+}
