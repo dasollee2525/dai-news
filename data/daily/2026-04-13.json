@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-13",
+  "generated_at": "2026-04-13T07:35:49.726680+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Advanced RAG Retrieval: Cross-Encoders & Reranking",
+      "link": "https://towardsdatascience.com/advanced-rag-retrieval-cross-encoders-reranking/",
+      "summary_raw": "<p>A deep-dive and practical guide to cross-encoders, advanced techniques, and why your retrieval pipeline deserves a second pass.</p>\n<p>The post <a href=\"https://towardsdatascience.com/advanced-rag-retrieval-cross-encoders-reranking/\">Advanced RAG Retrieval: Cross-Encoders &amp; Reranking</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-12T00:00:00+09:00",
+      "score": 4,
+      "category": "LRA응용",
+      "summary_ko": "고급 RAG 조회 방법론에 대한 심화 가이드를 제공하여 데이터 분석의 효율성을 높일 수 있는 내용이다.",
+      "reason": "데이터 분석 워크플로우에 AI를 결합한 실용적이며 구체적인 내용이 제시되어 있다."
+    }
+  ]
+}
