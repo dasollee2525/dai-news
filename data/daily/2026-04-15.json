@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T07:47:05.354572+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Excel 101: Excel Agent Mode Explained",
+      "link": "https://www.analyticsvidhya.com/blog/2026/04/excel-agent-mode-explained/",
+      "summary_raw": "<p>We have come far in our series of Excel 101, exploring various functions and formulas of the service and how best to use them in real-world scenarios. For those who are new to this, make sure to check out the complete list of Excel functions that we have covered so far in the links shared [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/04/excel-agent-mode-explained/\">Excel 101: Excel Agent Mode Explained</a> appeared first on <a href=\"https://www.analyticsvidhya.c",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-15T00:36:59+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Excel Agent Mode를 설명하며 데이터 분석가가 실무에서 AI를 이용한 업무 자동화의 기초를 제공.",
+      "reason": "Excel의 AI 기능을 활용한 분석 업무 자동화 방법을 다루고 있음."
+    }
+  ]
+}
