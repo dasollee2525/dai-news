@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T07:41:47.064251+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Maximize Claude Cowork",
+      "link": "https://towardsdatascience.com/how-to-maximize-claude-cowork/",
+      "summary_raw": "<p>Learn how to get the most out of Claude Cowork</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-maximize-claude-cowork/\">How to Maximize Claude Cowork</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-16T01:30:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude Cowork의 활용 방법을 제시하며 데이터 분석 업무에 실질적인 도움 될 수 있는 팁들을 제공하고 있다.",
+      "reason": "AI 도구를 활용한 실제 적용 사례로 분석가에게 유용함."
+    },
+    {
+      "title": "From OpenStreetMap to Power BI: Visualizing Wild Swimming Locations",
+      "link": "https://towardsdatascience.com/from-openstreetmap-to-power-bi-visualizing-wild-swimming-locations/",
+      "summary_raw": "<p>How to turn OpenStreetMap data into an interactive map of wild swimming spots using Overpass API and Power BI.</p>\n<p>The post <a href=\"https://towardsdatascience.com/from-openstreetmap-to-power-bi-visualizing-wild-swimming-locations/\">From OpenStreetMap to Power BI: Visualizing Wild Swimming Locations</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-15T21:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "OpenStreetMap 데이터를 Power BI를 활용해 시각화하는 방법을 설명하며, 분석가들이 지리적 데이터를 쉽게 분석하고 시각적으로 전달할 수 있도록 도와준다.",
+      "reason": "AI 도구인 Power BI와 연계된 데이터 시각화 사례로, 분석 실무에 유용하다."
+    }
+  ]
+}
