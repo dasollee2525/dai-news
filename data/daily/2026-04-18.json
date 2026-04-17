@@ -1,0 +1,59 @@
+{
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T07:40:56.316651+09:00",
+  "count": 4,
+  "articles": [
+    {
+      "title": "Beyond Prompting: Using Agent Skills in Data Science",
+      "link": "https://towardsdatascience.com/beyond-prompting-using-agent-skills-in-data-science/",
+      "summary_raw": "<p>How I turned my eight-year weekly visualization habit into a reusable AI workflow</p>\n<p>The post <a href=\"https://towardsdatascience.com/beyond-prompting-using-agent-skills-in-data-science/\">Beyond Prompting: Using Agent Skills in Data Science</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-18T01:30:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "저자는 주간 시각화 작업을 AI 워크플로우로 재구성하여 반복적인 작업을 자동화하는 방법을 공유한다.",
+      "reason": "구체적인 사례로 데이터 분석가가 실무에 즉시 활용 가능한 정보를 제공."
+    },
+    {
+      "title": "I Vibe Coded a Tool to That Analyzes Customer Sentiment and Topics From Call Recordings",
+      "link": "https://www.kdnuggets.com/vibe-coded-tool-analyzes-customer-sentiment-and-topics-from-call-recordings",
+      "summary_raw": "Build an AI customer sentiment analyzer for call recordings using Whisper, BERTopic & Streamlit with this open-source step-by-step guide with code.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-17T23:00:54+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "AI를 활용하여 고객의 감정을 분석하는 툴을 개발하는 방법을 구체적으로 설명하고 있어 실무에 즉시 활용 가능.",
+      "reason": "실제 코드를 통해 분석가가 데이터 분석 업무에 AI를 적용할 수 있는 유용한 자료."
+    },
+    {
+      "title": "Anthropic Launches Claude Opus 4.7 For “Most Difficult Tasks”",
+      "link": "https://www.analyticsvidhya.com/blog/2026/04/claude-opus-4-7/",
+      "summary_raw": "<p>Artificial intelligence is rapidly developing. The minute we become accustomed to one breakthrough, another comes to shift our expectations. The new model, Claude Opus 4.7, that Anthropic introduced recently, is one such shift. The release tends to go beyond mere AI chatbots and makes AI a trusted, independent digital partner. Even for developers and professionals, [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/04/claude-opus-4-7/\">Anthropic Launches Claude Opus ",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-17T21:21:37+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude Opus 4.7의 출시 소식. 분석가들이 복잡한 작업을 더 신뢰할 수 있도록 지원하는 도구로 활용 가능.",
+      "reason": "AI 도구 활용에 대한 실질적인 정보로 분석 업무에 적용 가능."
+    },
+    {
+      "title": "Top 28 Claude Shortcuts that will 10X your Speed",
+      "link": "https://www.analyticsvidhya.com/blog/2026/04/top-claude-shortcuts/",
+      "summary_raw": "<p>Even though we know prompting matters, most people are still using Claude like a glorified Google search. Let me lead by example &#8211; &#8220;Summarise this into 3 sentences max.&#8221; Sounds familiar? Well, there may be nothing wrong in typing such a prompt, but truth be told, all these letters are good for an article like [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/04/top-claude-shortcuts/\">Top 28 Claude Shortcuts that will 10X your Speed</a> appeared fir",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-17T17:12:02+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "Claude 사용법을 개선하기 위한 28가지 단축키 제안. 분석가들이 작업 효율성을 높일 수 있는 팁을 포함.",
+      "reason": "효율성을 높일 수 있는 AI 도구 활용법으로, 분석가에게 유용함."
+    }
+  ]
+}

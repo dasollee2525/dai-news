@@ -178,10 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">6</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -196,14 +196,93 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-04-17">
-      <button class="date-toggle" data-date="2026-04-17" onclick="toggleDate('2026-04-17')">
-        <span class="date-label">📅 2026년 04월 17일</span>
+    <div class="date-section" data-date="2026-04-18">
+      <button class="date-toggle" data-date="2026-04-18" onclick="toggleDate('2026-04-18')">
+        <span class="date-label">📅 2026년 04월 18일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-04-17">
+      <div class="date-cards" id="cards-2026-04-18">
+        
+    <div class="card" data-category="LLM응용" data-score="5" data-date="2026-04-18T01:30:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Beyond Prompting: Using Agent Skills in Data Science</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.18 01:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">저자는 주간 시각화 작업을 AI 워크플로우로 재구성하여 반복적인 작업을 자동화하는 방법을 공유한다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/beyond-prompting-using-agent-skills-in-data-science/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="LLM응용" data-score="5" data-date="2026-04-17T23:00:54">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">I Vibe Coded a Tool to That Analyzes Customer Sentiment and Topics From Call Recordings</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.17 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">AI를 활용하여 고객의 감정을 분석하는 툴을 개발하는 방법을 구체적으로 설명하고 있어 실무에 즉시 활용 가능.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/vibe-coded-tool-analyzes-customer-sentiment-and-topics-from-call-recordings" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-04-17T21:21:37">
+      <div class="card-header">
+        <div class="card-number">3</div>
+        <div class="card-title">Anthropic Launches Claude Opus 4.7 For “Most Difficult Tasks”</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.17 21:21 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">Claude Opus 4.7의 출시 소식. 분석가들이 복잡한 작업을 더 신뢰할 수 있도록 지원하는 도구로 활용 가능.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/04/claude-opus-4-7/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="생산성" data-score="4" data-date="2026-04-17T17:12:02">
+      <div class="card-header">
+        <div class="card-number">4</div>
+        <div class="card-title">Top 28 Claude Shortcuts that will 10X your Speed</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.17 17:12 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">Claude 사용법을 개선하기 위한 28가지 단축키 제안. 분석가들이 작업 효율성을 높일 수 있는 팁을 포함.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/04/top-claude-shortcuts/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-04-17">
+      <button class="date-toggle collapsed" data-date="2026-04-17" onclick="toggleDate('2026-04-17')">
+        <span class="date-label">📅 2026년 04월 17일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-04-17">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-04-16T01:30:00">
       <div class="card-header">
@@ -381,51 +460,6 @@
       <p class="summary">BERTopic 모델은 데이터 분석가가 대량의 문서에서 주제를 추출할 때 활용할 수 있다. 텍스트 데이터의 숨은 테마를 찾아내는 데 유용한 도구로, 실무에서 적용 가능하다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/04/bertopic-guide/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-04-11">
-      <button class="date-toggle collapsed" data-date="2026-04-11" onclick="toggleDate('2026-04-11')">
-        <span class="date-label">📅 2026년 04월 11일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-04-11">
-        
-    <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-04-10T23:00:06">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Advanced NotebookLM Tips & Tricks for Power Users</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.04.10 23:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">NotebookLM의 새로운 기능을 통해 데이터 분석가가 실무의 워크플로우를 개선하고 생산성을 높일 수 있는 방법을 제시하고 있음.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/advanced-notebooklm-tips-tricks-for-power-users" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-04-09T23:15:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">베스핀글로벌, 기업 AX 최적화 플랫폼 ‘헬프나우 AI 파운드리’ 출시</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.04.09 23:15 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">헬프나우 AI 파운드는 기업 AI 최적화를 지원하는 통합 플랫폼으로, 데이터 분석가들이 AI를 활용한 데이터 관리 및 검색 품질을 높일 수 있게 돕는다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=209021" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
