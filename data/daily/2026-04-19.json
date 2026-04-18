@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-19",
+  "generated_at": "2026-04-19T07:36:25.536003+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Beyond Prompting: Using Agent Skills in Data Science",
+      "link": "https://towardsdatascience.com/beyond-prompting-using-agent-skills-in-data-science/",
+      "summary_raw": "<p>How I turned my eight-year weekly visualization habit into a reusable AI workflow</p>\n<p>The post <a href=\"https://towardsdatascience.com/beyond-prompting-using-agent-skills-in-data-science/\">Beyond Prompting: Using Agent Skills in Data Science</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-18T01:30:00+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "이 기사는 사용자가 AI 에이전트의 기술을 활용하여 데이터 시각화 워크플로우를 재사용 가능한 형식으로 전환하는 방법을 다룹니다. 이는 데이터 분석가가 AI 도구를 활용해 업무 효율성을 높일 수 있음을 보여줍니다.",
+      "reason": "AI 에이전트를 활용한 데이터 분석 업무의 구체적인 사례 제공"
+    },
+    {
+      "title": "I Vibe Coded a Tool to That Analyzes Customer Sentiment and Topics From Call Recordings",
+      "link": "https://www.kdnuggets.com/vibe-coded-tool-analyzes-customer-sentiment-and-topics-from-call-recordings",
+      "summary_raw": "Build an AI customer sentiment analyzer for call recordings using Whisper, BERTopic & Streamlit with this open-source step-by-step guide with code.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-17T23:00:54+09:00",
+      "score": 5,
+      "category": "데이터분석+AI",
+      "summary_ko": "AI를 활용하여 고객의 감정을 분석하는 도구를 만드는 단계별 가이드를 제공하며, 데이터 분석가가 즉시 활용할 수 있는 콘텐츠입니다.",
+      "reason": "실제 분석 사례와 구체적인 코드를 제공하여 데이터 분석가에게 실질적인 도움이 됩니다."
+    }
+  ]
+}
