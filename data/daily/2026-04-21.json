@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T07:43:49.303856+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "[게시판]  베스핀글로벌, 기업 AI 실무자 대상 'AI 베스터디' 개최 등 단신",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=209490",
+      "summary_raw": "■ 베스핀글로벌(대표 허양호)은 기업 실무자의 AI 역량 강화를 위한 스터디 프로그램 'AI 베스터디(AI BESTudy)'를 개최한다고 밝혔다. AI 베스터디는 베스핀글로벌의 AX 프로젝트 노하우를 바탕으로 자연어를 SQL로 변환하는 NL2SQL 기반 방법론과 실제 사례, 아키텍처 설계부터 운영까지 실무 전반을 다룰 예정이다.■ 씽킹데이터(대표 뤼청통)는 회사명을 '씽킹AI'로 변경하고 AI 엔터프라이즈 플랫폼 기업으로 전면 전환한다고 밝혔다. 기존 데이터 분석 서비스형소프트웨어(SaaS)를 기반으로 마케팅 워크플로우 자동화 에이",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-04-21T01:50:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "NL2SQL 기반 방법론을 다룬 AI 베스터디 스터디 프로그램을 통해 데이터 분석가가 SQL 변환에 AI를 활용하는 방법을 익힐 수 있음.",
+      "reason": "분석 실무에 유용한 AI 도구 교육 프로그램 정보 제공."
+    },
+    {
+      "title": "Proxy-Pointer RAG: Structure Meets Scale at 100% Accuracy with Smarter Retrieval",
+      "link": "https://towardsdatascience.com/proxy-pointer-rag-structure-meets-scale-100-accuracy-with-smarter-retrieval/",
+      "summary_raw": "<p>Open source. 5-minute setup. Vector RAG done right—try it yourself.</p>\n<p>The post <a href=\"https://towardsdatascience.com/proxy-pointer-rag-structure-meets-scale-100-accuracy-with-smarter-retrieval/\">Proxy-Pointer RAG: Structure Meets Scale at 100% Accuracy with Smarter Retrieval</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-20T00:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "스마트한 정보 검색을 위한 RAG 방법론을 소개하며 데이터 분석에 응용할 수 있는 내용을 다룸.",
+      "reason": "데이터 분석가가 실무에서 활용할 수 있는 RAG의 적용 사례."
+    }
+  ]
+}
