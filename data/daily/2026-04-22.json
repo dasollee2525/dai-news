@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22T07:39:44.028463+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "\"멀티 에이전트를 10분 만에\"… 아이엔소프트, iSODA 오케스트레이터 공개",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=209520",
+      "summary_raw": "국내 IT 솔루션 전문 아이엔소프트(대표 황광익)가 코드 없이 멀티 에이전트 환경을 구축할 수 있는 ‘iSODA(Intelligent Service Orchestration and Deployment Architecture) 오케스트레이터’를 21일 공개했다. 이는 다양한 AI 에이전트를 통합해 하나의 지능형 서비스로 구성할 수 있는 멀티 에이전트 오케스트레이션 플랫폼이다.핵심은 ‘속도’와 ‘접근성’이다. 개발자가 아닌 현업 담당자도 직관적인 사용자 인터페이스(UI)를 통해 에이전트를 조합하고 워크플로를 설계한 뒤 실제 서비스로 배",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-04-21T19:58:10+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "iSODA 오케스트레이터는 멀티 에이전트를 직관적으로 운영할 수 있는 플랫폼을 제공하여 데이터 분석가가 AI 에이전트를 조합해 사용할 수 있음을 시사한다.",
+      "reason": "AI 에이전트를 활용한 업무 환경 개선 사례로 유용함."
+    },
+    {
+      "title": "How to Crawl an Entire Documentation Site with Olostep",
+      "link": "https://www.kdnuggets.com/how-to-crawl-an-entire-documentation-site-with-olostep",
+      "summary_raw": "Automatically collect documentation pages, clean and structure the content, and turn website data into AI-ready output using a few lines of code.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-21T01:00:33+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "자동으로 문서 페이지를 수집하고, AI-ready 데이터를 생성하는 방법을 설명하여 실무에 유용함.",
+      "reason": "데이터 수집 과정에서 AI를 활용하는 구체적인 방법을 제시함."
+    },
+    {
+      "title": "Merging Language Models with Unsloth Studio",
+      "link": "https://www.kdnuggets.com/merging-language-models-with-unsloth-studio",
+      "summary_raw": "Merge LLMs easily with Unsloth Studio's no-code GUI and combine models without retraining.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-20T23:00:24+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "Unsloth Studio를 통해 LLM을 쉽게 결합하는 방법을 제공하여 데이터 분석에 유용함.",
+      "reason": "LLM 활용의 편리함을 강조하며 분석 작업에 효과적일 것으로 보임."
+    }
+  ]
+}
