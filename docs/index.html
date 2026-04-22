@@ -178,8 +178,8 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">13</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">7</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">15</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">4</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-04-22">
-      <button class="date-toggle" data-date="2026-04-22" onclick="toggleDate('2026-04-22')">
-        <span class="date-label">📅 2026년 04월 22일</span>
+    <div class="date-section" data-date="2026-04-23">
+      <button class="date-toggle" data-date="2026-04-23" onclick="toggleDate('2026-04-23')">
+        <span class="date-label">📅 2026년 04월 23일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-04-22">
+      <div class="date-cards" id="cards-2026-04-23">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-04-23T00:00:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">From Ad Hoc Prompting to Repeatable AI Workflows with Claude Code Skills</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.23 00:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">Claude를 사용하여 반복 가능한 고객 연구 워크플로우를 만드는 방법을 기술하고 있어, 실무에서 AI 도구를 효과적으로 활용하는 사례를 보여준다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="RAG 응용" data-score="4" data-date="2026-04-21T21:00:00">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Your RAG Gets Confidently Wrong as Memory Grows – I Built the Memory Layer That Stops It</div>
+      </div>
+      <span class="badge" style="background:#6b7280">📌 RAG 응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.04.21 21:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">RAG 시스템의 메모리 성장에 따른 정확도 문제를 해결하기 위한 아키텍처 수정을 설명하여 데이터 분석에 직접적인 교훈을 제공한다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/your-rag-gets-confidently-wrong-as-memory-grows-i-built-the-memory-layer-that-stops-it/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-04-22">
+      <button class="date-toggle collapsed" data-date="2026-04-22" onclick="toggleDate('2026-04-22')">
+        <span class="date-label">📅 2026년 04월 22일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-04-22">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-04-21T19:58:10">
       <div class="card-header">
@@ -486,22 +531,6 @@
         <a class="read-btn" href="https://towardsdatascience.com/from-openstreetmap-to-power-bi-visualizing-wild-swimming-locations/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-04-16">
-      <button class="date-toggle collapsed" data-date="2026-04-16" onclick="toggleDate('2026-04-16')">
-        <span class="date-label">📅 2026년 04월 16일</span>
-        <span class="date-chip">0개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-04-16">
-        
-            <div class="empty-state">
-              <div class="icon">🔍</div>
-              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
-            </div>
       </div>
     </div></main>
   </div>
