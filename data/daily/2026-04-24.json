@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T07:45:35.059526+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "From Ad Hoc Prompting to Repeatable AI Workflows with Claude Code Skills",
+      "link": "https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/",
+      "summary_raw": "<p>How I turned LLM persona interviews into a repeatable customer research workflow</p>\n<p>The post <a href=\"https://towardsdatascience.com/from-ad-hoc-prompting-to-repeatable-ai-workflows-with-claude-code-skills/\">From Ad Hoc Prompting to Repeatable AI Workflows with Claude Code Skills</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-23T00:00:00+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "Claude를 활용하여 고객 연구 워크플로우를 반복 가능하게 만드는 방법이 구체적으로 설명되어 있습니다. 이는 데이터 분석가가 즉시 활용할 수 있는 사례다.",
+      "reason": "AI 기반의 구체적인 업무 자동화 사례로, 실무에 바로 적용할 수 있는 유용한 정보가 포함되어 있다."
+    },
+    {
+      "title": "Using a Local LLM as a Zero-Shot Classifier",
+      "link": "https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/",
+      "summary_raw": "<p>A practical pipeline for classifying messy free-text data into meaningful categories using a locally hosted LLM, no labeled training data required.</p>\n<p>The post <a href=\"https://towardsdatascience.com/using-a-local-llm-as-a-zero-shot-classifier/\">Using a Local LLM as a Zero-Shot Classifier</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-24T01:30:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "이 아티클은 로컬 LLM을 활용하여 레이블이 없는 데이터의 분류 파이프라인을 구축하는 방법을 설명하며, 데이터 분석가들에게 유용할 수 있다.",
+      "reason": "LLM을 활용한 데이터 분석의 구체적인 적용 방법을 제시하고 있다."
+    }
+  ]
+}
