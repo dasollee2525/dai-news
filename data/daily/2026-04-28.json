@@ -1,0 +1,46 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T07:53:48.878341+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "Google Deep Research Max: Build Autonomous AI Research Agents in Minutes",
+      "link": "https://www.analyticsvidhya.com/blog/2026/04/deep-research-max-technical-guide/",
+      "summary_raw": "<p>Google just changed how developers do research. On April 21, 2026, they launched Deep Research Max. It runs on Gemini 3.1 Pro and is not just another chatbot upgrade. This is an autonomous AI research agent. It plans, searches, reads, reasons, and writes, all from a single API call. By the end, you get a [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/04/deep-research-max-technical-guide/\">Google Deep Research Max: Build Autonomous AI Research Agents in Minutes</a",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-27T19:41:26+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "Google의 Deep Research Max는 분석가가 빠르게 AI 연구를 수행할 수 있는 도구로, 데이터 분석에 대한 접근성을 크게 향상시킨다.",
+      "reason": "실제 연구 에이전트를 사용한 데이터 분석 개선 방안이 제시된 점에서 유용성이 높음."
+    },
+    {
+      "title": "\"하루 만에 이슈 4000건 해결\"…오픈클로 유지보수 시스템 '클로스위퍼' 공개",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=209751",
+      "summary_raw": "오픈클로(OpenClaw)의 개발자가 오픈소스 관리의 가장 큰 부담 중 하나였던 ‘이슈(Issues)'와 '풀 리퀘스트(PR)' 정리 작업을 AI 에이전트로 자동화하는 시스템을 내놓았다.피터 스타인버거는 25일(현지시간) 수십개의 AI를 동시에 활용해 오픈소스 저장소의 이슈와 PR을 정리하는 유지보수 시스템 ‘클로스위퍼(ClawSweeper)’를 깃허브에 공개했다.클로스위퍼는 오픈클로 저장소를 대상으로 설계된 AI 기반 유지관리 워크플로우로, 약 50개의 '코덱스(Codex)'를 병렬로 가동해 수천개의 이슈를 검토한다.단순히 분류하",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-04-27T01:55:49+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "AI 에이전트를 활용한 오픈소스 이슈 관리 시스템이 분석 작업의 효율성을 높일 수 있는 사례로, 실무 적용이 가능함.",
+      "reason": "데이터 분석 업무 자동화에 도움을 줄 수 있는 구체적인 AI 도구 활용 사례."
+    },
+    {
+      "title": "Claude Code vs Codex: A Detailed Terminal Agent Comparison",
+      "link": "https://www.analyticsvidhya.com/blog/2026/04/claude-code-vs-codex/",
+      "summary_raw": "<p>Coding assistants have moved beyond autocomplete into full agents that can read projects, run commands, edit files, and iterate toward outcomes. Tools like Claude Code and Codex both operate in this space, but take different approaches. Claude Code centers on a unified agent loop across environments, while Codex spreads capabilities across CLI, IDE extensions, cloud [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/04/claude-code-vs-codex/\">Claude Code vs Codex: A D",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-27T22:18:07+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude Code와 Codex의 비교를 통해 데이터 분석가가 사용할 수 있는 코딩 도구의 진화 방향을 제시한다.",
+      "reason": "코딩을 통한 데이터 분석의 생산성 향상 및 실무에서의 활용가능성 제시."
+    }
+  ]
+}
