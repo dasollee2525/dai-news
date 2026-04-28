@@ -1,0 +1,33 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T07:57:52.802450+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "원티드랩, 비개발자 교육 콘텐츠 '프론티어즈' 출시...\"클로드 코워크로 업무 뚝딱\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=209835",
+      "summary_raw": "원티드랩은 비개발직군도 코딩 없이 AI 에이전트를 설계할 수 있는 AX 교육 콘텐츠 '원티드 프론티어즈'를 출시했다고 28일 밝혔다.기업 실무자가 조직 단위의 AX를 직접 설계할 수 있는 역량에 대한 수요가 커지면서 이번 콘텐츠를 선보이게 됐다는 설명이다.원티드 프론티어즈는 VOD 형태로 제공된다. AI를 활용해 반복 업무를 자동화하고 업무 프로세스를 체계적으로 구조화할 수 있도록 실무 중심 교육으로 설계됐다.첫 세션으로는 '클로드 코워크를 활용한 업무 자동화'를 공개했다. ▲웹 조사 자동화 ▲데이터 분석 보고서 생성 ▲슬랙(Sla",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-04-28T22:25:35+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "비개발자도 AI 에이전트를 활용하여 데이터를 자동화하는 교육 과정 제공.",
+      "reason": "직접적인 워크플로우 개선을 위한 실습 사례로 데이터 분석가에게 유용하다."
+    },
+    {
+      "title": "Google Deep Research Max: Build Autonomous AI Research Agents in Minutes",
+      "link": "https://www.analyticsvidhya.com/blog/2026/04/deep-research-max-technical-guide/",
+      "summary_raw": "<p>Google just changed how developers do research. On April 21, 2026, they launched Deep Research Max. It runs on Gemini 3.1 Pro and is not just another chatbot upgrade. This is an autonomous AI research agent. It plans, searches, reads, reasons, and writes, all from a single API call. By the end, you get a [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/04/deep-research-max-technical-guide/\">Google Deep Research Max: Build Autonomous AI Research Agents in Minutes</a",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-04-27T19:41:26+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Google Deep Research Max에 대한 정보가 제공되며, AI 연구 효율성을 높일 수 있도록 설명하고 있어 데이터 분석 업무에 기여할 가능성이 있습니다.",
+      "reason": "AI 도구의 구체적인 활용 방안이 언급되어 데이터 분석가에게 유용할 수 있음."
+    }
+  ]
+}
