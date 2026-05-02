@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03T07:42:12.028603+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "MemPalace Explained: Building Long-Term Memory for AI Agents Beyond RAG",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/mempalace-explained/",
+      "summary_raw": "<p>Modern AI systems struggle with memory. They often forget past interactions or rely on Retrieval-Augmented Generation (RAG), which depends on constant access to external data. This becomes a limitation when building assistants that need both historical context and a deeper understanding of users. MemPalace offers a different approach, enabling structured, persistent memory with higher precision [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/mempalace-explained",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-01T21:54:39+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "AI 시스템의 기억력 문제를 다루고 있으며, 데이터 분석의 활용 가능성이 있다.",
+      "reason": "분석 업무에 적용할 수 있는 기억력 개선 방법에 대한 논의가 포함됨."
+    },
+    {
+      "title": "The “Robust” Data Scientist: Winning with Messy Data and Pingouin",
+      "link": "https://www.kdnuggets.com/the-robust-data-scientist-winning-with-messy-data-and-pingouin",
+      "summary_raw": "This article uncovers the craftsmanship of using robust statistics in data science processes: illustrating what to do when data fail tests due to not meeting standard assumptions.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-01T23:00:28+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "불완전한 데이터 처리에서의 견고한 통계 활용법을 다루고 있어 데이터 분석가에게 유용한 정보.",
+      "reason": "분석가가 실제로 사용할 수 있는 사례로 적합함."
+    }
+  ]
+}
