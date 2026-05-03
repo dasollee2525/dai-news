@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T07:41:56.927141+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "15+ Solved Agentic AI Projects with Github Links",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/solved-agentic-ai-projects-with-github-links/",
+      "summary_raw": "<p>Projects are the bridge between understanding AI and actually building with it. While the last couple of years were dominated by generative models, the shift now is toward systems that can think in steps, use tools, and act with a clear objective. This guide brings together over 15 solved agentic AI projects designed to help [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/solved-agentic-ai-projects-with-github-links/\">15+ Solved Agentic AI Projects with Github ",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-03T12:17:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "15개 이상의 해결된 AI 프로젝트를 통해 데이터 분석가가 agentic AI를 활용하는 방법을 배울 수 있음.",
+      "reason": "실제 프로젝트 사례를 통해 AI의 실무 활용 방법을 제시하고 있음."
+    }
+  ]
+}
