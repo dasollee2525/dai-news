@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T07:57:44.246906+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Testing SQL Like a Software Engineer: Unit Testing, CI/CD, and Data Quality Automation",
+      "link": "https://www.kdnuggets.com/testing-sql-like-a-software-engineer-unit-testing-ci-cd-and-data-quality-automation",
+      "summary_raw": "How to turn an interview-style SQL query into a production-ready, testable, version-controlled workflow.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-05T01:00:16+09:00",
+      "score": 5,
+      "category": "데이터분석+AI",
+      "summary_ko": "SQL 쿼리 테스트 및 데이터 품질 자동화를 통해 데이터 분석 워크플로우 개선을 위한 프로세스를 상세히 설명한다.",
+      "reason": "실제로 SQL 쿼리를 생산성 있게 만들어주는 방법으로 분석가가 즉시 적용 가능하다."
+    },
+    {
+      "title": "ML Intern in Practice: From Prompt to a Shipped Hugging Face Model",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/ml-intern-from-prompt-to-a-shipped-hugging-face-model/",
+      "summary_raw": "<p>Most ML projects do not fail because of model choice. They fail in the messy middle: finding the right dataset, checking usability, writing training code, fixing errors, reading logs, debugging weak results, evaluating outputs, and packaging the model for others. This is where ML Intern fits. It is not just AutoML for model selection and [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/ml-intern-from-prompt-to-a-shipped-hugging-face-model/\">ML Intern in Practice",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-04T20:45:58+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "ML Intern을 통해 데이터셋 선택, 오류 수정 및 결과 평가 등 실무에 유용한 ML 프로젝트 관리 방법을 다룬다.",
+      "reason": "ML 프로젝트의 효율적인 관리 방법을 제시하여 데이터 분석가에게 실질적인 도움이 될 수 있다."
+    }
+  ]
+}
