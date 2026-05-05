@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06T07:55:53.793247+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Top 10 Open-Source Libraries to Fine-Tune LLMs Locally",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/open-source-libraries-to-fine-tune-llm-locally/",
+      "summary_raw": "<p>Fine-tuning LLMs has become much easier because of open-source tools. You no longer need to build the full training stack from scratch. Whether you want low-VRAM training, LoRA, QLoRA, RLHF, DPO, multi-GPU scaling, or a simple UI, there is likely a library that fits your workflow. Here are the best open-source libraries worth knowing for [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/open-source-libraries-to-fine-tune-llm-locally/\">Top 10 Open-Source Libraries",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-05T19:30:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "LLM의 로컬 피칭을 위한 오픈 소스 라이브러리 소개, 데이터 분석가들이 모델을 더욱 효율적으로 조정할 수 있는 방법을 제공합니다.",
+      "reason": "분석가들이 직접 활용할 수 있는 실용적인 리소스 제공."
+    }
+  ]
+}
