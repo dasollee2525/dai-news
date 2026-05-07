@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T08:01:32.860078+09:00",
+  "count": 4,
+  "articles": [
+    {
+      "title": "ChatGPT is Now Inside Excel and Google Sheets: Here is How to Use it",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/chatgpt-in-excel-and-google-sheets/",
+      "summary_raw": "<p>AI technology is leapfrogging, yet that doesn&#8217;t mean we always want a revolutionary feature out of it. What most users would want more of are simple capabilities within AI that can help with their everyday tasks, whether in the office, at home, or anywhere else. On those lines, OpenAI may have just come up with [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/chatgpt-in-excel-and-google-sheets/\">ChatGPT is Now Inside Excel and Google Sheets: Here is How to",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-07T22:54:00+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "ChatGPT를 Excel과 Google Sheets에서 활용하는 방법을 설명. 이 도구를 사용하여 데이터 분석 작업을 간소화하고 효율성을 높일 수 있음.",
+      "reason": "실무에서 즉시 사용할 수 있는 AI 도구 활용법을 제공."
+    },
+    {
+      "title": "사이냅소프트, AI-레디 데이터 구축 시스템 'AI 데이터 파운드리' 출시",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=210198",
+      "summary_raw": "도큐먼트 AI 전문 사이냅소프트(대표 전경헌)는 대형언어모델(LLM)과 검색증강생성(RAG) 시스템 구축에 필요한 비정형 문서 데이터 전 과정 자동화 서비스 ’사이냅 AI 데이터 파운드리'를 출시했다고 7일 밝혔다.AI 데이터 파운드리는 외부 저장소와 연동해 문서를 자동 수집하고, HWP·MS 오피스·PDF·이미지 등 주요 포맷을 지원해 별도 전처리 없이 파이프라인을 구성할 수 있다. 문서의 레이아웃과 의미적 맥락을 반영해 제목, 문단, 표, 수식 등 구조 요소를 분석하며, JSON·XML·마크다운(Markdown) 형태로 출력해",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-05-07T23:29:47+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "AI 데이터 파운드리는 문서 데이터 자동 처리 기능을 제공하여 데이터 분석가의 업무에 기여할 수 있는 유용한 도구입니다.",
+      "reason": "문서 데이터 자동화로 분석 업무 효율을 개선할 수 있는 점에서 실질적으로 유용합니다."
+    },
+    {
+      "title": "Feature Engineering with LLMs: Techniques & Python Examples",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/feature-engineering-with-llms/",
+      "summary_raw": "<p>Feature engineering is the foundation of strong machine learning systems, but the traditional process is often manual, time-consuming, and dependent on domain expertise. While effective, it can miss deeper signals hidden in unstructured data such as text, logs, and user interactions. Large Language Models change this by helping machines understand language, extract meaning, and generate [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/feature-engineering-with-ll",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-07T22:58:14+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "LLM을 활용한 피처 엔지니어링의 효율성을 설명. 분석가들은 이 기법을 사용하여 비정형 데이터에서 더 깊은 신호를 추출할 수 있음.",
+      "reason": "데이터 분석에 LLM을 활용한 구체적 사례를 제시."
+    },
+    {
+      "title": "Gemini API File Search: The Easy Way to Build RAG",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/gemini-api-file-search/",
+      "summary_raw": "<p>Building a RAG system just got much easier. Google&#8217;s File Search tool for the Gemini API now handles the heavy lifting of connecting LLMs to your data. Chunking, embedding, indexing are all managed for you. And with the latest update, it&#8217;s gone multimodal. You can now search through both text and images in a single [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/gemini-api-file-search/\">Gemini API File Search: The Easy Way to Build RAG</a> appeared ",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-06T21:31:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "Google의 Gemini API 파일 검색 도구는 LLM을 데이터에 연결하는 작업을 간소화하여 RAG 시스템을 쉽게 구축할 수 있도록 돕습니다. 데이터 분석가는 이를 통해 데이터 검색 워크플로우를 개선하고, 효율적인 데이터 관리를 구현할 수 있습니다.",
+      "reason": "데이터 분석과 AI의 결합을 다루고 있어 분석가에게 유용할 수 있음"
+    }
+  ]
+}
