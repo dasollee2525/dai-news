@@ -1,0 +1,46 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09T07:55:52.931777+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "[AI&빅데이터쇼] 다큐브, 데이터 분석 AI 에이전트 ‘큐비’ 공개",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=210247",
+      "summary_raw": "다큐브(대표 윤예지)는 6월10일~12일 서울 코엑스에서 열리는 ‘2026 AI&빅데이터쇼’에 참가해 서울 AI 허브 공동관에 부스를 마련하고 AI 에이전트 솔루션 '큐비(QUVI)'를 공개한다고 밝혔다.큐비는 기업이 보유한 데이터를 자연어 질의만으로 조회와 분석이 가능한 AI 에이전트다. 사용자가 평소 말투로 질문을 입력하면, 데이터를 바탕으로 답변과 인사이트를 즉시 제공한다. 단순 데이터 조회를 넘어 \"1분기 매출이 왜 감소했나\" 등과 같은 진단형 질문에 대해서도 데이터를 다면적으로 검토해 원인까지 설명해 준다. 또, 분석 결과",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-05-08T22:41:44+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "큐비라는 AI 에이전트는 사용자 질의를 통해 데이터에 대한 즉각적인 분석과 인사이트를 제공하므로, 데이터 분석가들이 즉시 업무에 활용할 수 있는 훌륭한 도구다.",
+      "reason": "구체적인 기능 설명과 실제 사용 사례가 포함됨."
+    },
+    {
+      "title": "I Rewrote a Real Data Workflow in Polars. Pandas Didn’t Stand a Chance.",
+      "link": "https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/",
+      "summary_raw": "<p>From 61 seconds to 0.20 seconds — and the mental model shift I didn't expect</p>\n<p>The post <a href=\"https://towardsdatascience.com/i-rewrote-a-real-data-workflow-in-polars-pandas-didnt-stand-a-chance/\">I Rewrote a Real Data Workflow in Polars. Pandas Didn’t Stand a Chance.</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-07T21:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "Polars를 사용하여 데이터 워크플로를 재작성한 사례로, 성능 개선이 두드러짐. 데이터 분석가들이 Polars를 활용해 효율을 극대화할 수 있는 실용적인 예시.",
+      "reason": "실제로 데이터 분석 프로세스를 개선한 사례로 실무에 유용함."
+    },
+    {
+      "title": "ChatGPT is Now Inside Excel and Google Sheets: Here is How to Use it",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/chatgpt-in-excel-and-google-sheets/",
+      "summary_raw": "<p>AI technology is leapfrogging, yet that doesn&#8217;t mean we always want a revolutionary feature out of it. What most users would want more of are simple capabilities within AI that can help with their everyday tasks, whether in the office, at home, or anywhere else. On those lines, OpenAI may have just come up with [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/chatgpt-in-excel-and-google-sheets/\">ChatGPT is Now Inside Excel and Google Sheets: Here is How to",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-07T22:54:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "ChatGPT를 Excel 및 Google Sheets에서 활용하는 방법을 제공하여 데이터 분석가에게 실질적인 도움이 된다.",
+      "reason": "실무에서 유용하게 활용될 수 있는 AI 도구 활용법이 포함됨."
+    }
+  ]
+}
