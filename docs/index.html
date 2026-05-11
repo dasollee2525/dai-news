@@ -178,9 +178,9 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">16</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">4</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">14</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">7</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">3</span></button>
 
     </div>
@@ -196,14 +196,30 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-05-11">
-      <button class="date-toggle" data-date="2026-05-11" onclick="toggleDate('2026-05-11')">
-        <span class="date-label">📅 2026년 05월 11일</span>
+    <div class="date-section" data-date="2026-05-12">
+      <button class="date-toggle" data-date="2026-05-12" onclick="toggleDate('2026-05-12')">
+        <span class="date-label">📅 2026년 05월 12일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-05-11">
+      <div class="date-cards" id="cards-2026-05-12">
+        
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-05-11">
+      <button class="date-toggle collapsed" data-date="2026-05-11" onclick="toggleDate('2026-05-11')">
+        <span class="date-label">📅 2026년 05월 11일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-05-11">
         
             <div class="empty-state">
               <div class="icon">🔍</div>
@@ -500,51 +516,6 @@
       <p class="summary">LLM의 로컬 피칭을 위한 오픈 소스 라이브러리 소개, 데이터 분석가들이 모델을 더욱 효율적으로 조정할 수 있는 방법을 제공합니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/05/open-source-libraries-to-fine-tune-llm-locally/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-05-05">
-      <button class="date-toggle collapsed" data-date="2026-05-05" onclick="toggleDate('2026-05-05')">
-        <span class="date-label">📅 2026년 05월 05일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-05-05">
-        
-    <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-05-05T01:00:16">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Testing SQL Like a Software Engineer: Unit Testing, CI/CD, and Data Quality Automation</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.05.05 01:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">SQL 쿼리 테스트 및 데이터 품질 자동화를 통해 데이터 분석 워크플로우 개선을 위한 프로세스를 상세히 설명한다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/testing-sql-like-a-software-engineer-unit-testing-ci-cd-and-data-quality-automation" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-05-04T20:45:58">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">ML Intern in Practice: From Prompt to a Shipped Hugging Face Model</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.05.04 20:45 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">ML Intern을 통해 데이터셋 선택, 오류 수정 및 결과 평가 등 실무에 유용한 ML 프로젝트 관리 방법을 다룬다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/05/ml-intern-from-prompt-to-a-shipped-hugging-face-model/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
