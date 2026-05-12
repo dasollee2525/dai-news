@@ -178,10 +178,11 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">14</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">15</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">7</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -196,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-05-12">
-      <button class="date-toggle" data-date="2026-05-12" onclick="toggleDate('2026-05-12')">
-        <span class="date-label">📅 2026년 05월 12일</span>
+    <div class="date-section" data-date="2026-05-13">
+      <button class="date-toggle" data-date="2026-05-13" onclick="toggleDate('2026-05-13')">
+        <span class="date-label">📅 2026년 05월 13일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-05-12">
+      <div class="date-cards" id="cards-2026-05-13">
+        
+    <div class="card" data-category="생산성" data-score="4" data-date="2026-05-13T01:30:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">From Vibe Coding to Spec-Driven Development</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.05.13 01:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">LLM 에이전트를 활용하여 아이디어를 실제 작동하는 앱으로 개발하는 사례가 실제로 유용할 것으로 보인다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-05-12T19:00:26">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Hermes Agent Guide: What is it and How to Use it?</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.05.12 19:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">AI 에이전트를 사용하여 자동화된 분석 워크플로우 및 도구 통합을 구축하는 방법을 설명함.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/05/hermes-agent-guide/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-05-12">
+      <button class="date-toggle collapsed" data-date="2026-05-12" onclick="toggleDate('2026-05-12')">
+        <span class="date-label">📅 2026년 05월 12일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-05-12">
         
             <div class="empty-state">
               <div class="icon">🔍</div>
@@ -488,34 +534,6 @@
       <p class="summary">Claude Code를 활용하여 코드의 정확성을 검증하는 방법을 설명합니다. 이는 분석가들이 코드 작성 시 오류를 줄이고 품질을 향상시킬 수 있는 실용적인 튜토리얼입니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://towardsdatascience.com/how-to-make-claude-code-validate-its-own-work/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-05-06">
-      <button class="date-toggle collapsed" data-date="2026-05-06" onclick="toggleDate('2026-05-06')">
-        <span class="date-label">📅 2026년 05월 06일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-05-06">
-        
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-05-05T19:30:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Top 10 Open-Source Libraries to Fine-Tune LLMs Locally</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.05.05 19:30 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">LLM의 로컬 피칭을 위한 오픈 소스 라이브러리 소개, 데이터 분석가들이 모델을 더욱 효율적으로 조정할 수 있는 방법을 제공합니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/05/open-source-libraries-to-fine-tune-llm-locally/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>

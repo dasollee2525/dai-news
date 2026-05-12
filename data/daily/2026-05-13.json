@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T08:02:46.747365+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "From Vibe Coding to Spec-Driven Development",
+      "link": "https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/",
+      "summary_raw": "<p>A 4.5-hour journey from idea to working fitness app with LLM agents</p>\n<p>The post <a href=\"https://towardsdatascience.com/from-vibe-coding-to-spec-driven-development/\">From Vibe Coding to Spec-Driven Development</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-13T01:30:00+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "LLM 에이전트를 활용하여 아이디어를 실제 작동하는 앱으로 개발하는 사례가 실제로 유용할 것으로 보인다.",
+      "reason": "데이터 분석가가 직접 활용할 수 있는 실사례를 제공"
+    },
+    {
+      "title": "Hermes Agent Guide: What is it and How to Use it?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/hermes-agent-guide/",
+      "summary_raw": "<p>AI agents are moving beyond simple command-line tools into systems that can plan, schedule, call tools, and run automated workflows. Nous Research’s Hermes Agent framework offers a self-hosted runtime for building advanced agents with state management, tool integration, and secure execution. It supports multi-step planning, background task control, and real-world automation beyond single-purpose coding assistants. [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-12T19:00:26+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "AI 에이전트를 사용하여 자동화된 분석 워크플로우 및 도구 통합을 구축하는 방법을 설명함.",
+      "reason": "AI 도구를 데이터 분석에 활용할 수 있는 구체적인 방법 제공."
+    }
+  ]
+}
