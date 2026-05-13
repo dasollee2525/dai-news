@@ -1,0 +1,46 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T08:06:01.984869+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "KT, AI 교육 실습 도구 ‘AIDU’ PC용 앱 무상 배포",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=210445",
+      "summary_raw": "KT(대표 박윤영)는 AI 교육 실습 도구 ‘AIDU’의 설치형 애플리케이션을 무상 배포한다고 13일 밝혔다.‘AIDU’는 코딩이 익숙지 않은 비전공자를 위한 AI 실습 도구로, KT가 사무직 직원의 AI 교육을 위해 개발한 교육 프로그램이다. 별도 코딩 없이 마우스 클릭만으로 데이터 분석부터 AI 모델 학습과 평가까지 AI 모델링의 전 과정을 수행할 수 있다.데스크톱PC나 노트북에 설치해 사용하는 앱 형태로, 설치만으로 데이터 분석 등의 AI 실습을 진행할 수 있는 것이 특징이다. 통신망 접속이 불가능한 곳에서도 제약 없이 사용이",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-05-13T22:41:53+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "'AIDU'는 비전공자도 데이터 분석을 수행할 수 있도록 돕는 도구로 실무에 필요한 접근성을 제공한다.",
+      "reason": "단순 마우스 조작으로 AI 분석 작업을 수행할 수 있어 실용적."
+    },
+    {
+      "title": "I Built the Same B2B Document Extractor Twice: Rules vs. LLM",
+      "link": "https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/",
+      "summary_raw": "<p>A practical comparison between rule-based PDF extraction using pytesseract and an LLM-based approach with Ollama and LLaMA 3, based on a realistic B2B order scenario.</p>\n<p>The post <a href=\"https://towardsdatascience.com/i-built-the-same-b2b-document-extractor-twice-rules-vs-llm/\">I Built the Same B2B Document Extractor Twice: Rules vs. LLM</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-14T03:22:05+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "B2B 문서 추출 샘플을 통해 규칙 기반 vs LLM 기반 접근법을 비교하여 실무에서 선택할 수 있는 방법을 제공한다.",
+      "reason": "문서 추출에 대한 구체적 접근이 있어 데이터 분석가에게 도움이 됨."
+    },
+    {
+      "title": "Hermes Agent Guide: What is it and How to Use it?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/hermes-agent-guide/",
+      "summary_raw": "<p>AI agents are moving beyond simple command-line tools into systems that can plan, schedule, call tools, and run automated workflows. Nous Research’s Hermes Agent framework offers a self-hosted runtime for building advanced agents with state management, tool integration, and secure execution. It supports multi-step planning, background task control, and real-world automation beyond single-purpose coding assistants. [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-12T19:00:26+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Hermes Agent 프레임워크는 데이터 분석가들이 자동화된 워크플로우를 구축하고 도구 통합을 통해 더 효율적으로 작업할 수 있도록 지원합니다. 이 가이드는 복잡한 AI 에이전트를 실무에 적용할 수 있는 방법을 설명합니다.",
+      "reason": "AI 도구인 Hermes Agent의 활용 방법에 대한 구체적인 가이드를 제공하여 실제 업무에 도움이 될 수 있음."
+    }
+  ]
+}
