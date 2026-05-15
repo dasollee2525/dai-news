@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T07:55:34.485732+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How I Continually Improve My Claude Code",
+      "link": "https://towardsdatascience.com/how-i-continually-improve-my-claude-code/",
+      "summary_raw": "<p>Learn how to make your Claude Code improve over time </p>\n<p>The post <a href=\"https://towardsdatascience.com/how-i-continually-improve-my-claude-code/\">How I Continually Improve My Claude Code</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-16T00:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "클로드 코드를 개선하는 방법에 대한 구체적인 설명으로, 데이터 분석가들이 실무에 활용할 수 있는 유용한 정보가 포함되어 있음.",
+      "reason": "데이터 분석가가 실무에서 사용할 수 있는 튜토리얼 제공."
+    }
+  ]
+}
