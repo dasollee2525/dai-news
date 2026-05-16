@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T07:45:10.895260+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "OpenAI Omni Moderation: How to Filter Text & Images for Free",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/openai-omni-moderation/",
+      "summary_raw": "<p>Want to add a safety layer in your chatbot, image analyzer or any another LLM-based system? I would strongly suggest you try OpenAI’s moderation model: omni-moderation-latest, this can help your system identify if the input is potentially harmful or not, that too free of cost. We’ll look into the background of the model, how to [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/openai-omni-moderation/\">OpenAI Omni Moderation: How to Filter Text &amp; Images for Fr",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-16T01:28:12+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "OpenAI의 Omni Moderation을 통해 데이터 분석가들이 LLM 기반 시스템에서 입력을 필터링 할 수 있는 방법을 제안합니다. 이를 통해 위험한 입력을 사전에 걸러낼 수 있습니다.",
+      "reason": "AI 도구 활용 및 데이터 분석에 실질적으로 기여할 수 있는 방법을 다룹니다."
+    }
+  ]
+}
