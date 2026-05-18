@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T08:02:43.091289+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How to Maximize OpenAI’s Codex",
+      "link": "https://towardsdatascience.com/how-to-maximize-openais-codex/",
+      "summary_raw": "<p>Learn how to get the most out of OpenAI's coding agent</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-maximize-openais-codex/\">How to Maximize OpenAI’s Codex</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-18T21:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "OpenAI의 코드를 활용하는 방법에 대한 튜토리얼로, 분석가가 실무에 활용할 수 있습니다.",
+      "reason": "실제 분석 업무에 적용 가능한 내용 포함"
+    }
+  ]
+}
