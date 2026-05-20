@@ -1,0 +1,46 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T08:16:06.422983+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "How to Get the Most Out of Claude Cowork",
+      "link": "https://www.kdnuggets.com/how-to-get-the-most-out-of-claude-cowork",
+      "summary_raw": "Cowork is an autonomous agent that lives inside the Claude Desktop app, which has direct access to a folder on your computer, and can plan, execute, and deliver real work.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-19T23:00:43+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "Claude Cowork는 사용자가 직접 컴퓨터 내 파일에 접근하여 작업을 계획하고 실행할 수 있는 기능을 제공한다. 이 툴을 활용하여 데이터 분석가들은 효율적으로 업무를 자동화할 수 있다.",
+      "reason": "AI 도구를 활용하여 업무 자동화 및 생산성을 높이는 실제 사례."
+    },
+    {
+      "title": "솔트룩스, '구버'에 노코드 에이전트 개발·배포 기능 추가",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=210747",
+      "summary_raw": "AI 전문 솔트룩스(대표 이경일)는 AI 서비스 ‘구버(Goover)’에 노코드 에이전트 개발 및 배포 기능을 추가, ‘에이전트 플랫폼’으로 전환한다고 20일 밝혔다. 구버는 AI 검색, 딥리서치, 리포트·슬라이드 자동 생성, 미디어 생성, AI 상담 캐릭터 챗 등 다양한 기능을 제공한다.새로 추가되는 ‘AI 워크버디(WorkBuddy)’는 코딩 없이 누구나 자신의 업무와 목적에 맞는 AI 에이전트를 직접 만들 수 있는 기능이다. 지식, 도구, 성격, 실행 지침 등을 설정해 개인 비서, 번역가, 마케터, 학업 도우미 등 맞춤형 AI",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-05-21T00:05:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "구버 플랫폼의 노코드 에이전트 개발 기능은 데이터 분석 업무 자동화에 활용할 수 있습니다.",
+      "reason": "분석가가 실무에 사용할 수 있는 AI 도구의 구체적인 활용 방법을 제시하고 있음."
+    },
+    {
+      "title": "Kimi WebBridge: Hands-on Guide to Kimi’s Browser Extension for AI Agents",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/kimi-webbridge/",
+      "summary_raw": "<p>AI agents are evolving from answering questions to taking actions inside browsers. They can now open pages, click buttons, fill forms, extract data, and automate multi step workflows across websites. Moonshot AI’s Kimi WebBridge brings this capability to Chrome and Edge, allowing local AI agents to safely interact with real browser sessions. In this article, [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/kimi-webbridge/\">Kimi WebBridge: Hands-on Guide to Kimi’",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-19T20:57:28+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Kimi WebBridge는 AI 에이전트의 기능을 활용하여 웹사이트에서 데이터 추출 및 자동화를 지원한다. 이 툴을 사용하여 데이터 분석 업무의 효율성을 높일 수 있다.",
+      "reason": "AI 도구를 활용한 웹 기반 데이터 자동화 사례로 실무에 적용 가능."
+    }
+  ]
+}
