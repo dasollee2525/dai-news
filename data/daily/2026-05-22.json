@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T08:05:05.606933+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Optimizing AI Agent Planning with Operations Research and Data Science",
+      "link": "https://towardsdatascience.com/optimizing-ai-agent-planning-with-operations-research-and-data-science/",
+      "summary_raw": "<p>AI agents can quickly become expensive without a clear strategy for planning, skill coverage, and budgets. This article shows how to use operations research and data science to optimize AI agent cost and resource allocation. You will learn how to frame common agent problems—skill coverage, project assignment, and budgeting—as set covering, assignment, and knapsack optimization models in Python using Gurobi. </p>\n<p>The post <a href=\"https://towardsdatascience.com/optimizing-ai-agent-planning-",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-21T02:28:12+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "AI 에이전트의 비용과 자원 최적화를 위한 방법론을 제시하며 데이터 분석가들이 참고할 만한 사례와 전략을 제안함.",
+      "reason": "AI 도구 활용 방안과 함께 구체적인 최적화 전략을 포함하고 있어 실용적임."
+    },
+    {
+      "title": "Anonymizing Production Data for Data Science with Mimesis",
+      "link": "https://www.kdnuggets.com/anonymizing-production-data-for-data-science-with-mimesis",
+      "summary_raw": "Learn how to utilize Python's Mimesis library for anonymizing sensitive production data, based on a step-by-step example to try yourself.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-21T01:00:15+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Mimesis 라이브러리를 활용한 생산 데이터의 익명화 방법에 대한 튜토리얼이 포함됨.",
+      "reason": "실제로 데이터 분석가가 사용할 수 있는 방법을 제공함."
+    }
+  ]
+}
