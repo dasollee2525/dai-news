@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T08:00:14.141925+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Prompt Engineering Isn’t Enough — I Built a Control Layer That Works in Production",
+      "link": "https://towardsdatascience.com/prompt-engineering-isnt-enough-i-built-a-control-layer-that-works-in-production/",
+      "summary_raw": "<p>Most LLM failures in production aren’t random — they’re predictable.<br />\nI kept hitting broken JSON, silent failures, and outages that froze my entire app. Prompt engineering didn’t fix it.<br />\nSo I built a control layer above the model — and took structured output reliability from 0% to 100% without changing a single prompt.</p>\n<p>The post <a href=\"https://towardsdatascience.com/prompt-engineering-isnt-enough-i-built-a-control-layer-that-works-in-production/\">Prompt Engineering Isn’t En",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-21T21:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "구조적 출력 신뢰성을 0%에서 100%로 개선하기 위한 제어 레이어 구축 경험을 통해 AI 도구 사용법을 제안.",
+      "reason": "실무에서의 AI 도구 활용과 문제 해결을 다루고 있어 분석가에게 유용함."
+    },
+    {
+      "title": "Qwen3.7-Max: Alibaba’s New Agent-First LLM for Coding, Reasoning, and Long-Horizon AI Workflows",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/qwen3-7-max/",
+      "summary_raw": "<p>Alibaba’s Qwen team has unveiled Qwen3.7-Max, a flagship model built for the agent era. Unlike conventional chatbot-focused LLMs, it is designed as a foundation for autonomous AI agents that can code, debug, use tools, manage workflows, and execute long-running enterprise tasks. Alibaba claims the model can operate autonomously for up to 35 hours without performance [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/qwen3-7-max/\">Qwen3.7-Max: Alibaba’s New Agent-F",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-23T01:12:50+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "Alibaba의 Qwen3.7-Max는 코딩 및 워크플로우 관리를 위한 AI 에이전트를 지원하여 데이터 분석가가 복잡한 분석 작업을 효율적으로 수행할 수 있게 합니다.",
+      "reason": "AI 에이전트를 활용한 데이터 분석 자동화 가능성이 있어 유용성 존재"
+    }
+  ]
+}
