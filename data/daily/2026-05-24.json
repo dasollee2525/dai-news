@@ -1,0 +1,46 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24T07:54:33.848260+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "Enterprise Document Intelligence: A Series on Building RAG Brick by Brick, from Minimal to Corpus scale",
+      "link": "https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/",
+      "summary_raw": "<p>For AI engineers who want to understand every step, not just call the library</p>\n<p>The post <a href=\"https://towardsdatascience.com/document-intelligence-a-series-on-building-rag-brick-by-brick-from-minimal-to-corpus-scale/\">Enterprise Document Intelligence: A Series on Building RAG Brick by Brick, from Minimal to Corpus scale</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-23T00:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "문서 인텔리전스 시스템 구축에 대한 일련의 프로세스를 구체적으로 설명하며 유용한 아이디어를 제공.",
+      "reason": "RAG와 AI 결합에 대한 구체적인 방법을 제시해 데이터 분석실무에 기여할 수 있음."
+    },
+    {
+      "title": "Pandas vs Polars vs DuckDB: Which Library Should You Choose?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/pandas-vs-polars-vs-duckdb/",
+      "summary_raw": "<p>pandas remains the default choice for notebooks, exploratory analysis, visualization, and machine learning workflows. Polars focus on fast, memory-efficient DataFrame processing, while DuckDB brings a SQL-first approach for querying local files and embedded analytics. Each tool fits a different kind of local data workflow. In this article, we compare pandas, Polars, and DuckDB across performance, [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/pandas-vs-polars-",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-24T03:00:11+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Pandas, Polars, DuckDB의 각각의 장단점을 비교하며 데이터 분석에 적합한 도구 선택에 도움을 줄 수 있음.",
+      "reason": "데이터 분석가가 다양한 도구를 비교 분석하는 데 유용함."
+    },
+    {
+      "title": "Easy Agentic Tool Calling with Gemma 4",
+      "link": "https://www.kdnuggets.com/easy-agentic-tool-calling-with-gemma-4",
+      "summary_raw": "In this tutorial, we will give Gemma 4 two new tools and watch the model decide, on its own, when to look around and when to compute.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-22T21:00:22+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Gemma 4 모델의 새로운 도구 활용법을 소개하며, 데이터 분석업무에 적용할 수 있는 가능성을 제시.",
+      "reason": "AI 도구의 실질적인 활용 예로 데이터 분석가에게 useful한 정보 제공."
+    }
+  ]
+}
