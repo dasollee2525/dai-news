@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T07:58:03.808045+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Build a Claude Cowork-Like Browser Agent Using Playwright MCP and Claude Desktop",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/build-a-claude-cowork-like-browser-agent-using-playwright-mcp/",
+      "summary_raw": "<p>Claude Cowork shifts AI from chat-based assistance to task delegation. Instead of giving users instructions, it performs actions directly on the user’s computer, files, applications, and browser workflows. Combined with Playwright MCP, Claude Desktop can open pages, click buttons, fill forms, extract data, and debug interfaces in a far more structured way than screenshot-based automation. [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/build-a-claude-cowork-lik",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-25T01:24:37+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "Claude Cowork는 AI가 사용자 대신 직접 행동을 수행하게 하여 분석 워크플로우를 개선할 수 있습니다. 데이터 분석가들은 이 도구를 통해 반복 작업을 자동화하고 시간을 절약할 수 있습니다.",
+      "reason": "AI 도구의 실무 활용 방안이 구체적으로 제시됨"
+    }
+  ]
+}
