@@ -178,8 +178,8 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">15</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">14</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">7</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-05-27">
-      <button class="date-toggle" data-date="2026-05-27" onclick="toggleDate('2026-05-27')">
-        <span class="date-label">📅 2026년 05월 27일</span>
+    <div class="date-section" data-date="2026-05-28">
+      <button class="date-toggle" data-date="2026-05-28" onclick="toggleDate('2026-05-28')">
+        <span class="date-label">📅 2026년 05월 28일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-05-27">
+      <div class="date-cards" id="cards-2026-05-28">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-05-26T22:30:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Stop Using LLMs Like Giant Problem Solvers</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.05.26 22:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">복잡한 PDF 문서를 구조화된 인사이트로 변환하기 위한 AI 에이전트를 사용하여 분석 프로세스를 개선하는 방법을 설명합니다. 데이터 분석가는 LLMs를 통해 데이터를 정리하고 인사이트를 도출하는 튜토리얼을 활용할 수 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/stop-using-llms-like-giant-problem-solvers/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="생산성" data-score="4" data-date="2026-05-26T18:15:56">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">10 Everyday Tasks You Can Automate with AI Today (With n8n Templates)</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.05.26 18:15 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">n8n과 같은 로우코드 플랫폼을 사용하여 자동화 워크플로우를 구축하는 방법에 대해 구체적인 예시를 제공합니다. 데이터 분석가는 이러한 자동화 템플릿을 활용하여 일상적인 작업을 효율적으로 수행할 수 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/05/everyday-ai-automation-using-n8n/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-05-27">
+      <button class="date-toggle collapsed" data-date="2026-05-27" onclick="toggleDate('2026-05-27')">
+        <span class="date-label">📅 2026년 05월 27일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-05-27">
         
     <div class="card" data-category="LLM응용" data-score="5" data-date="2026-05-26T22:30:00">
       <div class="card-header">
@@ -462,68 +507,6 @@
       <p class="summary">Mimesis 라이브러리를 활용한 생산 데이터의 익명화 방법에 대한 튜토리얼이 포함됨.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.kdnuggets.com/anonymizing-production-data-for-data-science-with-mimesis" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-05-21">
-      <button class="date-toggle collapsed" data-date="2026-05-21" onclick="toggleDate('2026-05-21')">
-        <span class="date-label">📅 2026년 05월 21일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-05-21">
-        
-    <div class="card" data-category="생산성" data-score="5" data-date="2026-05-19T23:00:43">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">How to Get the Most Out of Claude Cowork</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.05.19 23:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">Claude Cowork는 사용자가 직접 컴퓨터 내 파일에 접근하여 작업을 계획하고 실행할 수 있는 기능을 제공한다. 이 툴을 활용하여 데이터 분석가들은 효율적으로 업무를 자동화할 수 있다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/how-to-get-the-most-out-of-claude-cowork" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-05-21T00:05:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">솔트룩스, '구버'에 노코드 에이전트 개발·배포 기능 추가</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.05.21 00:05 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">구버 플랫폼의 노코드 에이전트 개발 기능은 데이터 분석 업무 자동화에 활용할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=210747" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-05-19T20:57:28">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">Kimi WebBridge: Hands-on Guide to Kimi’s Browser Extension for AI Agents</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.05.19 20:57 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">Kimi WebBridge는 AI 에이전트의 기능을 활용하여 웹사이트에서 데이터 추출 및 자동화를 지원한다. 이 툴을 사용하여 데이터 분석 업무의 효율성을 높일 수 있다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/05/kimi-webbridge/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
