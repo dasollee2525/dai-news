@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T08:17:46.266776+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "[AI&빅데이터쇼] 비아이매트릭스 ”트리니티 프리즘으로 데이터 분석 혁신\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211049",
+      "summary_raw": "비아이매트릭스는 6월10~12일 서울 코엑스에서 열리는 ‘2026 AI&빅데이터쇼’에 참가해 차세대 데이터 분석 및 AI 에이전트 개발 기술을 선보이며, AI 기반 업무환경 구축을 통한 업무 생산성 극대화 방안을 제시한다.비아이매트릭스는 ▲질문만으로 데이터 분석, 시각화, 보고서 생성까지 가능한 AI 분석 솔루션 ‘트리니티 프리즘(TRINITY PRISM)’과 ▲기업의 업무를 직접 수행하는 에이전틱 AI 솔루션 ‘트리니티(TRINITY)’를 소개할 예정이다.이번 전시의 핵심은 최근 출시한 트리니티 프리즘이다. 기존 기업 데이터 분석",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-05-29T02:28:07+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "비아이매트릭스의 AI 분석 솔루션 '트리니티 프리즘'은 질문으로 데이터 분석과 리포트 작성을 가능하게 함.",
+      "reason": "구체적인 AI 도구를 통한 데이터 분석 방법을 제시하고 있어 실무 활용 가능성이 있음."
+    },
+    {
+      "title": "7 Real World AI Projects to Build in 2026 (with Guides)",
+      "link": "https://www.kdnuggets.com/7-real-world-ai-projects-to-build-in-2026-with-guides",
+      "summary_raw": "Explore seven practical AI projects that automate real workflows, including job search, web research, investment research, market trend analysis, invoice processing, chart digitization, and personalized exercise training.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-28T21:00:12+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "2026년에 구축할 수 있는 AI 프로젝트를 통해 데이터 분석 흐름을 자동화하는 좋은 예시들을 제공합니다.",
+      "reason": "실제 업무에 적용 가능한 AI 관련 프로젝트 제안을 포함하고 있음."
+    }
+  ]
+}
