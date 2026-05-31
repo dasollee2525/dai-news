@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T08:00:12.212992+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "AI Workflows for Sales Teams: Prospect Research, Lead Qualification, and CRM Updates on Autopilot Using LangGraph",
+      "link": "https://www.analyticsvidhya.com/blog/2026/05/ai-workflows-for-sales-teams-using-langgraph/",
+      "summary_raw": "<p>Sales teams spend hours every day on tasks that should never see a human. Research a prospect, score them against their fit, and put it all into a CRM. These are repeatable, rule based processes AI workflows driven by multi-agent systems can do all three, with speed and consistency that no human team can match.&#160; [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/05/ai-workflows-for-sales-teams-using-langgraph/\">AI Workflows for Sales Teams: Prospect Research, Le",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-05-31T17:10:35+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "AI를 활용한 판매팀의 워크플로우 개선 내용을 다루고 있어 데이터 분석가가 실제로 작업에 도입할 수 있다.",
+      "reason": "판매 데이터 분석에 AI 도구를 적용한 사례로 실무에 도움이 될 수 있다."
+    }
+  ]
+}
