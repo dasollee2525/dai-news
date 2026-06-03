@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T08:44:39.504177+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "[게시판] SKB, 사내 에이전트 개발 플랫폼 실무 적용 등 단신",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211269",
+      "summary_raw": "■ SK브로드밴드(대표 김성수)는 구성원 누구나 AI 에이전트를 직접 만들고 업무에 투입할 수 있는 환경을 구축했다고 밝혔다. 사내 네트워크 조직과 AT·DT 센터가 협력해 네트워크 데이터 분석 및 코딩 지원 기능을 갖춘 ‘플레이그라운드’ 플랫폼을 지난 2월 구축했다는 설명이다. 현재 이를 통해 개발 및 운영 중인 AI 앱은 약 600여 개에 달하며, 이 가운데 스스로 상황을 판단하고 행동까지 수행하는 AI 에이전트 30여개도 현장에 적용됐다.■ 딥엑스(대표 김녹원)는 대만 타이베이에서 개막한 ‘컴퓨텍스 2026’에서 에이수스(AS",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-03T01:50:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "SK브로드밴드의 AI 에이전트 개발 플랫폼은 분석가가 직접 AI 도구를 사용하여 업무에 투입 가능.",
+      "reason": "AI 도구 활용을 통해 데이터 분석 업무에 적용할 수 있어 유용함."
+    },
+    {
+      "title": "Exploring Income Patterns with Python Pandas, Matplotlib, and Seaborn",
+      "link": "https://towardsdatascience.com/from-raw-census-data-to-powerful-insights-exploring-income-patterns-with-pandas-matplotlib-seaborn/",
+      "summary_raw": "<p>Exploratory data analysis on the US Census Dataset </p>\n<p>The post <a href=\"https://towardsdatascience.com/from-raw-census-data-to-powerful-insights-exploring-income-patterns-with-pandas-matplotlib-seaborn/\">Exploring Income Patterns with Python Pandas, Matplotlib, and Seaborn</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-02T21:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "Python과 관련된 도구를 사용하여 데이터 분석을 수행하는 방법에 대해 설명하고 있어, 실제 데이터 탐색에 도움을 줄 수 있음.",
+      "reason": "데이터 분석을 위한 구체적인 도구 사용 사례를 담고 있어 유용함."
+    }
+  ]
+}
