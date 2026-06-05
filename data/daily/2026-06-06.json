@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T08:10:20.400935+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Automate Writing Your LLM Prompts",
+      "link": "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
+      "summary_raw": "<p>Using DSPy to automatically create, evaluate, and optimize your prompts</p>\n<p>The post <a href=\"https://towardsdatascience.com/automate-writing-your-llm-prompts/\">Automate Writing Your LLM Prompts</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-05T22:30:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "DSPy를 사용하여 LLM 프롬프트를 자동으로 생성, 평가, 최적화하는 방법을 다루고 있어 데이터 분석가들이 실무에서 AI 도구를 활용할 수 있는 방향을 제시.",
+      "reason": "AI 도구를 활용하여 데이터 분석 작업에서 프롬프트 작성 자동화를 통해 효율성을 높일 수 있음."
+    }
+  ]
+}
