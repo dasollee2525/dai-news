@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T08:04:29.665752+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "채널톡, 신규 기능 '코스' 이달 말 출시...\"AI 비서 실장이 의사 결정 돕는다\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211373",
+      "summary_raw": "AI 비즈니스 메신저 '채널톡' 운영사 채널코퍼레이션(대표 최시원)은 지난 4일 일본 도쿄에서 '채널콘 재팬 2026'을 개최했다고 5일 밝혔다.일본 시장 진출 11주년을 기념해 마련된 이번 행사는 일본 현지 고객사와 벤처캐피털(VC) 등 업계 관계자 500여명이 참석했다.오프닝 세션에서는 최재용 채널코퍼레이션 일본 지사 대표가 일본 시장 진출 노하우를 소개했으며 채널톡의 신규 기능인 '코스(CoS)'를 공개했다.코스는 채널톡 내 매출·운영·마케팅·상담 데이터를 수집해 인사이트와 시각화 기능을 제공하는 서비스다. AI 비서실장처럼",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-05T22:33:57+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "채널톡의 신규 AI 비서 기능이 데이터 수집과 인사이트 시각화를 통해 비즈니스 의사결정을 지원할 수 있어 실제 활용 가능성이 높습니다.",
+      "reason": "AI를 활용한 데이터 분석 기능에 대한 구체적인 사례가 있습니다."
+    },
+    {
+      "title": "Automate Writing Your LLM Prompts",
+      "link": "https://towardsdatascience.com/automate-writing-your-llm-prompts/",
+      "summary_raw": "<p>Using DSPy to automatically create, evaluate, and optimize your prompts</p>\n<p>The post <a href=\"https://towardsdatascience.com/automate-writing-your-llm-prompts/\">Automate Writing Your LLM Prompts</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-05T22:30:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "DSPy를 사용하여 LLM 프롬프트를 자동으로 작성하고 최적화하는 방법을 다루고 있어 데이터 분석 업무에 응용할 수 있습니다. 분석가는 이 도구를 통해 효율적으로 모델의 입력을 개선하여 원하는 결과를 도출할 수 있습니다.",
+      "reason": "AI 도구를 활용한 프롬프트 작성 자동화에 대한 유용한 방법 제시"
+    }
+  ]
+}

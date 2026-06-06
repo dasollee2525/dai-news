@@ -178,9 +178,9 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">5</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">4</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">7</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">5</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -195,14 +195,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-06-06">
-      <button class="date-toggle" data-date="2026-06-06" onclick="toggleDate('2026-06-06')">
-        <span class="date-label">📅 2026년 06월 06일</span>
+    <div class="date-section" data-date="2026-06-07">
+      <button class="date-toggle" data-date="2026-06-07" onclick="toggleDate('2026-06-07')">
+        <span class="date-label">📅 2026년 06월 07일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-06-06">
+      <div class="date-cards" id="cards-2026-06-07">
+        
+    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-06-05T22:33:57">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">채널톡, 신규 기능 '코스' 이달 말 출시..."AI 비서 실장이 의사 결정 돕는다"</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.05 22:33 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">채널톡의 신규 AI 비서 기능이 데이터 수집과 인사이트 시각화를 통해 비즈니스 의사결정을 지원할 수 있어 실제 활용 가능성이 높습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=211373" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-05T22:30:00">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Automate Writing Your LLM Prompts</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.05 22:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">DSPy를 사용하여 LLM 프롬프트를 자동으로 작성하고 최적화하는 방법을 다루고 있어 데이터 분석 업무에 응용할 수 있습니다. 분석가는 이 도구를 통해 효율적으로 모델의 입력을 개선하여 원하는 결과를 도출할 수 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/automate-writing-your-llm-prompts/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-06-06">
+      <button class="date-toggle collapsed" data-date="2026-06-06" onclick="toggleDate('2026-06-06')">
+        <span class="date-label">📅 2026년 06월 06일</span>
+        <span class="date-chip">1개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-06-06">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-05T22:30:00">
       <div class="card-header">
@@ -353,22 +398,6 @@
         <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/05/ai-workflows-for-sales-teams-using-langgraph/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-05-31">
-      <button class="date-toggle collapsed" data-date="2026-05-31" onclick="toggleDate('2026-05-31')">
-        <span class="date-label">📅 2026년 05월 31일</span>
-        <span class="date-chip">0개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-05-31">
-        
-            <div class="empty-state">
-              <div class="icon">🔍</div>
-              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
-            </div>
       </div>
     </div></main>
   </div>
