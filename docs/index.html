@@ -178,9 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">6</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">7</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">4</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -195,14 +196,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-06-08">
-      <button class="date-toggle" data-date="2026-06-08" onclick="toggleDate('2026-06-08')">
-        <span class="date-label">📅 2026년 06월 08일</span>
+    <div class="date-section" data-date="2026-06-09">
+      <button class="date-toggle" data-date="2026-06-09" onclick="toggleDate('2026-06-09')">
+        <span class="date-label">📅 2026년 06월 09일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-06-08">
+      <div class="date-cards" id="cards-2026-06-09">
+        
+    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-06-09T03:00:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Increase Recommendation Systems’ Precision with LLMs, Using Python</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.09 03:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">LLM을 활용하여 추천 시스템의 정밀도를 향상시키는 방법을 다뤄, 데이터 분석가가 실무에 적용할 수 있는 유용한 정보가 제공된다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-09T01:29:39">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Build an Emergency Helpline Voice Agent with LangChain</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.09 01:29 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">LangChain을 활용한 긴급 핫라인 음성 에이전트 구축 방법을 설명하고 있어 실무에 활용 가능성이 높음.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/06/build-an-ai-voice-agent-with-langchain/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-06-08">
+      <button class="date-toggle collapsed" data-date="2026-06-08" onclick="toggleDate('2026-06-08')">
+        <span class="date-label">📅 2026년 06월 08일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-06-08">
         
             <div class="empty-state">
               <div class="icon">🔍</div>
@@ -358,34 +404,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-06-02">
-      <button class="date-toggle collapsed" data-date="2026-06-02" onclick="toggleDate('2026-06-02')">
-        <span class="date-label">📅 2026년 06월 02일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-06-02">
-        
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-01T23:48:16">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">어센트AI, 환각 없는 마케팅 에이전트 '리스닝마인드.AI' 출시</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.01 23:48 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">리스닝마인드.AI는 마케팅과 관련된 자동화 도구로서 잠재적 데이터 분석 활용 가능성이 있으며, 리포트 작성에서 유용할 수 있음.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=211184" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>

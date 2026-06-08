@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T08:12:42.392147+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Increase Recommendation Systems’ Precision with LLMs, Using Python",
+      "link": "https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/",
+      "summary_raw": "<p>This is how LLMs are used today to increase precision in recommendation systems</p>\n<p>The post <a href=\"https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/\">Increase Recommendation Systems’ Precision with LLMs, Using Python</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-09T03:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "LLM을 활용하여 추천 시스템의 정밀도를 향상시키는 방법을 다뤄, 데이터 분석가가 실무에 적용할 수 있는 유용한 정보가 제공된다.",
+      "reason": "데이터 분석가가 실제로 사용할 수 있는 AI 활용 방안이 포함되어 있다."
+    },
+    {
+      "title": "Build an Emergency Helpline Voice Agent with LangChain",
+      "link": "https://www.analyticsvidhya.com/blog/2026/06/build-an-ai-voice-agent-with-langchain/",
+      "summary_raw": "<p>We have all been in an emergency where every second matters. Someone&#8217;s life is at risk but there you&#8217;re panicking. Now, imagine in this situation of distress when a helpline asks you to press numbers on your keypad to connect with the right agent? Pure chaos, right? Here, we just need someone to listen and [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/06/build-an-ai-voice-agent-with-langchain/\">Build an Emergency Helpline Voice Agent with LangChain</",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-09T01:29:39+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "LangChain을 활용한 긴급 핫라인 음성 에이전트 구축 방법을 설명하고 있어 실무에 활용 가능성이 높음.",
+      "reason": "실제 구현 튜토리얼로 데이터 분석가가 AI 도구를 실무에 적용할 수 있는 유용한 내용"
+    }
+  ]
+}
