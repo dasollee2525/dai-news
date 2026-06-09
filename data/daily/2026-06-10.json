@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T08:17:41.724196+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "구글, '스스로 판단하고 재검색'하는 차세대 에이전틱 RAG 공개",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211484",
+      "summary_raw": "구글이 복잡한 기업용 질문에 답하기 위해 필요한 정보를 스스로 찾아나가는 차세대 검색·추론 기술인 ‘에이전틱 RAG(Agentic RAG)’를 공개했다. 구글은 5일(현지시간) 복잡한 기업용 질문에 답하기 위해 필요한 정보를 스스로 찾아나가는 차세대 검색·추론 기술인 '에이전틱 RAG'를 공개했다. 이 기술은 현재 제미나이 엔터프라이즈 에이전트 플랫폼(Gemini Enterprise Agent Platform)에서 공개 프리뷰 형태로 제공되고 있다.기존 검색증강생성(RAG)이 한 번의 검색 결과에 의존했다면, 새로운 시스템은 여러",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-09T03:19:40+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "구글의 에이전틱 RAG는 복잡한 질문에 대한 데이터 탐색을 자동화하여 분석가에게 도움이 될 수 있음.",
+      "reason": "복잡한 질문에 대한 정보 수집 및 탐색 автомат화가 데이터 분석에 유용할 수 있음."
+    },
+    {
+      "title": "Increase Recommendation Systems’ Precision with LLMs, Using Python",
+      "link": "https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/",
+      "summary_raw": "<p>This is how LLMs are used today to increase precision in recommendation systems</p>\n<p>The post <a href=\"https://towardsdatascience.com/increase-recommendation-systems-precision-with-llm-using-python/\">Increase Recommendation Systems’ Precision with LLMs, Using Python</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-09T03:00:00+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "LLM을 사용하여 추천 시스템의 정확성을 높이는 방법을 설명. 데이터 분석가는 이를 통해 보다 정교한 추천 시스템을 구축할 수 있음.",
+      "reason": "추천 시스템에서 LLM을 활용한 실무 적용 방법이 포함되어 있음."
+    },
+    {
+      "title": "4 New Techniques to Maximize Claude Code",
+      "link": "https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/",
+      "summary_raw": "<p>Get the most out of Claude Code with these four techniques</p>\n<p>The post <a href=\"https://towardsdatascience.com/4-new-techniques-to-maximize-claude-code/\">4 New Techniques to Maximize Claude Code</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-09T00:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude 코드의 효율성을 극대화하는 기술을 소개하며 데이터 분석가들이 직접 활용할 수 있는 방법을 제시함.",
+      "reason": "Claude를 활용하여 데이터 분석 실무에 적용할 수 있는 정보가 포함되어 있음."
+    }
+  ]
+}
