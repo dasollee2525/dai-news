@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T08:25:55.846759+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Refactor Code with Claude Code",
+      "link": "https://towardsdatascience.com/how-to-refactor-code-with-claude-code/",
+      "summary_raw": "<p>Improve coding agent productiveness with refactored code</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-refactor-code-with-claude-code/\">How to Refactor Code with Claude Code</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-11T03:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude Code를 활용한 코드 리팩토링 방법에 대한 기사로, 데이터 분석가가 AI 도구를 통한 실무에 활용할 수 있는 구체적인 방법 제시.",
+      "reason": "AI 도구를 실무적으로 활용할 수 있는 구체적인 사례."
+    },
+    {
+      "title": "Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines",
+      "link": "https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/",
+      "summary_raw": "<p>Stop re-computing the same context. Learn how to build a C++ runtime with copy-on-fork KV snapshots to eliminate redundant LLM prefills in multi-agent pipelines.</p>\n<p>The post <a href=\"https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/\">Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Scien",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-09T22:30:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "C++에서 KV 스냅샷을 이용해 LLM 파이프라인의 효율성을 높일 수 있는 방법으로, 데이터 분석 그루비와 관련된 매우 유용한 정보.",
+      "reason": "실제 데이터를 다루는 환경에서의 활용 가능성이 높음."
+    }
+  ]
+}
