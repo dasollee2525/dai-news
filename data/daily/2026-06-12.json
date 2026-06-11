@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T08:22:24.895766+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "[AI&빅데이터쇼] 뉴엔AI “대기업이 선택한 데이터 분석, 미국 출시 앞둬”",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211630",
+      "summary_raw": "뉴엔AI(대표 배성환)는 12일까지 열리는 ‘AI&빅데이터쇼’에 참가해 ‘퀘타아이(Quettai)’를 중심으로 AI 데이터 분석 기술을 선보였다.뉴엔AI는 20년 이상 축적해 온 데이터 분석 기술에 AI를 결합, 전 산업 분야의 인사이트 파악을 돕고 있다. 핵심 솔루션 퀘타아이는 SNS와 커뮤니티에서 매일 발생하는 비정형 구어체 데이터를 AI가 실시간 구조화해 고정밀 분석하는 플랫폼이다. 단순 키워드 추출을 넘어 단어와 개념 간의 관계성을 추론하는 온톨로지 기술을 적용해 브랜드 진단, 소비자 경험(CX) 분석, 마켓 분석, 신제품",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-12T05:08:54+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "퀘타아이 플랫폼을 통해 AI가 비정형 데이터를 구조화하여 소비자 경험 분석이나 브랜드 진단을 수행할 수 있는 방법을 제시하고 있다. 이를 통해 데이터 분석가들은 보다 신속하고 효율적으로 인사이트를 도출할 수 있다.",
+      "reason": "AI와 데이터 분석 기술을 결합한 실제 사용 사례로, 분석가들에게 유용한 도구를 소개하고 있다."
+    },
+    {
+      "title": "Local Agentic Programming on the Cheap: Claude Code + Ollama + Gemma4",
+      "link": "https://www.kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4",
+      "summary_raw": "This article builds a full local agentic programming stack using Ollama, Gemma 4, and Claude Code.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-10T23:00:17+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "Ollama, Gemma 4, Claude Code를 활용하여 로컬 에이전트 프로그래밍 스택을 구축하는 방법을 설명합니다. 데이터 분석가들이 AI 도구를 사용하여 효율성을 높일 수 있습니다.",
+      "reason": "데이터 분석과 AI 결합의 실무적 활용에 대한 구체적인 내용"
+    }
+  ]
+}
