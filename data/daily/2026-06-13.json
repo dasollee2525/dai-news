@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T08:17:48.982448+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "MS, AI 에이전트 '스킬' 자동 수정 기술 공개...\"성능 23.5% 향상\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211674",
+      "summary_raw": "마이크로소프트(MS)가 AI 에이전트의 업무 수행 능력을 자동으로 개선하는 오픈소스 프레임워크를 공개했다. MS는 최근 '클로드 코드'와 '코덱스', '코파일럿' 등 다양한 AI 에이전트 환경에서 사용되는 스킬(skill) 문서를 스스로 최적화해 성능을 높이는 ‘스킬옵트(SkillOpt)’를 온라인 아카이브를 통해 공개했다.이를 통해 별도의 모델 재학습 없이 정확도와 업무 처리 능력을 크게 향상할 수 있다는 점에서 주목받고 있다.AI 에이전트의 스킬은 특정 업무 절차, 도구 사용 규칙, 출력 형식, 실패 사례 대응 방법 등을 담은",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-13T04:05:54+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "MS가 공개한 '스킬옵트'는 AI 에이전트의 업무 능력을 자동으로 개선하는 도구로, 데이터 분석가들이 AI를 활용해 업무 효율성을 높일 수 있는 기회를 제공합니다. 이 프레임워크를 통해 데이터 분석 업무의 정확도와 처리 능력을 향상시킬 수 있습니다.",
+      "reason": "AI 도구의 구체적 활용 방법을 제시함."
+    },
+    {
+      "title": "[AI&빅데이터쇼] 뉴엔AI “대기업이 선택한 데이터 분석, 미국 출시 앞둬”",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211630",
+      "summary_raw": "뉴엔AI(대표 배성환)는 12일까지 열리는 ‘AI&빅데이터쇼’에 참가해 ‘퀘타아이(Quettai)’를 중심으로 AI 데이터 분석 기술을 선보였다.뉴엔AI는 20년 이상 축적해 온 데이터 분석 기술에 AI를 결합, 전 산업 분야의 인사이트 파악을 돕고 있다. 핵심 솔루션 퀘타아이는 SNS와 커뮤니티에서 매일 발생하는 비정형 구어체 데이터를 AI가 실시간 구조화해 고정밀 분석하는 플랫폼이다. 단순 키워드 추출을 넘어 단어와 개념 간의 관계성을 추론하는 온톨로지 기술을 적용해 브랜드 진단, 소비자 경험(CX) 분석, 마켓 분석, 신제품",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-12T05:08:54+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "뉴엔AI의 퀘타아이 플랫폼은 AI를 활용한 정교한 데이터 분석 방법을 제공, 분석가들이 소비자 경험과 마켓 분석에 활용할 수 있습니다. 이는 실질적으로 분석가의 인사이트 도출에 도움을 줄 수 있습니다.",
+      "reason": "AI 기반 데이터 분석 기술을 실질적으로 제공함."
+    },
+    {
+      "title": "Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs",
+      "link": "https://towardsdatascience.com/stop-returning-flat-text-from-a-pdf-the-relational-shape-rag-needs/",
+      "summary_raw": "<p>Enterprise Document Intelligence [Vol.1 #5B] - One PDF in, a relational set of DataFrames out: lines, pages, TOC, images, cross-references, captions, spans, and a parsing summary</p>\n<p>The post <a href=\"https://towardsdatascience.com/stop-returning-flat-text-from-a-pdf-the-relational-shape-rag-needs/\">Stop Returning Flat Text from a PDF: The Relational Shape RAG Needs</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-12T01:30:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "PDF 데이터를 관계형 데이터프레임으로 변환하는 방법에 대한 설명으로, 분석가에게 유용할 수 있음.",
+      "reason": "AI 기술을 활용하여 데이터 분석의 효율성을 높이는 방법을 다루고 있음."
+    }
+  ]
+}
