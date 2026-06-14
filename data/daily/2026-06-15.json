@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T08:10:06.623410+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "구글, 자연어-SQL 변환 기술 '제미나이-SQL2' 공개...\"정확도 80% 돌파\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211690",
+      "summary_raw": "구글이 자연어를 SQL 쿼리로 변환하는 차세대 텍스트-투-SQL(Text-to-SQL) 기술인 ‘제미나이-SQL2(Gemini-SQL2)’를 공개했다.구글은 12일(현지시간) '제미나이 3.1 프로'를 기반으로 개발된 제미나이-SQL2를 선보이며, 업계 대표 평가 지표인 BIRD 리더보드에서 80.04%의 실행 정확도를 기록하며 새로운 기록을 세웠다고 밝혔다.“복잡한 비즈니스 맥락과 미묘한 데이터 특성 때문에 자연어로부터 정확한 SQL을 생성하는 것은 매우 어려운 문제”라며 “SQL 이해 능력의 향상은 구글 데이터 서비스 전반의 자",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-13T23:20:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "자연어 SQL 변환 기술이 데이터 분석가가 SQL 쿼리 작성을 자동화하는 데 유용할 수 있음.",
+      "reason": "SQL 작성 자동화에 대한 구체적인 AI 도구를 소개함"
+    }
+  ]
+}
