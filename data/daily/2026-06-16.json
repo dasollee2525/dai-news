@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T08:45:50.139861+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "\"클로드 코드·코덱스를 하나로\"…데이터브릭스, 에이전트 통합 플랫폼 공개",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211742",
+      "summary_raw": "'클로드 코드'와 '코덱스' 등 서로 다른 도구를 하나의 상위 계층에서 조합하고 통제할 수 있는 AI 에이전트 통합 플랫폼이 등장했다.데이터브릭스는 12일(현지시간) 여러 AI 에이전트를 하나의 시스템으로 통합해 관리할 수 있는 오픈소스 플랫폼 '옴니전트(Omnigent)'를 공개했다. 데이터브릭스는 AI 에이전트 개발의 다음 단계가 개별 모델이나 에이전트가 아닌, 이들을 조율하는 상위 계층인 '메타 하네스(meta-harness)'에 있다고 강조했다.옴니전트는 아파치 2.0 라이선스로 깃허브에 공개된 오픈소스 프로젝트로, 데이터브",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-16T02:20:53+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "데이터브릭스의 오픈소스 플랫폼은 여러 AI 에이전트를 연결하여 분석 업무의 효율성을 높일 수 있는 방법을 제공합니다.",
+      "reason": "AI 에이전트를 통합하여 실무에서의 분석 자동화 가능성을 보여주기 때문."
+    },
+    {
+      "title": "Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG",
+      "link": "https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/",
+      "summary_raw": "<p>Enterprise Document Intelligence [Vol.1 #5quater] - The other parsers read the words on a page. A vision model also reads the pictures</p>\n<p>The post <a href=\"https://towardsdatascience.com/vision-llms-are-pdf-parsers-too-reading-charts-and-diagrams-for-rag/\">Vision LLMs are PDF Parsers Too: Reading Charts and Diagrams for RAG</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-15T00:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "문서 인텔리전스 활용을 위해 Vision LLM을 사용하여 PDF의 차트와 다이어그램을 분석하는 방법을 설명합니다.",
+      "reason": "AI 및 데이터 분석을 실무에서 효과적으로 결합한 사례로 실용적인 정보가 포함되어 있습니다."
+    }
+  ]
+}
