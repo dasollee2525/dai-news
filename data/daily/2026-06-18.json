@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T08:25:06.271468+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "사카나 AI, '가상 CSO' 에이전트 출시…8시간 조사로 100페이지 보고서 작성",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211790",
+      "summary_raw": "사카나 AI가 기업의 최고 전략책임자(CSO)와 팀이 몇 주에 걸쳐 수행해야 할 정도의 방대한 전략 조사 업무를 대신 수행하도록 설계된 자율형 AI 에이전트를 공개했다. 사카나 AI는 15일(현지시간) 기업용 자율 연구 에이전트인 ‘사카나 마린(Sakana Marlin)’을 출시했다.이를 단순한 챗봇이 아닌 ‘가상 최고 전략책임자(Virtual CSO)’로 포지셔닝하며, 기업의 전략 수립과 시장 조사, 경쟁 분석을 자동화하는 B2B 플랫폼이라고 설명했다. 마린은 일반적인 챗봇과 달리, 몇초 안으로 답변을 내놓지 않는다. 사용자가 연",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-17T03:48:51+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "사카나 AI의 자율형 에이전트는 기업의 전략 수립과 시장 조사를 자동화하여 데이터 분석 업무를 경량화할 수 있습니다.",
+      "reason": "AI 에이전트가 분석 프로세스의 일부를 자동화할 수 있는 실제 활용 사례."
+    },
+    {
+      "title": "Stop Writing Loops in Pandas: 7 Faster Alternatives to Try",
+      "link": "https://www.kdnuggets.com/stop-writing-loops-in-pandas-7-faster-alternatives-to-try",
+      "summary_raw": "In this article, you will learn how to replace pandas loops with 7 faster methods for optimized data processing.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-16T21:00:08+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "팬더스에서 루프를 최적화하는 방법을 제시하여 데이터 처리 효율성을 높일 수 있습니다.",
+      "reason": "데이터 분석 실무에서의 구체적인 최적화 방법을 다루고 있습니다."
+    }
+  ]
+}

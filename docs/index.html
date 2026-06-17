@@ -181,7 +181,8 @@
       <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">12</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">6</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">5</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">4</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -196,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-06-17">
-      <button class="date-toggle" data-date="2026-06-17" onclick="toggleDate('2026-06-17')">
-        <span class="date-label">📅 2026년 06월 17일</span>
+    <div class="date-section" data-date="2026-06-18">
+      <button class="date-toggle" data-date="2026-06-18" onclick="toggleDate('2026-06-18')">
+        <span class="date-label">📅 2026년 06월 18일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-06-17">
+      <div class="date-cards" id="cards-2026-06-18">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-17T03:48:51">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">사카나 AI, '가상 CSO' 에이전트 출시…8시간 조사로 100페이지 보고서 작성</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.17 03:48 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">사카나 AI의 자율형 에이전트는 기업의 전략 수립과 시장 조사를 자동화하여 데이터 분석 업무를 경량화할 수 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=211790" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="생산성" data-score="4" data-date="2026-06-16T21:00:08">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Stop Writing Loops in Pandas: 7 Faster Alternatives to Try</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.16 21:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">팬더스에서 루프를 최적화하는 방법을 제시하여 데이터 처리 효율성을 높일 수 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/stop-writing-loops-in-pandas-7-faster-alternatives-to-try" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-06-17">
+      <button class="date-toggle collapsed" data-date="2026-06-17" onclick="toggleDate('2026-06-17')">
+        <span class="date-label">📅 2026년 06월 17일</span>
+        <span class="date-chip">1개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-06-17">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-16T02:20:53">
       <div class="card-header">
@@ -427,51 +473,6 @@
       <p class="summary">Ollama, Gemma 4, Claude Code를 활용하여 로컬 에이전트 프로그래밍 스택을 구축하는 방법을 설명합니다. 데이터 분석가들이 AI 도구를 사용하여 효율성을 높일 수 있습니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-06-11">
-      <button class="date-toggle collapsed" data-date="2026-06-11" onclick="toggleDate('2026-06-11')">
-        <span class="date-label">📅 2026년 06월 11일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-06-11">
-        
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-11T03:00:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">How to Refactor Code with Claude Code</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.11 03:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">Claude Code를 활용한 코드 리팩토링 방법에 대한 기사로, 데이터 분석가가 AI 도구를 통한 실무에 활용할 수 있는 구체적인 방법 제시.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/how-to-refactor-code-with-claude-code/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-06-09T22:30:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">Prefill Once, Fan Out: KV Snapshot Sharing for Multi-Agent LLM Pipelines</div>
-      </div>
-      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.09 22:30 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">C++에서 KV 스냅샷을 이용해 LLM 파이프라인의 효율성을 높일 수 있는 방법으로, 데이터 분석 그루비와 관련된 매우 유용한 정보.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/kv-cache-reuse-for-multi-agent-llm-inference-i-built-a-c-orchestrator-so-my-gpu-would-stop-reading-the-same-document-twice/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
