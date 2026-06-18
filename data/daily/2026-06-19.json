@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T08:46:17.645475+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "제논, ‘제노스 2.0’ 플랫폼 출시…”기업 데이터 연결해 자연어로 AI앱 제작”",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211879",
+      "summary_raw": "생성 AI 전문 제논(대표 고석태)은 AX 플랫폼 ‘제노스(GenOS)’의 기능을 고도화한 ‘제노스 2.0’을 정식 출시했다고 18일 밝혔다.제노스는 운영 환경 구축부터 데이터 분석, 에이전트 설계까지 AI 서비스 구현에 필요한 모든 과정을 통합 제공하는 엔터프라이즈 AI 플랫폼이다. 2024년 첫 출시 이후 금융·발전·에너지 등 다양한 산업 분야 AX 프로젝트에 적용돼 왔다. 제노스 2.0은 기존 AI 서비스 구축 및 운영 기능을 확장한 것이 특징이다. 자연어 프롬프트만으로 각 기업이 필요한 서비스와 애플리케이션을 생성하고 기업",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-19T02:33:14+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "제노스 2.0 플랫폼은 자연어를 활용하여 기업 데이터 기반의 AI 애플리케이션을 생성할 수 있어 데이터 분석가가 실무에서 활용 가능.",
+      "reason": "AI 플랫폼이 데이터 분석 및 애플리케이션 생성에 직접적인 도움을 줄 수 있음"
+    },
+    {
+      "title": "마키나락스, 한국수자원공사에 '설명 가능한 AI ' 운영 시스템 도입",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211855",
+      "summary_raw": "마키나락스(대표 윤성호)는 한국수자원공사와 AI 기반 스마트정수장 업무지원 시스템을 구축한다고 18일 밝혔다.이번 프로젝트는 마키나락스의 AI 운영체제(AI OS) '런웨이'를 한국수자원공사의 스마트정수장 AI 자율운영 시스템에 적용해 현장 관리자의 효율적인 의사결정 지원을 목표로 한다.한국수자원공사는 전국 44개 정수장에서 착수·소독·침전·여과 등 다양한 공정에 AI 자율운영 시스템을 적용해왔으나 AI가 내린 판단 배경과 근거를 확인하기 어렵다는 한계가 있었다.마키나락스는 대형언어모델(LLM)·검색증강생성(RAG)·설명가능한 AI",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-18T21:51:45+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "설명 가능한 AI 시스템의 도입은 데이터 분석가들이 AI 기반 판단을 이해하고 신뢰할 수 있도록 해 줄 수 있음.",
+      "reason": "AI의 이해 가능성을 향상시키는 내용으로 분석가에게 유용"
+    },
+    {
+      "title": "Most People Use ChatGPT Wrong: 10 Features and Tips That Changed How I Work",
+      "link": "https://www.analyticsvidhya.com/blog/2026/06/chatgpt-tips-and-features/",
+      "summary_raw": "<p>Most people used ChatGPT like a smarter search engine. Ask a question, get an answer, and move on. It works but it leaves a surprising amount of value on the table. Over the past few years, ChatGPT has evolved far beyond a simple chatbot. It can browse the web, analyze files, generate images, maintain memory, [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/06/chatgpt-tips-and-features/\">Most People Use ChatGPT Wrong: 10 Features and Tips That Changed How I Work</a",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-18T22:30:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "ChatGPT의 활용 방법을 잘 설명하고 있어 데이터 분석가가 실무에 유용하게 활용할 수 있는 다양한 기능을 소개합니다.",
+      "reason": "데이터 분석가가 ChatGPT를 활용하는 방법을 구체적으로 설명"
+    }
+  ]
+}
