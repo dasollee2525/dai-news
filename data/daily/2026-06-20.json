@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T07:58:31.817461+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "제논, ‘제노스 2.0’ 플랫폼 출시…”기업 데이터 연결해 자연어로 AI앱 제작”",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211879",
+      "summary_raw": "생성 AI 전문 제논(대표 고석태)은 AX 플랫폼 ‘제노스(GenOS)’의 기능을 고도화한 ‘제노스 2.0’을 정식 출시했다고 18일 밝혔다.제노스는 운영 환경 구축부터 데이터 분석, 에이전트 설계까지 AI 서비스 구현에 필요한 모든 과정을 통합 제공하는 엔터프라이즈 AI 플랫폼이다. 2024년 첫 출시 이후 금융·발전·에너지 등 다양한 산업 분야 AX 프로젝트에 적용돼 왔다. 제노스 2.0은 기존 AI 서비스 구축 및 운영 기능을 확장한 것이 특징이다. 자연어 프롬프트만으로 각 기업이 필요한 서비스와 애플리케이션을 생성하고 기업",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-19T02:33:14+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "제노스 2.0 플랫폼은 기업 데이터 연결과 자연어 프롬프트를 통해 AI 애플리케이션을 제작할 수 있는 기능을 제공, 데이터 분석을 용이하게 만드는 도구로 활용될 수 있다.",
+      "reason": "AI 기반 데이터 애플리케이션 제작이 실제 데이터 분석 업무에 도움이 되는 도구임."
+    },
+    {
+      "title": "미니창고 다락, 셀프스토리지 최초 AI 데이터 시스템 도입",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=211882",
+      "summary_raw": "셀프스토리지 '다락' 운영사 세컨신드롬(대표 홍우태)은 업계 최초로 AI 기반 데이터 시스템 기능을 도입했다고 18일 밝혔다. 사용자 시나리오 기반 AI 분석으로 맞춤화된 인근 지점과 유닛 정보 등을 제공받을 수 있으며 공식 웹사이트와 앱에서 이용 가능하다.'지점 찾기' 메뉴 하단의 '유닛 추천 받기'를 누른 뒤 매장 이용 목적, 보관할 물건, 현재 위치 정보 등을 입력하면, AI가 최적의 지점과 유닛 정보를 제공한다.부가 기능도 확대됐다. 다락 공식 매장으로 물건 픽업을 원하면 결제 완료 직후 주소가 자동으로 연동되며, 여러 명이",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-19T02:30:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "AI 데이터 시스템을 통해 사용자가 특정 상황에 맞는 최적의 정보 제공이 가능해지며, 이는 데이터 분석가가 관련 인사이트를 도출하는 데 기여할 수 있다.",
+      "reason": "AI 분석 기능이 데이터 분석 업무에 활용될 수 있는 실용적인 사례이기 때문입니다."
+    },
+    {
+      "title": "Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each",
+      "link": "https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/",
+      "summary_raw": "<p>Getting reliable, readable responses out of your LLM, and knowing which tool to reach for</p>\n<p>The post <a href=\"https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/\">Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-19T03:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "LLM의 구조적 출력에 대해 설명하며, 데이터 분석 도구에 어떻게 활용할 수 있는지 논의합니다.",
+      "reason": "LLM을 데이터 분석 실무에 적용할 수 있는 방향을 제시함."
+    }
+  ]
+}
