@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T08:09:24.939579+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document",
+      "link": "https://towardsdatascience.com/parse-scanned-pdfs-for-rag-with-easyocr-free-ocr-gives-you-words-not-a-document/",
+      "summary_raw": "<p>Enterprise Document Intelligence [Vol.1 #5quinquies] - Same 1974 scanned PDF, two engines. EasyOCR recovers text. Docling recovers text + sections + figures. The structural gap makes one output usable downstream and the other one a flat string.</p>\n<p>The post <a href=\"https://towardsdatascience.com/parse-scanned-pdfs-for-rag-with-easyocr-free-ocr-gives-you-words-not-a-document/\">Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document</a> appeared first on <a href=\"h",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-19T22:30:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "스캔된 PDF 문서에서 EasyOCR을 사용하여 텍스트를 추출하는 방법에 대한 설명으로, 데이터 분석에 활용 가능.",
+      "reason": "RAG와 함께 AI를 사용하여 데이터 추출 프로세스를 자동화하는 예제."
+    },
+    {
+      "title": "GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU",
+      "link": "https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/",
+      "summary_raw": "<p>The PCIe transfer latency is silently bottlenecking your agentic inference. Here is how building a custom device-resident vector search kernel bypasses the CPU to unlock deterministic microsecond tail latencies.</p>\n<p>The post <a href=\"https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/\">GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU</a> ap",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-19T21:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "CUDA 커널을 사용하여 벡터 검색을 최적화하는 방법을 통해 데이터 처리 속도를 높일 수 있음.",
+      "reason": "RAG를 통한 데이터 검색 단계에서의 성능 향상에 대한 유용한 정보."
+    }
+  ]
+}

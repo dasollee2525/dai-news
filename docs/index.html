@@ -178,10 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">13</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">14</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">7</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">4</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 
     </div>
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-06-20">
-      <button class="date-toggle" data-date="2026-06-20" onclick="toggleDate('2026-06-20')">
-        <span class="date-label">📅 2026년 06월 20일</span>
+    <div class="date-section" data-date="2026-06-21">
+      <button class="date-toggle" data-date="2026-06-21" onclick="toggleDate('2026-06-21')">
+        <span class="date-label">📅 2026년 06월 21일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-06-20">
+      <div class="date-cards" id="cards-2026-06-21">
+        
+    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-06-19T22:30:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Parse Scanned PDFs for RAG with EasyOCR: Free OCR Gives You Words, Not a Document</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.19 22:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">스캔된 PDF 문서에서 EasyOCR을 사용하여 텍스트를 추출하는 방법에 대한 설명으로, 데이터 분석에 활용 가능.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/parse-scanned-pdfs-for-rag-with-easyocr-free-ocr-gives-you-words-not-a-document/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-06-19T21:00:00">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">GPU-Resident Top-K for Agentic RAG: I Built a CUDA Kernel So My Retrieval Step Would Stop Bouncing Off the GPU</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.19 21:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">CUDA 커널을 사용하여 벡터 검색을 최적화하는 방법을 통해 데이터 처리 속도를 높일 수 있음.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-06-20">
+      <button class="date-toggle collapsed" data-date="2026-06-20" onclick="toggleDate('2026-06-20')">
+        <span class="date-label">📅 2026년 06월 20일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-06-20">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-19T02:33:14">
       <div class="card-header">
@@ -460,34 +505,6 @@
         <span class="meta-chip">관련도 <strong>4점</strong></span>
       </div>
       <p class="summary">자연어 SQL 변환 기술이 데이터 분석가가 SQL 쿼리 작성을 자동화하는 데 유용할 수 있음.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=211690" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-06-14">
-      <button class="date-toggle collapsed" data-date="2026-06-14" onclick="toggleDate('2026-06-14')">
-        <span class="date-label">📅 2026년 06월 14일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-06-14">
-        
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-13T23:20:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">구글, 자연어-SQL 변환 기술 '제미나이-SQL2' 공개..."정확도 80% 돌파"</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.13 23:20 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">구글의 새로운 제미나이-SQL2는 자연어로 작성된 쿼리를 SQL로 변환하는 데 사용될 수 있어, 데이터 분석가가 비즈니스 질문을 SQL 쿼리로 신속하게 변환할 수 있도록 도와줄 수 있습니다. 이는 복잡한 데이터 요청을 보다 쉽게 처리하게 해줍니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=211690" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
