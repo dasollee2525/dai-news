@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T08:20:09.274740+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "ChatLLM by Abacus AI Review: A Multi-Model AI Workspace Built for Daily Work",
+      "link": "https://www.kdnuggets.com/2026/06/abacus/abacus-ai-chatllm-review",
+      "summary_raw": "An in-depth review of ChatLLM by Abacus AI, covering supported AI models, AI agents, coding tools, integrations, pricing, usage limits, and how it compares to ChatGPT.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-23T02:00:54+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "ChatLLM을 활용하여 데이터 분석 업무에서 코드 작성 및 AI 모델 통합을 촉진할 수 있는 방법들을 논의.",
+      "reason": "데이터 분석가가 일상 업무에 AI 도구를 활용하는 방법을 리뷰."
+    }
+  ]
+}
