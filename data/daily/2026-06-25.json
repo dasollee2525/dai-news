@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T08:03:58.806635+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "[게시판] 웹케시, 농협은행에 기업뱅킹 전용 AI 에이전트 구축 등 단신",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212068",
+      "summary_raw": "■ 웹케시(대표 강원주)는 NH농협은행과 ‘AI 에이전트 기반 기업뱅킹 조회 서비스’를 구축한다고 밝혔다. 기업 고객이 자연어 대화로 수신·여신 정보를 조회하고 비교·분석할 수 있는 AI 기업뱅킹 환경 구현이 목표다. 이전 대화의 맥락을 이어가며 조건을 추가하거나 비교 대상을 바꾸는 멀티턴 대화도 지원한다. 웹케시는 자체 개발한 NL2SQL 솔루션과 AI 에이전트 관리자 사이트를 적용할 예정이다.■ 메가존클라우드 관계사인 메가존소프트(대표 이주완)는 구글 클라우드와 '에이전틱 WX 리더십 세미나'를 개최했다고 밝혔다. 국내 기업 임",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-25T02:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "웹케시가 구축한 AI 에이전트는 자연어 대화로 데이터를 조회하고 분석할 수 있게 돕는 도구로, 분석가들이 이를 사용하면 효율적으로 정보 검색 및 비교 분석이 가능하다.",
+      "reason": "AI 에이전트를 통해 기업 뱅킹 정보를 효율적으로 분석할 수 있는 사례."
+    },
+    {
+      "title": "앤트로픽, 슬랙 전용 에이전트 ‘클로드 태그’ 출시…\"AI 협업 시대 연다\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212035",
+      "summary_raw": "앤트로픽이 협업 플랫폼 슬랙에 클로드가 팀원처럼 참여해 지정된 역할을 수행하도록 돕는 새로운 AI 에이전트를 출시했다.앤트로픽은 23일(현지시간) 슬랙 안에서 팀원처럼 함께 일하는 AI 에이전트 ‘클로드 태그(Claude Tag)’를 공개했다. 사용자는 슬랙 채널에서 단순히 '@Claude'로 태그해 작업을 지시하면, 클로드 태그는 대화 내용을 이해하고 필요한 도구와 데이터를 활용해 작업을 수행한 뒤 결과를 공유한다.클로드 태그는 기존의 챗봇이나 코딩 보조 도구를 넘어, 조직 내에서 지속적으로 활동하는 ‘AI 팀원’을 지향한다. 앤",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-24T19:59:40+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "슬랙 내에서 클로드 태그 AI 에이전트를 통해 팀원처럼 협업하는 방식으로, 데이터 분석회의나 의사결정 과정에서 효과적으로 역할을 수행할 수 있다.",
+      "reason": " 협업환경에서 AI 에이전트를 통해 효율적인 커뮤니케이션과 데이터 분석 지원이 가능함."
+    },
+    {
+      "title": "I Spent an Hour on a Data Preprocessing Task Before Asking Gemini",
+      "link": "https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/",
+      "summary_raw": "<p>How Gemini solved my Pandas problem in seconds, and why data science fundamentals still matter to spot suboptimal solutions</p>\n<p>The post <a href=\"https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/\">I Spent an Hour on a Data Preprocessing Task Before Asking Gemini</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-24T01:30:00+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "Gemini를 활용하여 복잡한 데이터 전처리 문제를 신속하게 해결한 사례를 통해 실제 업무에서 AI 도구 활용의 중요성을 보여줍니다.",
+      "reason": "실제 데이터 분석 업무에서 AI 도구를 빠르게 활용한 예시로 유용함."
+    }
+  ]
+}
