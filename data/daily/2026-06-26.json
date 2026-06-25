@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T08:18:49.136913+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "Using Gemini to Create Google Sheets",
+      "link": "https://www.kdnuggets.com/using-gemini-to-create-google-sheets",
+      "summary_raw": "In this tutorial, we will show you how to use Gemini to create Google Sheets, build a useful table, generate formulas, analyze data, and improve the spreadsheet with follow-up prompts.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-26T01:00:08+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Gemini를 활용하여 Google Sheets를 생성하고 데이터를 분석하는 방법을 다룬 튜토리얼로, 데이터 분석가에게 실질적인 도움이 될 수 있습니다.",
+      "reason": "AI 도구 활용을 통해 데이터 분석 업무를 개선할 수 있는 실질적인 정보 제공"
+    },
+    {
+      "title": "SKT, 독자 모델 'A.X K1' 제조업에 첫 적용...KG스틸·코넥 현장 실증",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212083",
+      "summary_raw": "SK텔레콤(대표 정재헌)은 KG스틸, 코넥과 'A.X K1(에이닷엑스 케이원)' 기반 제조 특화 AI 에이전트 현장 실증을 위한 업무협약(MOU)을 체결했다고 25일 밝혔다.A.X K1은 국내 최대 매개변수 519B 규모의 AI 모델로, 전문가 혼합(MoE) 구조를 채택해 필요 시 33B만 선택적으로 활성화한다.이번 협력은 SKT의 독자 AI 파운데이션 모델을 제조업에 적용하는 첫 사례다.SKT는 앞서 KG스틸·코넥의 공정 오류·사고 분석 보고서, 장비 매뉴얼·로그 등 데이터를 바탕으로 A.X K1을 활용한 '제조 특화 AI 에이전",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-25T20:17:57+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "제조업에 특화된 AI 에이전트를 실증 연구하여 데이터를 분석하고 최적화를 도모하려는 사례로, 직접적으로 데이터 분석에 활용 가능.",
+      "reason": "AI 모델이 실제 비즈니스 환경에서 적용되는 사례로 분석가에게 유용한 정보 제공."
+    },
+    {
+      "title": "[게시판] 웹케시, 농협은행에 기업뱅킹 전용 AI 에이전트 구축 등 단신",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212068",
+      "summary_raw": "■ 웹케시(대표 강원주)는 NH농협은행과 ‘AI 에이전트 기반 기업뱅킹 조회 서비스’를 구축한다고 밝혔다. 기업 고객이 자연어 대화로 수신·여신 정보를 조회하고 비교·분석할 수 있는 AI 기업뱅킹 환경 구현이 목표다. 이전 대화의 맥락을 이어가며 조건을 추가하거나 비교 대상을 바꾸는 멀티턴 대화도 지원한다. 웹케시는 자체 개발한 NL2SQL 솔루션과 AI 에이전트 관리자 사이트를 적용할 예정이다.■ 메가존클라우드 관계사인 메가존소프트(대표 이주완)는 구글 클라우드와 '에이전틱 WX 리더십 세미나'를 개최했다고 밝혔다. 국내 기업 임",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-06-25T02:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "기업 뱅킹 전용 AI 에이전트를 구축하여 데이터 분석과 대화식 조회를 가능하게 하는 사례로, 실용적 활용 가능성이 있음.",
+      "reason": "이 AI 솔루션이 데이터 분석업무에 직접적으로 적용될 수 있어 유용함."
+    }
+  ]
+}
