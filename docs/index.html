@@ -178,9 +178,9 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">14</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">13</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-06-26">
-      <button class="date-toggle" data-date="2026-06-26" onclick="toggleDate('2026-06-26')">
-        <span class="date-label">📅 2026년 06월 26일</span>
+    <div class="date-section" data-date="2026-06-27">
+      <button class="date-toggle" data-date="2026-06-27" onclick="toggleDate('2026-06-27')">
+        <span class="date-label">📅 2026년 06월 27일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-06-26">
+      <div class="date-cards" id="cards-2026-06-27">
+        
+    <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-06-26T01:00:08">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Using Gemini to Create Google Sheets</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.26 01:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">Gemini를 사용하는 구글 시트 데이터를 생성하고 분석하는 방법을 제시하여 실무에 직접 활용할 수 있는 튜토리얼입니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/using-gemini-to-create-google-sheets" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-26T22:34:35">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">5 Agentic Workflows to Automate Your Data Science Pipeline</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.26 22:34 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">5가지 에이전트 작업 흐름을 통해 데이터 과학 파이프라인 자동화 방법을 다루고 있어 분석팀에 유용할 가능성이 큽니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/5-agentic-workflows-to-automate-your-data-science-pipeline" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-06-26">
+      <button class="date-toggle collapsed" data-date="2026-06-26" onclick="toggleDate('2026-06-26')">
+        <span class="date-label">📅 2026년 06월 26일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-06-26">
         
     <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-06-26T01:00:08">
       <div class="card-header">
@@ -450,68 +495,6 @@
       <p class="summary">CUDA 커널을 사용하여 벡터 검색을 최적화하는 방법을 통해 데이터 처리 속도를 높일 수 있음.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://towardsdatascience.com/gpu-resident-top-k-for-agentic-rag-i-built-a-cuda-kernel-so-my-retrieval-step-would-stop-bouncing-off-the-gpu/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-06-20">
-      <button class="date-toggle collapsed" data-date="2026-06-20" onclick="toggleDate('2026-06-20')">
-        <span class="date-label">📅 2026년 06월 20일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-06-20">
-        
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-19T02:33:14">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">제논, ‘제노스 2.0’ 플랫폼 출시…”기업 데이터 연결해 자연어로 AI앱 제작”</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.19 02:33 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">제노스 2.0 플랫폼은 기업 데이터 연결과 자연어 프롬프트를 통해 AI 애플리케이션을 제작할 수 있는 기능을 제공, 데이터 분석을 용이하게 만드는 도구로 활용될 수 있다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=211879" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-06-19T02:30:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">미니창고 다락, 셀프스토리지 최초 AI 데이터 시스템 도입</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.19 02:30 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">AI 데이터 시스템을 통해 사용자가 특정 상황에 맞는 최적의 정보 제공이 가능해지며, 이는 데이터 분석가가 관련 인사이트를 도출하는 데 기여할 수 있다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=211882" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-19T03:00:00">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">Structured Outputs with LLMs: JSON Mode, Function Calling, and When to Use Each</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.19 03:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">LLM의 구조적 출력에 대해 설명하며, 데이터 분석 도구에 어떻게 활용할 수 있는지 논의합니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/structured-outputs-with-llms-json-mode-function-calling-and-when-to-use-each/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>

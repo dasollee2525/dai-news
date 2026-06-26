@@ -1,0 +1,33 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T08:06:59.353723+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Using Gemini to Create Google Sheets",
+      "link": "https://www.kdnuggets.com/using-gemini-to-create-google-sheets",
+      "summary_raw": "In this tutorial, we will show you how to use Gemini to create Google Sheets, build a useful table, generate formulas, analyze data, and improve the spreadsheet with follow-up prompts.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-26T01:00:08+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Gemini를 사용하는 구글 시트 데이터를 생성하고 분석하는 방법을 제시하여 실무에 직접 활용할 수 있는 튜토리얼입니다.",
+      "reason": "분석 업무에서 즉시 사용할 수 있는 AI 활용법을 담고 있음."
+    },
+    {
+      "title": "5 Agentic Workflows to Automate Your Data Science Pipeline",
+      "link": "https://www.kdnuggets.com/5-agentic-workflows-to-automate-your-data-science-pipeline",
+      "summary_raw": "This article covers five concrete agentic workflows, one for each major stage of a data science pipeline.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-26T22:34:35+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "5가지 에이전트 작업 흐름을 통해 데이터 과학 파이프라인 자동화 방법을 다루고 있어 분석팀에 유용할 가능성이 큽니다.",
+      "reason": "데이터 과학 파이프라인 자동화에 대한 구체적인 프레임워크를 제공함."
+    }
+  ]
+}
