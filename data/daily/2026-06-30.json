@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T07:57:35.287851+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "GraphRAG vs Vector RAG: Which Retrieval Method is Best?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/06/graphrag-vs-vector-rag-which-retrieval-method-is-best/",
+      "summary_raw": "<p>GraphRAG and Vector RAG address different retrieval needs. Vector RAG splits documents into chunks, embeds them, retrieves semantically similar passages, and sends them to an LLM. It is simple, fast to build, and works best when answers sit within one or two relevant chunks. GraphRAG adds structure by extracting entities, relationships, and communities, making it [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/06/graphrag-vs-vector-rag-which-retrieval-method-is-be",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-29T13:08:35+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "GraphRAG와 Vector RAG 방법론을 비교하면서 LLM에 대한 활용 방법을 제시하고 있어 분석가에게 유용할 수 있습니다.",
+      "reason": "데이터 분석과 AI의 결합을 통해 활용 가능한 정보가 있음."
+    }
+  ]
+}
