@@ -180,9 +180,9 @@
       <div class="sidebar-title">카테고리</div>
       <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">12</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">7</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-06-30">
-      <button class="date-toggle" data-date="2026-06-30" onclick="toggleDate('2026-06-30')">
-        <span class="date-label">📅 2026년 06월 30일</span>
+    <div class="date-section" data-date="2026-07-01">
+      <button class="date-toggle" data-date="2026-07-01" onclick="toggleDate('2026-07-01')">
+        <span class="date-label">📅 2026년 07월 01일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-06-30">
+      <div class="date-cards" id="cards-2026-07-01">
+        
+    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-06-30T23:15:19">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">인핸스, 국방 재정 자동화 AI 에이전트 개발..."국방 AX 혁신 이끈다"</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.30 23:15 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">국방용 AI 에이전트는 공사원가 검토의 자동화를 통해 데이터 분석가에게 유용한 자동 검증 워크플로우를 제공한다. 이는 데이터 분석의 정확성을 높이는 데 기여할 수 있다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212267" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-30T00:53:21">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">마크비전, 브랜드 보호 자동화 도구 ‘브랜드 인텔리전스 에이전트’ 출시</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.06.30 00:53 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">브랜드 인텔리전스 에이전트는 데이터 분석을 통해 브랜드 운영을 위한 인사이트를 제공하여 의사결정을 지원한다. 이는 데이터 분석가가 비즈니스 인사이트를 도출하는 데 실질적으로 기여할 수 있다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212242" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-06-30">
+      <button class="date-toggle collapsed" data-date="2026-06-30" onclick="toggleDate('2026-06-30')">
+        <span class="date-label">📅 2026년 06월 30일</span>
+        <span class="date-chip">1개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-06-30">
         
     <div class="card" data-category="LLM응용" data-score="4" data-date="2026-06-29T13:08:35">
       <div class="card-header">
@@ -433,51 +478,6 @@
       <p class="summary">Gemini를 활용하여 복잡한 데이터 전처리 문제를 신속하게 해결한 사례를 통해 실제 업무에서 AI 도구 활용의 중요성을 보여줍니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-06-24">
-      <button class="date-toggle collapsed" data-date="2026-06-24" onclick="toggleDate('2026-06-24')">
-        <span class="date-label">📅 2026년 06월 24일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-06-24">
-        
-    <div class="card" data-category="생산성" data-score="4" data-date="2026-06-24T01:30:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">I Spent an Hour on a Data Preprocessing Task Before Asking Gemini</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.24 01:30 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">Gemini를 활용해 데이터 전처리 문제를 단시간에 해결한 사례로, 데이터 분석가가 업무에서 AI 도구를 응용할 수 있는 구체적인 예시를 제공한다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/i-spent-an-hour-on-a-data-preprocessing-task-before-asking-gemini/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-23T02:00:54">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">ChatLLM by Abacus AI Review: A Multi-Model AI Workspace Built for Daily Work</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.23 02:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">ChatLLM은 여러 AI 모델을 통합하여 데이터 분석가가 효율적으로 작업을 수행할 수 있도록 도와주는 플랫폼입니다. 다양한 AI 에이전트와 코딩 도구들을 통해 일상적인 분석 작업을 개선할 수 있는 가능성을 제시합니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/2026/06/abacus/abacus-ai-chatllm-review" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
