@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T08:16:04.032329+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "바이브컴퍼니, ‘에이전트 플랫폼’ 출시…“업무별 맞춤형 AI 모델 조합”",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212287",
+      "summary_raw": "AI 전문 바이브컴퍼니(대표 김경서)는 단일 플랫폼에서 맞춤형 AI 에이전트를 초고속으로 구축, 운영할 수 있는 '바이브 에이전트 플랫폼(VAIV Agent Platform)'을 공식 출시했다고 30일 밝혔다.바이브 에이전트 플랫폼은 업무 복잡도와 성격에 따라 세 가지 맞춤형 빌더(단일 노드/워크플로우/딥 에이전트)를 제공한다. 비개발자부터 고급 개발자까지 에이전트를 신속하게 생성, 배포할 수 있도록 지원하는 것이 가장 큰 특징이다.에이전트 확산에 따른 관리·통제 문제도 해결했다고 전했다. 역할 기반 접근 제어(RBAC), 가드레일",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-07-01T02:29:41+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "맞춤형 AI 에이전트를 쉽게 생성하고 운영할 수 있는 플랫폼으로, 데이터 분석가가 분석 업무 워크플로우 개선에 활용할 수 있다.",
+      "reason": "AI 도구의 활용이 데이터 분석가에게 실질적으로 유용함."
+    },
+    {
+      "title": "Stop Choosing Between Local and Cloud LLMs: A Field Guide to Hybrid Patterns",
+      "link": "https://towardsdatascience.com/stop-choosing-between-local-and-cloud-llms-a-field-guide-to-hybrid-patterns/",
+      "summary_raw": "<p>A hands-on walkthrough of a hybrid local-cloud workflow using Gemma 4 and GPT-5.4, with reasoning and structured outputs</p>\n<p>The post <a href=\"https://towardsdatascience.com/stop-choosing-between-local-and-cloud-llms-a-field-guide-to-hybrid-patterns/\">Stop Choosing Between Local and Cloud LLMs: A Field Guide to Hybrid Patterns</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-06-30T21:00:00+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "하이브리드 로컬-클라우드 워크플로우를 활용한 실용적인 가이드를 제공하여 분석가에게 도움을 줄 수 있음.",
+      "reason": "AI와 데이터 분석의 결합 원리를 직접적으로 다룸."
+    }
+  ]
+}
