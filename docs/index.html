@@ -178,9 +178,9 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">6</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">5</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
@@ -198,14 +198,42 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-07-02">
-      <button class="date-toggle" data-date="2026-07-02" onclick="toggleDate('2026-07-02')">
-        <span class="date-label">📅 2026년 07월 02일</span>
+    <div class="date-section" data-date="2026-07-03">
+      <button class="date-toggle" data-date="2026-07-03" onclick="toggleDate('2026-07-03')">
+        <span class="date-label">📅 2026년 07월 03일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-07-02">
+      <div class="date-cards" id="cards-2026-07-03">
+        
+    <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-07-03T02:30:39">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">구글, 재학습 번거로움 없앤 표 분석 AI '탭FM' 오픈소스 공개</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.07.03 02:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">구글의 '탭FM'은 별도의 학습 과정 없이 표 형식 데이터를 분석할 수 있도록 제작된 파운데이션 모델로, 데이터 분석가들이 고객 이탈 예측 및 금융 사기 탐지에 직접 활용할 수 있음.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212363" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-07-02">
+      <button class="date-toggle collapsed" data-date="2026-07-02" onclick="toggleDate('2026-07-02')">
+        <span class="date-label">📅 2026년 07월 02일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-07-02">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-01T02:29:41">
       <div class="card-header">
@@ -400,68 +428,6 @@
       <p class="summary">5가지 에이전트 작업 흐름을 통해 데이터 과학 파이프라인 자동화 방법을 다루고 있어 분석팀에 유용할 가능성이 큽니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.kdnuggets.com/5-agentic-workflows-to-automate-your-data-science-pipeline" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-06-26">
-      <button class="date-toggle collapsed" data-date="2026-06-26" onclick="toggleDate('2026-06-26')">
-        <span class="date-label">📅 2026년 06월 26일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-06-26">
-        
-    <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-06-26T01:00:08">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Using Gemini to Create Google Sheets</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.26 01:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">Gemini를 활용하여 Google Sheets를 생성하고 데이터를 분석하는 방법을 다룬 튜토리얼로, 데이터 분석가에게 실질적인 도움이 될 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/using-gemini-to-create-google-sheets" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-06-25T20:17:57">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">SKT, 독자 모델 'A.X K1' 제조업에 첫 적용...KG스틸·코넥 현장 실증</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.25 20:17 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">제조업에 특화된 AI 에이전트를 실증 연구하여 데이터를 분석하고 최적화를 도모하려는 사례로, 직접적으로 데이터 분석에 활용 가능.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212083" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-06-25T02:00:00">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">[게시판] 웹케시, 농협은행에 기업뱅킹 전용 AI 에이전트 구축 등 단신</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.06.25 02:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">기업 뱅킹 전용 AI 에이전트를 구축하여 데이터 분석과 대화식 조회를 가능하게 하는 사례로, 실용적 활용 가능성이 있음.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212068" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
