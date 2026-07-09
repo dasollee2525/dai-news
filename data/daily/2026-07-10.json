@@ -1,0 +1,59 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T08:12:01.508385+09:00",
+  "count": 4,
+  "articles": [
+    {
+      "title": "7 Steps to Automating Descriptive Statistics with Python",
+      "link": "https://www.kdnuggets.com/7-steps-to-automating-descriptive-statistics-with-python",
+      "summary_raw": "Stop writing <code>mean()</code> and <code>std()</code> for every column. Learn how to automate descriptive statistics in Python and generate publication-ready summary tables in just a few steps.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-09T21:00:39+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "Python을 사용하여 기술 통계를 자동화하는 7단계 과정을 제공합니다. 이는 데이터 분석가가 업무 효율을 높이는 데 매우 유용합니다.",
+      "reason": "실용적 방법론을 제공하여 분석가가 즉시 활용 가능."
+    },
+    {
+      "title": "How to Clean Messy CSV Files with Python: A Beginner’s Guide",
+      "link": "https://www.kdnuggets.com/how-to-clean-messy-csv-files-with-python-a-beginners-guide",
+      "summary_raw": "Learn how to clean CSV files with pandas by handling missing values, duplicate rows, messy text, wrong data types, mixed date formats, invalid emails, and currency values.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-09T00:10:39+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "Pandas를 활용한 CSV 파일 정리에 대한 가이드를 제공하며, 데이터 분석가가 실질적으로 사용할 수 있는 내용입니다.",
+      "reason": "데이터 정제 과정에서 실질적으로 사용할 수 있는 튜토리얼."
+    },
+    {
+      "title": "바이브컴퍼니 \"수개월짜리 온톨로지 설계, 자연어로 2주 만에 끝낸다\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212599",
+      "summary_raw": "온톨로지 초기 설계를 넘어 전체 구축 과정을 자동화한 사례가 등장했다. AI 전문 바이브컴퍼니(대표 김경서)는 기업 문서에서 온톨로지 지식그래프를 자동으로 설계·구축하고, 이를 바탕으로 근거가 검증된 답변까지 제공하는 ‘온톨로지 자동화 솔루션’을 9일 공개했다. 이는 ‘바이브 온톨로지 RAG 플랫폼’ 내에 탑재됐다.온톨로지는 최근 AI 에이전트가 급부상하며 필요성이 부각되는 기술이다. 개념과 관계 중심으로 데이터를 구조화해, 생성 AI의 환각을 줄이기 때문이다. 하지만, 그간 기업 내 방대한 비정형 문서를 온톨로지화하는 작업은 소수",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-07-10T02:16:53+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "온톨로지 자동화 솔루션을 통해 데이터 구조화 및 적시 인사이트 도출이 가능하다는 점을 강조함.",
+      "reason": "AI를 활용해 데이터 구조화를 통한 분석 워크플로우 개선이 가능하므로 실무에 유용함."
+    },
+    {
+      "title": "Loop Engineering for AI Agents: How /loop is Changing AI Workflows",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/",
+      "summary_raw": "<p>AI agents are moving from one-time assistants to persistent workers that can repeat tasks, monitor changes, run checks, update workflows, and return with results. Instead of prompting an LLM once and deciding every next step manually, teams can now use AI agents that keep working (on a Loop) until a goal or stop condition is [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/\">Loop Engineering for AI Agents: How /loop is Changing AI ",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-10T02:13:49+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "Loop Engineering을 통해 AI 에이전트를 효율적으로 활용하는 방법을 소개합니다. 이는 데이터 분석 업무에서 반복 작업을 자동화하는 데 유용할 수 있습니다.",
+      "reason": "AI 에이전트를 활용해 데이터 분석 업무의 워크플로우 개선이 가능함."
+    }
+  ]
+}
