@@ -1,0 +1,46 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T07:59:08.362759+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "7 Steps to Automating Descriptive Statistics with Python",
+      "link": "https://www.kdnuggets.com/7-steps-to-automating-descriptive-statistics-with-python",
+      "summary_raw": "Stop writing <code>mean()</code> and <code>std()</code> for every column. Learn how to automate descriptive statistics in Python and generate publication-ready summary tables in just a few steps.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-09T21:00:39+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "Python을 사용한 기술로, 기술적 노력을 줄이고 자동화된 기술 통계를 생성할 수 있습니다.",
+      "reason": "데이터 분석가가 실무에 즉시 적용 가능한 자동화 기법을 제시하고 있습니다."
+    },
+    {
+      "title": "\"내 클로드 사용 습관 분석한다\"…앤트로픽, '리플렉트' 기능 베타 출시",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212615",
+      "summary_raw": "앤트로픽이 AI 활용 습관을 분석하고 시각화해 주는 새로운 대시보드 기능 '리플렉트(Reflect)'를 클로드에 베타 버전으로 추가했다. 단순한 사용 통계를 제공하는 것을 넘어 사용자가 AI를 더 효율적으로 활용하도록 돕는 동시에, 클로드를 일상 업무의 중심 도구로 자리 잡게 하려는 전략이다.앤트로픽은 9일(현지시간) 클로드 웹과 데스크톱 앱에서 사용할 수 있는 리플렉트를 공개했다고 밝혔다.이 기능은 사용자의 클로드 활용 방식과 AI 사용 습관을 추적·분석해 시각화하며, 업무 방식 개선을 위한 맞춤형 조언도 제공한다.리플렉트는 최근",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-07-11T03:20:20+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "앤트로픽의 '리플렉트' 기능은 클로드 사용 습관을 분석하고 시각화하여 업무 효율성을 높일 수 있도록 돕습니다. 데이터 분석가들은 이를 통해 자신의 AI 활용 방식을 개선하고 보다 효과적으로 데이터 분석 작업에 AI를 통합할 수 있습니다.",
+      "reason": "AI 도구 활용에 대한 실질적인 개선 방법을 제시함."
+    },
+    {
+      "title": "Loop Engineering for AI Agents: How /loop is Changing AI Workflows",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/",
+      "summary_raw": "<p>AI agents are moving from one-time assistants to persistent workers that can repeat tasks, monitor changes, run checks, update workflows, and return with results. Instead of prompting an LLM once and deciding every next step manually, teams can now use AI agents that keep working (on a Loop) until a goal or stop condition is [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/\">Loop Engineering for AI Agents: How /loop is Changing AI ",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-10T02:13:49+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "AI 에이전트를 사용하여 반복 작업을 자동화함으로써 데이터 분석 워크플로우를 개선할 수 있습니다.",
+      "reason": "AI 에이전트가 데이터 분석 업무에 어떻게 활용될 수 있는지 구체적인 사용 방식이 소개되었습니다."
+    }
+  ]
+}
