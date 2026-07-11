@@ -178,9 +178,9 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">4</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">2</span></button>
 
@@ -197,14 +197,30 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-07-11">
-      <button class="date-toggle" data-date="2026-07-11" onclick="toggleDate('2026-07-11')">
-        <span class="date-label">📅 2026년 07월 11일</span>
+    <div class="date-section" data-date="2026-07-12">
+      <button class="date-toggle" data-date="2026-07-12" onclick="toggleDate('2026-07-12')">
+        <span class="date-label">📅 2026년 07월 12일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-07-11">
+      <div class="date-cards" id="cards-2026-07-12">
+        
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-07-11">
+      <button class="date-toggle collapsed" data-date="2026-07-11" onclick="toggleDate('2026-07-11')">
+        <span class="date-label">📅 2026년 07월 11일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-07-11">
         
     <div class="card" data-category="생산성" data-score="5" data-date="2026-07-09T21:00:39">
       <div class="card-header">
@@ -428,51 +444,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-07-05">
-      <button class="date-toggle collapsed" data-date="2026-07-05" onclick="toggleDate('2026-07-05')">
-        <span class="date-label">📅 2026년 07월 05일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-07-05">
-        
-    <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-07-04T02:47:02">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">알리바바, 에이전트 도구 선택 프레임워크 ‘스킬위버’ 공개… “토큰 사용량 99.9% 절감”</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.04 02:47 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">알리바바의 '스킬위버' 프레임워크는 데이터 분석가가 여러 도구의 효율적 선택을 통해 생산성을 크게 향상시킬 수 있는 기회를 제공함.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212408" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-04T02:57:10">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">MS 코파일럿, 소비자·기업용 전면 통합…8월 '업무형 슈퍼 앱'으로 진화</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.04 02:57 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">마이크로소프트의 코파일럿 통합과 관련한 기사로, 데이터 분석가가 효율적으로 활용할 수 있는 방법이 제시됨.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212399" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>
