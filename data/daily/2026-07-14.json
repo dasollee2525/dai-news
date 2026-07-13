@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T07:56:05.761518+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Agentic RAG: Let the Agent Search",
+      "link": "https://towardsdatascience.com/agentic-rag-let-the-agent-search/",
+      "summary_raw": "<p>A minimal OpenAI Agents SDK implementation where retrieval becomes a search-read-decide loop</p>\n<p>The post <a href=\"https://towardsdatascience.com/agentic-rag-let-the-agent-search/\">Agentic RAG: Let the Agent Search</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-14T01:30:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "OpenAI Agents SDK를 사용한 RAG 구현을 다루며, 데이터 검색 프로세스를 자동화하는 방법에 대한 실제적인 정보가 포함되어 있다.",
+      "reason": "분석가가 실무에 적용할 수 있는 AI 기반의 자동화 사례를 제시한다."
+    },
+    {
+      "title": "5 Real-World SQL Projects to Build Your Data Portfolio",
+      "link": "https://www.kdnuggets.com/5-real-world-sql-projects-to-build-your-data-portfolio",
+      "summary_raw": "Build a stronger data portfolio with these practical SQL projects covering customer churn, data warehousing, sales analysis, banking segmentation, and healthcare analytics.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-13T21:00:38+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "SQL 프로젝트를 통해 데이터를 분석하는 방법을 제시하며, 분석가의 포트폴리오 구축에 기여할 수 있다.",
+      "reason": "실무에 적용 가능한 SQL 프로젝트 아이디어 제공."
+    }
+  ]
+}
