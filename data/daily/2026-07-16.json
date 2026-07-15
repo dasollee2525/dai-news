@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T07:58:27.270108+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs",
+      "link": "https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/",
+      "summary_raw": "<p>How to stop parsing JSON by hand and start trusting your model's output</p>\n<p>The post <a href=\"https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/\">Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-14T21:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Pydantic을 활용하여 LLM에서 구조화된 출력을 얻는 방법을 제시, 데이터 분석가들이 AI 도구를 실제로 활용할 수 있는 모범 사례.",
+      "reason": "분석가가 실무에서 즉시 적용 가능한 기술과 방법을 제시했음."
+    }
+  ]
+}
