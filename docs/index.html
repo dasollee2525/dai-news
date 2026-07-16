@@ -178,12 +178,11 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">6</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -198,14 +197,30 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-07-16">
-      <button class="date-toggle" data-date="2026-07-16" onclick="toggleDate('2026-07-16')">
-        <span class="date-label">📅 2026년 07월 16일</span>
+    <div class="date-section" data-date="2026-07-17">
+      <button class="date-toggle" data-date="2026-07-17" onclick="toggleDate('2026-07-17')">
+        <span class="date-label">📅 2026년 07월 17일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-07-16">
+      <div class="date-cards" id="cards-2026-07-17">
+        
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-07-16">
+      <button class="date-toggle collapsed" data-date="2026-07-16" onclick="toggleDate('2026-07-16')">
+        <span class="date-label">📅 2026년 07월 16일</span>
+        <span class="date-chip">1개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-07-16">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-14T21:00:00">
       <div class="card-header">
@@ -374,85 +389,6 @@
         <span class="meta-chip">관련도 <strong>4점</strong></span>
       </div>
       <p class="summary">AI 에이전트를 사용하여 반복 작업을 자동화함으로써 데이터 분석 워크플로우를 개선할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-07-10">
-      <button class="date-toggle collapsed" data-date="2026-07-10" onclick="toggleDate('2026-07-10')">
-        <span class="date-label">📅 2026년 07월 10일</span>
-        <span class="date-chip">4개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-07-10">
-        
-    <div class="card" data-category="생산성" data-score="5" data-date="2026-07-09T21:00:39">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">7 Steps to Automating Descriptive Statistics with Python</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.09 21:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">Python을 사용하여 기술 통계를 자동화하는 7단계 과정을 제공합니다. 이는 데이터 분석가가 업무 효율을 높이는 데 매우 유용합니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/7-steps-to-automating-descriptive-statistics-with-python" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="생산성" data-score="5" data-date="2026-07-09T00:10:39">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">How to Clean Messy CSV Files with Python: A Beginner’s Guide</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.09 00:10 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">Pandas를 활용한 CSV 파일 정리에 대한 가이드를 제공하며, 데이터 분석가가 실질적으로 사용할 수 있는 내용입니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/how-to-clean-messy-csv-files-with-python-a-beginners-guide" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI트렌드" data-score="4" data-date="2026-07-10T02:16:53">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">바이브컴퍼니 "수개월짜리 온톨로지 설계, 자연어로 2주 만에 끝낸다"</div>
-      </div>
-      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.10 02:16 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">온톨로지 자동화 솔루션을 통해 데이터 구조화 및 적시 인사이트 도출이 가능하다는 점을 강조함.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212599" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI트렌드" data-score="4" data-date="2026-07-10T02:13:49">
-      <div class="card-header">
-        <div class="card-number">4</div>
-        <div class="card-title">Loop Engineering for AI Agents: How /loop is Changing AI Workflows</div>
-      </div>
-      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.10 02:13 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">Loop Engineering을 통해 AI 에이전트를 효율적으로 활용하는 방법을 소개합니다. 이는 데이터 분석 업무에서 반복 작업을 자동화하는 데 유용할 수 있습니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
