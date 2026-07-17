@@ -178,11 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">6</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">5</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -197,14 +196,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-07-17">
-      <button class="date-toggle" data-date="2026-07-17" onclick="toggleDate('2026-07-17')">
-        <span class="date-label">📅 2026년 07월 17일</span>
+    <div class="date-section" data-date="2026-07-18">
+      <button class="date-toggle" data-date="2026-07-18" onclick="toggleDate('2026-07-18')">
+        <span class="date-label">📅 2026년 07월 18일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-07-17">
+      <div class="date-cards" id="cards-2026-07-18">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-17T19:55:02">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">'노트북LM'→'제미나이 노트북' 리브랜딩…코드 실행·데이터 분석 탑재</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.07.17 19:55 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">제미나이 노트북의 코드 실행과 데이터 분석 기능 추가 소식. 데이터 분석가들은 이를 통해 코드 실행을 쉽게 활용할 수 있을 것이다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212882" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-17T18:07:57">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">How to Connect MCP Servers with Claude (Claude Desktop and Claude Code)</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.07.17 18:07 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">MCP 서버를 Claude와 연결하여 외부 도구와 데이터를 연동함으로써 데이터 분석 분야의 효율성을 높일 수 있습니다. 이 설정 방법은 비교적 간단하여 즉시 적용 가능하므로 현업에서 유용하게 활용할 수 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/07/connect-mcp-servers-claude-desktop-code/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-07-17">
+      <button class="date-toggle collapsed" data-date="2026-07-17" onclick="toggleDate('2026-07-17')">
+        <span class="date-label">📅 2026년 07월 17일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-07-17">
         
             <div class="empty-state">
               <div class="icon">🔍</div>
@@ -331,68 +375,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-07-11">
-      <button class="date-toggle collapsed" data-date="2026-07-11" onclick="toggleDate('2026-07-11')">
-        <span class="date-label">📅 2026년 07월 11일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-07-11">
-        
-    <div class="card" data-category="생산성" data-score="5" data-date="2026-07-09T21:00:39">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">7 Steps to Automating Descriptive Statistics with Python</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.09 21:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">Python을 사용한 기술로, 기술적 노력을 줄이고 자동화된 기술 통계를 생성할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/7-steps-to-automating-descriptive-statistics-with-python" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-11T03:20:20">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">"내 클로드 사용 습관 분석한다"…앤트로픽, '리플렉트' 기능 베타 출시</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.11 03:20 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">앤트로픽의 '리플렉트' 기능은 클로드 사용 습관을 분석하고 시각화하여 업무 효율성을 높일 수 있도록 돕습니다. 데이터 분석가들은 이를 통해 자신의 AI 활용 방식을 개선하고 보다 효과적으로 데이터 분석 작업에 AI를 통합할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=212615" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-07-10T02:13:49">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">Loop Engineering for AI Agents: How /loop is Changing AI Workflows</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.10 02:13 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">AI 에이전트를 사용하여 반복 작업을 자동화함으로써 데이터 분석 워크플로우를 개선할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>
