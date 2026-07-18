@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T07:50:05.395427+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "'노트북LM'→'제미나이 노트북' 리브랜딩…코드 실행·데이터 분석 탑재",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=212882",
+      "summary_raw": "구글이 인기 AI 도구 '노트북LM(NotebookLM)'의 명칭을 '제미나이 노트북(Gemini Notebook)'으로 변경하고, 코드 실행과 데이터 분석 기능을 추가하는 등 제미나이 생태계와의 통합을 본격화했다.구글은 16일(현지시간) 노트북LM을 제미나이 노트북으로 리브랜딩한다고 발표했다.제품의 핵심 역할은 연구와 학습을 지원하는 독립형 서비스로 유지되지만, 앞으로는 제미나이 앱과 구글 검색 등 구글 AI 서비스 전반과 더 긴밀하게 연동될 예정이다.노트북LM은 2023년 구글 I/O에서 '프로젝트 테일윈드(Project Tai",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-07-17T19:55:02+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "제미나이 노트북이 코드 실행과 데이터 분석 기능을 추가함에 따라, 데이터 분석가가 실무에서 쉽게 활용할 수 있는 AI 도구로 발전했습니다.",
+      "reason": "구체적인 데이터 분석 및 코드 실행 기능 추가로 실무에서 활용 가능성이 높음"
+    },
+    {
+      "title": "How to Connect MCP Servers with Claude (Claude Desktop and Claude Code)",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/connect-mcp-servers-claude-desktop-code/",
+      "summary_raw": "<p>Connecting MCP servers to Claude allows it to work with external tools, files, databases, repositories, and other systems instead of operating only within the chat window. The setup differs slightly between Claude Desktop and Claude Code, but both can be configured in just a few steps. In this article, you’ll learn how to connect MCP [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/07/connect-mcp-servers-claude-desktop-code/\">How to Connect MCP Servers with Claude ",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-17T18:07:57+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "MCP 서버와 Claude의 연결 방법을 제시하여 데이터 분석가가 AI 도구를 활용할 수 있는 실용적 사례를 다룹니다.",
+      "reason": "실제 설정 방법을 포함하여 유용한 정보를 제공합니다."
+    }
+  ]
+}
