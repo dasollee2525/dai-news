@@ -196,14 +196,30 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-07-19">
-      <button class="date-toggle" data-date="2026-07-19" onclick="toggleDate('2026-07-19')">
-        <span class="date-label">📅 2026년 07월 19일</span>
+    <div class="date-section" data-date="2026-07-20">
+      <button class="date-toggle" data-date="2026-07-20" onclick="toggleDate('2026-07-20')">
+        <span class="date-label">📅 2026년 07월 20일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-07-19">
+      <div class="date-cards" id="cards-2026-07-20">
+        
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-07-19">
+      <button class="date-toggle collapsed" data-date="2026-07-19" onclick="toggleDate('2026-07-19')">
+        <span class="date-label">📅 2026년 07월 19일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-07-19">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-17T19:55:02">
       <div class="card-header">
@@ -388,22 +404,6 @@
         <a class="read-btn" href="https://www.kdnuggets.com/5-real-world-sql-projects-to-build-your-data-portfolio" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-07-13">
-      <button class="date-toggle collapsed" data-date="2026-07-13" onclick="toggleDate('2026-07-13')">
-        <span class="date-label">📅 2026년 07월 13일</span>
-        <span class="date-chip">0개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-07-13">
-        
-            <div class="empty-state">
-              <div class="icon">🔍</div>
-              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
-            </div>
       </div>
     </div></main>
   </div>
