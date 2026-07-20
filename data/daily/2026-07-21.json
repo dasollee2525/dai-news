@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T08:00:20.187163+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Automatically Assign a Category to Uncategorized Rows in Power Query and DAX",
+      "link": "https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/",
+      "summary_raw": "<p>Having categorized data is everything in reporting. Uncategorized data cannot be grouped and aggregated. But sometimes we must assign a category to uncategorized data according to certain rules. Let’s see how I solved this in a facility management project.</p>\n<p>The post <a href=\"https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/\">Automatically Assign a Category to Uncategorized Rows in Power Query and DAX</a> appeared first on <a hre",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-20T21:00:00+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Power Query와 DAX를 사용하여 분류되지 않은 데이터에 카테고리를 자동으로 할당하는 방법에 대한 스텝별 설명으로, 분석가가 즉시 실무에 활용할 수 있습니다.",
+      "reason": "실제 데이터 분석 업무에서 사용할 수 있는 유용한 가이드가 제공됨."
+    },
+    {
+      "title": "A Beginner’s Guide to Setting Up Claude Code for High Performance Agentic Programming",
+      "link": "https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming",
+      "summary_raw": "This article walks through the actual configuration, permissions, hooks, and command habits that separate a fresh install from a setup that holds up under real, sustained agentic work.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-20T23:00:23+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "이 글은 Claude Code 설정에 대한 구체적인 가이드를 제공하며, 데이터 분석가가 AI 도구를 효과적으로 활용할 수 있는 방법을 설명합니다.",
+      "reason": "실제 설정 과정과 구성 요소를 설명하여 데이터 분석 업무에 맞춘 유용한 내용."
+    }
+  ]
+}
