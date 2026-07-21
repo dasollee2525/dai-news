@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T07:57:02.505126+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Automatically Assign a Category to Uncategorized Rows in Power Query and DAX",
+      "link": "https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/",
+      "summary_raw": "<p>Having categorized data is everything in reporting. Uncategorized data cannot be grouped and aggregated. But sometimes we must assign a category to uncategorized data according to certain rules. Let’s see how I solved this in a facility management project.</p>\n<p>The post <a href=\"https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/\">Automatically Assign a Category to Uncategorized Rows in Power Query and DAX</a> appeared first on <a hre",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-20T21:00:00+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Power Query와 DAX에서 카테고리를 자동으로 할당하는 방법을 설명하며, 실제 데이터 분석 작업에서 바로 활용할 수 있는 유용한 툴이다.",
+      "reason": "실제 프로젝트를 바탕으로 한 사례로, 데이터 분석 실무에서 유용하게 적용할 수 있음."
+    }
+  ]
+}
