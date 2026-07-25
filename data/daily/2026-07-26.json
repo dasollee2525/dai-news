@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T07:55:58.698620+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Build and Run an Intelligent Document Processing (IDP) System in the Cloud",
+      "link": "https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/",
+      "summary_raw": "<p>Automating the classification and extraction of PII from emails using AWS</p>\n<p>The post <a href=\"https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/\">Build and Run an Intelligent Document Processing (IDP) System in the Cloud</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-25T00:00:00+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "AWS를 이용한 문서 처리 자동화는 데이터 분석가들에게 실용적인 정보를 제공하며, 특정 기술 스택을 활용한 실 사례로 유용할 수 있습니다.",
+      "reason": "정보 자동화 및 기능 적합성 높아 실무에 유용함"
+    }
+  ]
+}
