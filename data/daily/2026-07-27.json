@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T07:58:30.741785+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Efficiently Prompt Claude Code",
+      "link": "https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/",
+      "summary_raw": "<p>Maximize your efficiency with Claude Code</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/\">How to Efficiently Prompt Claude Code</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-27T00:00:00+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "클로드 코드를 효과적으로 프롬프트하는 방법에 대한 실용적인 조언을 제공하며, 분석가가 즉시 활용할 수 있는 팁을 포함하고 있음.",
+      "reason": "데이터 분석가가 오늘 당장 적용할 수 있는 유용한 정보 제공."
+    },
+    {
+      "title": "앤드류 응, 대화 대신 결과물 만드는 오픈소스 AI '오픈워커' 공개",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=213135",
+      "summary_raw": "AI 분야의 권위자인 앤드류 응이 사용자 PC에서 직접 실행되며 문서 작성부터 이메일 처리, 일정 관리까지 실제 업무 결과물을 완성하는 오픈소스 AI 에이전트를 공개했다. 특정 AI 모델에 종속되지 않는 개방형 구조와 개인정보 보호를 전면에 내세우며 'AI 동료(AI coworkers)' 생태계 구축에 나섰다는 평가다.앤드류 응은 23일(현지시간) 사용자의 질문에 답하는 수준을 넘어 실제 업무 결과물을 완성해 전달하는 오픈소스 AI 에이전트 '오픈워커(OpenWorker)'를 공개했다. 오픈워커가 기존 챗봇처럼 프롬프트에 응답하는",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-07-25T19:33:21+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "앤드류 응의 오픈워커는 데이터 분석가가 직접 사용할 수 있는 AI 도구로, 문서 작성과 일정 관리 등 데이터 분석 실무에서 유용하게 활용될 수 있음.",
+      "reason": "실제 업무 결과물을 완성하는 도구의 소개로 유용함."
+    }
+  ]
+}
