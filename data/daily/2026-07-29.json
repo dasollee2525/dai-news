@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T07:58:43.036296+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "5 Best AI Tools for Data Analysis You Should Try in 2026",
+      "link": "https://www.kdnuggets.com/5-best-ai-tools-for-data-analysis-you-should-try-in-2026",
+      "summary_raw": "Discover five of the best AI tools for data analysis that can clean data, write code, create visualizations, and generate insights faster.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-28T21:00:08+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "2026년 사용할 수 있는 다섯 가지 AI 데이터 분석 도구에 대한 정보를 제공하며, 각각의 기능을 통해 데이터 분석 작업을 효율적으로 수행할 수 있는 방법을 제시합니다.",
+      "reason": "실제 업무에 적용할 수 있는 AI 도구에 대한 정보."
+    }
+  ]
+}
