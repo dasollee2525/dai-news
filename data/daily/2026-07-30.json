@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T07:59:16.573411+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How to Create Custom Skills in Claude: A Step-by-Step Guide",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/how-to-create-custom-skills-in-claude/",
+      "summary_raw": "<p>Claude can review data, check code, write reports, and prepare presentations, but teams still end up repeating the same structure, validation rules, company standards, and final-check instructions in every conversation. That repetition wastes time and often leads to inconsistent results. Custom Skills solve this by packaging reusable instructions, workflows, templates, scripts, examples, and reference files [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/07/how-to",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-29T22:49:28+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Claude를 활용해 데이터 확인, 보고서 작성 등의 커스텀 스킬을 만드는 방법을 단계별로 설명하고 있어 실무에 바로 적용 가능.",
+      "reason": "데이터 분석 업무에 필요한 구체적인 AI 활용 방법을 제공."
+    }
+  ]
+}
