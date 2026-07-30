@@ -1,0 +1,33 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T08:07:27.789496+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Create Custom Skills in Claude: A Step-by-Step Guide",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/how-to-create-custom-skills-in-claude/",
+      "summary_raw": "<p>Claude can review data, check code, write reports, and prepare presentations, but teams still end up repeating the same structure, validation rules, company standards, and final-check instructions in every conversation. That repetition wastes time and often leads to inconsistent results. Custom Skills solve this by packaging reusable instructions, workflows, templates, scripts, examples, and reference files [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/07/how-to",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-29T22:49:28+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "Claude를 이용한 커스텀 스킬 생성 방법을 단계별로 안내하며 분석 및 리포트 작성에 도움을 줍니다.",
+      "reason": "분석 업무에 즉시 적용 가능한 실용적인 가이드"
+    },
+    {
+      "title": "Claude Code CLI Commands I Wish I Had Known Sooner",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/hidden-claude-code-cli-commands/",
+      "summary_raw": "<p>I used Claude Code daily for months before realizing that claude --help hides many of its most useful capabilities. I kept restarting fresh sessions, repeatedly explaining the same project structure, simply because I did not know a better workflow existed. While debugging an unrelated issue, I discovered the full CLI reference: dozens of commands and [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/07/hidden-claude-code-cli-commands/\">Claude Code CLI Commands I Wis",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-31T03:25:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude Code의 유용한 명령어를 소개하며, 데이터 분석가가 실무에서 효율성을 높일 수 있는 방법을 제시합니다.",
+      "reason": "직접적으로 분석 업무에 활용할 수 있는 AI 도구 활용법"
+    }
+  ]
+}
