@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T07:59:52.483869+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Claude Code CLI Commands I Wish I Had Known Sooner",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/hidden-claude-code-cli-commands/",
+      "summary_raw": "<p>I used Claude Code daily for months before realizing that claude --help hides many of its most useful capabilities. I kept restarting fresh sessions, repeatedly explaining the same project structure, simply because I did not know a better workflow existed. While debugging an unrelated issue, I discovered the full CLI reference: dozens of commands and [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/07/hidden-claude-code-cli-commands/\">Claude Code CLI Commands I Wis",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-07-31T03:25:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude 코드 CLI 명령어를 활용하여 생산성을 높이는 방법을 제공하며, 분석가들이 실무에 즉시 적용할 수 있는 팁을 포함하고 있음.",
+      "reason": "AI 도구를 데이터 분석 업무에 실질적으로 활용하는 방법을 제시."
+    }
+  ]
+}
