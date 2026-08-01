@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T07:57:54.915752+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "LanceDB Vector Database Guide: Features, Python Demo",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/lancedb-vector-database/",
+      "summary_raw": "<p>Large language models understand text well, but they become less effective when information is scattered across documents or mixed with images and other media. Modern AI systems rely on vector databases, which store embeddings and enable similarity search across collections. LanceDB is a vector database built for AI workloads, with native support for multimodal data [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/08/lancedb-vector-database/\">LanceDB Vector Databas",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-01T19:41:05+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "LanceDB를 활용하여 데이터 분석에서 유용한 임베딩 저장 및 유사성 검색을 통해 업무 효율성 향상.",
+      "reason": "벡터 데이터베이스를 활용하여 데이터 분석의 효율성을 높이는 방법을 제시."
+    },
+    {
+      "title": "KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent • 7 Machine Learning Algorithms That Still Matter",
+      "link": "https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27",
+      "summary_raw": "A Beginner's Guide to Working with Claude Design • 5 Best AI Tools for Data Analysis You Should Try in 2026 • 5 Books That Will Deepen Your Understanding of Large Language Models • Is KimiClaw a Useful Tool?",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-01T22:00:43+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "Claude와 같은 새로운 AI 도구를 실무에 활용하는 안내로, 데이터 분석 업무에 적용할 수 있는 설정과 사례를 제시할 수 있음.",
+      "reason": "AI 도구 활용에 대한 시작과 실제 적용에 대한 정보가 포함되어 있음."
+    }
+  ]
+}

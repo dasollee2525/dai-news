@@ -178,10 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">8</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">6</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">7</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -196,14 +196,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-08-01">
-      <button class="date-toggle" data-date="2026-08-01" onclick="toggleDate('2026-08-01')">
-        <span class="date-label">📅 2026년 08월 01일</span>
+    <div class="date-section" data-date="2026-08-02">
+      <button class="date-toggle" data-date="2026-08-02" onclick="toggleDate('2026-08-02')">
+        <span class="date-label">📅 2026년 08월 02일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-08-01">
+      <div class="date-cards" id="cards-2026-08-02">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-01T19:41:05">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">LanceDB Vector Database Guide: Features, Python Demo</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.01 19:41 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">LanceDB를 활용하여 데이터 분석에서 유용한 임베딩 저장 및 유사성 검색을 통해 업무 효율성 향상.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/08/lancedb-vector-database/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI트렌드" data-score="4" data-date="2026-08-01T22:00:43">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent • 7 Machine Learning Algorithms That Still Matter</div>
+      </div>
+      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.01 22:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">Claude와 같은 새로운 AI 도구를 실무에 활용하는 안내로, 데이터 분석 업무에 적용할 수 있는 설정과 사례를 제시할 수 있음.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-08-01">
+      <button class="date-toggle collapsed" data-date="2026-08-01" onclick="toggleDate('2026-08-01')">
+        <span class="date-label">📅 2026년 08월 01일</span>
+        <span class="date-chip">1개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-08-01">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-31T03:25:00">
       <div class="card-header">
@@ -381,34 +426,6 @@
       <p class="summary">앤드류 응의 오픈워커는 데이터 분석가가 직접 사용할 수 있는 AI 도구로, 문서 작성과 일정 관리 등 데이터 분석 실무에서 유용하게 활용될 수 있음.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=213135" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-07-26">
-      <button class="date-toggle collapsed" data-date="2026-07-26" onclick="toggleDate('2026-07-26')">
-        <span class="date-label">📅 2026년 07월 26일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-07-26">
-        
-    <div class="card" data-category="생산성" data-score="4" data-date="2026-07-25T00:00:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Build and Run an Intelligent Document Processing (IDP) System in the Cloud</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.25 00:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">AWS를 이용한 문서 처리 자동화는 데이터 분석가들에게 실용적인 정보를 제공하며, 특정 기술 스택을 활용한 실 사례로 유용할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
