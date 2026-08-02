@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T07:56:14.416044+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "I Replaced a 15-Minute Booking Process with a LangGraph AI Agent",
+      "link": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
+      "summary_raw": "<p>A step-by-step guide to building, running, and monitoring a stateful customer support agent using Python, LangGraph, and Langfuse.</p>\n<p>The post <a href=\"https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/\">I Replaced a 15-Minute Booking Process with a LangGraph AI Agent</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-02T22:00:00+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "LangGraph AI 에이전트를 활용하여 예약 과정을 15분에서 자동화하는 구체적인 튜토리얼을 제공, 데이터 분석가가 고객 지원에 활용할 수 있다.",
+      "reason": "AI 도구를 활용한 실무적 사례로, 분석 업무에 응용 가능성이 있음."
+    }
+  ]
+}
