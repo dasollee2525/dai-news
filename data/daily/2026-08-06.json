@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T07:58:51.128651+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "Turn Any CSV into an Executive Report with Python and AI",
+      "link": "https://www.kdnuggets.com/turn-any-csv-into-an-executive-report-with-python-and-ai",
+      "summary_raw": "Learn to implement a repeatable pipeline that cleans a CSV, finds the story, and writes it up.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-05T21:00:18+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "이 기사는 Python과 AI를 이용해 CSV 파일에서 인사이트를 도출하고 이를 리포트 형태로 작성하는 반복 가능한 파이프라인을 만드는 방법을 설명합니다. 데이터 분석가들이 업무에 바로 적용할 수 있는 실용적인 튜토리얼입니다.",
+      "reason": "데이터 분석 자동화에 대한 구체적인 실사용 사례 제공"
+    },
+    {
+      "title": "Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from Body Typography for RAG",
+      "link": "https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/",
+      "summary_raw": "<p>Enterprise Document Intelligence [Vol.1 #5octies] - Rules propose, LLM validates: six deterministic signals on span-level typography surface heading candidates, one bounded loop keeps the real ones, and the same toc_df drops back into the RAG pipeline</p>\n<p>The post <a href=\"https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/\">Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-05T21:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "문서의 구조를 회복하고 RAG 파이프라인에 투입하는 방법을 설명하여 데이터 분석 접근법을 제시.",
+      "reason": "RAG와 LLM 활용에 관하여 실용적인 적용 정보 제공"
+    },
+    {
+      "title": "Using Agents as Tools",
+      "link": "https://towardsdatascience.com/using-agents-as-tools/",
+      "summary_raw": "<p>Building manager–specialist workflows with the OpenAI Agents SDK</p>\n<p>The post <a href=\"https://towardsdatascience.com/using-agents-as-tools/\">Using Agents as Tools</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-04T21:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "OpenAI Agents SDK를 활용하여 데이터 분석 워크플로우를 개선하는 방법을 소개한다.",
+      "reason": "AI 도구를 데이터 분석 업무에 적용하는 구체적 방법이 제시됨"
+    }
+  ]
+}
