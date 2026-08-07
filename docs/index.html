@@ -179,10 +179,10 @@
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
       <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">2</span></button>
 
     </div>
@@ -198,14 +198,42 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-08-07">
-      <button class="date-toggle" data-date="2026-08-07" onclick="toggleDate('2026-08-07')">
-        <span class="date-label">📅 2026년 08월 07일</span>
+    <div class="date-section" data-date="2026-08-08">
+      <button class="date-toggle" data-date="2026-08-08" onclick="toggleDate('2026-08-08')">
+        <span class="date-label">📅 2026년 08월 08일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-08-07">
+      <div class="date-cards" id="cards-2026-08-08">
+        
+    <div class="card" data-category="생산성" data-score="5" data-date="2026-08-07T01:30:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.07 01:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">비즈니스 질문에 대해 자연어로 데이터 탐색을 가능하게 하는 AI 데이터 에이전트 구축 방법에 대한 단계별 안내.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-08-07">
+      <button class="date-toggle collapsed" data-date="2026-08-07" onclick="toggleDate('2026-08-07')">
+        <span class="date-label">📅 2026년 08월 07일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-08-07">
         
     <div class="card" data-category="LLM응용" data-score="5" data-date="2026-08-07T01:30:00">
       <div class="card-header">
@@ -422,34 +450,6 @@
       <p class="summary">Claude와 같은 새로운 AI 도구를 실무에 활용하는 안내로, 데이터 분석 업무에 적용할 수 있는 설정과 사례를 제시할 수 있음.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-08-01">
-      <button class="date-toggle collapsed" data-date="2026-08-01" onclick="toggleDate('2026-08-01')">
-        <span class="date-label">📅 2026년 08월 01일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-08-01">
-        
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-07-31T03:25:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Claude Code CLI Commands I Wish I Had Known Sooner</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.07.31 03:25 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">Claude 코드 CLI 명령어를 활용하여 생산성을 높이는 방법을 제공하며, 분석가들이 실무에 즉시 적용할 수 있는 팁을 포함하고 있음.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/07/hidden-claude-code-cli-commands/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>

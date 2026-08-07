@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T07:34:53.021430+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.",
+      "link": "https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/",
+      "summary_raw": "<p>A step-by-step guide to building a data agent and conversational interface that let business users to explore data in natural language without SQL</p>\n<p>The post <a href=\"https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/\">I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-07T01:30:00+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "비즈니스 질문에 대해 자연어로 데이터 탐색을 가능하게 하는 AI 데이터 에이전트 구축 방법에 대한 단계별 안내.",
+      "reason": "데이터 분석가가 실무에 활용할 수 있는 유용한 튜토리얼이다."
+    }
+  ]
+}
