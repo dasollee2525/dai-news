@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T10:31:30.510771+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.",
+      "link": "https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/",
+      "summary_raw": "<p>A step-by-step guide to building a data agent and conversational interface that let business users to explore data in natural language without SQL</p>\n<p>The post <a href=\"https://towardsdatascience.com/i-built-an-ai-data-agent-which-can-query-data-and-answer-business-questions-heres-how/\">I Built an AI Data Agent Which Can Query Data and Answer Business Questions. Here’s How.</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-07T01:30:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "자연어로 데이터를 탐색하고 비즈니스 질문에 답변할 수 있는 AI 데이터 에이전트를 구축하는 방법에 대한 단계별 가이드를 제공한다. 이는 데이터 분석가들이 직접 사용할 수 있는 유용한 리소스가 될 수 있다.",
+      "reason": "실제 분석 업무에 바로 적용 가능한 AI 활용 방법을 제시하므로 높게 평가."
+    },
+    {
+      "title": "Turn Any CSV into an Executive Report with Python and AI",
+      "link": "https://www.kdnuggets.com/turn-any-csv-into-an-executive-report-with-python-and-ai",
+      "summary_raw": "Learn to implement a repeatable pipeline that cleans a CSV, finds the story, and writes it up.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-05T21:00:18+09:00",
+      "score": 5,
+      "category": "데이터분석+AI",
+      "summary_ko": "CSV 파일을 자동으로 정리하고 리포트를 생성하는 방법을 배우며, 데이터 분석가가 직무에 즉시 활용할 수 있는 튜토리얼이다.",
+      "reason": "구체적인 파이프라인 구현 방법을 통해 데이터 분석가가 AI를 직접적으로 활용할 수 있는 실용적인 내용을 다루고 있다."
+    },
+    {
+      "title": "세무 AI 스타트업 솔로몬랩스, 스트라이프 출신 이창헌 리드 영입",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=213585",
+      "summary_raw": "세무 AI 전문 솔로몬랩스(대표 이기경)는 글로벌 결제 플랫폼 스트라이프 출신 이창헌 프로젝트 리드를 영입했다고 6일 밝혔다.이창헌 리드는 스트라이프에서 가상자산업, 자금 송금·예치업 등 규제산업의 금융 인프라를 구축했으며, 이후 보스턴컨설팅그룹(BCG)에서 머신러닝과 AI 에이전트를 결합한 공장 수율 개선 시스템을 개발한 바 있다.이 리드는 올해 4분기 출시 예정인 '솔로몬 절세 전략 AI' 개발을 총괄, 기존 세무 신고서 자동화 솔루션을 절세 전략 수립까지 확장하는 것을 목표로 한다. 세금 신고서를 작성하는 AI와 절세 전략을",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-08-06T21:49:35+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "세무 AI 스타트업이 절세 전략 AI 개발을 목표로 하여 데이터 분석과 AI의 결합을 확대하려고 한다. 이는 데이터 분석가들이 비즈니스 인사이트 도출에 AI를 활용하는 방법을 보여준다.",
+      "reason": "AI와 데이터 분석의 결합을 통해 실질적인 비즈니스 가치를 추구하는 사례."
+    }
+  ]
+}
