@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T07:28:33.582292+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Building Trustworthy Snowflake AI Agents with Semantic Governance",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/",
+      "summary_raw": "<p>This year, many data teams have added AI agents to their roadmaps. The excitement is real: an agent that turns a two-day analysis into a two-minute conversation can change how analysts and business teams work together. But agents are only as reliable as the data foundation beneath them. Point them at raw tables or outdated [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/\">Building Trustworthy Snowflake AI Agents with Sema",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-08T22:27:12+09:00",
+      "score": 4,
+      "category": "AI Agent 응용",
+      "summary_ko": "AI 에이전트를 통해 분석 업무를 크게 단축시킬 수 있는 가능성을 제시하며, 데이터 기반 활용에 집중하고 있음.",
+      "reason": "데이터 분석가가 AI를 실무에 활용할 수 있는 유용한 정보."
+    }
+  ]
+}
