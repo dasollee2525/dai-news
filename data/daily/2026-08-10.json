@@ -1,0 +1,46 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T07:30:41.894179+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "How to Implement Structured Output with Local LLMs",
+      "link": "https://towardsdatascience.com/structured-output-with-local-llms/",
+      "summary_raw": "<p>Why use it? How to implement it? What can we do when it fails?</p>\n<p>The post <a href=\"https://towardsdatascience.com/structured-output-with-local-llms/\">How to Implement Structured Output with Local LLMs</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-09T22:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "국내 LLM을 사용하여 구조화된 출력을 구현하는 방법을 소개하여 분석가들이 실무에 활용할 수 있는 정보가 포함되어 있다.",
+      "reason": "실제로 LLM을 활용한 데이터 처리 방법에 대한 직접적인 설명"
+    },
+    {
+      "title": "Building a Streamlit UI for My LangGraph AI Agent",
+      "link": "https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/",
+      "summary_raw": "<p>Building a production-ready web interface for a stateful LangGraph agent</p>\n<p>The post <a href=\"https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/\">Building a Streamlit UI for My LangGraph AI Agent</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-08T22:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "LangGraph AI 에이전트를 위한 Streamlit UI를 만드는 튜토리얼로, 데이터 분석가들이 실제로 활용할 수 있는 방법을 제공한다.",
+      "reason": "실행 가능한 도구 활용 방법에 대한 실질적인 정보"
+    },
+    {
+      "title": "Building Trustworthy Snowflake AI Agents with Semantic Governance",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/",
+      "summary_raw": "<p>This year, many data teams have added AI agents to their roadmaps. The excitement is real: an agent that turns a two-day analysis into a two-minute conversation can change how analysts and business teams work together. But agents are only as reliable as the data foundation beneath them. Point them at raw tables or outdated [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/\">Building Trustworthy Snowflake AI Agents with Sema",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-08T22:27:12+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "AI 에이전트를 활용하여 데이터 분석을 자동화하는 가능성을 논의하며, 분석가들에게 유용한 통찰력을 제공한다.",
+      "reason": "AI 에이전트를 통한 분석 워크플로우 개선 내용을 포함하고 있어 유용"
+    }
+  ]
+}
