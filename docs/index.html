@@ -178,12 +178,12 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">13</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">3</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -198,14 +198,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-08-11">
-      <button class="date-toggle" data-date="2026-08-11" onclick="toggleDate('2026-08-11')">
-        <span class="date-label">📅 2026년 08월 11일</span>
+    <div class="date-section" data-date="2026-08-12">
+      <button class="date-toggle" data-date="2026-08-12" onclick="toggleDate('2026-08-12')">
+        <span class="date-label">📅 2026년 08월 12일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-08-11">
+      <div class="date-cards" id="cards-2026-08-12">
+        
+    <div class="card" data-category="AI트렌드" data-score="4" data-date="2026-08-11T21:00:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Can a Local LLM Run My AI Assistant?</div>
+      </div>
+      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.11 21:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">로컬 LLM을 사용할 수 있는 가능성과 실제 작업을 실행할 수 있는 방법을 소개하며, AI 개인 비서의 활용을 다룹니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-08-11T00:00:00">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.11 00:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">AI 에이전트를 데이터 웨어하우스에서 효율적으로 사용할 수 있도록 하는 방법에 대해 논의하며, 실용적인 인사이트를 제공합니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/building-an-agent-ready-data-warehouse-what-traditional-architectures-do-wrong/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-08-11">
+      <button class="date-toggle collapsed" data-date="2026-08-11" onclick="toggleDate('2026-08-11')">
+        <span class="date-label">📅 2026년 08월 11일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-08-11">
         
             <div class="empty-state">
               <div class="icon">🔍</div>
@@ -453,22 +498,6 @@
         <a class="read-btn" href="https://towardsdatascience.com/using-agents-as-tools/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-08-05">
-      <button class="date-toggle collapsed" data-date="2026-08-05" onclick="toggleDate('2026-08-05')">
-        <span class="date-label">📅 2026년 08월 05일</span>
-        <span class="date-chip">0개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-08-05">
-        
-            <div class="empty-state">
-              <div class="icon">🔍</div>
-              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
-            </div>
       </div>
     </div></main>
   </div>

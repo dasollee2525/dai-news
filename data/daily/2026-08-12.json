@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T07:41:23.085923+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Can a Local LLM Run My AI Assistant?",
+      "link": "https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/",
+      "summary_raw": "<p>I replayed the same 27 real production tasks through two local models, one hardware upgrade apart, to find out what it actually takes to replace Claude as the brain behind a 90-tool personal agent.</p>\n<p>The post <a href=\"https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/\">Can a Local LLM Run My AI Assistant?</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-11T21:00:00+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "로컬 LLM을 사용할 수 있는 가능성과 실제 작업을 실행할 수 있는 방법을 소개하며, AI 개인 비서의 활용을 다룹니다.",
+      "reason": "AI를 데이터 분석에 응용할 수 있는 잠재력을 제시함."
+    },
+    {
+      "title": "Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong",
+      "link": "https://towardsdatascience.com/building-an-agent-ready-data-warehouse-what-traditional-architectures-do-wrong/",
+      "summary_raw": "<p>Giving an AI agent access to a data warehouse doesn't automatically make it agent-ready. The real challenge lies in teaching the agent what the data means and when it's reliable enough to use. </p>\n<p>The post <a href=\"https://towardsdatascience.com/building-an-agent-ready-data-warehouse-what-traditional-architectures-do-wrong/\">Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-11T00:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "AI 에이전트를 데이터 웨어하우스에서 효율적으로 사용할 수 있도록 하는 방법에 대해 논의하며, 실용적인 인사이트를 제공합니다.",
+      "reason": "AI 에이전트를 데이터 분석에 적용할 수 있는 사례를 제시함."
+    }
+  ]
+}
