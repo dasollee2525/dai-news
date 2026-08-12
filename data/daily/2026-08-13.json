@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T07:39:54.969477+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Building an End-to-End Data Science Portfolio Project",
+      "link": "https://www.kdnuggets.com/building-an-end-to-end-data-science-portfolio-project",
+      "summary_raw": "Most portfolios stop at a notebook. Take yours all the way.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-12T23:00:50+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "끝에서 끝까지 진행되는 데이터 과학 프로젝트 포트폴리오 구축 방법을 설명하며, 실무에서의 활용이 가능함.",
+      "reason": "데이터 분석가에게 실질적으로 유용한 내용 포함."
+    }
+  ]
+}
