@@ -178,12 +178,12 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">4</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -198,14 +198,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-08-15">
-      <button class="date-toggle" data-date="2026-08-15" onclick="toggleDate('2026-08-15')">
-        <span class="date-label">📅 2026년 08월 15일</span>
+    <div class="date-section" data-date="2026-08-16">
+      <button class="date-toggle" data-date="2026-08-16" onclick="toggleDate('2026-08-16')">
+        <span class="date-label">📅 2026년 08월 16일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-08-15">
+      <div class="date-cards" id="cards-2026-08-16">
+        
+    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-08-15T00:00:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.15 00:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">RAG와 루프 엔지니어링을 활용한 워크플로우 개선 방안이 언급되며, 데이터 분석가가 AI를 활용할 수 있는 구체적인 사례로 이어질 가능성이 있음.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI트렌드" data-score="4" data-date="2026-08-14T20:08:54">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">NVIDIA Nemotron 3.5 Lightning: The AI Agent Workhorse</div>
+      </div>
+      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.14 20:08 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">AI 에이전트의 효율성을 높이는 방법에 대한 논의로, 분석가들이 AI를 실무에 효과적으로 활용할 수 있는 통찰 제공.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/08/nvidia-nemotron-3-5-lightning/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-08-15">
+      <button class="date-toggle collapsed" data-date="2026-08-15" onclick="toggleDate('2026-08-15')">
+        <span class="date-label">📅 2026년 08월 15일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-08-15">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-14T03:31:50">
       <div class="card-header">
@@ -415,34 +460,6 @@
         <span class="meta-chip">관련도 <strong>4점</strong></span>
       </div>
       <p class="summary">AI 에이전트를 활용하여 데이터 분석을 자동화하는 가능성을 논의하며, 분석가들에게 유용한 통찰력을 제공한다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-08-09">
-      <button class="date-toggle collapsed" data-date="2026-08-09" onclick="toggleDate('2026-08-09')">
-        <span class="date-label">📅 2026년 08월 09일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-08-09">
-        
-    <div class="card" data-category="AI Agent 응용" data-score="4" data-date="2026-08-08T22:27:12">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Building Trustworthy Snowflake AI Agents with Semantic Governance</div>
-      </div>
-      <span class="badge" style="background:#6b7280">📌 AI Agent 응용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.08 22:27 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">AI 에이전트를 통해 분석 업무를 크게 단축시킬 수 있는 가능성을 제시하며, 데이터 기반 활용에 집중하고 있음.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
