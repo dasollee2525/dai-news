@@ -178,12 +178,12 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">4</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">3</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -198,14 +198,42 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-08-16">
-      <button class="date-toggle" data-date="2026-08-16" onclick="toggleDate('2026-08-16')">
-        <span class="date-label">📅 2026년 08월 16일</span>
+    <div class="date-section" data-date="2026-08-17">
+      <button class="date-toggle" data-date="2026-08-17" onclick="toggleDate('2026-08-17')">
+        <span class="date-label">📅 2026년 08월 17일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-08-16">
+      <div class="date-cards" id="cards-2026-08-17">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-15T19:30:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">How to Install Codex CLI: A Step-by-Step Guide</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.15 19:30 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">Codex CLI의 설치 방법과 기능을 설명하며, 데이터 분석가가 직접 활용할 수 있는 AI 도구로서 유용성을 지니고 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/08/how-to-install-codex-cli/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-08-16">
+      <button class="date-toggle collapsed" data-date="2026-08-16" onclick="toggleDate('2026-08-16')">
+        <span class="date-label">📅 2026년 08월 16일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-08-16">
         
     <div class="card" data-category="LLM응용" data-score="4" data-date="2026-08-15T00:00:00">
       <div class="card-header">
@@ -402,68 +430,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-08-10">
-      <button class="date-toggle collapsed" data-date="2026-08-10" onclick="toggleDate('2026-08-10')">
-        <span class="date-label">📅 2026년 08월 10일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-08-10">
-        
-    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-08-09T22:00:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">How to Implement Structured Output with Local LLMs</div>
-      </div>
-      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.09 22:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">국내 LLM을 사용하여 구조화된 출력을 구현하는 방법을 소개하여 분석가들이 실무에 활용할 수 있는 정보가 포함되어 있다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/structured-output-with-local-llms/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-08T22:00:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">Building a Streamlit UI for My LangGraph AI Agent</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.08 22:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">LangGraph AI 에이전트를 위한 Streamlit UI를 만드는 튜토리얼로, 데이터 분석가들이 실제로 활용할 수 있는 방법을 제공한다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI트렌드" data-score="4" data-date="2026-08-08T22:27:12">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">Building Trustworthy Snowflake AI Agents with Semantic Governance</div>
-      </div>
-      <span class="badge" style="background:#f59e0b">📡 AI트렌드</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.08 22:27 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">AI 에이전트를 활용하여 데이터 분석을 자동화하는 가능성을 논의하며, 분석가들에게 유용한 통찰력을 제공한다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>

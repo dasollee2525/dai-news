@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T07:19:57.225161+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How to Install Codex CLI: A Step-by-Step Guide",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/how-to-install-codex-cli/",
+      "summary_raw": "<p>If you have already used&#160;Codex in ChatGPT, the Codex CLI will feel familiar. It brings the same AI assistance directly into your local development environment, where it can work with your repository, shell, tests, and other tools. Installation takes only one command, but the setup choices that follow are worth reviewing carefully. In this article, you’ll [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/08/how-to-install-codex-cli/\">How to Install Codex CLI: A ",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-15T19:30:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Codex CLI의 설치 방법과 기능을 설명하며, 데이터 분석가가 직접 활용할 수 있는 AI 도구로서 유용성을 지니고 있습니다.",
+      "reason": "AI 도구의 실무 활용 방안과 직접 연결되며 분석 업무에 적용 가능."
+    }
+  ]
+}
