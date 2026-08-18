@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T07:23:01.158031+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Add Skills in Agents using LangChain",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/build-modular-agent-skills-langchain/",
+      "summary_raw": "<p>Ever wondered how ChatGPT, Gemini, and other chat interfaces generate PDFs, PowerPoints, and more when all they have under the hood is an LLM? The trick isn’t a smarter model. It’s something simpler: skills which are instructions an agent loads only when needed. Next, let’s explore how skills work using LangChain and how they can make [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/08/build-modular-agent-skills-langchain/\">How to Add Skills in Agents using LangCha",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-18T18:17:35+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "LangChain을 사용하여 AI 에이전트에 기술을 추가하는 방법을 설명합니다. 이는 ChatGPT와 같은 도구가 어떻게 여러 작업을 수행하도록 훈련될 수 있는지를 보여줍니다.",
+      "reason": "ChatGPT와 같은 AI 도구를 활용한 실무적인 활용방법을 제시함"
+    },
+    {
+      "title": "5 Python Libraries That Make Data Cleaning More Enjoyable",
+      "link": "https://www.kdnuggets.com/5-python-libraries-that-make-data-cleaning-more-enjoyable",
+      "summary_raw": "This article covers five Python libraries that turn tedious data cleaning into something expressive and genuinely enjoyable.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-17T21:00:53+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "데이터 정리에 유용한 5개의 파이썬 라이브러리를 소개하며, 이들이 어떻게 분석가들에게 도움이 되는지를 설명합니다.",
+      "reason": "데이터 정리와 관련된 유용한 도구 소개"
+    }
+  ]
+}
