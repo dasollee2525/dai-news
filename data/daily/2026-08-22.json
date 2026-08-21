@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T07:24:36.305369+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "바이브컴퍼니 “온톨로지 RAG로 기업 문서·정보 등록 자동화”",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=214196",
+      "summary_raw": "AI 전문 바이브컴퍼니(대표 김경서)는 AI 지식관리시스템 '바이브 KMS(VAIV KMS)'에 지식 등록 자동화 기능과 온톨로지 기반 상품 비교 기능을 새롭게 탑재하며 솔루션을 고도화했다고 21일 밝혔다.지식관리시스템(KMS)은 기업 내 방대한 문서와 정보를 빠르게 찾아 활용할 수 있도록 돕는 시스템이다. 최근 생성 AI가 결합되며 정보 검색 편의성이 크게 높아졌지만, 여러 조건이 복잡하게 얽힌 질문에는 여전히 정확한 답을 내지 못하는 한계를 넘기 위한 것이다.바이브컴퍼니는 핵심 지식을 그래프 구조로 정리한 온톨로지(지식그래프)와",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-08-21T20:57:38+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "온톨로지 기술을 활용해 기업 문서 및 정보 등록을 자동화하는 방법은 생산성 향상에 기여할 수 있어 데이터 분석가에게 유용할 수 있습니다.",
+      "reason": "AI를 통한 업무 자동화가 데이터 분석에 실질적으로 기여할 가능성이 있음"
+    },
+    {
+      "title": "Running Codex as a Headless Agent",
+      "link": "https://towardsdatascience.com/running-codex-as-a-headless-agent/",
+      "summary_raw": "<p>Turning Codex from an interactive assistant into a programmable automation component</p>\n<p>The post <a href=\"https://towardsdatascience.com/running-codex-as-a-headless-agent/\">Running Codex as a Headless Agent</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-22T03:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Codex를 프로그래머블 자동화 구성 요소로 변환하여 반복적인 데이터 분석 작업을 간소화할 수 있는 방법을 다룹니다. 데이터 분석가들은 이를 활용해 더 효율적인 워크플로우를 구축할 수 있습니다.",
+      "reason": "AI 도구인 Codex를 데이터 분석업무 자동화에 활용할 수 있는 구체적인 방법 제공"
+    }
+  ]
+}
