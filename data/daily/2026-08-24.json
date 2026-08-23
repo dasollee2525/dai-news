@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T07:20:50.043096+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Spec-Driven Development with Claude Code: Writing Bulletproof Specs",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/spec-driven-development-claude-code/",
+      "summary_raw": "<p>I have written enough specs for Claude Code now to have hit the failure mode nobody warns you about.  The spec was fine. The plan was fine. Claude worked through the tasks, ran the test suite, and reported everything passing. I looked at the diff properly the next morning and found it had converted a [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/08/spec-driven-development-claude-code/\">Spec-Driven Development with Claude Code: Writing Bulletproof Specs</a> appea",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-23T22:02:40+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude 코드 사용에 대해 언급하며, 데이터 분석가가 스펙을 작성하고 검증할 때 AI를 활용할 수 있는 방법을 제안하고 있다.",
+      "reason": "AI 도구를 사용한 분석 업무의 실용적인 활용법이 포함되어 있다."
+    }
+  ]
+}
