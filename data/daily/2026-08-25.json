@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T07:25:45.359187+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How to Use Kimi K3: Moonshot AI’s 2.8T Open-Weight Model",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/kimi-k3-explained/",
+      "summary_raw": "<p>Moonshot AI’s Kimi K3 is a 2.8-trillion-parameter open-weight model built with a Mixture-of-Experts architecture. It activates only a small fraction of its parameters per token, helping reduce inference costs while delivering strong coding and agentic performance. K3 combines near-frontier capabilities, open weights, and lower API pricing, making it an interesting alternative to proprietary models. In [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/08/kimi-k3-expl",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-24T21:22:57+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Moonshot AI의 Kimi K3 모델을 활용하여 데이터 분석의 비용 효율을 높일 수 있는 방법에 대해 설명.",
+      "reason": "AI 모델의 실용성을 통해 데이터 분석가의 업무에 도움을 줄 수 있는 내용."
+    }
+  ]
+}
