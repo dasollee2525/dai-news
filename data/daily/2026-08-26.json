@@ -1,0 +1,33 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T07:27:05.276295+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Build an End-to-End Data Science Project with Grok Build and Grok 4.6",
+      "link": "https://www.kdnuggets.com/build-an-end-to-end-data-science-project-with-grok-build-and-grok-4-6",
+      "summary_raw": "Use Grok Build to create a production-ready data science workflow with EDA, scikit-learn, model training, FastAPI, API testing, and cloud deployment.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-24T21:00:06+09:00",
+      "score": 5,
+      "category": "데이터분석+AI",
+      "summary_ko": "Grok Build를 사용하여 데이터 분석 워크플로우를 구축하는 구체적인 방법을 다루고 있습니다.",
+      "reason": "데이터 분석가가 즉시 쓸 수 있는 실용적인 튜토리얼입니다."
+    },
+    {
+      "title": "How to Leverage Local Small Language Models for Your Projects",
+      "link": "https://www.kdnuggets.com/how-to-leverage-local-small-language-models-for-your-projects",
+      "summary_raw": "A practical guide to running compact, privacy-preserving language models on your own hardware for faster, cheaper, and more controllable AI-powered applications.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-24T23:00:13+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "소형 언어 모델을 활용하여 개인 하드웨어에서 데이터 분석과 AI 응용 프로그램을 개선하는 방법을 제시합니다.",
+      "reason": "데이터 분석가가 실무에 적용할 수 있는 유용한 가이드입니다."
+    }
+  ]
+}
