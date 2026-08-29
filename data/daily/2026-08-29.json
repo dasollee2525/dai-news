@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T12:32:06.434414+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How to Work with AI Coding Agents",
+      "link": "https://towardsdatascience.com/how-to-work-with-ai-coding-agents/",
+      "summary_raw": "<p>A practical guide to getting better code, not just more code</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-work-with-ai-coding-agents/\">How to Work with AI Coding Agents</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-27T23:00:01+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "AI 코딩 에이전트를 효과적으로 사용하는 방법을 제시하고 있어, 데이터 분석가가 코드 작성에 활용할 수 있는 유용한 정보입니다.",
+      "reason": "AI 도구 활용법을 통한 실무 적용 가능"
+    }
+  ]
+}

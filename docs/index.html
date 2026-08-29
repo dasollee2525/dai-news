@@ -178,10 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">6</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -196,14 +196,42 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-08-28">
-      <button class="date-toggle" data-date="2026-08-28" onclick="toggleDate('2026-08-28')">
-        <span class="date-label">📅 2026년 08월 28일</span>
+    <div class="date-section" data-date="2026-08-29">
+      <button class="date-toggle" data-date="2026-08-29" onclick="toggleDate('2026-08-29')">
+        <span class="date-label">📅 2026년 08월 29일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-08-28">
+      <div class="date-cards" id="cards-2026-08-29">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-27T23:00:01">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">How to Work with AI Coding Agents</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.27 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">AI 코딩 에이전트를 효과적으로 사용하는 방법을 제시하고 있어, 데이터 분석가가 코드 작성에 활용할 수 있는 유용한 정보입니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/how-to-work-with-ai-coding-agents/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-08-28">
+      <button class="date-toggle collapsed" data-date="2026-08-28" onclick="toggleDate('2026-08-28')">
+        <span class="date-label">📅 2026년 08월 28일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-08-28">
         
     <div class="card" data-category="생산성" data-score="4" data-date="2026-08-28T23:08:00">
       <div class="card-header">
@@ -400,51 +428,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-08-22">
-      <button class="date-toggle collapsed" data-date="2026-08-22" onclick="toggleDate('2026-08-22')">
-        <span class="date-label">📅 2026년 08월 22일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-08-22">
-        
-    <div class="card" data-category="생산성" data-score="4" data-date="2026-08-21T20:57:38">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">바이브컴퍼니 “온톨로지 RAG로 기업 문서·정보 등록 자동화”</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.21 20:57 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">온톨로지 기술을 활용해 기업 문서 및 정보 등록을 자동화하는 방법은 생산성 향상에 기여할 수 있어 데이터 분석가에게 유용할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214196" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-22T03:00:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">Running Codex as a Headless Agent</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.22 03:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">Codex를 프로그래머블 자동화 구성 요소로 변환하여 반복적인 데이터 분석 작업을 간소화할 수 있는 방법을 다룹니다. 데이터 분석가들은 이를 활용해 더 효율적인 워크플로우를 구축할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/running-codex-as-a-headless-agent/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>
