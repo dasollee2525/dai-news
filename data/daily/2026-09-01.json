@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-01",
+  "generated_at": "2026-09-01T10:00:24.922655+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "오픈AI, 챗GPT 워크·코덱스에 ‘관리자 플러그인’ 도입...대화로 워크스페이스 관리",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=214617",
+      "summary_raw": "오픈AI가 기업의 AI 관리 업무에도 대화형 에이전트를 적용한다. 관리자가 복잡한 설정 화면과 관리 도구를 일일이 찾아다니는 대신 대화형 인터페이스를 통해 워크스페이스의 사용 현황을 분석하고 구성원을 관리하며 권한과 사용량까지 조정할 수 있도록 한 것이다.오픈AI는 25일(현지시간) 기업용 AI 서비스인 챗GPT 워크(ChatGPT Work)와 코덱스(Codex)에 ‘관리자(Admin) 플러그인’을 도입했다.관리자 플러그인은 워크스페이스 관리에 필요한 분석 기능과 지원되는 관리 작업을 하나의 대화창으로 통합한다. 관리자는 자연어로",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-09-01T01:55:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "오픈AI의 관리자 플러그인은 대화형 인터페이스를 통해 관리자가 쉽게 분석 및 작업을 수행할 수 있도록 도와주어, 데이터 분석가가 AI를 실무에 활용하는 새로운 방법을 제시한다.",
+      "reason": "기업의 AI 관리에 있어 분석 도구로서 실무에 유용한 내용을 포함하고 있다."
+    },
+    {
+      "title": "KT, 우리은행 ‘AI 챗봇·상담봇’ 구축...\"에이전트로 막힘 없는 금융 상담\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=214634",
+      "summary_raw": "KT(대표 박윤영)가 우리은행(은행장 정진완)이 발주한 ‘AI 챗봇 및 상담봇 재구축’ 사업자로 선정돼 AI 고객 상담 시스템 구축에 착수한다고 31일 밝혔다.이번 사업은 우리은행에서 운영하는 비대면 고객 상담 채널인 '챗봇'과 '상담봇'의 인프라를 고도화하는 데 목표를 둔다. AI를 토대로 금융상담을 제공하는 ‘AI 뱅커’와 AI 에이전트를 연계해 챗봇의 상담 범위와 업무 처리 기능을 확대하는 것이 핵심이다. 상담 시 고객 의도를 정확하게 파악하고 인바운드 상담 완결성을 높인다는 계획이다. 아웃바운드 상담과 영업점 상담까지 AI",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-08-31T20:35:20+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "KT와 우리은행의 AI 챗봇 구축 사례는 금융 상담에서 AI를 활용하여 고객 의도를 파악하고 업무 처리 기능을 개선하여 데이터 분석가들이 실제 문제를 해결하는 데 유용하게 적용할 수 있다.",
+      "reason": "AI 기반의 고객 상담 시스템 개선에 대한 실무적인 사례"
+    },
+    {
+      "title": "Context Engineering Is Changing. Here’s What It Means for Data Scientists",
+      "link": "https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/",
+      "summary_raw": "<p>How to apply the latest context engineering guidelines to your day-to-day data science work</p>\n<p>The post <a href=\"https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/\">Context Engineering Is Changing. Here’s What It Means for Data Scientists</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-31T00:00:02+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "최신 컨텍스트 엔지니어링 지침을 실제 데이터 과학 업무에 적용하는 법을 설명.",
+      "reason": "데이터 과학자에게 유용한 실무 가이드를 제공하지만 구체적인 도구 사용 지침은 아님."
+    }
+  ]
+}
