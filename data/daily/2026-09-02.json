@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T08:49:12.317099+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "롯데이노베이트, 분산 데이터 온톨로지로 묶어 롯데백화점 ‘브랜드 AI’ 구축",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=214704",
+      "summary_raw": "롯데이노베이트는 AI와 데이터 기술을 활용해 롯데백화점의 브랜드 데이터 분석 시스템 ‘브랜드 AI’를 구축했다고 1일 밝혔다.브랜드 AI는 약 4000개 브랜드를 비롯해 매출·고객·구매 등 유통 현장의 다양한 데이터를 업무 맥락에 맞게 연결·구조화하는 온톨로지 데이터 체계를 적용한 AI 업무 플랫폼이다. 롯데이노베이트는 데이터 구축부터 AI 분석, 서비스 구현 및 운영에 이르는 전 과정을 수행했다.개별 수치뿐만 아니라 브랜드 간 관계와 특성을 분석해 매장 입·퇴점, 브랜드 소싱 등 상품기획자(MD)의 의사결정을 지원하는 것이 특징이",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-09-02T00:47:32+09:00",
+      "score": 5,
+      "category": "데이터분석+AI",
+      "summary_ko": "롯데백화점의 브랜드 AI 구축 사례로, 브랜드 데이터 분석 시스템을 통해 의사결정 지원이 가능하다.",
+      "reason": "AI를 활용한 데이터 분석 시스템 구축 사례로 실제 분석 업무에 적용 가능."
+    },
+    {
+      "title": "FAQ as RAG: When You Get to Design the Corpus",
+      "link": "https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/",
+      "summary_raw": "<p>Enterprise Document Intelligence [Vol.1 #B2] - The FAQ inverts every brick of the standard RAG pipeline. Parsing is trivial, retrieval doubles as a cache, and few-shot prompting becomes a retrieval problem too</p>\n<p>The post <a href=\"https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/\">FAQ as RAG: When You Get to Design the Corpus</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-08-31T23:00:02+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "RAG를 활용하여 FAQ 구조를 설계하는 방법을 다루고 있어 데이터 분석에서의 적용 가능성을 제시합니다.",
+      "reason": "실무에 적용 가능한 RAG의 개념을 소개하고 있어 유용함."
+    }
+  ]
+}

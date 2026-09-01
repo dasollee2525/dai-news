@@ -179,8 +179,9 @@
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
       <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">5</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">4</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
 
@@ -197,14 +198,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-09-01">
-      <button class="date-toggle" data-date="2026-09-01" onclick="toggleDate('2026-09-01')">
-        <span class="date-label">📅 2026년 09월 01일</span>
+    <div class="date-section" data-date="2026-09-02">
+      <button class="date-toggle" data-date="2026-09-02" onclick="toggleDate('2026-09-02')">
+        <span class="date-label">📅 2026년 09월 02일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-09-01">
+      <div class="date-cards" id="cards-2026-09-02">
+        
+    <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-09-02T00:47:32">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">롯데이노베이트, 분산 데이터 온톨로지로 묶어 롯데백화점 ‘브랜드 AI’ 구축</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.09.02 00:47 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">롯데백화점의 브랜드 AI 구축 사례로, 브랜드 데이터 분석 시스템을 통해 의사결정 지원이 가능하다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214704" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-08-31T23:00:02">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">FAQ as RAG: When You Get to Design the Corpus</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.08.31 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">RAG를 활용하여 FAQ 구조를 설계하는 방법을 다루고 있어 데이터 분석에서의 적용 가능성을 제시합니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-09-01">
+      <button class="date-toggle collapsed" data-date="2026-09-01" onclick="toggleDate('2026-09-01')">
+        <span class="date-label">📅 2026년 09월 01일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-09-01">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-09-01T01:55:00">
       <div class="card-header">
@@ -404,51 +450,6 @@
       <p class="summary">솔트룩스의 AI 버디는 사용자가 업무에서 자동화할 수 있는 맞춤형 AI 에이전트를 쉽게 만들 수 있어 데이터 분석가의 직무에 매우 실용적임.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214356" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-08-26">
-      <button class="date-toggle collapsed" data-date="2026-08-26" onclick="toggleDate('2026-08-26')">
-        <span class="date-label">📅 2026년 08월 26일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-08-26">
-        
-    <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-08-24T21:00:06">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Build an End-to-End Data Science Project with Grok Build and Grok 4.6</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.24 21:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">Grok Build를 사용하여 데이터 분석 워크플로우를 구축하는 구체적인 방법을 다루고 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/build-an-end-to-end-data-science-project-with-grok-build-and-grok-4-6" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-24T23:00:13">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">How to Leverage Local Small Language Models for Your Projects</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.24 23:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">소형 언어 모델을 활용하여 개인 하드웨어에서 데이터 분석과 AI 응용 프로그램을 개선하는 방법을 제시합니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/how-to-leverage-local-small-language-models-for-your-projects" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
