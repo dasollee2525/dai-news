@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T08:52:54.216276+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "뉴엔AI “주류 산업 특화 AI로 ‘산토리 맥주’ 소비 트렌드 읽는다”",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=214755",
+      "summary_raw": "뉴엔AI(대표 배성환)는 주류 전문 산토리 글로벌 스피리츠 코리아와 ‘주류 특화 AI 분석 플랫폼’ 공급 계약을 체결했다고 2일 밝혔다. 주류 소비 트렌드의 다변화 속에서 소비자 인사이트를 AI로 정밀 분석하는 것이 핵심 목표다. 산토리 글로벌 스피리츠는 위스키부터 RTD(Ready to Drink) 제품군까지 폭넓은 포트폴리오를 보유한 만큼, 이번 플랫폼 도입을 통해 데이터 기반의 시장 트렌드 파악 및 소비자 인사이트 분석 역량을 고도화할 계획이다.이번에 공급되는 플랫폼에는 뉴엔AI의 식음료(F&amp;B) 특화 AI 분석 기술이 적용된",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-09-03T01:17:16+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "주류 소비 트렌드 분석을 위해 AI 분석 플랫폼을 도입한 사례로, 데이터 기반 인사이트 도출에 활용될 수 있다. 이 사례는 데이터 분석가들이 비즈니스 인사이트를 얻는 방식에 직접적으로 활용될 수 있다.",
+      "reason": "AI를 통해 소비자 인사이트를 분석하는 실제 사례"
+    },
+    {
+      "title": "This Python Library Can Run Pandas Workloads Up to 20x Faster",
+      "link": "https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster",
+      "summary_raw": "Discover how FireDucks can speed up pandas workloads with lazy execution, compiler optimization, and multithreaded processing, delivering up to 20x faster DataFrame performance in our benchmark.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-02T23:00:11+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "FireDucks를 통해 데이터프레임 성능을 극대화할 수 있는 방법 소개.",
+      "reason": "데이터 분석 업무 속도를 높이는 유용한 툴에 대한 튜토리얼"
+    }
+  ]
+}

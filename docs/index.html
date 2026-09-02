@@ -180,9 +180,9 @@
       <div class="sidebar-title">카테고리</div>
       <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">4</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
 
     </div>
@@ -198,14 +198,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-09-02">
-      <button class="date-toggle" data-date="2026-09-02" onclick="toggleDate('2026-09-02')">
-        <span class="date-label">📅 2026년 09월 02일</span>
+    <div class="date-section" data-date="2026-09-03">
+      <button class="date-toggle" data-date="2026-09-03" onclick="toggleDate('2026-09-03')">
+        <span class="date-label">📅 2026년 09월 03일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-09-02">
+      <div class="date-cards" id="cards-2026-09-03">
+        
+    <div class="card" data-category="데이터분석+AI" data-score="4" data-date="2026-09-03T01:17:16">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">뉴엔AI “주류 산업 특화 AI로 ‘산토리 맥주’ 소비 트렌드 읽는다”</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.09.03 01:17 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">주류 소비 트렌드 분석을 위해 AI 분석 플랫폼을 도입한 사례로, 데이터 기반 인사이트 도출에 활용될 수 있다. 이 사례는 데이터 분석가들이 비즈니스 인사이트를 얻는 방식에 직접적으로 활용될 수 있다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214755" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-09-02T23:00:11">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">This Python Library Can Run Pandas Workloads Up to 20x Faster</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.09.02 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">FireDucks를 통해 데이터프레임 성능을 극대화할 수 있는 방법 소개.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-09-02">
+      <button class="date-toggle collapsed" data-date="2026-09-02" onclick="toggleDate('2026-09-02')">
+        <span class="date-label">📅 2026년 09월 02일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-09-02">
         
     <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-09-02T00:47:32">
       <div class="card-header">
@@ -405,51 +450,6 @@
       <p class="summary">챗GPT의 새로운 기능은 웹사이트에 직접 로그인하여 업무를 수행할 수 있어 데이터 분석가의 업무 효율성을 크게 높일 수 있다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214479" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-08-27">
-      <button class="date-toggle collapsed" data-date="2026-08-27" onclick="toggleDate('2026-08-27')">
-        <span class="date-label">📅 2026년 08월 27일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-08-27">
-        
-    <div class="card" data-category="생산성" data-score="4" data-date="2026-08-26T20:56:36">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">진학사 캐치, AI 활용 강의부터 평가까지 지원하는 ‘AX 직무 역량검사’ 출시</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.26 20:56 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">진학사 캐치의 AX 직무 역량검사는 AI 활용 능력을 진단하고, 데이터 분석 작업의 전반을 배울 수 있는 좋은 기회를 제공하는 도구로, 실무에도 적합함.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214372" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-08-26T02:05:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">솔트룩스 '구버', 1분 만에 나만의 AI 에이전트 만든다…'AI 버디' 출시</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.08.26 02:05 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">솔트룩스의 AI 버디는 사용자가 업무에서 자동화할 수 있는 맞춤형 AI 에이전트를 쉽게 만들 수 있어 데이터 분석가의 직무에 매우 실용적임.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214356" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
