@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T08:51:29.228802+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Build an AI Data Analyst That Thinks Like a Senior Analyst",
+      "link": "https://www.kdnuggets.com/build-an-ai-data-analyst-that-thinks-like-a-senior-analyst",
+      "summary_raw": "A six-stage pipeline that checks its numbers before calling anything an answer.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-09T23:00:50+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "이 기사는 AI 데이터 분석기를 구축하는 방법을 설명하며, 고급 분석가처럼 사고하도록 설계된 6단계 프로세스를 제시합니다. 데이터 분석가는 이를 통해 보다 정확한 인사이트를 도출할 수 있습니다.",
+      "reason": "실무에 즉시 활용 가능한 구체적인 방법 제시"
+    },
+    {
+      "title": "LG CNS, 차움 건강검진센터에 AI 에이전트 도입...\"의료 AI 전환 속도\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215045",
+      "summary_raw": "LG CNS(대표 현신균)는 '지능형 검진센터 도입을 위한 착수보고회'를 열고, 차움 건강검진센터에 AI 에이전트를 적용한다고 9일 밝혔다.LG CNS는 검진 업무에 특화된 AI 에이전트를 개발하고, 차움이 실제 현장에 적용해 업무 효율성과 활용 가능성을 검증하는 개념검증(PoC)을 추진한다.고객의 검진 이력 분석부터 맞춤형 검사 추천, 결과 작성, 사후관리 안내까지 검진 업무 전반에 AI를 적용해 고객관계관리(CRM), 전자의무기록(EMR) 등 반복 조회, 상담 기록 작성, 일정 관리 등 수작업을 줄인다는 방침이다.구체적으로 고객",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-09-09T23:52:56+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "의료 분야에 AI 에이전트를 도입하여 업무 효율성을 높이는 구체적 사례를 보여준다.",
+      "reason": "실제 검진 업무에 AI 도입이 실효적 사례로, 분석가들이 참고할 수 있는 부분이 있다."
+    }
+  ]
+}
