@@ -180,8 +180,8 @@
       <div class="sidebar-title">카테고리</div>
       <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">12</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">6</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">3</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
 
     </div>
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-09-10">
-      <button class="date-toggle" data-date="2026-09-10" onclick="toggleDate('2026-09-10')">
-        <span class="date-label">📅 2026년 09월 10일</span>
+    <div class="date-section" data-date="2026-09-11">
+      <button class="date-toggle" data-date="2026-09-11" onclick="toggleDate('2026-09-11')">
+        <span class="date-label">📅 2026년 09월 11일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-09-10">
+      <div class="date-cards" id="cards-2026-09-11">
+        
+    <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-09-09T23:00:50">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">Build an AI Data Analyst That Thinks Like a Senior Analyst</div>
+      </div>
+      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.09.09 23:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">AI 데이터 분석가를 구축하는 방법에 대한 구체적인 세부사항을 제공합니다. 이 기사는 데이터 분석 프로세스에서 AI를 활용하여 보다 신뢰할 수 있는 결과를 도출하는 방법을 다루고 있습니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/build-an-ai-data-analyst-that-thinks-like-a-senior-analyst" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-09-11T02:00:30">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">A Candid Abacus AI Review: The All-in-One AI Platform for Professionals & Enterprises</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.09.11 02:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">Abacus AI 플랫폼이 ChatGPT와 Claude 등 여러 AI 도구와 비교하여 어떻게 데이터 분석가에게 유용한지를 다루고 있습니다. 이 플랫폼은 다양한 AI 도구를 통합하여 데이터 분석 전문가들이 보다 효율적으로 업무를 수행할 수 있도록 합니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/2026/09/abacus/abacus-ai-candid-review/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-09-10">
+      <button class="date-toggle collapsed" data-date="2026-09-10" onclick="toggleDate('2026-09-10')">
+        <span class="date-label">📅 2026년 09월 10일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-09-10">
         
     <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-09-09T23:00:50">
       <div class="card-header">
@@ -435,51 +480,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-09-04">
-      <button class="date-toggle collapsed" data-date="2026-09-04" onclick="toggleDate('2026-09-04')">
-        <span class="date-label">📅 2026년 09월 04일</span>
-        <span class="date-chip">2개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-09-04">
-        
-    <div class="card" data-category="생산성" data-score="5" data-date="2026-09-03T20:00:20">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">여수, 생성 AI로 행정업무 효율 높인다…5일간 실무교육 진행</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.09.03 20:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">여수시의 사례처럼 데이터 정리 및 요약을 위한 실습 교육이 이루어졌으며, AI 생성 도구 사용법이 강조되어 분석가들에게 즉각적으로 도움이 된다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214780" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-09-04T00:34:57">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">이파피루스, AI 데이터 전처리 솔루션 누적 다운로드 10억건 돌파</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.09.04 00:34 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">PyMuPDF를 활용하여 LLM의 검색 및 데이터 전처리 효율을 높이는 데 유용할 수 있는 사례로, 데이터 분석가가 즉시 사용할 수 있는 도구이다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=214806" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>

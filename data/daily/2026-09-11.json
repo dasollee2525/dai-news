@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-11",
+  "generated_at": "2026-09-11T08:45:53.492046+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "Build an AI Data Analyst That Thinks Like a Senior Analyst",
+      "link": "https://www.kdnuggets.com/build-an-ai-data-analyst-that-thinks-like-a-senior-analyst",
+      "summary_raw": "A six-stage pipeline that checks its numbers before calling anything an answer.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-09T23:00:50+09:00",
+      "score": 5,
+      "category": "데이터분석+AI",
+      "summary_ko": "AI 데이터 분석가를 구축하는 방법에 대한 구체적인 세부사항을 제공합니다. 이 기사는 데이터 분석 프로세스에서 AI를 활용하여 보다 신뢰할 수 있는 결과를 도출하는 방법을 다루고 있습니다.",
+      "reason": "실제 데이터 분석 작업에 AI를 쉽게 적용할 수 있는 방법 제공"
+    },
+    {
+      "title": "A Candid Abacus AI Review: The All-in-One AI Platform for Professionals & Enterprises",
+      "link": "https://www.kdnuggets.com/2026/09/abacus/abacus-ai-candid-review/",
+      "summary_raw": "If you’re paying for ChatGPT, Claude, and another AI tool simultaneously, this review is for you. It covers what an AI platform like Abacus AI actually includes, how the credit system works in practice, and whether it genuinely replaces your current stack or just adds to it.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-11T02:00:30+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Abacus AI 플랫폼이 ChatGPT와 Claude 등 여러 AI 도구와 비교하여 어떻게 데이터 분석가에게 유용한지를 다루고 있습니다. 이 플랫폼은 다양한 AI 도구를 통합하여 데이터 분석 전문가들이 보다 효율적으로 업무를 수행할 수 있도록 합니다.",
+      "reason": "AI 도구를 분석 업무에 활용할 수 있는 방법을 제공"
+    }
+  ]
+}
