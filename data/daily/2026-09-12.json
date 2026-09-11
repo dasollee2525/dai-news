@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T08:53:57.218800+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "오픈AI, 챗GPT 워크에 기업 데이터 분석 도구 '데이터 에이전트' 도입",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215146",
+      "summary_raw": "오픈AI가 기업 구성원이 전문적인 데이터 분석 도구나 쿼리 작성법을 배우지 않고도 자연어로 사내 데이터를 분석할 수 있는 새로운 AI 에이전트를 공개했다. 기업 데이터베이스와 문서 저장소를 연결하면 매출 감소나 비용 증가의 원인을 조사하고, 분석 결과를 대화형 대시보드로 만들어 공유하는 것은 물론 후속 업무까지 이어갈 수 있다.오픈AI는 10일(현지시간) 기업용 AI 업무 환경인 챗GPT 워크(ChatGPT Work)에 '데이터 에이전트(Data agent)'를 도입한다고 밝혔다. 사용자가 \"지난주 사용자가 왜 줄었지\" \"어디에서",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-09-12T01:25:00+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "오픈AI의 '데이터 에이전트'는 사용자가 자연어로 데이터 분석을 할 수 있게 도와주며, 대화형 대시보드로 결과를 공유할 수 있어 분석가에게 매우 유용합니다.",
+      "reason": "실제 데이터 분석 도구로 AI 기능이 포함되어 있어 현업에서 바로 활용 가능."
+    },
+    {
+      "title": "5 ChatGPT 2.5 Features to Try Today!",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/chatgpt-images-2-5-features-explained/",
+      "summary_raw": "<p>OpenAI has released ChatGPT Images 2.5, its latest image-generation model, with a greater emphasis on controlled editing than simply producing prettier images. The update promises sharper details, more natural lighting and textures, stronger reference-image preservation, more reliable multi-turn editing, and up to 50% lower generation latency than Images 2.0.&#160; But marketing claims only tell part [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/09/chatgpt-image",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-12T03:41:31+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "ChatGPT 2.5의 새로운 기능을 소개하며, 데이터 분석가가 실무에서 유용하게 활용할 수 있는 사례를 제시한다.",
+      "reason": "AI 도구를 데이터 분석에 실제로 활용할 수 있는 방법을 담고 있음."
+    }
+  ]
+}

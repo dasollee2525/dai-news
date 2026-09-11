@@ -178,8 +178,8 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">12</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">6</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">14</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-09-11">
-      <button class="date-toggle" data-date="2026-09-11" onclick="toggleDate('2026-09-11')">
-        <span class="date-label">📅 2026년 09월 11일</span>
+    <div class="date-section" data-date="2026-09-12">
+      <button class="date-toggle" data-date="2026-09-12" onclick="toggleDate('2026-09-12')">
+        <span class="date-label">📅 2026년 09월 12일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-09-11">
+      <div class="date-cards" id="cards-2026-09-12">
+        
+    <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-09-12T01:25:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">오픈AI, 챗GPT 워크에 기업 데이터 분석 도구 '데이터 에이전트' 도입</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.09.12 01:25 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>5점</strong></span>
+      </div>
+      <p class="summary">오픈AI의 '데이터 에이전트'는 사용자가 자연어로 데이터 분석을 할 수 있게 도와주며, 대화형 대시보드로 결과를 공유할 수 있어 분석가에게 매우 유용합니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=215146" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-09-12T03:41:31">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">5 ChatGPT 2.5 Features to Try Today!</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.09.12 03:41 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">ChatGPT 2.5의 새로운 기능을 소개하며, 데이터 분석가가 실무에서 유용하게 활용할 수 있는 사례를 제시한다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/09/chatgpt-images-2-5-features-explained/" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-09-11">
+      <button class="date-toggle collapsed" data-date="2026-09-11" onclick="toggleDate('2026-09-11')">
+        <span class="date-label">📅 2026년 09월 11일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-09-11">
         
     <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-09-09T23:00:50">
       <div class="card-header">
@@ -464,22 +509,6 @@
         <a class="read-btn" href="https://towardsdatascience.com/the-power-bi-developers-survival-guide-to-microsoft-fabric/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-09-05">
-      <button class="date-toggle collapsed" data-date="2026-09-05" onclick="toggleDate('2026-09-05')">
-        <span class="date-label">📅 2026년 09월 05일</span>
-        <span class="date-chip">0개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-09-05">
-        
-            <div class="empty-state">
-              <div class="icon">🔍</div>
-              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
-            </div>
       </div>
     </div></main>
   </div>
