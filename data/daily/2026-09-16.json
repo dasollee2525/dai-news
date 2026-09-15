@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T08:59:12.836687+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "앤트로픽, 금융 시장 본격 공략…'클로드 포 파이낸셜 어드바이저스' 출시",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215289",
+      "summary_raw": "AI 업계의 금융권 공략이 빨라지고 있다. 오픈AI에 이어 앤트로픽도 금융 전문가를 위한 전용 AI 솔루션을 선보이며 금융 업무 자동화 시장에 본격적으로 뛰어들었다. 앤트로픽은 14일(현지시간) 금융 자문가의 업무 효율을 높이기 위한 맞춤형 AI 솔루션 ‘클로드 포 파이낸셜 어드바이저(Claude for Financial Advisors)’를 공개했다.고객 미팅 준비와 후속 문서 작성, 포트폴리오 분석, 규정 준수 점검 등 자문가들이 반복적으로 수행하는 행정 업무를 자동화해 고객 상담에 집중할 수 있도록 지원하는 것이 핵심이다.앤트",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-09-16T02:18:48+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "금융 자문가를 위한 맞춤형 AI 솔루션이 반복적인 행정 업무를 자동화해 데이터 분석 및 리포트 작성을 효율적으로 돕는다.",
+      "reason": "AI와 데이터 분석의 결합이 구체적이며 실무에 적용 가능"
+    },
+    {
+      "title": "When to Use One Model and When to Use a Team of Agents",
+      "link": "https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/",
+      "summary_raw": "<p>When Codex is the right shape for the problem, when Claude Code is, and how I split 5 specialist agents between them on dense AI capacity work.</p>\n<p>The post <a href=\"https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/\">When to Use One Model and When to Use a Team of Agents</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-15T02:52:20+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "이 기사는 다양한 AI 모델의 활용에 대한 전략을 다루며, 분석가들이 어떤 상황에서 특정 AI 에이전트를 선택해야 하는지에 대한 인사이트를 제공함.",
+      "reason": "AI 모델의 활용에 대한 실질적인 가이드를 제공하여 분석업무에 도움될 수 있음."
+    },
+    {
+      "title": "How I’m Using Google Opal for Even More AI Automations",
+      "link": "https://www.kdnuggets.com/how-im-using-google-opal-for-even-more-ai-automations",
+      "summary_raw": "Opal is Google Labs' no-code tool for turning natural language into working AI mini-apps, built on top of an internal framework called Breadboard. Here's how I learned to use it best.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-15T23:00:30+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Google Opal을 활용하여 AI 자동화를 실현하는 방법을 다룬다. 분석가는 이 도구를 통해 데이터를 효과적으로 처리하고 리포팅할 수 있다.",
+      "reason": "실제 데이터 분석 업무에 적용할 수 있는 방법론을 제공"
+    }
+  ]
+}
