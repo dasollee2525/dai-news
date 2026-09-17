@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T08:56:03.362824+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "What’s Actually Inside 24,723 Tokens of a Search Result? We Broke It Down, Field by Field",
+      "link": "https://www.kdnuggets.com/2026/09/prnews.io/whats-actually-inside-24723-tokens-of-a-search-result-we-broke-it-down-field-by-field",
+      "summary_raw": "See how SerpApi’s Markdown output can cut search-result token usage by up to 74%, reducing AI agent costs and context-window overhead.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-18T02:25:01+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "이 글에서는 SerpApi의 Markdown 출력이 검색 결과의 토큰 사용량을 줄여 AI 에이전트 비용을 절감하는 방법을 다룹니다. 데이터 분석가들은 이를 통해 효율적으로 데이터를 관리하고 경비를 절감할 수 있습니다.",
+      "reason": "AI 도구의 실질적인 활용법과 데이터 분석가에게 유용한 정보 제공."
+    }
+  ]
+}
