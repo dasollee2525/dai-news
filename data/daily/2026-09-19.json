@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-19",
+  "generated_at": "2026-09-19T08:55:24.246703+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "When Does Graph RAG Actually Add Value? A Hands-On Experiment",
+      "link": "https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/",
+      "summary_raw": "<p>I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply putting everything into a frontier model’s context window.</p>\n<p>The post <a href=\"https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/\">When Does Graph RAG Actually Add Value? A Hands-On Experiment</a> appeared first on <a href=\"https://",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-17T20:00:02+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "AI 정보 검색 아키텍처를 구축하고 성능을 평가한 과정이 소개되어 데이터 분석가들이 활용할 수 있는 방법론을 제시하고 있다.",
+      "reason": "AI와 데이터 분석의 구체적인 결합 사례로 유용함."
+    }
+  ]
+}
