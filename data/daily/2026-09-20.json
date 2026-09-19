@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-20",
+  "generated_at": "2026-09-20T08:55:08.901287+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "5 Prompt Optimization Strategies That Actually Improve LLM Output",
+      "link": "https://www.kdnuggets.com/5-prompt-optimization-strategies-that-actually-improve-llm-output",
+      "summary_raw": "This article covers five prompt optimization strategies such as: prompt optimization, prompt engineering, LLM output quality, few-shot prompting, chain-of-thought, structured outputs.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-18T21:00:22+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "다섯 가지 팁을 통해 LLM의 출력을 개선할 수 있는 전략을 제공하고 있어 데이터 분석가에게 실질적인 유용성을 가짐.",
+      "reason": "실무에 적용 가능한 사례와 방법을 포함하고 있음"
+    }
+  ]
+}
