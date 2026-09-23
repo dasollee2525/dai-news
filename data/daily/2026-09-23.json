@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T09:02:45.419456+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Turn a Python Script Into an AI Agent",
+      "link": "https://www.kdnuggets.com/how-to-turn-a-python-script-into-an-ai-agent",
+      "summary_raw": "Learn how to build a Python AI agent with the OpenAI Agents SDK, using tool calling and function tools to automate multi-step workflows.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-21T23:00:07+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "Python 스크립트를 AI 에이전트로 변환하는 방법을 설명하여 데이터 분석가에게 매우 유용합니다.",
+      "reason": "분석 워크플로우 개선에 직접적인 도움을 줌"
+    },
+    {
+      "title": "[게시판] 포지큐브, S-OIL·하나은행에 AI 에이전트 구축 등 단신",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215567",
+      "summary_raw": "■ 포지큐브(대표 오성조)는 멀티 에이전트 기반 AI 플랫폼 '로비 G 맥스'를 활용해 S-OIL의 AI 어시스턴트와 하나은행의 에이전트 서비스를 고도화했다고 밝혔다. 로비 G 맥스는 검색증강생성(RAG) 기술을 비롯해 도메인 특화 프롬프트 템플릿 설계, 비정형 문서 자동 업데이트, 멀티 에이전트 워크플로우 구축 등의 기능을 제공한다.■ SK텔레콤(대표 정재헌)은 한국과학기술정보연구원(KISTI)과 디지털 트윈 기반 양자암호통신망 연동 기술을 개발했다고 밝혔다. SKT의 양자키관리 시스템과 KISTI의 양자키분배 시뮬레이터를 유럽전",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-09-23T02:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "포지큐브의 AI 플랫폼이 S-OIL과 하나은행에 구축된 사례로, 데이터 분석가들이 AI를 도입하여 업무를 고도화하는 방법에 대한 실질적인 통찰을 제공한다.",
+      "reason": "AI 에이전트를 통한 업무 고도화 사례로 유용성 있음."
+    }
+  ]
+}
