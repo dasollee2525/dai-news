@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T10:07:09.676201+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Turn Excel Data Into PowerPoint Presentations With AI",
+      "link": "https://www.kdnuggets.com/julius.ai/how-to-turn-excel-data-into-powerpoint-presentations-with-ai",
+      "summary_raw": "Learn how to use Julius AI to analyze Excel data, verify key findings, and turn them into an editable PowerPoint presentation.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-30T02:00:40+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Excel 데이터 분석 후 결과를 파워포인트로 변환하는 과정을 소개하여 데이터 분석가가 쉽게 활용할 수 있습니다. AI를 통해 프레젠테이션 자동화가 가능합니다.",
+      "reason": "데이터 분석과 프레젠테이션 작성 프로세스를 AI를 통해 자동화하는 실용적인 방법을 제시함."
+    },
+    {
+      "title": "How to Catch Data Drift When Every Feature Looks Normal",
+      "link": "https://towardsdatascience.com/how-to-catch-data-drift-when-every-feature-looks-normal/",
+      "summary_raw": "<p>Detect hidden shifts in feature relationships with adversarial validation and scikit-learn</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-catch-data-drift-when-every-feature-looks-normal/\">How to Catch Data Drift When Every Feature Looks Normal</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-28T20:00:01+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "데이터 드리프트를 감지하는 방법론을 제공하여 데이터 분석가가 직접 활용할 수 있는 기술적 정보임.",
+      "reason": "AI와 데이터 분석의 결합을 통해 실제적인 방안을 제시함."
+    }
+  ]
+}
