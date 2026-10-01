@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-01",
+  "generated_at": "2026-10-01T10:05:37.416677+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "How to Turn Excel Data Into PowerPoint Presentations With AI",
+      "link": "https://www.kdnuggets.com/julius.ai/how-to-turn-excel-data-into-powerpoint-presentations-with-ai",
+      "summary_raw": "Learn how to use Julius AI to analyze Excel data, verify key findings, and turn them into an editable PowerPoint presentation.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-30T02:00:40+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Julius AI를 활용하여 Excel 데이터 분석 후 PowerPoint 프레젠테이션으로 변환하는 실질적인 방법을 제공.",
+      "reason": "데이터 분석가가 즉시 사용할 수 있는 실용적인 활용 사례."
+    },
+    {
+      "title": "AI Made Data Scientists Faster. Now It’s Expanding the Job.",
+      "link": "https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/",
+      "summary_raw": "<p>The real shift is bigger than productivity: AI is reshaping ownership, judgment, and the career path of data scientists.</p>\n<p>The post <a href=\"https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/\">AI Made Data Scientists Faster. Now It’s Expanding the Job.</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-29T23:00:01+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "AI가 데이터 과학자의 업무 방식과 커리어 경로를 변화시키고 있음을 설명하며, 실무에서의 변화에 대한 인사이트를 제공.",
+      "reason": "AI의 실질적인 영향을 다루며 분석가에게 유용한 인사이트 제공."
+    },
+    {
+      "title": "How to Design Architectural Guardrails Around AI Agents",
+      "link": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
+      "summary_raw": "<p>Agent design patterns every data engineer must know</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/\">How to Design Architectural Guardrails Around AI Agents</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-09-29T21:30:02+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "AI 에이전트 설계에 대한 주요 패턴을 제시하여 데이터 엔지니어가 활용할 수 있는 내용을 제공.",
+      "reason": "AI 에이전트를 활용한 데이터 분석 실무 팁을 제공."
+    }
+  ]
+}
