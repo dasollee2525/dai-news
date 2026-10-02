@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T10:18:43.394741+09:00",
+  "count": 4,
+  "articles": [
+    {
+      "title": "\"오프라인 매장 분석도 AI로\"…딥핑소스, '사이'로 해외 진출",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215846",
+      "summary_raw": "'오프라인 매장 분석' 전문 딥핑소스가 지난 1년간 대형언어모델(LLM)과 이미지 생성 AI, 비전언어모델(VLM) 등을 기존 제품군에 적극 접목해 '공간 분석 전문 에이전트'를 선보였다. 이를 바탕으로 국내외 시장 도입을 본격 확대한다는 전략이다.딥핑소스(대표 김태훈)는 2026년 10월 1일 창업자와 점주를 위한 매장 운영 AI '사이(SAAI)' 서비스를 공개하고, 일본을 넘어 동남아 진출에 본격 나선다고 밝혔다.입지 선정부터 발주, 매장 관리, 판촉물 제작 등 의사결정은 데이터가 중요하지만, 기존에는 대부분 경험과 직관에 의",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-10-02T00:28:08+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "딥핑소스의 공간 분석 전문 에이전트는 오프라인 매장 운영을 데이터 기반으로 지원하여 데이터 분석 업무에 실질적으로 적용될 수 있음.",
+      "reason": "오프라인 매장 분석을 위한 AI의 활용은 데이터 분석가에게 유용함."
+    },
+    {
+      "title": "리퀴드 AI, 의사결정 모델 ‘d1’ 출시...\"기존 1위 제브 제쳤다\"",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215799",
+      "summary_raw": "리퀴드 AI가 최근 ‘제브(jev)’를 중심으로 폭발적인 관심을 모으는 '의사결정' 모델을 내놓았다. 정해진 선택지 가운데 어떤 결과가 나올 가능성이 높은지를 빠르게 계산해 기업의 반복적인 판단 업무를 자동화하는 데 초점을 맞췄다.리퀴드 AI는 29일(현지시간) 텍스트를 생성하는 대신 미리 정해진 선택지에 대한 확률을 계산하는 AI 모델 ‘d1’을 출시했다.일반적인 LLM이 문장으로 답을 만드는 것과 달리, d1은 한 번의 요청으로 각 선택지가 얼마나 가능성이 높은지를 계산한다. 답변을 텍스트로 생성하지 않기 때문에 출력 토큰은 0",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-10-01T02:58:09+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "리퀴드 AI의 새로운 의사결정 모델 'd1'은 기업의 판단 업무에서 선택지의 가능성을 계산하여 반복적인 업무를 자동화하는 데 활용될 수 있습니다. 데이터 분석가는 이를 사용해 더욱 빠르고 효율적으로 의사결정 지원을 받을 수 있습니다.",
+      "reason": "AI 도구의 실무 적용 사례로 적합"
+    },
+    {
+      "title": "Claude Code Custom Commands & Skills: Automate Your Workflow",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/claude-code-custom-commands-skills-automate-your-workflow/",
+      "summary_raw": "<p>Every dev team has repeatable setup tasks: spinning up a new project, running a deployment checklist, generating a file structure, or typing the same instructions into Claude again and again. Claude Code helps reduce that friction with slash commands, including built-in commands and custom commands you can define for your own workflows.&#160; These commands turn [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/10/claude-code-custom-commands-skills-automate-your-wor",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-01T17:47:03+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude Code를 사용하여 반복 작업을 자동화하는 방법에 대한 유용한 내용을 다룹니다. 데이터 분석가들은 이 도구를 통해 워크플로우 효율성을 높일 수 있습니다.",
+      "reason": "AI 도구를 활용한 반복 작업의 자동화 방법 소개"
+    },
+    {
+      "title": "How to Use Marimo for Interactive Data Analysis",
+      "link": "https://www.kdnuggets.com/how-to-use-marimo-for-interactive-data-analysis",
+      "summary_raw": "Learn how to use Marimo for interactive data analysis with Python, Pandas, and Altair, and turn a reactive notebook into a simple shareable dashboard.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-01T23:00:38+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "Marimo 도구를 사용하여 데이터 분석을 인터랙티브하게 수행하는 방법을 배우는 기사로, 데이터 분석가들이 즉시 활용할 수 있는 실용적인 내용을 제공합니다.",
+      "reason": "데이터 분석을 위한 인터랙티브 도구 활용법 설명"
+    }
+  ]
+}
