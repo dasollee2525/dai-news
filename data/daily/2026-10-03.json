@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-03",
+  "generated_at": "2026-10-03T09:57:58.609104+09:00",
+  "count": 4,
+  "articles": [
+    {
+      "title": "How to Use Marimo for Interactive Data Analysis",
+      "link": "https://www.kdnuggets.com/how-to-use-marimo-for-interactive-data-analysis",
+      "summary_raw": "Learn how to use Marimo for interactive data analysis with Python, Pandas, and Altair, and turn a reactive notebook into a simple shareable dashboard.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-01T23:00:38+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "Marimo를 통해 대화형 데이터 분석을 수행하는 방법에 대한 튜토리얼로, 데이터 분석가가 즉시 활용할 수 있다.",
+      "reason": "실제 데이터를 분석하는 데 도움이 되는 구체적인 단계별 방법 제공."
+    },
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "link": "https://huggingface.co/blog/allenai/astabrief",
+      "summary_raw": "",
+      "source": "HuggingFace Blog",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-03T00:19:50+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "AstaBrief를 오픈소스로 제공하여 데이터 보고서 생성을 효율화할 수 있습니다. 분석가는 이 모델을 통해 신속하게 보고서를 만들 수 있어 업무 생산성을 높일 수 있습니다.",
+      "reason": "보고서 생성을 위한 AI 도구를 제공하여 실무에서 사용 가능성이 높습니다."
+    },
+    {
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "summary_raw": "",
+      "source": "HuggingFace Blog",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-02T13:01:31+09:00",
+      "score": 4,
+      "category": "LMM응용",
+      "summary_ko": "AutoSynthData는 기업 에이전트 학습 데이터 생성을 도와, 데이터 분석에 필요한 훈련 데이터를 효율적으로 생성해 제공합니다. 이를 통해 분석가는 더 나은 모형 훈련을 할 수 있습니다.",
+      "reason": "훈련 데이터를 자동으로 생성하는 도구를 통해 데이터 분석 효율성을 높일 수 있습니다."
+    },
+    {
+      "title": "From Messy Documents to Structured Data with Docling",
+      "link": "https://www.kdnuggets.com/from-messy-documents-to-structured-data-with-docling",
+      "summary_raw": "Docling takes documents in whatever inconsistent format they arrive in, and converts them into one unified, structured representation that both people and AI systems can work with reliably, rather than everyone downstream having to guess at what a wall of extracted text actually meant.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-02T01:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "Docling을 통해 비구조화된 문서를 구조화된 데이터로 변환하는 방법을 설명하며, 데이터 분석가에게 매우 유용하다.",
+      "reason": "AI를 활용하여 데이터 전처리 및 구조화에 기여."
+    }
+  ]
+}
