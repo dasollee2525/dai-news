@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-07",
+  "generated_at": "2026-10-07T10:15:29.651999+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "[AI리더의 서가] SQL부터 AI까지 데이터 분석 with 클로드 코드",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215957",
+      "summary_raw": "SQL부터 AI까지 데이터 분석 with 클로드 코드조한성 | 정보문화사2026년 9월 30일추천이유독자는 25일간 신입사원과 함께 SQL 기초부터 생성형 AI 활용, 나만의 데이터 분석 에이전트 구축까지 완주하며 AI 시대에 필수적인 검증 능력을 갖추게 됩니다. 이 책은 SQL 실력으로 AI의 오류를 잡아내고, 반복 업무를 자동화하는 시스템을 직접 만들어보는 실전 학습 경험을 제공합니다.상세보기 \"요즘 신입들은 쿼리를 AI로 짜 옵니다. 그래도 SQL부터 다시 가르쳐야 할까요?\" 데이터 조직을 이끄는 독자라면 한 번쯤 고민해 봤을",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-10-07T18:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "이 기사는 SQL과 생성형 AI를 활용해 데이터 분석 에이전트를 구축하는 방법을 제시합니다. 데이터 분석가는 이를 통해 반복 업무를 자동화하고 AI의 오류를 잡아내는 시스템을 실습하며 훈련할 수 있습니다.",
+      "reason": "데이터 분석 실무에 유용한 AI 활용법을 제시함."
+    },
+    {
+      "title": "Building an Enterprise AI Customer Support Platform with Claude Fable 5.1 and Claude Code",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/build-enterprise-ai-agent-claude-fable-5-1/",
+      "summary_raw": "<p>Most AI coding demos stop at task managers, weather apps, or simple chatbots. For this project, we take on something more demanding: building an enterprise customer-support platform that can investigate complaints, retrieve relevant policies, recommend resolutions, and keep risky actions behind human approval. This gives us a practical way to test Claude Fable 5.1 as [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/10/build-enterprise-ai-agent-claude-fable-5-1/\">Bu",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-05T21:45:02+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Claude 플랫폼을 활용하여 고객 지원 시스템을 구축하는 사례로, 데이터 분석가들이 고객 데이터 분석 및 케이스 관리에 AI 도구를 실무에 적용할 수 있는 방법을 제공합니다.",
+      "reason": "AI 도구를 활용한 고객 지원 시스템 구축의 구체적인 접근 방식을 다루고 있습니다."
+    }
+  ]
+}
