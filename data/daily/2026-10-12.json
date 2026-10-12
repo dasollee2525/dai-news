@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T10:02:35.979445+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "A Practical Guide to OpenAI's New Decisions API",
+      "link": "https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/",
+      "summary_raw": "<p>Is this the JEV killer?</p>\n<p>The post <a href=\"https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/\">A Practical Guide to OpenAI's New Decisions API</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-11T23:00:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "OpenAI의 결정 API는 데이터 분석가가 의사결정을 지원하는 시스템에 효과적으로 활용할 수 있다.",
+      "reason": "AI 도구 활용에 대한 구체적 가이드로 실무에 유용하다."
+    }
+  ]
+}
