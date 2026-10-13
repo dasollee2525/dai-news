@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T11:51:21.320932+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found",
+      "link": "https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found",
+      "summary_raw": "Compare ChatGPT, Claude, and Gemini across the data science tasks that matter most to statisticians and analysts.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-12T23:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "ChatGPT, Claude, Gemini 등 AI 도구를 비교하여 데이터 과학 업무에 어떻게 활용될 수 있는지 다룹니다. 실무에 적용할 수 있는 유용한 정보입니다.",
+      "reason": "데이터 분석가들이 AI 도구의 비교를 통해 각자의 업무에 도입 가능성을 평가할 수 있습니다."
+    }
+  ]
+}
