@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T09:54:42.244110+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "5 AutoHotkey Scripts for Data Scientists",
+      "link": "https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists",
+      "summary_raw": "Five AutoHotkey v2 scripts that handle repetitive Windows desktop work around data analysis: launching a project workspace, converting clipboard IDs to Python or SQL lists, fixing file paths, and snapping windows into place.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-13T21:00:00+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "이 기사는 데이터 과학자가 반복적인 작업을 자동화하는 데 사용할 수 있는 AutoHotkey 스크립트를 제공함. 바로 업무에 적용 가능하여 유용함.",
+      "reason": "분석 업무 자동화에 즉시 활용할 수 있는 실사례."
+    },
+    {
+      "title": "OpenAI Decisions API Tutorial for Building Decision Agents",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/openai-decisions-api/",
+      "summary_raw": "<p>Imagine building an AI agent that has to decide whether a customer complaint needs human intervention, which department should handle a query, or whether a submitted delivery photo is valid. Getting these decisions right matters. A false positive can trigger an unnecessary escalation, while a false negative can let a genuine issue slip through. Traditionally, [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/10/openai-decisions-api/\">OpenAI Decisions API Tutorial fo",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-13T09:39:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "이 튜토리얼은 AI 에이전트를 사용하여 고객 불만 처리를 자동화하는 방법을 설명함. 데이터 분석가가 의사 결정을 효율적으로 관리하는 데 유용할 수 있음.",
+      "reason": "AI-agent를 활용한 실무 사례로 데이터 분석 업무에 도움을 줄 수 있음."
+    },
+    {
+      "title": "ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found",
+      "link": "https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found",
+      "summary_raw": "Compare ChatGPT, Claude, and Gemini across the data science tasks that matter most to statisticians and analysts.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-12T23:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "이 기사는 ChatGPT, Claude, Gemini 세 가지 AI 도구를 데이터 과학 작업에서 비교하고, 각 도구가 제공하는 유용한 기능을 설명합니다. 데이터 분석가는 이를 통해 자신에게 적합한 AI 도구를 선택하고 실제 분석 작업에 활용할 수 있는 방법을 모색할 수 있습니다.",
+      "reason": "실제로 데이터 분석가가 사용할 수 있는 AI 도구들의 비교 및 활용 맥락을 제시하고 있음."
+    }
+  ]
+}
