@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T09:18:18.371245+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "5 AutoHotkey Scripts for Data Scientists",
+      "link": "https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists",
+      "summary_raw": "Five AutoHotkey v2 scripts that handle repetitive Windows desktop work around data analysis: launching a project workspace, converting clipboard IDs to Python or SQL lists, fixing file paths, and snapping windows into place.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-13T21:00:00+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "AutoHotkey를 활용한 스크립트는 데이터 분석가의 반복적인 작업을 자동화하여 생산성을 높일 수 있는 유용한 도구임.",
+      "reason": "데이터 분석가가 즉시 사용할 수 있는 실용적인 자동화 도구에 대한 설명."
+    },
+    {
+      "title": "How to Leverage NLP for Product Data Science",
+      "link": "https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/",
+      "summary_raw": "<p>A practical guide to strengthening churn, CLV, and other traditional models with text</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/\">How to Leverage NLP for Product Data Science</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-13T20:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "NLP를 활용해 제품 데이터 과학 모델을 강화하는 실용적인 가이드를 제공합니다. 분석가들이 고객 이탈 및 CLV 모델링에 AI를 활용할 수 있는 방법을 설명합니다.",
+      "reason": "데이터 분석가가 직접 활용할 수 있는 방법을 제공하기 때문에 실질적인 가치가 있습니다."
+    }
+  ]
+}
