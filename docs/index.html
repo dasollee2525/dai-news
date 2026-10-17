@@ -178,8 +178,8 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">12</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">9</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
 
@@ -196,14 +196,30 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-10-17">
-      <button class="date-toggle" data-date="2026-10-17" onclick="toggleDate('2026-10-17')">
-        <span class="date-label">📅 2026년 10월 17일</span>
+    <div class="date-section" data-date="2026-10-18">
+      <button class="date-toggle" data-date="2026-10-18" onclick="toggleDate('2026-10-18')">
+        <span class="date-label">📅 2026년 10월 18일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-10-17">
+      <div class="date-cards" id="cards-2026-10-18">
+        
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-10-17">
+      <button class="date-toggle collapsed" data-date="2026-10-17" onclick="toggleDate('2026-10-17')">
+        <span class="date-label">📅 2026년 10월 17일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-10-17">
         
     <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-10-15T16:14:22">
       <div class="card-header">
@@ -444,34 +460,6 @@
       <p class="summary">OpenAI의 결정 API는 데이터 분석가가 의사결정을 지원하는 시스템에 효과적으로 활용할 수 있다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-10-11">
-      <button class="date-toggle collapsed" data-date="2026-10-11" onclick="toggleDate('2026-10-11')">
-        <span class="date-label">📅 2026년 10월 11일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-10-11">
-        
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-10-10T03:00:40">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">앤트로픽, ‘클로드 대시보드·모션’ 공개…"기업 데이터 분석·영상 제작"</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.10.10 03:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">앤트로픽의 클로드를 이용한 데이터 분석과 리포트 제작 도구 기능 확장을 다룸. 실제 업무에서 활용 가능성이 있음.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=216095" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
