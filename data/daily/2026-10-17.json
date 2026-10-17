@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T09:10:27.522711+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Use Jev AI: A Hands-On Guide to TypeSafe’s System One Model",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/typesafe-ai-jev-tutorial/",
+      "summary_raw": "<p>Most AI models are built to generate text. But not every application needs a long response. Sometimes, you just need an AI model to classify an input, score it, or answer a yes-or-no question. Jev, TypeSafe AI’s System One model, is designed for these tasks. It returns structured answers with confidence scores instead of generating [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/10/typesafe-ai-jev-tutorial/\">How to Use Jev AI: A Hands-On Guide to TypeSafe’s System",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-15T16:14:22+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "JEV AI를 활용하여 효율적인 데이터 분류 및 질문 응답 시스템을 구현하는 방법을 안내합니다. 이는 실제 분석가들이 활용할 수 있는 실습 가이드를 제공합니다.",
+      "reason": "실무에서 사용할 수 있는 AI 도구의 구체적인 활용 사례를 제공함."
+    },
+    {
+      "title": "JEV as a Hallucination Filter: Let the LLM Write, Let JEV Check",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/rag-hallucination-filter-using-jev/",
+      "summary_raw": "<p>The majority of hallucination checks begin following the initial writing of an answer by the LLM. We then hold someone up to a second standard of judgment, or we hand over dangerous cases to a person. That works but that is looking at the solution only as one-off.&#160;&#160; What if the LLM generates five different [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/10/rag-hallucination-filter-using-jev/\">JEV as a Hallucination Filter: Let the LLM Write, Let JEV Chec",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-16T14:58:08+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "LLM을 이용한 답변 작성 후, JEV를 활용하여 정답의 신뢰성을 점검하는 방법을 다룹니다. 이는 데이터 분석가가 AI의 결과를 검증하는 실용적인 접근법입니다.",
+      "reason": "AI를 데이터 분석의 실무에 적용하는 방법을 제시함."
+    }
+  ]
+}
