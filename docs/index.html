@@ -178,9 +178,9 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">10</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">9</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">8</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 
     </div>
     <div class="sidebar-section">
@@ -195,14 +195,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-10-20">
-      <button class="date-toggle" data-date="2026-10-20" onclick="toggleDate('2026-10-20')">
-        <span class="date-label">📅 2026년 10월 20일</span>
+    <div class="date-section" data-date="2026-10-21">
+      <button class="date-toggle" data-date="2026-10-21" onclick="toggleDate('2026-10-21')">
+        <span class="date-label">📅 2026년 10월 21일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-10-20">
+      <div class="date-cards" id="cards-2026-10-21">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-10-21T18:00:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">[AI리더의 서가] LLM을 활용한 데이터 분석</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.10.21 18:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">LLM을 활용하여 다양한 형태의 데이터를 분석할 수 있는 방안을 제시하고 있어, 데이터 분석가들이 이러한 기법을 실무에 적용할 수 있는 유용한 정보다. 프롬프트와 파이썬을 사용한 실무 기법은 특히 기초부터 시작해 데이터 분석 환경을 효율적으로 구축하는 데 도움을 줄 수 있다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=216343" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-10-20T23:58:26">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">목포, 행정업무에 생성 AI 도입…LLM 11종 활용</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.10.20 23:58 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">목포시의 AI 활용 사례는 데이터 분석과 행정업무의 자동화를 통해 효율성을 높일 수 있는 방법을 보여준다. 여러 LLM을 통합하여 데이터 분석의 기획 및 수행을 지원하는 구조가 실무에 유용할 수 있다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=216433" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-10-20">
+      <button class="date-toggle collapsed" data-date="2026-10-20" onclick="toggleDate('2026-10-20')">
+        <span class="date-label">📅 2026년 10월 20일</span>
+        <span class="date-chip">1개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-10-20">
         
     <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-10-19T02:51:14">
       <div class="card-header">
@@ -385,68 +430,6 @@
       <p class="summary">NLP를 활용해 제품 데이터 과학 모델을 강화하는 실용적인 가이드를 제공합니다. 분석가들이 고객 이탈 및 CLV 모델링에 AI를 활용할 수 있는 방법을 설명합니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-10-14">
-      <button class="date-toggle collapsed" data-date="2026-10-14" onclick="toggleDate('2026-10-14')">
-        <span class="date-label">📅 2026년 10월 14일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-10-14">
-        
-    <div class="card" data-category="생산성" data-score="5" data-date="2026-10-13T21:00:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">5 AutoHotkey Scripts for Data Scientists</div>
-      </div>
-      <span class="badge" style="background:#10b981">⚡ 생산성</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.10.13 21:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">이 기사는 데이터 과학자가 반복적인 작업을 자동화하는 데 사용할 수 있는 AutoHotkey 스크립트를 제공함. 바로 업무에 적용 가능하여 유용함.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-10-13T09:39:00">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">OpenAI Decisions API Tutorial for Building Decision Agents</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Analytics Vidhya</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.10.13 09:39 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">이 튜토리얼은 AI 에이전트를 사용하여 고객 불만 처리를 자동화하는 방법을 설명함. 데이터 분석가가 의사 결정을 효율적으로 관리하는 데 유용할 수 있음.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.analyticsvidhya.com/blog/2026/10/openai-decisions-api/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-10-12T23:00:00">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.10.12 23:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">이 기사는 ChatGPT, Claude, Gemini 세 가지 AI 도구를 데이터 과학 작업에서 비교하고, 각 도구가 제공하는 유용한 기능을 설명합니다. 데이터 분석가는 이를 통해 자신에게 적합한 AI 도구를 선택하고 실제 분석 작업에 활용할 수 있는 방법을 모색할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
