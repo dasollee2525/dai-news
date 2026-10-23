@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T09:25:19.591534+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "Decision Models in Action: Build a Hybrid LLM Workflow",
+      "link": "https://towardsdatascience.com/decision-models-in-action-build-a-hybrid-llm-workflow/",
+      "summary_raw": "<p>A hands-on guide to building browser automation by combining decision models with LLMs.</p>\n<p>The post <a href=\"https://towardsdatascience.com/decision-models-in-action-build-a-hybrid-llm-workflow/\">Decision Models in Action: Build a Hybrid LLM Workflow</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-22T00:30:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "결정 모델을 LLM과 결합하여 브라우저 자동화 구축 가이드를 제공, 데이터 분석가가 유용하게 활용할 수 있음.",
+      "reason": "실무에 직접 적용 가능한 유용한 튜토리얼."
+    },
+    {
+      "title": "Google Open-Sources Harness²: Self-Improving AI Agents Without Retraining",
+      "link": "https://www.kdnuggets.com/google-open-sources-harness-self-improving-ai-agents-without-retraining",
+      "summary_raw": "Google's Harness² lets AI agents improve their prompts, tools, memory, and scripts through two recursive loops without touching model weights. Learn more, including how to run the free demo yourself.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-22T21:00:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "이 기사는 Google's Harness²를 통해 AI 에이전트를 효과적으로 사용할 수 있는 방법을 알려줍니다. 이는 데이터 분석 자동화 및 현업에서의 실시간 개선을 가능하게 하여 분석가에게 직접적인 이점을 제공합니다.",
+      "reason": "데이터 분석에 직접 활용할 수 있는 AI 도구를 소개하고 있어 점수가 높습니다."
+    },
+    {
+      "title": "Build AI Employees in Python That Work While You Sleep",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/build-an-ai-employee-in-python/",
+      "summary_raw": "<p>It’s Friday, 8 a.m. Your weekly tech newsletter is drafted, fact-checked and waiting for one click of approval. You didn’t write it. You were asleep. Three AI employees did. A researcher found the week’s best links. A writer turned them into a draft. An editor caught the writer inventing a statistic, fixed it, and then [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/10/build-an-ai-employee-in-python/\">Build AI Employees in Python That Work While You Sleep</a> appe",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-22T22:38:55+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "이 기사는 Python과 AI를 활용하여 자동으로 콘텐츠를 생성하는 방법을 다루고 있습니다. 데이터 분석 업무에 AI를 결합하여 시간과 노력을 절약할 수 있는 실질적인 방안을 제시합니다.",
+      "reason": "AI와 자동화 도구를 데이터 분석에 활용할 수 있는 방법을 설명하고 있어 유용합니다."
+    }
+  ]
+}
