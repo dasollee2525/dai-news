@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T09:01:48.022890+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "How to Add Guardrails to a Local LLM Agent",
+      "link": "https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/",
+      "summary_raw": "<p>A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/\">How to Add Guardrails to a Local LLM Agent</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-24T23:00:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "로컬 LLM 에이전트에 가드레일을 추가하는 방법을 설명하는 튜토리얼로, 분석가들이 AI를 더 안전하게 활용할 수 있는 방법을 제공합니다.",
+      "reason": "데이터 분석에 AI를 직접 활용할 수 있는 실습 방법을 제공하므로 유효합니다."
+    },
+    {
+      "title": "우버, 업계 최초 전 직원 3만명에 '챗GPT 워크' 도입",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=216597",
+      "summary_raw": "우버가 전 세계 직원 3만명 이상에게 오픈AI의 기업용 AI 에이전트 ‘챗GPT 워크’를 제공한다. 직원 1000명을 대상으로 진행한 시범 운영을 전사로 확대해 복잡한 다단계 업무를 자동화하고, 조사부터 데이터 분석과 문서 작성까지 다양한 작업을 지원한다. 지식 노동을 위한 에이전트형 AI 플랫폼을 전사에 도입하는 것은 우버가 처음이다.오픈AI와 우버는 22일(현지시간) 파트너십을 확대하고, 재무·운영·마케팅·제품 등 전 부서에서 챗GPT 워크를 활용할 수 있도록 한다고 밝혔다. 지난 7월 출시된 챗GPT 워크는 구글 드라이브와 지",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-10-24T02:24:40+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "우버의 챗GPT 워크 도입은 데이터 분석 업무에서 조사 및 문서 작성 자동화에 활용될 수 있어 분석가들에게 유용합니다.",
+      "reason": "AI 도구가 직접적으로 업무에 활용되는 사례이므로 유효한 내용입니다."
+    }
+  ]
+}
