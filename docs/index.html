@@ -197,14 +197,30 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-10-25">
-      <button class="date-toggle" data-date="2026-10-25" onclick="toggleDate('2026-10-25')">
-        <span class="date-label">📅 2026년 10월 25일</span>
+    <div class="date-section" data-date="2026-10-26">
+      <button class="date-toggle" data-date="2026-10-26" onclick="toggleDate('2026-10-26')">
+        <span class="date-label">📅 2026년 10월 26일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-10-25">
+      <div class="date-cards" id="cards-2026-10-26">
+        
+            <div class="empty-state">
+              <div class="icon">🔍</div>
+              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
+            </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-10-25">
+      <button class="date-toggle collapsed" data-date="2026-10-25" onclick="toggleDate('2026-10-25')">
+        <span class="date-label">📅 2026년 10월 25일</span>
+        <span class="date-chip">2개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-10-25">
         
     <div class="card" data-category="LLM응용" data-score="5" data-date="2026-10-24T23:00:00">
       <div class="card-header">
@@ -481,22 +497,6 @@
         <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=216375" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-10-19">
-      <button class="date-toggle collapsed" data-date="2026-10-19" onclick="toggleDate('2026-10-19')">
-        <span class="date-label">📅 2026년 10월 19일</span>
-        <span class="date-chip">0개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-10-19">
-        
-            <div class="empty-state">
-              <div class="icon">🔍</div>
-              <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
-            </div>
       </div>
     </div></main>
   </div>
