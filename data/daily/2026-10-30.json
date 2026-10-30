@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T10:35:35.568592+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Your RAG Pipeline Is Missing a 1994 Algorithm",
+      "link": "https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/",
+      "summary_raw": "<p>Embeddings know that &quot;broken&quot; means &quot;defective&quot;. They may not notice that ZX-4821 is not ZX-4812.</p>\n<p>The post <a href=\"https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/\">Your RAG Pipeline Is Missing a 1994 Algorithm</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-28T20:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "RAG 파이프라인의 불완전성을 지적하며, AI 기술을 활용한 분석 프로세스의 효과적 개선 방안 제시.",
+      "reason": "데이터 분석 워크플로우에 AI를 적용할 수 있는 관점이 있어 유용하나 구체적인 사례가 부족."
+    }
+  ]
+}
