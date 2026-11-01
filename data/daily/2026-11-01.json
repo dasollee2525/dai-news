@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T09:43:34.192179+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "한국딥러닝, AI로 IBK기업은행 보이스피싱 업무 자동화",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=216827",
+      "summary_raw": "한국딥러닝(대표 김지현)은 IBK기업은행 금융소비자지원부와 시각언어모델(VLM) 기반 보이스피싱 피해구제 업무 자동화를 구현했다고 30일 밝혔다.이번 과제는 올해 4월부터 8월까지 진행됐으며, ‘2026 공공기관 AI혁신 챌린지’ AI 서비스 실증(PoC) 부문 우수상에 선정됐다.양사는 금융 특화 AI 에이전트 ‘딥 에이전트 포 금융’을 적용해 서류 인식·분류부터 정보 추출, 범죄 유형 추론까지 자동화하며 기존 수작업 처리의 한계를 극복했다.실증결과 서류 처리 시간은 88% 단축됐다. 인식 정확도는 인쇄체 100%, 필기체 97%",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-10-30T20:32:16+09:00",
+      "score": 5,
+      "category": "생산성",
+      "summary_ko": "금융거래 피해구제 업무에서 AI를 활용해 서류 처리 시간을 88% 단축한 사례로, 실제 업무에 적용 가능한 유용한 내용.",
+      "reason": "AI 기반 자동화의 실사용 사례가 포함됨."
+    },
+    {
+      "title": "Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant",
+      "link": "https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant",
+      "summary_raw": "Vibe coding is a workflow where you describe what you want in natural language and let an AI agent handle code generation, execution, and iteration rather than typing every line yourself.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-10-30T23:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "자연어를 통해 원하는 코드를 생성하는 'Vibe coding'이라는 워크플로우를 설명하며, AI의 직접적인 역할을 제시합니다.",
+      "reason": "AI 도구를 데이터 분석가들이 코드 생산성을 높이기 위해 활용할 수 있는 방법을 포함하고 있어 유용함."
+    }
+  ]
+}
