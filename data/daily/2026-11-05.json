@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T11:00:27.045892+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "Using LLM Summarization in Your Scikit-Learn Pipelines with Scikit-LLM",
+      "link": "https://www.kdnuggets.com/using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm",
+      "summary_raw": "Learn how to build an architecture that blends Scikit-LLM estimators for text summarization with traditional scikit-learn methods into a single, unified pipeline for summarizing and classifying raw, messy text.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-04T00:00:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "Scikit-Learn 파이프라인에 LLM 요약 기능을 통합하는 방법을 소개하여 데이터 분석가가 활용할 수 있는 구체적인 튜토리얼을 제공한다.",
+      "reason": "데이터 분석 업무에 AI를 효과적으로 활용하는 방법을 제시"
+    },
+    {
+      "title": "충남 AI디지털배움터, 직장인 위한 생성 AI 야간교육 운영",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=216980",
+      "summary_raw": "충청남도가 직장인 등 낮 시간대 교육 참여가 어려운 주민들을 위해 생성 AI 야간교육을 운영하고 있다고 4일 밝혔다.충남은 지난 10월19일부터 아산장재우체국 내 AI디지털배움터 아산거점센터에서 지역 주민을 대상으로 ‘2026년 생성형 AI 이해와 활용’ 과정을 진행하고 있다. 총 8회에 걸쳐 생성 AI의 기본 원리부터 실생활과 업무에 활용하는 방법까지 실습 중심으로 교육한다.주요 내용은 챗GPT와 제미나이 활용법, 이메일·안내문 작성, AI 이미지 제작, 긴 글 요약, 회의 내용 정리 등이다. 엑셀 활용과 발표자료·홍보자료 제작",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-11-04T20:36:54+09:00",
+      "score": 4,
+      "category": "생산성",
+      "summary_ko": "충남의 생성 AI 교육 프로그램이 실무 활용을 중점적으로 다루고 있어 분석가에게 실질적인 도움이 될 수 있음.",
+      "reason": "AI 도구 사용법을 제공하여 분석가들에게 직접적으로 유용할 수 있음."
+    },
+    {
+      "title": "Three Techniques to Understand Your Codebase When Coding Agents Write the Code",
+      "link": "https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/",
+      "summary_raw": "<p>Learn how to use Claude Code to write feature memos, review pull requests, and build visual HTML explainers, so you understand what your agents ship</p>\n<p>The post <a href=\"https://towardsdatascience.com/three-techniques-to-understand-your-codebase-when-coding-agents-write-the-code/\">Three Techniques to Understand Your Codebase When Coding Agents Write the Code</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-03T20:00:00+09:00",
+      "score": 4,
+      "category": "질문",
+      "summary_ko": "Claude Code를 활용하여 기능 메모 작성, 풀 리퀘스트 리뷰 및 HTML 설명서 작성을 통해 코드 베이스를 이해하는 방법을 제공합니다. 데이터 분석가가 이를 통해 코드 작성 과정을 자동화하고 효율성을 높일 수 있습니다.",
+      "reason": "AI 기반의 코드를 자동으로 생성하고 이해할 수 있는 방법을 제시하여 분석 업무에 활용 가능성이 높습니다."
+    }
+  ]
+}
