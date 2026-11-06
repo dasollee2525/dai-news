@@ -178,8 +178,8 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">11</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">4</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">12</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">5</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">3</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">2</span></button>
@@ -197,14 +197,59 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-11-05">
-      <button class="date-toggle" data-date="2026-11-05" onclick="toggleDate('2026-11-05')">
-        <span class="date-label">📅 2026년 11월 05일</span>
+    <div class="date-section" data-date="2026-11-06">
+      <button class="date-toggle" data-date="2026-11-06" onclick="toggleDate('2026-11-06')">
+        <span class="date-label">📅 2026년 11월 06일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-11-05">
+      <div class="date-cards" id="cards-2026-11-06">
+        
+    <div class="card" data-category="AI도구활용" data-score="4" data-date="2026-11-06T02:15:09">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">전남광주 공무원, AI 활용해 시설물 안전관리 플랫폼 직접 개발</div>
+      </div>
+      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.11.06 02:15 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">전남광주가 개발한 AI 기반의 시설물 안전관리 플랫폼은 데이터 분석가가 공공 데이터와 안전 점검 데이터를 분석하는 데 직접 활용할 수 있는 사례로, 업무 효율성을 극대화할 수 있다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=217068" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+
+    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-11-05T22:00:00">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div class="card-title">What I Did with Hermes Agent, Ollama & Local Models</div>
+      </div>
+      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.11.05 22:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">지역 기반 여행 계획자를 만드는 방법으로, AI 에이전트를 활용한 실용적인 사례입니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/what-i-did-with-hermes-agent-ollama-local-models" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-11-05">
+      <button class="date-toggle collapsed" data-date="2026-11-05" onclick="toggleDate('2026-11-05')">
+        <span class="date-label">📅 2026년 11월 05일</span>
+        <span class="date-chip">3개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-11-05">
         
     <div class="card" data-category="LLM응용" data-score="5" data-date="2026-11-04T00:00:00">
       <div class="card-header">
@@ -438,34 +483,6 @@
       <p class="summary">IBK기업은행의 보이스피싱 업무 자동화 사례를 통해 데이터 분석가는 AI를 활용하여 반복적인 서류 처리와 정보 추출 과정을 자동화할 수 있으며, 이를 통해 처리 시간을 크게 단축할 수 있는 방법을 배울 수 있습니다.</p>
       <div class="card-footer">
         <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=216827" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-10-30">
-      <button class="date-toggle collapsed" data-date="2026-10-30" onclick="toggleDate('2026-10-30')">
-        <span class="date-label">📅 2026년 10월 30일</span>
-        <span class="date-chip">1개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-10-30">
-        
-    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-10-28T20:00:00">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">Your RAG Pipeline Is Missing a 1994 Algorithm</div>
-      </div>
-      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.10.28 20:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">RAG 파이프라인의 불완전성을 지적하며, AI 기술을 활용한 분석 프로세스의 효과적 개선 방안 제시.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/" target="_blank" rel="noopener">원문 보기 →</a>
       </div>
     </div>
       </div>
