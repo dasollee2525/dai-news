@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T10:07:30.715281+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How to Give Your AI Agent Memory",
+      "link": "https://www.kdnuggets.com/how-to-give-your-ai-agent-memory",
+      "summary_raw": "Learn how to give AI agents long-term memory using the OpenAI Agents SDK, Mem0, and MCP to remember preferences, context, and important information across sessions.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-07T00:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "AI 에이전트에 장기 메모리를 부여하는 방법을 상세히 설명하여, 분석가가 데이터 분석 작업에 AI를 효과적으로 활용할 수 있는 방법을 제공합니다.",
+      "reason": "분석가에게 실질적으로 유용한 AI 도구 또는 트렌드"
+    }
+  ]
+}
