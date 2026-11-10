@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T12:58:25.598685+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "How to Build Multi-Agent Systems with the OpenAI Agents SDK",
+      "link": "https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/",
+      "summary_raw": "<p>Build an EV purchase adviser and a support agent in Python, then see how fan-out, pipelines, hierarchies, and swarms reuse the same building blocks.</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/\">How to Build Multi-Agent Systems with the OpenAI Agents SDK</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-09T00:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "OpenAI Agents SDK를 사용하여 멀티 에이전트 시스템을 구축하는 방법을 제시. EV 구매 조언자와 지원 에이전트를 만드는 구체적인 사례를 포함.",
+      "reason": "데이터 분석가가 AI 도구를 실무에 활용할 수 있는 구체적인 방법이 제시되어 있음."
+    }
+  ]
+}
