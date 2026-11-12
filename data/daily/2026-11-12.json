@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T11:43:10.328921+09:00",
+  "count": 3,
+  "articles": [
+    {
+      "title": "How to Use AI for Enterprise BI",
+      "link": "https://www.kdnuggets.com/2026/11/lansa/how-to-use-ai-for-enterprise-bi",
+      "summary_raw": "Learn how AI can make enterprise business intelligence more accessible, automate reporting, uncover insights faster, and improve decision-making with the right governance.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-11T03:00:30+09:00",
+      "score": 5,
+      "category": "AI도구활용",
+      "summary_ko": "AI를 사용해 기업의 BI를 개선하는 방법을 구체적으로 다루며, 보고 자동화와 인사이트 도출을 통한 의사결정 향상 방법을 제시한다.",
+      "reason": "실무에 바로 활용할 수 있는 유용한 정보가 포함되어 있다."
+    },
+    {
+      "title": "How to Validate LLM Output in a DuckDB and dbt Pipeline",
+      "link": "https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline/",
+      "summary_raw": "<p>A Gemini Flash-Lite step pulls skills, seniority, and Nigeria eligibility from 18 RemoteOK postings, with Python checks and dbt tests guarding every answer.</p>\n<p>The post <a href=\"https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline/\">How to Validate LLM Output in a DuckDB and dbt Pipeline</a> appeared first on <a href=\"https://towardsdatascience.com\">Towards Data Science</a>.</p>",
+      "source": "Towards Data Science",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-10T22:30:00+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "DuckDB 및 dbt 파이프라인에서 LLM 출력을 검증하는 방법을 설명하고 있어 데이터 분석에 유용합니다.",
+      "reason": "구체적으로 데이터 분석과 AI 모델의 결합 방법을 다루고 있어 분석가에게 유용함."
+    },
+    {
+      "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
+      "link": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm",
+      "summary_raw": "Learn, in a few easy steps, how to build a two-stage scikit-learn pipeline for multilingual text classification, guided by two pre-trained language models handled by Scikit-LLM for translation and zero-shot classification.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-11T00:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "Scikit-Learn 파이프라인에 LLM 번역 기능을 통합하는 실용적인 방법을 설명한다.",
+      "reason": "데이터 분석가가 직접 활용할 수 있는 구체적인 튜토리얼이 포함되어 있다."
+    }
+  ]
+}
