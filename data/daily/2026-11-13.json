@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T11:26:31.772951+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Can an AI Agent Inherit Its Team’s Hard-Won Lessons? A Hands-On Look at TencentDB Agent Memory",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/ai-agent-team-memory-tencentdb/",
+      "summary_raw": "<p>Picture a Monday. Your AI coding agent fixes a payment bug and learns three things the hard way. On Tuesday, a new session starts for a similar bug. The agent has no idea about Monday. It reads an old runbook and makes the same mistake again. A bigger context window does not fix this. The [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/11/ai-agent-team-memory-tencentdb/\">Can an AI Agent Inherit Its Team’s Hard-Won Lessons? A Hands-On Look at TencentDB Agent Memory",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-11T21:24:34+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "AI 에이전트가 이전의 학습을 기억하고 활용하는 방법에 대한 내용으로 실무에 도움이 될 수 있습니다.",
+      "reason": "데이터 분석 워크플로우 향상 방안으로 활용될 수 있는 사례 포함."
+    }
+  ]
+}
