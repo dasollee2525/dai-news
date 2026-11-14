@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T10:59:17.366303+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Building Graph-Enhanced GenAI Applications with graphrag-toolkit",
+      "link": "https://www.kdnuggets.com/building-graph-enhanced-genai-applications-with-graphrag-toolkit",
+      "summary_raw": "Learn how graph-enhanced RAG connects related facts that plain vector search misses, then build a multi-hop research assistant with AWS Labs' open-source graphrag-toolkit, Neo4j, and pgvector.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-13T00:00:00+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "그래프 강화 RAG를 사용하여 데이터 분석 및 관련 사실을 연결하는 애플리케이션을 만들 수 있는 방법에 대한 실용적인 사례가 포함되어 있습니다.",
+      "reason": "데이터 분석 워크플로우에 AI를 효과적으로 결합한 내용."
+    }
+  ]
+}
