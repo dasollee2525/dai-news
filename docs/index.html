@@ -178,10 +178,10 @@
     <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-title">카테고리</div>
-      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">7</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">3</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">2</span></button>
-<button class="filter-btn cat-btn" onclick="setCategory('LLM응용', this)"><span class="dot" style="background:#8b5cf6"></span>LLM응용 <span class="count">1</span></button>
+      <button class="filter-btn cat-btn active" onclick="setCategory('all', this)"><span class="dot" style="background:#6366f1"></span>전체 <span class="count">5</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('AI도구활용', this)"><span class="dot" style="background:#6366f1"></span>AI도구활용 <span class="count">2</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('데이터분석+AI', this)"><span class="dot" style="background:#0ea5e9"></span>데이터분석+AI <span class="count">1</span></button>
+<button class="filter-btn cat-btn" onclick="setCategory('생산성', this)"><span class="dot" style="background:#10b981"></span>생산성 <span class="count">1</span></button>
 <button class="filter-btn cat-btn" onclick="setCategory('AI트렌드', this)"><span class="dot" style="background:#f59e0b"></span>AI트렌드 <span class="count">1</span></button>
 
     </div>
@@ -197,14 +197,42 @@
       <a href="archive.html" style="display:flex;align-items:center;gap:8px;padding:8px 10px;color:#94a3b8;font-size:13px;text-decoration:none;border-radius:8px;transition:all 0.15s;" onmouseover="this.style.background='#0f172a';this.style.color='#e2e8f0'" onmouseout="this.style.background='';this.style.color='#94a3b8'">📂 전체 아카이브 →</a>
     </div></aside>
     <main>
-    <div class="date-section" data-date="2026-11-23">
-      <button class="date-toggle" data-date="2026-11-23" onclick="toggleDate('2026-11-23')">
-        <span class="date-label">📅 2026년 11월 23일</span>
+    <div class="date-section" data-date="2026-11-24">
+      <button class="date-toggle" data-date="2026-11-24" onclick="toggleDate('2026-11-24')">
+        <span class="date-label">📅 2026년 11월 24일</span>
         <span class="date-chip today">오늘</span>
         <span class="toggle-icon">▼</span>
       </button>
       <div class="date-divider"></div>
-      <div class="date-cards" id="cards-2026-11-23">
+      <div class="date-cards" id="cards-2026-11-24">
+        
+    <div class="card" data-category="생산성" data-score="4" data-date="2026-11-24T00:00:00">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div class="card-title">How to Use AI Tools to Learn Data Science Faster in 2026</div>
+      </div>
+      <span class="badge" style="background:#10b981">⚡ 생산성</span>
+      <div class="meta-row">
+        <span class="meta-chip">🌐 <strong>KDnuggets</strong></span>
+        <span class='meta-chip'>🗓 <strong>2026.11.24 00:00 KST</strong></span>
+        <span class="meta-chip">관련도 <strong>4점</strong></span>
+      </div>
+      <p class="summary">AI 도구를 활용하여 데이터 과학 학습을 가속화하는 방법을 제시합니다.</p>
+      <div class="card-footer">
+        <a class="read-btn" href="https://www.kdnuggets.com/how-to-use-ai-tools-to-learn-data-science-faster-in-2026" target="_blank" rel="noopener">원문 보기 →</a>
+      </div>
+    </div>
+      </div>
+    </div>
+
+    <div class="date-section" data-date="2026-11-23">
+      <button class="date-toggle collapsed" data-date="2026-11-23" onclick="toggleDate('2026-11-23')">
+        <span class="date-label">📅 2026년 11월 23일</span>
+        <span class="date-chip">0개 선별</span>
+        <span class="toggle-icon">▼</span>
+      </button>
+      <div class="date-divider"></div>
+      <div class="date-cards collapsed" id="cards-2026-11-23">
         
             <div class="empty-state">
               <div class="icon">🔍</div>
@@ -348,68 +376,6 @@
               <div class="icon">🔍</div>
               <p>기준에 맞는 뉴스를 찾지 못했습니다.</p>
             </div>
-      </div>
-    </div>
-
-    <div class="date-section" data-date="2026-11-17">
-      <button class="date-toggle collapsed" data-date="2026-11-17" onclick="toggleDate('2026-11-17')">
-        <span class="date-label">📅 2026년 11월 17일</span>
-        <span class="date-chip">3개 선별</span>
-        <span class="toggle-icon">▼</span>
-      </button>
-      <div class="date-divider"></div>
-      <div class="date-cards collapsed" id="cards-2026-11-17">
-        
-    <div class="card" data-category="AI도구활용" data-score="5" data-date="2026-11-17T00:56:26">
-      <div class="card-header">
-        <div class="card-number">1</div>
-        <div class="card-title">"챗GPT에 SNS 데이터 연동"...뉴엔AI, 소셜 분석 MCP 출시</div>
-      </div>
-      <span class="badge" style="background:#6366f1">🛠️ AI도구활용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.11.17 00:56 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">퀘타아이 MCP는 챗GPT와 소셜미디어 분석 기능을 연동하여 즉각적인 데이터 분석을 가능하게 합니다. 데이터 분석가는 자연어 질문을 통해 원하는 분석 결과를 쉽게 접근할 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=217458" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="데이터분석+AI" data-score="5" data-date="2026-11-16T23:48:35">
-      <div class="card-header">
-        <div class="card-number">2</div>
-        <div class="card-title">웹케시, 하나은행 '통합CMS AI 분석 시범사업' 수행</div>
-      </div>
-      <span class="badge" style="background:#0ea5e9">📊 데이터분석+AI</span>
-      <div class="meta-row">
-        <span class="meta-chip">🇰🇷 <strong>AI타임스</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.11.16 23:48 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>5점</strong></span>
-      </div>
-      <p class="summary">하나은행의 AI 금융정보 분석 기능은 자연어로 질문을 통해 자금 현황과 거래정보 분석을 가능하게 합니다. 데이터 분석가는 이를 활용하여 신속한 의사결정을 지원받을 수 있습니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://www.aitimes.com/news/articleView.html?idxno=217444" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
-
-    <div class="card" data-category="LLM응용" data-score="4" data-date="2026-11-16T00:00:00">
-      <div class="card-header">
-        <div class="card-number">3</div>
-        <div class="card-title">A Practitioner's Guide to 6 Agentic GraphRAG Patterns</div>
-      </div>
-      <span class="badge" style="background:#8b5cf6">🤖 LLM응용</span>
-      <div class="meta-row">
-        <span class="meta-chip">🌐 <strong>Towards Data Science</strong></span>
-        <span class='meta-chip'>🗓 <strong>2026.11.16 00:00 KST</strong></span>
-        <span class="meta-chip">관련도 <strong>4점</strong></span>
-      </div>
-      <p class="summary">이 기사는 데이터 분석 업무에서 AI 에이전트를 활용하여 지식 그래프의 활용도를 높이는 방법을 설명합니다.</p>
-      <div class="card-footer">
-        <a class="read-btn" href="https://towardsdatascience.com/a-practitioners-guide-to-6-agentic-graphrag-patterns/" target="_blank" rel="noopener">원문 보기 →</a>
-      </div>
-    </div>
       </div>
     </div></main>
   </div>
