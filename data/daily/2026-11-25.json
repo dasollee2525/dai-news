@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T13:47:12.094872+09:00",
+  "count": 1,
+  "articles": [
+    {
+      "title": "Soup: Fine-Tune a Small LLM with One YAML File",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/fine-tune-small-llm-locally-with-soup/",
+      "summary_raw": "<p>Imagine an engineer writes this in the team channel during an outage: “checkout failing on some requests, digging into gateway logs, no ETA yet.” Your team wants every status update in the same shape: one line for the status, one for the impact and one for the next step. And it must never invent a [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/11/fine-tune-small-llm-locally-with-soup/\">Soup: Fine-Tune a Small LLM with One YAML File</a> appeared first on <a href=\"",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-25T00:00:52+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "YAML 파일을 이용해 소형 LLM을 조정하는 방법을 제시.",
+      "reason": "데이터 분석가들이 LLM을 활용하여 자동화된 워크플로우를 개선할 수 있는 실용적 방법."
+    }
+  ]
+}
