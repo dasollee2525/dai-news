@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T12:58:26.658118+09:00",
+  "count": 4,
+  "articles": [
+    {
+      "title": "Soup: Fine-Tune a Small LLM with One YAML File",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/fine-tune-small-llm-locally-with-soup/",
+      "summary_raw": "<p>Imagine an engineer writes this in the team channel during an outage: “checkout failing on some requests, digging into gateway logs, no ETA yet.” Your team wants every status update in the same shape: one line for the status, one for the impact and one for the next step. And it must never invent a [&#8230;]</p>\n<p>The post <a href=\"https://www.analyticsvidhya.com/blog/2026/11/fine-tune-small-llm-locally-with-soup/\">Soup: Fine-Tune a Small LLM with One YAML File</a> appeared first on <a href=\"",
+      "source": "Analytics Vidhya",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-25T00:00:52+09:00",
+      "score": 5,
+      "category": "LLM응용",
+      "summary_ko": "이 글에서는 YAML 파일을 사용하여 소형 LLM을 미세 조정하는 방법을 설명하고 있습니다. 데이터 분석가들은 이 방법을 통해 쉬운 구성을 통해 데이터를 위한 모델 조정에 접근할 수 있습니다.",
+      "reason": "데이터 분석가가 LLM을 통해 분석 워크플로우를 개선할 수 있는 실질적인 방법 제공"
+    },
+    {
+      "title": "오픈AI, 기업용 AI 에이전트 정확도 높이는 데이터 도구 '아테나' 개발 중",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=217778",
+      "summary_raw": "오픈AI가 기업용 AI 에이전트의 데이터 분석 정확도를 높이기 위한 데이터 관리 도구를 개발하고 있다. 기업마다 다른 데이터 구조와 업무 용어, 지표의 의미를 AI가 정확하게 이해하도록 해 실제 업무에서 발생하는 오류를 줄이는 것이 목표다.디 인포메이션은 24일(현지시간) 소식통을 인용, 오픈AI가 코드명 '아테나(Athena)'라는 데이터 관리 플랫폼을 개발 중이라고 보도했다.오픈AI는 지난 9월 '챗GPT 워크'에 기업 내부 데이터를 분석하고 업무 관련 질문에 답하는 데이터 에이전트를 출시했다. 그러나 최소 한 곳의 고객사는 답",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-11-26T02:46:26+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "오픈AI가 개발 중인 데이터 관리 도구는 기업의 데이터 분석 정확도를 향상시킬 수 있는 기본적인 솔루션으로, 분석가들에게 큰 도움이 될 수 있다.",
+      "reason": "기업 데이터 분석에 실질적으로 기여할 수 있는 도구에 대한 내용으로 점수 부여."
+    },
+    {
+      "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
+      "link": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+      "summary_raw": "Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-26T03:00:33+09:00",
+      "score": 4,
+      "category": "데이터분석+AI",
+      "summary_ko": "이 글은 Alaio Vibecode라는 AI 앱 빌더를 활용하여 맞춤형 CRM 분석 대시보드와 리포팅 도구를 만드는 방법을 다루고 있습니다. 데이터 분석가는 이러한 도구를 통해 데이터 시각화 및 비즈니스 인사이트 도출에 기여할 수 있습니다.",
+      "reason": "분석가가 실제로 사용할 수 있는 AI 기반 도구에 대한 유용한 정보 제공"
+    },
+    {
+      "title": "From Messy to Clean: Taming Real-World CSV Files with pandas read_csv()",
+      "link": "https://www.kdnuggets.com/from-messy-to-clean-taming-real-world-csv-files-with-pandas-read_csv",
+      "summary_raw": "The process of building a bulletproof Python loader based on Pandas' <code>read_csv()</code> function to turn messy data into pristine data.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-25T00:00:00+09:00",
+      "score": 4,
+      "category": "AI도구활용",
+      "summary_ko": "Pandas의 read_csv() 함수를 이용해 불규칙한 CSV 파일을 깨끗하게 만들 수 있는 방법에 대한 튜토리얼.",
+      "reason": "데이터 분석가가 실무에서 활용할 수 있는 구체적인 방법을 제공한다."
+    }
+  ]
+}
