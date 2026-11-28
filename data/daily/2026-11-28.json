@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T12:43:52.749822+09:00",
+  "count": 2,
+  "articles": [
+    {
+      "title": "브이엠에스 솔루션스, AI·디지털 트윈 기반 생산계획 최적화 기술 공개",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=217868",
+      "summary_raw": "브이엠에스 솔루션스는 오는 12월2~4일 서울 코엑스에서 열리는 'AI x 소프트웨이브 2026'에 참가해 공급망 계획 솔루션 '모차르트(MOZART)'를 선보인다고 밝혔다.모차르트는 제조 현장의 설비, 공정, 자재, 납기 등 다양한 제약조건을 반영해 공급 및 생산계획을 수립하는 솔루션이다. 수요 변화나 생산 현장의 돌발 상황에 맞춰 계획을 조정할 수 있다. AI 기반 수요예측 및 최적화 기능도 제공한다. 대형언어모델(LLM) 기반 AI 에이전트를 접목해 자연어 질의만으로 데이터를 조회·분석하고, 납기 지연 원인을 파악하거나 대안",
+      "source": "AI타임스",
+      "lang": "ko",
+      "region": "domestic",
+      "published_at": "2026-11-27T22:25:00+09:00",
+      "score": 4,
+      "category": "AI트렌드",
+      "summary_ko": "AI 기반의 공급망 계획 솔루션은 데이터 분석 업무에 크게 기여할 수 있습니다. 자연어 질의를 통해 데이터를 조회하고 분석할 수 있어 분석가들에게 유용한 도구입니다.",
+      "reason": "AI 도구와 데이터 분석을 결합한 사례"
+    },
+    {
+      "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
+      "link": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+      "summary_raw": "A two-stage pipeline for document clustering and LLM-driven topic discovery, aided by Scikit-LLM's summarization tools.",
+      "source": "KDnuggets",
+      "lang": "en",
+      "region": "international",
+      "published_at": "2026-11-28T00:00:00+09:00",
+      "score": 4,
+      "category": "LLM응용",
+      "summary_ko": "Scikit-LLM을 활용한 문서 클러스터링은 데이터 분석가가 LLM을 접목하여 효율적으로 작업할 수 있는 방법을 제시한다.",
+      "reason": "데이터 클러스터링에 LLM을 활용한 구체적인 사례를 다룸."
+    }
+  ]
+}
